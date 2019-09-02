@@ -1,3 +1,3 @@
-$(document).ready(function() {
-	InitCountDown(); 
+$(document).ready(function() {
+	InitCountDown(); 
 });

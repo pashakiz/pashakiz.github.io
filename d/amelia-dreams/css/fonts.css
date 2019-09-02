@@ -1,0 +1,51 @@
+/* font-family: "Avenir Next Cyr"; */
+@font-face {
+    font-family: "Avenir Next Cyr"; /*Light*/
+    src: url("../fonts/AvenirNextCyr/AvenirNextCyr-Light.eot");
+    src: url("../fonts/AvenirNextCyr/AvenirNextCyr-Light.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/AvenirNextCyr/AvenirNextCyr-Light.woff") format("woff"),
+    url("../fonts/AvenirNextCyr/AvenirNextCyr-Light.ttf") format("truetype"),
+    url("../fonts/AvenirNextCyr/AvenirNextCyr-Light.svg#AvenirNextCyr-Light") format("svg");
+    font-style: normal;
+    font-weight: 300;
+}
+@font-face {
+    font-family: "Avenir Next Cyr"; /*Regular*/
+    src: url("../fonts/AvenirNextCyr/AvenirNextCyr-Regular.eot");
+    src: url("../fonts/AvenirNextCyr/AvenirNextCyr-Regular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/AvenirNextCyr/AvenirNextCyr-Regular.woff") format("woff"),
+    url("../fonts/AvenirNextCyr/AvenirNextCyr-Regular.ttf") format("truetype"),
+    url("../fonts/AvenirNextCyr/AvenirNextCyr-Regular.svg#AvenirNextCyr-Regular") format("svg");
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Avenir Next Cyr"; /*Medium*/
+    src: url("../fonts/AvenirNextCyr/AvenirNextCyr-Medium.eot");
+    src: url("../fonts/AvenirNextCyr/AvenirNextCyr-Medium.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/AvenirNextCyr/AvenirNextCyr-Medium.woff") format("woff"),
+    url("../fonts/AvenirNextCyr/AvenirNextCyr-Medium.ttf") format("truetype"),
+    url("../fonts/AvenirNextCyr/AvenirNextCyr-Medium.svg#AvenirNextCyr-Medium") format("svg");
+    font-style: normal;
+    font-weight: 500;
+}
+@font-face {
+    font-family: "Avenir Next Cyr"; /*Demi*/
+    src: url("../fonts/AvenirNextCyr/AvenirNextCyr-Demi.eot");
+    src: url("../fonts/AvenirNextCyr/AvenirNextCyr-Demi.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/AvenirNextCyr/AvenirNextCyr-Demi.woff") format("woff"),
+    url("../fonts/AvenirNextCyr/AvenirNextCyr-Demi.ttf") format("truetype"),
+    url("../fonts/AvenirNextCyr/AvenirNextCyr-Demi.svg#AvenirNextCyr-Demi") format("svg");
+    font-style: normal;
+    font-weight: 600;
+}
+@font-face {
+    font-family: "Avenir Next Cyr"; /*Bold*/
+    src: url("../fonts/AvenirNextCyr/AvenirNextCyr-Bold.eot");
+    src: url("../fonts/AvenirNextCyr/AvenirNextCyr-Bold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/AvenirNextCyr/AvenirNextCyr-Bold.woff") format("woff"),
+    url("../fonts/AvenirNextCyr/AvenirNextCyr-Bold.ttf") format("truetype"),
+    url("../fonts/AvenirNextCyr/AvenirNextCyr-Bold.svg#AvenirNextCyr-Bold") format("svg");
+    font-style: normal;
+    font-weight: 700;
+}

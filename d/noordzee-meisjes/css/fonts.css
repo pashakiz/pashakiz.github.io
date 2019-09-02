@@ -1,0 +1,42 @@
+/* font-family: "CeraPro"; */
+/* font-family: "MullerBlackItalic"; */
+@font-face {
+    font-family: "MullerBlackItalic"; /*Regular*/
+    src: url("../fonts/MullerBlackItalic/MullerBlackItalic.eot");
+    src: url("../fonts/MullerBlackItalic/MullerBlackItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MullerBlackItalic/MullerBlackItalic.woff") format("woff"),
+    url("../fonts/MullerBlackItalic/MullerBlackItalic.otf") format("opentype"),
+    url("../fonts/MullerBlackItalic/MullerBlackItalic.svg#MullerBlackItalic") format("svg");
+    font-style: italic;
+    font-weight: 400;
+}
+@font-face {
+    font-family: "CeraPro"; /*Regular*/
+    src: url("../fonts/CeraPro/CeraPro-Regular.eot");
+    src: url("../fonts/CeraPro/CeraPro-Regular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/CeraPro/CeraPro-Regular.woff") format("woff"),
+    url("../fonts/CeraPro/CeraPro-Regular.ttf") format("truetype"),
+    url("../fonts/CeraPro/CeraPro-Regular.svg#CeraPro-Regular") format("svg");
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: "CeraPro"; /*Medium*/
+    src: url("../fonts/CeraPro/CeraPro-Medium.eot");
+    src: url("../fonts/CeraPro/CeraPro-Medium.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/CeraPro/CeraPro-Medium.woff") format("woff"),
+    url("../fonts/CeraPro/CeraPro-Medium.ttf") format("truetype"),
+    url("../fonts/CeraPro/CeraPro-Medium.svg#CeraPro-Medium") format("svg");
+    font-style: normal;
+    font-weight: 500;
+}
+@font-face {
+    font-family: "CeraPro"; /*Black*/
+    src: url("../fonts/CeraPro/CeraPro-Black.eot");
+    src: url("../fonts/CeraPro/CeraPro-Black.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/CeraPro/CeraPro-Black.woff") format("woff"),
+    url("../fonts/CeraPro/CeraPro-Black.ttf") format("truetype"),
+    url("../fonts/CeraPro/CeraPro-Black.svg#CeraPro-Black") format("svg");
+    font-style: normal;
+    font-weight: 700;
+}

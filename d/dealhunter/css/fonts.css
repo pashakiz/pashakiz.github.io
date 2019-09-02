@@ -1,0 +1,51 @@
+/* font-family: "FuturaNew"; */
+@font-face {
+    font-family: "FuturaNew"; /*Light*/
+    src: url("../fonts/FuturaNew/FuturaNewLightReg.eot");
+    src: url("../fonts/FuturaNew/FuturaNewLightReg.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/FuturaNew/FuturaNewLightReg.woff") format("woff"),
+    url("../fonts/FuturaNew/FuturaNewLightReg.otf") format("opentype"),
+    url("../fonts/FuturaNew/FuturaNewLightReg.svg#FuturaNewLightReg") format("svg");
+    font-style: normal;
+    font-weight: 300;
+}
+@font-face {
+    font-family: "FuturaNew"; /*Regular*/
+    src: url("../fonts/FuturaNew/FuturaNewBook.eot");
+    src: url("../fonts/FuturaNew/FuturaNewBook.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/FuturaNew/FuturaNewBook.woff") format("woff"),
+    url("../fonts/FuturaNew/FuturaNewBook.otf") format("opentype"),
+    url("../fonts/FuturaNew/FuturaNewBook.svg#FuturaNewBook") format("svg");
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: "FuturaNew"; /*Medium*/
+    src: url("../fonts/FuturaNew/FuturaNewMedium.eot");
+    src: url("../fonts/FuturaNew/FuturaNewMedium.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/FuturaNew/FuturaNewMedium.woff") format("woff"),
+    url("../fonts/FuturaNew/FuturaNewMedium.ttf") format("truetype"),
+    url("../fonts/FuturaNew/FuturaNewMedium.svg#FuturaNewMedium") format("svg");
+    font-style: normal;
+    font-weight: 500;
+}
+@font-face {
+    font-family: "FuturaNew"; /*Italic*/
+    src: url("../fonts/FuturaNew/FuturaNewMediumOblique.eot");
+    src: url("../fonts/FuturaNew/FuturaNewMediumOblique.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/FuturaNew/FuturaNewMediumOblique.woff") format("woff"),
+    url("../fonts/FuturaNew/FuturaNewMediumOblique.otf") format("opentype"),
+    url("../fonts/FuturaNew/FuturaNewMediumOblique.svg#FuturaNewMediumOblique") format("svg");
+    font-style: italic;
+    font-weight: 400;
+}
+@font-face {
+    font-family: "FuturaNew"; /*Bold*/
+    src: url("../fonts/FuturaNew/FuturaNewBold.eot");
+    src: url("../fonts/FuturaNew/FuturaNewBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/FuturaNew/FuturaNewBold.woff") format("woff"),
+    url("../fonts/FuturaNew/FuturaNewBold.otf") format("opentype"),
+    url("../fonts/FuturaNew/FuturaNewBold.svg#FuturaNewBold") format("svg");
+    font-style: normal;
+    font-weight: 700;
+}

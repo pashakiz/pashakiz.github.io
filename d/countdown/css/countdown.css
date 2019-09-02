@@ -1,36 +1,36 @@
-/* -------------------------------------------------------------------------------------------------------------- */
-/* countdown.js 
-https://github.com/pashakiz/countdown.js
-*/
-/* -------------------------------------------------------------------------------------------------------------- */
-.block {
-	text-align: center;
-	padding-top: 40px;
-	padding-bottom: 40px;
-}
-.countdown {
-	text-align: center;
-	margin: 20px 0; 
-}
-.count-block,
-.count-separator {
-	display: inline-block;
-}
-.count-separator {
-	vertical-align: top;
-}
-.count-separator:after {
-	content: ":";
-	margin: 0 5px;
-}
-.count-block .value,
-.count-separator {
-	font-size: 44px;
-	color: #222222;
-}
-.count-block .title {
-	font-size: 16px;
-	line-height: 1;
-	color: #777;
-	margin-top: 11px;
-}
+/* -------------------------------------------------------------------------------------------------------------- */
+/* countdown.js 
+https://github.com/pashakiz/countdown.js
+*/
+/* -------------------------------------------------------------------------------------------------------------- */
+.block {
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.countdown {
+	text-align: center;
+	margin: 20px 0; 
+}
+.count-block,
+.count-separator {
+	display: inline-block;
+}
+.count-separator {
+	vertical-align: top;
+}
+.count-separator:after {
+	content: ":";
+	margin: 0 5px;
+}
+.count-block .value,
+.count-separator {
+	font-size: 44px;
+	color: #222222;
+}
+.count-block .title {
+	font-size: 16px;
+	line-height: 1;
+	color: #777;
+	margin-top: 11px;
+}

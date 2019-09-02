@@ -1,0 +1,52 @@
+/* font-family: "Gotham"; */
+/* font-family: "Thirthy"; */
+@font-face {
+    font-family: "Thirthy"; /*Light*/
+    src: url("../fonts/Thirthy/Thirthy.eot");
+    src: url("../fonts/Thirthy/Thirthy.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/Thirthy/Thirthy.woff") format("woff"),
+    url("../fonts/Thirthy/Thirthy.ttf") format("truetype"),
+    url("../fonts/Thirthy/Thirthy.svg#Thirthy") format("svg");
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Gotham"; /*Light*/
+    src: url("../fonts/Gotham/Gotham-Light.eot");
+    src: url("../fonts/Gotham/Gotham-Light.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/Gotham/Gotham-Light.woff") format("woff"),
+    url("../fonts/Gotham/Gotham-Light.otf") format("opentype"),
+    url("../fonts/Gotham/Gotham-Light.svg#Gotham-Light") format("svg");
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Gotham"; /*Medium*/
+    src: url("../fonts/Gotham/Gotham-Medium.eot");
+    src: url("../fonts/Gotham/Gotham-Medium.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/Gotham/Gotham-Medium.woff") format("woff"),
+    url("../fonts/Gotham/Gotham-Medium.ttf") format("truetype"),
+    url("../fonts/Gotham/Gotham-Medium.svg#Gotham-Medium") format("svg");
+    font-style: normal;
+    font-weight: 500;
+}
+@font-face {
+    font-family: "Gotham"; /*Bold*/
+    src: url("../fonts/Gotham/Gotham-Bold.eot");
+    src: url("../fonts/Gotham/Gotham-Bold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/Gotham/Gotham-Bold.woff") format("woff"),
+    url("../fonts/Gotham/Gotham-Bold.otf") format("opentype"),
+    url("../fonts/Gotham/Gotham-Bold.svg#Gotham-Bold") format("svg");
+    font-style: normal;
+    font-weight: 700;
+}
+@font-face {
+    font-family: "Gotham"; /*Black*/
+    src: url("../fonts/Gotham/Gotham-Black.eot");
+    src: url("../fonts/Gotham/Gotham-Black.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/Gotham/Gotham-Black.woff") format("woff"),
+    url("../fonts/Gotham/Gotham-Black.otf") format("opentype"),
+    url("../fonts/Gotham/Gotham-Black.svg#Gotham-Black") format("svg");
+    font-style: normal;
+    font-weight: 800;
+}

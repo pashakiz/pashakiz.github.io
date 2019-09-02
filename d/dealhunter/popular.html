@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2d89ef">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>Deal Hunter</title>
+</head>
+<body class="d-flex flex-column h-100">
+    <div class="header fixed-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-1 col-xl-1">
+                    <a class="logo" href="/">
+                        <img src="img/logo.svg" alt="Deal Hunter">
+                    </a>
+                </div>
+                <div class="col-5 col-xl-5">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Deals</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Stores</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Forums</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Deal alerts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-3 col-xl-3">
+                    <form method="get" action="">
+                        <div class="inputbox">
+                            <input type="text" name="search" class="inputbox__input form-control" placeholder="Search deals">
+                            <button class="btn btn-clear inputbox__btn" type="submit"><span class="icon icon-search"></span></button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-3 col-xl-3 text-right">
+                    <button class="btn btn-custom1" type="button">Subscribe for updates <span class="icon icon-ring"></span></button>
+                </div>
+            </div>
+        </div>
+    </div> <!-- .header -->
+    <main role="main" class="main flex-shrink-0">
+        <div class="main-wrapper">
+            <div class="nav-catalog">
+                <div class="container">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">TOP COUPONS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">GROCERY</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">VIDEO GAMES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">TV</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">СOMPUTERS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">CREDIT CARDS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">APPAREL</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">TECH</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">CAMERAS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Auto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">HEALTH & BEAUTY</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">CHILDREN</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">ENTERTAINMENT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Travel</a>
+                        </li>
+                    </ul>
+                </div>
+            </div> <!-- .nav-catalog -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-8 pr-0">
+                        <div class="row">
+                            <div class="col-8">
+                                <div class="page-title">Popular Deals</div>
+                            </div>
+                            <div class="col-4">
+                                <div class="page-sort">
+                                    <div class="dropdown dropdown-sort">Sort by
+                                        <button class="btn btn-light dropdown-toggle dropdown-sort__btn rounded-0" type="button" id="page-sort" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <span class="dropdown-sort__title">Newest</span>
+                                        </button>
+                                        <div class="dropdown-menu" aria-labelledby="page-sort">
+                                            <a class="dropdown-item" href="/">Newest first</a>
+                                            <a class="dropdown-item" href="/?sort=dt_le">Newest last</a>
+                                            <a class="dropdown-item" href="/?sort=p_hl">Price: High to Low</a>
+                                            <a class="dropdown-item" href="/?sort=p_lh">Price: Low to High</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-8 pr-0">
+                        <div class="popular-list">
+                            <div class="popular-list__row popular-list__row_th">
+                                <div class="popular-list__td">Deals</div>
+                                <div class="popular-list__td">&nbsp;</div>
+                                <div class="popular-list__td">Price</div>
+                                <div class="popular-list__td">Rating</div>
+                                <div class="popular-list__td">Activity</div>
+                            </div>
+                            <a class="popular-list__row" href="#">
+                                <div class="popular-list__td">
+                                    <div class="popular-list__img">
+                                        <img src="img/product.jpg" alt="img">
+                                    </div>
+                                </div>
+                                <div class="popular-list__td">
+                                    <div class="popular-list__info">
+                                        Metroid Samus Returns (Nintendo 3DS) $20.97 + Free In-Store Pickup
+                                    </div>
+                                </div>
+                                <div class="popular-list__td">
+                                    <div class="popular-list__price">
+                                        <div class="price-old">$ 2000</div>
+                                        <div class="price">$1299</div>
+                                    </div>
+                                </div>
+                                <div class="popular-list__td">
+                                    <div class="votes">10</div>
+                                    <div class="popular-list__rating">
+                                        <div class="rating-info rate5">
+                                            <div class="icon icon-star"></div>
+                                            <div class="icon icon-star"></div>
+                                            <div class="icon icon-star"></div>
+                                            <div class="icon icon-star"></div>
+                                            <div class="icon icon-star"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="popular-list__td">
+                                    <div class="popular-list__activity">
+                                        <div class="views-wrap">
+                                            <div class="views icon-eye"></div>
+                                            <div class="views-num">129,880 Views</div>
+                                        </div>
+                                        <div class="comments-wrap">
+                                            <div class="comments icon-comments"></div>
+                                            <div class="comments-num">408 Comments</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="popular-list__row" href="#">
+                                <div class="popular-list__td">
+                                    <div class="popular-list__img">
+                                        <img src="img/product.jpg" alt="img">
+                                    </div>
+                                </div>
+                                <div class="popular-list__td">
+                                    <div class="popular-list__info">
+                                        Metroid Samus Returns (Nintendo 3DS) $20.97 + Free In-Store Pickup
+                                    </div>
+                                </div>
+                                <div class="popular-list__td">
+                                    <div class="popular-list__price">
+                                        <div class="price-old">$ 2000</div>
+                                        <div class="price">$1299</div>
+                                    </div>
+                                </div>
+                                <div class="popular-list__td">
+                                    <div class="votes">10</div>
+                                    <div class="popular-list__rating">
+                                        <div class="rating-info rate5">
+                                            <div class="icon icon-star"></div>
+                                            <div class="icon icon-star"></div>
+                                            <div class="icon icon-star"></div>
+                                            <div class="icon icon-star"></div>
+                                            <div class="icon icon-star"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="popular-list__td">
+                                    <div class="popular-list__activity">
+                                        <div class="views-wrap">
+                                            <div class="views icon-eye"></div>
+                                            <div class="views-num">129,880 Views</div>
+                                        </div>
+                                        <div class="comments-wrap">
+                                            <div class="comments icon-comments"></div>
+                                            <div class="comments-num">408 Comments</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="popular-list__row" href="#">
+                                <div class="popular-list__td">
+                                    <div class="popular-list__img">
+                                        <div style="width: 88px;height: 66px;background: burlywood; text-align: center;">test bg img</div>
+                                    </div>
+                                </div>
+                                <div class="popular-list__td">
+                                    <div class="popular-list__info">
+                                        Metroid Samus Returns (Nintendo 3DS) $20.97 + Free In-Store Pickup
+                                    </div>
+                                </div>
+                                <div class="popular-list__td">
+                                    <div class="popular-list__price">
+                                        <div class="price-old">$ 2000</div>
+                                        <div class="price">$1299</div>
+                                    </div>
+                                </div>
+                                <div class="popular-list__td">
+                                    <div class="votes">10</div>
+                                    <div class="popular-list__rating">
+                                        <div class="rating-info rate5">
+                                            <div class="icon icon-star"></div>
+                                            <div class="icon icon-star"></div>
+                                            <div class="icon icon-star"></div>
+                                            <div class="icon icon-star"></div>
+                                            <div class="icon icon-star"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="popular-list__td">
+                                    <div class="popular-list__activity">
+                                        <div class="views-wrap">
+                                            <div class="views icon-eye"></div>
+                                            <div class="views-num">129,880 Views</div>
+                                        </div>
+                                        <div class="comments-wrap">
+                                            <div class="comments icon-comments"></div>
+                                            <div class="comments-num">408 Comments</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="popular-list__row" href="#">
+                                <div class="popular-list__td">
+                                    <div class="popular-list__img">
+                                        <img src="img/product.jpg" alt="img">
+                                    </div>
+                                </div>
+                                <div class="popular-list__td">
+                                    <div class="popular-list__info">
+                                        Metroid Samus Returns (Nintendo 3DS) $20.97 + Free In-Store Pickup
+                                    </div>
+                                </div>
+                                <div class="popular-list__td">
+                                    <div class="popular-list__price">
+                                        <div class="price-old">$ 2000</div>
+                                        <div class="price">$1299</div>
+                                    </div>
+                                </div>
+                                <div class="popular-list__td">
+                                    <div class="votes">10</div>
+                                    <div class="popular-list__rating">
+                                        <div class="rating-info rate5">
+                                            <div class="icon icon-star"></div>
+                                            <div class="icon icon-star"></div>
+                                            <div class="icon icon-star"></div>
+                                            <div class="icon icon-star"></div>
+                                            <div class="icon icon-star"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="popular-list__td">
+                                    <div class="popular-list__activity">
+                                        <div class="views-wrap">
+                                            <div class="views icon-eye"></div>
+                                            <div class="views-num">129,880 Views</div>
+                                        </div>
+                                        <div class="comments-wrap">
+                                            <div class="comments icon-comments"></div>
+                                            <div class="comments-num">408 Comments</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="popular-list__row" href="#">
+                                <div class="popular-list__td">
+                                    <div class="popular-list__img">
+                                        <img src="img/product.jpg" alt="img">
+                                    </div>
+                                </div>
+                                <div class="popular-list__td">
+                                    <div class="popular-list__info">
+                                        Metroid Samus Returns (Nintendo 3DS) $20.97 + Free In-Store Pickup
+                                    </div>
+                                </div>
+                                <div class="popular-list__td">
+                                    <div class="popular-list__price">
+                                        <div class="price-old">$ 2000</div>
+                                        <div class="price">$1299</div>
+                                    </div>
+                                </div>
+                                <div class="popular-list__td">
+                                    <div class="votes">10</div>
+                                    <div class="popular-list__rating">
+                                        <div class="rating-info rate5">
+                                            <div class="icon icon-star"></div>
+                                            <div class="icon icon-star"></div>
+                                            <div class="icon icon-star"></div>
+                                            <div class="icon icon-star"></div>
+                                            <div class="icon icon-star"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="popular-list__td">
+                                    <div class="popular-list__activity">
+                                        <div class="views-wrap">
+                                            <div class="views icon-eye"></div>
+                                            <div class="views-num">129,880 Views</div>
+                                        </div>
+                                        <div class="comments-wrap">
+                                            <div class="comments icon-comments"></div>
+                                            <div class="comments-num">408 Comments</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="popular-list__row" href="#">
+                                <div class="popular-list__td">
+                                    <div class="popular-list__img">
+                                        <img src="img/product.jpg" alt="img">
+                                    </div>
+                                </div>
+                                <div class="popular-list__td">
+                                    <div class="popular-list__info">
+                                        Metroid Samus Returns (Nintendo 3DS) $20.97 + Free In-Store Pickup
+                                    </div>
+                                </div>
+                                <div class="popular-list__td">
+                                    <div class="popular-list__price">
+                                        <div class="price-old">$ 2000</div>
+                                        <div class="price">$1299</div>
+                                    </div>
+                                </div>
+                                <div class="popular-list__td">
+                                    <div class="votes">10</div>
+                                    <div class="popular-list__rating">
+                                        <div class="rating-info rate5">
+                                            <div class="icon icon-star"></div>
+                                            <div class="icon icon-star"></div>
+                                            <div class="icon icon-star"></div>
+                                            <div class="icon icon-star"></div>
+                                            <div class="icon icon-star"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="popular-list__td">
+                                    <div class="popular-list__activity">
+                                        <div class="views-wrap">
+                                            <div class="views icon-eye"></div>
+                                            <div class="views-num">129,880 Views</div>
+                                        </div>
+                                        <div class="comments-wrap">
+                                            <div class="comments icon-comments"></div>
+                                            <div class="comments-num">408 Comments</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="popular-list__row" href="#">
+                                <div class="popular-list__td">
+                                    <div class="popular-list__img">
+                                        <img src="img/product.jpg" alt="img">
+                                    </div>
+                                </div>
+                                <div class="popular-list__td">
+                                    <div class="popular-list__info">
+                                        Metroid Samus Returns (Nintendo 3DS) $20.97 + Free In-Store Pickup
+                                    </div>
+                                </div>
+                                <div class="popular-list__td">
+                                    <div class="popular-list__price">
+                                        <div class="price-old">$ 2000</div>
+                                        <div class="price">$1299</div>
+                                    </div>
+                                </div>
+                                <div class="popular-list__td">
+                                    <div class="votes">10</div>
+                                    <div class="popular-list__rating">
+                                        <div class="rating-info rate5">
+                                            <div class="icon icon-star"></div>
+                                            <div class="icon icon-star"></div>
+                                            <div class="icon icon-star"></div>
+                                            <div class="icon icon-star"></div>
+                                            <div class="icon icon-star"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="popular-list__td">
+                                    <div class="popular-list__activity">
+                                        <div class="views-wrap">
+                                            <div class="views icon-eye"></div>
+                                            <div class="views-num">129,880 Views</div>
+                                        </div>
+                                        <div class="comments-wrap">
+                                            <div class="comments icon-comments"></div>
+                                            <div class="comments-num">408 Comments</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="popular-list__row" href="#">
+                                <div class="popular-list__td">
+                                    <div class="popular-list__img">
+                                        <img src="img/product.jpg" alt="img">
+                                    </div>
+                                </div>
+                                <div class="popular-list__td">
+                                    <div class="popular-list__info">
+                                        Metroid Samus Returns (Nintendo 3DS) $20.97 + Free In-Store Pickup
+                                    </div>
+                                </div>
+                                <div class="popular-list__td">
+                                    <div class="popular-list__price">
+                                        <div class="price-old">$ 2000</div>
+                                        <div class="price">$1299</div>
+                                    </div>
+                                </div>
+                                <div class="popular-list__td">
+                                    <div class="votes">10</div>
+                                    <div class="popular-list__rating">
+                                        <div class="rating-info rate5">
+                                            <div class="icon icon-star"></div>
+                                            <div class="icon icon-star"></div>
+                                            <div class="icon icon-star"></div>
+                                            <div class="icon icon-star"></div>
+                                            <div class="icon icon-star"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="popular-list__td">
+                                    <div class="popular-list__activity">
+                                        <div class="views-wrap">
+                                            <div class="views icon-eye"></div>
+                                            <div class="views-num">129,880 Views</div>
+                                        </div>
+                                        <div class="comments-wrap">
+                                            <div class="comments icon-comments"></div>
+                                            <div class="comments-num">408 Comments</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="popular-list__row" href="#">
+                                <div class="popular-list__td">
+                                    <div class="popular-list__img">
+                                        <img src="img/product.jpg" alt="img">
+                                    </div>
+                                </div>
+                                <div class="popular-list__td">
+                                    <div class="popular-list__info">
+                                        Metroid Samus Returns (Nintendo 3DS) $20.97 + Free In-Store Pickup
+                                    </div>
+                                </div>
+                                <div class="popular-list__td">
+                                    <div class="popular-list__price">
+                                        <div class="price-old">$ 2000</div>
+                                        <div class="price">$1299</div>
+                                    </div>
+                                </div>
+                                <div class="popular-list__td">
+                                    <div class="votes">10</div>
+                                    <div class="popular-list__rating">
+                                        <div class="rating-info rate5">
+                                            <div class="icon icon-star"></div>
+                                            <div class="icon icon-star"></div>
+                                            <div class="icon icon-star"></div>
+                                            <div class="icon icon-star"></div>
+                                            <div class="icon icon-star"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="popular-list__td">
+                                    <div class="popular-list__activity">
+                                        <div class="views-wrap">
+                                            <div class="views icon-eye"></div>
+                                            <div class="views-num">129,880 Views</div>
+                                        </div>
+                                        <div class="comments-wrap">
+                                            <div class="comments icon-comments"></div>
+                                            <div class="comments-num">408 Comments</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="popular-list__row" href="#">
+                                <div class="popular-list__td">
+                                    <div class="popular-list__img">
+                                        <img src="img/product.jpg" alt="img">
+                                    </div>
+                                </div>
+                                <div class="popular-list__td">
+                                    <div class="popular-list__info">
+                                        Metroid Samus Returns (Nintendo 3DS) $20.97 + Free In-Store Pickup
+                                    </div>
+                                </div>
+                                <div class="popular-list__td">
+                                    <div class="popular-list__price">
+                                        <div class="price-old">$ 2000</div>
+                                        <div class="price">$1299</div>
+                                    </div>
+                                </div>
+                                <div class="popular-list__td">
+                                    <div class="votes">10</div>
+                                    <div class="popular-list__rating">
+                                        <div class="rating-info rate5">
+                                            <div class="icon icon-star"></div>
+                                            <div class="icon icon-star"></div>
+                                            <div class="icon icon-star"></div>
+                                            <div class="icon icon-star"></div>
+                                            <div class="icon icon-star"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="popular-list__td">
+                                    <div class="popular-list__activity">
+                                        <div class="views-wrap">
+                                            <div class="views icon-eye"></div>
+                                            <div class="views-num">129,880 Views</div>
+                                        </div>
+                                        <div class="comments-wrap">
+                                            <div class="comments icon-comments"></div>
+                                            <div class="comments-num">408 Comments</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="popular-list__row" href="#">
+                                <div class="popular-list__td">
+                                    <div class="popular-list__img">
+                                        <img src="img/product.jpg" alt="img">
+                                    </div>
+                                </div>
+                                <div class="popular-list__td">
+                                    <div class="popular-list__info">
+                                        Metroid Samus Returns (Nintendo 3DS) $20.97 + Free In-Store Pickup
+                                    </div>
+                                </div>
+                                <div class="popular-list__td">
+                                    <div class="popular-list__price">
+                                        <div class="price-old">$ 2000</div>
+                                        <div class="price">$1299</div>
+                                    </div>
+                                </div>
+                                <div class="popular-list__td">
+                                    <div class="votes">10</div>
+                                    <div class="popular-list__rating">
+                                        <div class="rating-info rate5">
+                                            <div class="icon icon-star"></div>
+                                            <div class="icon icon-star"></div>
+                                            <div class="icon icon-star"></div>
+                                            <div class="icon icon-star"></div>
+                                            <div class="icon icon-star"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="popular-list__td">
+                                    <div class="popular-list__activity">
+                                        <div class="views-wrap">
+                                            <div class="views icon-eye"></div>
+                                            <div class="views-num">129,880 Views</div>
+                                        </div>
+                                        <div class="comments-wrap">
+                                            <div class="comments icon-comments"></div>
+                                            <div class="comments-num">408 Comments</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="popular-list__row" href="#">
+                                <div class="popular-list__td">
+                                    <div class="popular-list__img">
+                                        <img src="img/product.jpg" alt="img">
+                                    </div>
+                                </div>
+                                <div class="popular-list__td">
+                                    <div class="popular-list__info">
+                                        Metroid Samus Returns (Nintendo 3DS) $20.97 + Free In-Store Pickup
+                                    </div>
+                                </div>
+                                <div class="popular-list__td">
+                                    <div class="popular-list__price">
+                                        <div class="price-old">$ 2000</div>
+                                        <div class="price">$1299</div>
+                                    </div>
+                                </div>
+                                <div class="popular-list__td">
+                                    <div class="votes">10</div>
+                                    <div class="popular-list__rating">
+                                        <div class="rating-info rate5">
+                                            <div class="icon icon-star"></div>
+                                            <div class="icon icon-star"></div>
+                                            <div class="icon icon-star"></div>
+                                            <div class="icon icon-star"></div>
+                                            <div class="icon icon-star"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="popular-list__td">
+                                    <div class="popular-list__activity">
+                                        <div class="views-wrap">
+                                            <div class="views icon-eye"></div>
+                                            <div class="views-num">129,880 Views</div>
+                                        </div>
+                                        <div class="comments-wrap">
+                                            <div class="comments icon-comments"></div>
+                                            <div class="comments-num">408 Comments</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="popular-list__row" href="#">
+                                <div class="popular-list__td">
+                                    <div class="popular-list__img">
+                                        <img src="img/product.jpg" alt="img">
+                                    </div>
+                                </div>
+                                <div class="popular-list__td">
+                                    <div class="popular-list__info">
+                                        Metroid Samus Returns (Nintendo 3DS) $20.97 + Free In-Store Pickup
+                                    </div>
+                                </div>
+                                <div class="popular-list__td">
+                                    <div class="popular-list__price">
+                                        <div class="price-old">$ 2000</div>
+                                        <div class="price">$1299</div>
+                                    </div>
+                                </div>
+                                <div class="popular-list__td">
+                                    <div class="votes">10</div>
+                                    <div class="popular-list__rating">
+                                        <div class="rating-info rate5">
+                                            <div class="icon icon-star"></div>
+                                            <div class="icon icon-star"></div>
+                                            <div class="icon icon-star"></div>
+                                            <div class="icon icon-star"></div>
+                                            <div class="icon icon-star"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="popular-list__td">
+                                    <div class="popular-list__activity">
+                                        <div class="views-wrap">
+                                            <div class="views icon-eye"></div>
+                                            <div class="views-num">129,880 Views</div>
+                                        </div>
+                                        <div class="comments-wrap">
+                                            <div class="comments icon-comments"></div>
+                                            <div class="comments-num">408 Comments</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="popular-list__row" href="#">
+                                <div class="popular-list__td">
+                                    <div class="popular-list__img">
+                                        <img src="img/product.jpg" alt="img">
+                                    </div>
+                                </div>
+                                <div class="popular-list__td">
+                                    <div class="popular-list__info">
+                                        Metroid Samus Returns (Nintendo 3DS) $20.97 + Free In-Store Pickup
+                                    </div>
+                                </div>
+                                <div class="popular-list__td">
+                                    <div class="popular-list__price">
+                                        <div class="price-old">$ 2000</div>
+                                        <div class="price">$1299</div>
+                                    </div>
+                                </div>
+                                <div class="popular-list__td">
+                                    <div class="votes">10</div>
+                                    <div class="popular-list__rating">
+                                        <div class="rating-info rate5">
+                                            <div class="icon icon-star"></div>
+                                            <div class="icon icon-star"></div>
+                                            <div class="icon icon-star"></div>
+                                            <div class="icon icon-star"></div>
+                                            <div class="icon icon-star"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="popular-list__td">
+                                    <div class="popular-list__activity">
+                                        <div class="views-wrap">
+                                            <div class="views icon-eye"></div>
+                                            <div class="views-num">129,880 Views</div>
+                                        </div>
+                                        <div class="comments-wrap">
+                                            <div class="comments icon-comments"></div>
+                                            <div class="comments-num">408 Comments</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="sidebar">
+                            <div class="sidebar__row">
+                                <div class="sidebar__title">Popular deals</div>
+                            </div>
+                            <div class="sidebar__row">
+                                <div class="row">
+                                    <div class="col-7 pr-0">
+                                        <a class="sidebar__link" href="#">Metroid Samus Returns (Nintendo 3DS) $20.97 + Free In-Store Pickup</a>
+                                    </div>
+                                    <div class="col-5">
+                                        <div class="votes">10</div>
+                                        <div class="sidebar__bull">&bull;</div>
+                                        <div class="comments-wrap">
+                                            <div class="comments icon-comments"></div>
+                                            <div class="comments-num">15</div>
+                                        </div>
+                                        <div class="sidebar__rating">
+                                            <div class="rating-info rate0 icon-star-half">
+                                                <div class="icon icon-star"></div>
+                                                <div class="icon icon-star"></div>
+                                                <div class="icon icon-star"></div>
+                                                <div class="icon icon-star"></div>
+                                                <div class="icon icon-star"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sidebar__row">
+                                <div class="row">
+                                    <div class="col-7 pr-0">
+                                        <a class="sidebar__link" href="#">MIXIN Men's Comfortable Flats Indoor and Outdoor Loafers Driving Moccasins Slippers Shoes$8.38 AC</a>
+                                    </div>
+                                    <div class="col-5">
+                                        <div class="votes">10</div>
+                                        <div class="sidebar__bull">&bull;</div>
+                                        <div class="comments-wrap">
+                                            <div class="comments icon-comments"></div>
+                                            <div class="comments-num">999</div>
+                                        </div>
+                                        <div class="sidebar__rating">
+                                            <div class="rating-info rate3 icon-star-half">
+                                                <div class="icon icon-star"></div>
+                                                <div class="icon icon-star"></div>
+                                                <div class="icon icon-star"></div>
+                                                <div class="icon icon-star"></div>
+                                                <div class="icon icon-star"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sidebar__row">
+                                <div class="row">
+                                    <div class="col-7 pr-0">
+                                        <a class="sidebar__link" href="#">Audio-Technica Studio Monitor Headphones: ATH-M60x Headphones $149 or ATH-M50x Heaphones $102.99 + Free Shipping via Amazon</a>
+                                    </div>
+                                    <div class="col-5">
+                                        <div class="votes">10</div>
+                                        <div class="sidebar__bull">&bull;</div>
+                                        <div class="comments-wrap">
+                                            <div class="comments icon-comments"></div>
+                                            <div class="comments-num">2</div>
+                                        </div>
+                                        <div class="sidebar__rating">
+                                            <div class="rating-info rate4">
+                                                <div class="icon icon-star"></div>
+                                                <div class="icon icon-star"></div>
+                                                <div class="icon icon-star"></div>
+                                                <div class="icon icon-star"></div>
+                                                <div class="icon icon-star"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sidebar__row">
+                                <div class="row">
+                                    <div class="col-7 pr-0">
+                                        <a class="sidebar__link" href="#">Metroid Samus Returns (Nintendo 3DS) $20.97 + Free In-Store Pickup</a>
+                                    </div>
+                                    <div class="col-5">
+                                        <div class="votes">10</div>
+                                        <div class="sidebar__bull">&bull;</div>
+                                        <div class="comments-wrap">
+                                            <div class="comments icon-comments"></div>
+                                            <div class="comments-num">2</div>
+                                        </div>
+                                        <div class="sidebar__rating">
+                                            <div class="rating-info rate2 icon-star-half">
+                                                <div class="icon icon-star"></div>
+                                                <div class="icon icon-star"></div>
+                                                <div class="icon icon-star"></div>
+                                                <div class="icon icon-star"></div>
+                                                <div class="icon icon-star"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sidebar__row">
+                                <div class="row">
+                                    <div class="col-7 pr-0">
+                                        <a class="sidebar__link" href="#">Audio-Technica Studio Monitor Headphones: ATH-M60x Headphones $149 or ATH-M50x Heaphones $102.99 + Free Shipping via Amazon</a>
+                                    </div>
+                                    <div class="col-5">
+                                        <div class="votes">10</div>
+                                        <div class="sidebar__bull">&bull;</div>
+                                        <div class="comments-wrap">
+                                            <div class="comments icon-comments"></div>
+                                            <div class="comments-num">2</div>
+                                        </div>
+                                        <div class="sidebar__rating">
+                                            <div class="rating-info rate5">
+                                                <div class="icon icon-star"></div>
+                                                <div class="icon icon-star"></div>
+                                                <div class="icon icon-star"></div>
+                                                <div class="icon icon-star"></div>
+                                                <div class="icon icon-star"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- .row -->
+                <div class="row">
+                    <div class="col-8">
+                        <div class="pagination">
+                            <a href="#" class="pagination__btn pagination__btn_prev">Prev</a>
+                            <a href="#" class="pagination__btn active">1</a>
+                            <a href="#" class="pagination__btn">2</a>
+                            <a href="#" class="pagination__btn">3</a>
+                            <a href="#" class="pagination__btn">...</a>
+                            <a href="#" class="pagination__btn pagination__btn_next">Next</a>
+                        </div>
+                    </div>
+                </div> <!-- .row -->
+            </div>
+        </div> <!-- .main-wrapper -->
+    </main>
+    <div class="footer mt-auto">
+        <div class="container">
+            <div class="row">
+                <div class="col-1 col-xl-1">
+                    <a class="logo" href="/">
+                        <img src="img/logo_grey.svg" alt="Deal Hunter">
+                    </a>
+                </div>
+                <div class="col-5 col-xl-5">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Deals</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Stores</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Forums</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Deal alerts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-3 col-xl-3">
+                    <div class="inputbox">
+                        <input type="text" name="email" class="inputbox__input form-control" placeholder="Email">
+                    </div>
+                </div>
+                <div class="col-3 col-xl-3 text-right">
+                    <button class="btn btn-custom1" type="button">Subscribe for updates <span class="icon icon-ring"></span></button>
+                </div>
+            </div>
+        </div>
+    </div> <!-- .footer -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function() {
+            //code...
+        });
+    </script>
+</body>
+</html>

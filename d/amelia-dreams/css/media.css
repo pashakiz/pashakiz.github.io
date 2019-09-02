@@ -1,0 +1,110 @@
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query since this is the default in Bootstrap */
+
+@media only screen and (min-width : 320px) {}
+
+@media only screen and (min-width : 360px) {
+    .wrapper {
+        width: 360px;
+    }
+    .header-main-top {
+        height: 208px;
+        min-height: 208px;
+        background-image: url('../img/bg/header_bg-top_360.svg');
+    }
+    .header-main-bottom {
+        height: 202px;
+        min-height: 202px;
+        background-image: url('../img/bg/header_bg-bottom_360.svg');
+    }
+    .footer {
+        height: 204px;
+        min-height: 204px;
+        background-image: url('../img/bg/footer_bg_360.svg');
+    }
+}
+
+@media only screen and (min-width : 380px) {}
+
+@media only screen and (min-width : 375px) {
+    .wrapper {
+        width: 375px;
+    }
+    .header-main-top {
+        height: 216px;
+        min-height: 216px;
+        background-image: url('../img/bg/header_bg-top_375.svg');
+    }
+    .header-main-bottom {
+        height: 210px;
+        min-height: 210px;
+        background-image: url('../img/bg/header_bg-bottom_375.svg');
+    }
+    .footer {
+        height: 213px;
+        min-height: 213px;
+        background-image: url('../img/bg/footer_bg_375.svg');
+    }
+}
+@media only screen and (min-width : 411px) {
+    .wrapper {
+        width: 411px;
+    }
+    .header-main-top {
+        height: 237px;
+        min-height: 237px;
+        background-image: url('../img/bg/header_bg-top_411.svg');
+    }
+    .header-main-bottom {
+        height: 231px;
+        min-height: 231px;
+        background-image: url('../img/bg/header_bg-bottom_411.svg');
+    }
+    .footer {
+        height: 234px;
+        min-height: 234px;
+        background-image: url('../img/bg/footer_bg_411.svg');
+    }
+}
+@media only screen and (min-width : 414px) {
+    .wrapper {
+        width: 414px;
+    }
+    .header-main-top {
+        height: 240px;
+        min-height: 240px;
+        background-image: url('../img/bg/header_bg-top_414.svg');
+    }
+    .header-main-bottom {
+        height: 232px;
+        min-height: 232px;
+        background-image: url('../img/bg/header_bg-bottom_414.svg');
+    }
+    .footer {
+        height: 236px;
+        min-height: 236px;
+        background-image: url('../img/bg/footer_bg_414.svg');
+    }
+}
+
+@media only screen and (min-width : 480px) {}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
