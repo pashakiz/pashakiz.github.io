@@ -1,0 +1,32 @@
+/* font-family: "PTSans"; */
+@font-face {
+	font-family: "PTSans";
+	src: url("../fonts/PTSans/PTSansRegular.eot");
+	src: url("../fonts/PTSans/PTSansRegular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/PTSans/PTSansRegular.woff") format("woff"),
+	url("../fonts/PTSans/PTSansRegular.ttf") format("truetype"),
+	url("../fonts/PTSans/PTSansRegular.svg#PTSansRegular") format("svg");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "PTSans";
+	src: url("../fonts/PTSans/PTSansBold.eot");
+	src: url("../fonts/PTSans/PTSansBold.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/PTSans/PTSansBold.woff") format("woff"),
+	url("../fonts/PTSans/PTSansBold.ttf") format("truetype"),
+	url("../fonts/PTSans/PTSansBold.svg#PTSansBold") format("svg");
+	font-style: normal;
+	font-weight: bold;
+}
+/* font-family: "SegoeUIRegular"; */
+@font-face {
+    font-family: "SegoeUI";
+    src: url("../fonts/SegoeUI/SegoeUIRegular.eot");
+    src: url("../fonts/SegoeUI/SegoeUIRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/SegoeUI/SegoeUIRegular.woff") format("woff"),
+    url("../fonts/SegoeUI/SegoeUIRegular.ttf") format("truetype"),
+    url("../fonts/SegoeUI/SegoeUIRegular.svg#SegoeUIRegular") format("svg"),;
+    font-style: normal;
+    font-weight: normal;
+}

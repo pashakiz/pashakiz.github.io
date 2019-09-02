@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>SocAdvert</title>
+	<meta name="description" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="css/normalize.css" />
+	<link rel="stylesheet" href="css/fancybox/jquery.fancybox.css" />
+	<link rel="stylesheet" href="css/icomoon.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/simplebar.css" />
+	<link rel="stylesheet" href="css/bootstrap-slider.css" />
+	<link rel="stylesheet" href="css/pickmeup.css" />
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+	<div class="container">
+		<div class="sidebarleft">
+			<div class="sidebarleft__header clearfix">
+				<div class="sidebarleft__header__logo">SocAdvert</div>
+				<div class="sidebarleft__header__controls clearfix">
+					<div class="sidebarleft__header__controls__item"><span class="icon-message"></span></div>
+					<div class="sidebarleft__header__controls__item">
+						<i class="icon-help"></i>
+						<div class="sidebarleft__header__controls__item__inner">
+							<a href="help.html">Помощь</a>
+							<a href="tickets.html">Тикеты</a>
+						</div>
+					</div>
+					<div class="sidebarleft__header__controls__item">
+						<i class="icon-settings"></i>
+						<div class="sidebarleft__header__controls__item__inner">
+							<a href="settings.html">Настройка профиля</a>
+							<a href="?logout">Выйти</a>
+						</div>
+					</div>
+				</div>
+			</div> <!-- .sidebarleft__header -->
+			<div class="sidebarleft__user clearfix">
+				<div class="sidebarleft__user__avatar">
+					<img src="img/user-0001-ava-small.jpg" alt="urermane">
+				</div>
+				<div class="sidebarleft__user__info">
+					<div class="sidebarleft__user__info__role">Рекламодатель</div>
+					<div class="sidebarleft__user__info__row"><i class="icon-online"></i>lilia_veshena</div>
+					<a href="#" class="sidebarleft__user__info__row hover" data-toggle="tooltip" data-placement="left" title="Баланс"><i class="icon-balance"></i>20 р.</a>
+					<a href="#" class="sidebarleft__user__info__row hover" data-toggle="tooltip" data-placement="left" title="Заработано"><i class="icon-balance-earned"></i>50000000 р.</a>
+				</div>
+			</div> <!-- .sidebarleft__user -->
+			<ul class="sidebarleft__nav">
+				<li>
+					<a href="advertiser_campaigns_active.html" class="sidebarleft__nav__a"><i class="icon-campaign"></i><span class="sidebarleft__nav__a__text">Кампании</span><span class="sidebarleft__nav__a__count">7</span></a>
+				</li>
+				<li>
+					<a href="#" class="sidebarleft__nav__a"><i class="icon-playground"></i>Площадки</a>
+				</li>
+				<li>
+					<a href="#" class="sidebarleft__nav__a"><i class="icon-favorite-bold"></i>Избранное</a>
+				</li>
+				<li>
+					<a href="#" class="sidebarleft__nav__a"><i class="icon-news"></i><span class="sidebarleft__nav__a__text">Новости</span><span class="sidebarleft__nav__a__count">99</span></a>
+				</li>
+				<li>
+					<a href="#" class="sidebarleft__nav__a"><i class="icon-partners"></i>Партнерская программа</a>
+				</li>
+				<li class="sidebarleft__social clearfix">
+					<a href="#" class="sidebarleft__social__a"><i class="icon-instagram"></i></a>
+					<a href="#" class="sidebarleft__social__a"><i class="icon-facebook"></i></a>
+					<a href="#" class="sidebarleft__social__a"><i class="icon-twitter"></i></a>
+					<a href="#" class="sidebarleft__social__a"><i class="icon-youtube"></i></a>
+				</li>
+			</ul> <!-- .sidebarleft__nav -->
+		</div> <!-- .sidebarleft -->
+		<div class="content" data-simplebar-direction="vertical">
+			<div class="content__inner">
+				<div class="content__tabs clearfix">
+					<ul class="content__tabs__ul clearfix">
+						<li>
+							<a href="advertiser_campaigns_offers.html" class="content__tabs__ul__lnk">Заявки <span class="content__tabs__ul__lnk__count">1000</span></a>
+						</li>
+						<li>
+							<a href="advertiser_campaigns_offers-accepted.html" class="content__tabs__ul__lnk">Одобрено <span class="content__tabs__ul__lnk__count">1000</span></a>
+						</li>
+						<li>
+							<a href="advertiser_campaigns_offers-published.html" class="content__tabs__ul__lnk">Размещено <span class="content__tabs__ul__lnk__count">1000</span></a>
+						</li>
+						<li class="active">
+							<a href="advertiser_campaigns_offers-paid.html" class="content__tabs__ul__lnk">Оплачено <span class="content__tabs__ul__lnk__count">1000</span></a>
+						</li>
+						<li>
+							<a href="advertiser_campaigns_offers-declined.html" class="content__tabs__ul__lnk">Отклонено <span class="content__tabs__ul__lnk__count">1000</span></a>
+						</li>
+					</ul>
+				</div>
+				<div class="content__sort">
+					<form action="">
+						<div class="content__sort__item">
+							<div class="content__sort__item__label">Показать по:</div>
+							<div class="select-container">
+								<select name="perpage">
+									<option value="10">10</option>
+									<option value="10">20</option>
+									<option value="10">30</option>
+								</select>
+								<i class="icon icon-arrow-down-chevron"></i>
+							</div>
+						</div>
+						<div class="content__sort__item">
+							<div class="content__sort__item__label">Сортировать по:</div>
+							<div class="select-container">
+								<select name="sortby">
+									<option value="10">Участников</option>
+									<option value="10">Like</option>
+									<option value="10">Охват</option>
+									<option value="10">Цена</option>
+									<option value="10">Новые</option>
+								</select>
+								<i class="icon icon-arrow-down"></i>
+							</div>
+						</div>
+					</form>
+				</div> <!-- .content__sort -->
+				<div class="content__body">
+					<div class="content__body__areaitem clearfix">
+						<div class="content__body__areaitem__photo">
+							<img src="img/areaitem-photo.jpg" alt="nameorwhat?">
+						</div>
+						<div class="content__body__areaitem__info">
+							<div class="content__body__areaitem__info__main clearfix">
+								<div class="content__body__areaitem__info__main__left">
+									<a class="offers__rowh1 content__body__areaitem__info__main__left__title no-icon" href="#">Не верь не бойся не</a>
+									<div class="offers__row offers__icontext"><i class="icon icon-response-time"></i>Время отклика: 5 мин.</div>
+									<div class="offers__row content__body__areaitem__info__main__left__online"><i class="icon offline icon-online"></i>3 дня назад</div>
+									<div class="offers__row offers__icontext offers__inlineblock" data-toggle="tooltip" data-placement="bottom" title="Дата&nbsp;и&nbsp;время&nbsp;публикации"><i class="icon icon-calendar"></i>15.02.2016 в 23:30</div>
+									<div class="offers__row offers__icontext"><i class="icon icon-accept"></i>Согласился</div>
+								</div>
+								<div class="content__body__areaitem__info__main__middle clearfix">
+									<div class="content__body__areaitem__info__item">
+										<div class="content__body__areaitem__info__item__row item__row__title">Участников</div>
+										<div class="content__body__areaitem__info__item__row" data-toggle="tooltip" data-placement="bottom" title="Количество&nbsp;подписчиков">120000000</div>
+										<div class="content__body__areaitem__info__item__row" data-toggle="tooltip" data-placement="bottom" title="Среднее&nbsp;количество&nbsp;лайков"><i class="icon icon-like-fill"></i>10000</div>
+										<div class="content__body__areaitem__info__item__row" data-toggle="tooltip" data-placement="bottom" title="Среднее&nbsp;количество&nbsp;комментариев"><i class="icon icon-comments-bold"></i>10000</div>
+									</div>
+									<div class="content__body__areaitem__info__item">
+										<div class="content__body__areaitem__info__item__row item__row__title">Охват</div>
+										<div class="content__body__areaitem__info__item__row" data-toggle="tooltip" data-placement="bottom" title="Охват&nbsp;рекламы">120000000</div>
+										<div class="content__body__areaitem__info__item__row" data-toggle="tooltip" data-placement="bottom" title="Стоимость&nbsp;записей&nbsp;за&nbsp;24&nbsp;часа"><i class="icon icon-recording"></i>20</div>
+									</div>
+									<div class="content__body__areaitem__info__item">
+										<div class="content__body__areaitem__info__item__row item__row__title">ER</div>
+										<div class="content__body__areaitem__info__item__row" data-toggle="tooltip" data-placement="bottom" title="ER&nbsp;сообщества">120000000</div>
+									</div>
+									<div class="content__body__areaitem__info__item">
+										<div class="content__body__areaitem__info__item__row item__row__title">Цена</div>
+										<div class="content__body__areaitem__info__item__row" data-toggle="tooltip" data-placement="bottom" title="Стоимость&nbsp;размещенгия&nbsp;за&nbsp;24&nbsp;часа">120000000</div>
+									</div>
+									<div class="content__body__areaitem__info__item">
+										<div class="content__body__areaitem__info__item__row item__row__title">Заработано</div>
+										<div class="content__body__areaitem__info__item__row" data-toggle="tooltip" data-placement="bottom" title="Заработано">120000000 р.</div>
+									</div>
+								</div>
+								<div class="content__body__areaitem__info__main__right">
+									<div class="content__body__areaitem__info__item">
+										<div class="content__body__areaitem__info__item__row item__row__title">Управление:</div>
+										<div class="content__body__areaitem__info__item__row item__row__right">
+											<div class="btn-icon message2agent" data-toggle="tooltip" data-placement="bottom" title="Написать&nbsp;агенту"><i class="icon-message"></i></div>
+											<div class="btn-offer-favorite btn-icon" data-toggle="tooltip" data-placement="bottom" title="Добавить&nbsp;в&nbsp;избранное"><i class="icon-favorite"></i></div>
+											<a class="btn-icon" href="advertiser_campaigns_reports.html" data-toggle="tooltip" data-placement="bottom" title="Отчет"><i class="icon-reports"></i></a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="content__body__areaitem__info__descr offers__descr">Описание:<br>Активный цитатник с адекватной ценой за размещение поста. Успей заказать рекламу до конца февраля с хорошей скидкой.</div>
+						</div>
+					</div> <!-- .content__body__areaitem -->
+					<div class="content__body__areaitem clearfix">
+						<div class="content__body__areaitem__photo">
+							<img src="img/areaitem-photo.jpg" alt="nameorwhat?">
+						</div>
+						<div class="content__body__areaitem__info">
+							<div class="content__body__areaitem__info__main clearfix">
+								<div class="content__body__areaitem__info__main__left">
+									<a class="offers__rowh1 content__body__areaitem__info__main__left__title no-icon" href="#">Не верь не бойся не</a>
+									<div class="offers__row offers__icontext"><i class="icon icon-response-time"></i>Время отклика: 5 мин.</div>
+									<div class="offers__row content__body__areaitem__info__main__left__online"><i class="icon icon-online"></i>Online</div>
+									<div class="offers__row offers__icontext offers__inlineblock" data-toggle="tooltip" data-placement="bottom" title="Дата&nbsp;и&nbsp;время&nbsp;публикации"><i class="icon icon-calendar"></i>15.02.2016 в 23:30</div>
+									<div class="offers__row offers__icontext"><i class="icon icon-accept"></i>Согласился</div>
+								</div>
+								<div class="content__body__areaitem__info__main__middle clearfix">
+									<div class="content__body__areaitem__info__item">
+										<div class="content__body__areaitem__info__item__row item__row__title">Участников</div>
+										<div class="content__body__areaitem__info__item__row" data-toggle="tooltip" data-placement="bottom" title="Количество&nbsp;подписчиков">120000000</div>
+									</div>
+									<div class="content__body__areaitem__info__item">
+										<div class="content__body__areaitem__info__item__row item__row__title">Охват</div>
+										<div class="content__body__areaitem__info__item__row" data-toggle="tooltip" data-placement="bottom" title="Охват&nbsp;рекламы">120000000</div>
+									</div>
+									<div class="content__body__areaitem__info__item">
+										<div class="content__body__areaitem__info__item__row item__row__title">Цена</div>
+										<div class="content__body__areaitem__info__item__row" data-toggle="tooltip" data-placement="bottom" title="Стоимость&nbsp;размещенгия&nbsp;за&nbsp;24&nbsp;часа">120000000</div>
+									</div>
+									<div class="content__body__areaitem__info__item">
+										<div class="content__body__areaitem__info__item__row item__row__title">Заработано</div>
+										<div class="content__body__areaitem__info__item__row" data-toggle="tooltip" data-placement="bottom" title="Заработано">120000000 р.</div>
+									</div>
+								</div>
+								<div class="content__body__areaitem__info__main__right">
+									<div class="content__body__areaitem__info__item">
+										<div class="content__body__areaitem__info__item__row item__row__title">Управление:</div>
+										<div class="content__body__areaitem__info__item__row item__row__right">
+											<div class="btn-icon message2agent" data-toggle="tooltip" data-placement="bottom" title="Написать&nbsp;агенту"><i class="icon-message"></i></div>
+											<div class="btn-offer-favorite btn-icon" data-toggle="tooltip" data-placement="bottom" title="Добавить&nbsp;в&nbsp;избранное"><i class="icon-favorite"></i></div>
+											<a class="btn-icon" href="advertiser_campaigns_reports.html" data-toggle="tooltip" data-placement="bottom" title="Отчет"><i class="icon-reports"></i></a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="content__body__areaitem__info__descr offers__descr">Описание:<br>Активный цитатник с адекватной ценой за размещение поста. Успей заказать рекламу до конца февраля с хорошей скидкой.</div>
+						</div>
+					</div> <!-- .content__body__areaitem -->
+					<div class="content__body__areaitem youtube-brand clearfix">
+						<div class="content__body__areaitem__photo">
+							<img src="img/areaitem-photo.jpg" alt="nameorwhat?">
+						</div>
+						<div class="content__body__areaitem__info">
+							<div class="content__body__areaitem__info__main clearfix">
+								<div class="content__body__areaitem__info__main__left">
+									<a class="offers__rowh1 content__body__areaitem__info__main__left__title no-icon" href="#">Youtube: Брэндированный ролик</a>
+									<div class="offers__row offers__icontext"><i class="icon icon-response-time"></i>Время отклика: 5 мин.</div>
+									<div class="offers__row content__body__areaitem__info__main__left__online"><i class="icon offline icon-online"></i>3 дня назад</div>
+									<div class="offers__row offers__icontext offers__inlineblock" data-toggle="tooltip" data-placement="bottom" title="Дата&nbsp;и&nbsp;время&nbsp;публикации"><i class="icon icon-calendar"></i>15.02.2016 в 23:30</div>
+									<div class="offers__row offers__icontext"><i class="icon icon-accept"></i>Согласился</div>
+								</div>
+								<div class="content__body__areaitem__info__main__middle clearfix">
+									<div class="content__body__areaitem__info__item">
+										<div class="content__body__areaitem__info__item__row item__row__title">Участников</div>
+										<div class="content__body__areaitem__info__item__row" data-toggle="tooltip" data-placement="bottom" title="Количество&nbsp;подписчиков">120000000</div>
+										<div class="content__body__areaitem__info__item__row" data-toggle="tooltip" data-placement="bottom" title="Количество&nbsp;загруженных видеороликов"><i class="icon icon-videos"></i>20</div>
+										<div class="content__body__areaitem__info__item__row" data-toggle="tooltip" data-placement="bottom" title="Среднее&nbsp;количество&nbsp;просмотров&nbsp;на 1&nbsp;видео&nbsp;за&nbsp;1&nbsp;неделю"><i class="icon icon-views"></i>20</div>
+									</div>
+									<div class="content__body__areaitem__info__item">
+										<div class="content__body__areaitem__info__item__row item__row__title">Охват</div>
+										<div class="content__body__areaitem__info__item__row" data-toggle="tooltip" data-placement="bottom" title="Охват&nbsp;рекламы">120000000</div>
+										<div class="content__body__areaitem__info__item__row" data-toggle="tooltip" data-placement="bottom" title="Количество&nbsp;комментариев"><i class="icon icon-comments-bold"></i>10000</div>
+									</div>
+									<div class="content__body__areaitem__info__item">
+										<div class="content__body__areaitem__info__item__row item__row__title">ER</div>
+										<div class="content__body__areaitem__info__item__row" data-toggle="tooltip" data-placement="bottom" title="ER&nbsp;сообщества">120000000</div>
+									</div>
+									<div class="content__body__areaitem__info__item">
+										<div class="content__body__areaitem__info__item__row item__row__title">Цена</div>
+										<div class="content__body__areaitem__info__item__row" data-toggle="tooltip" data-placement="bottom" title="Стоимость&nbsp;размещенгия&nbsp;за&nbsp;24&nbsp;часа">120000000</div>
+									</div>
+									<div class="content__body__areaitem__info__item">
+										<div class="content__body__areaitem__info__item__row item__row__title">Заработано</div>
+										<div class="content__body__areaitem__info__item__row" data-toggle="tooltip" data-placement="bottom" title="Заработано">120000000 р.</div>
+									</div>
+								</div>
+								<div class="content__body__areaitem__info__main__right">
+									<div class="content__body__areaitem__info__item">
+										<div class="content__body__areaitem__info__item__row item__row__title">Управление:</div>
+										<div class="content__body__areaitem__info__item__row item__row__right">
+											<div class="btn-icon message2agent" data-toggle="tooltip" data-placement="bottom" title="Написать&nbsp;агенту"><i class="icon-message"></i></div>
+											<div class="btn-offer-favorite btn-icon" data-toggle="tooltip" data-placement="bottom" title="Добавить&nbsp;в&nbsp;избранное"><i class="icon-favorite"></i></div>
+											<a class="btn-icon" href="advertiser_campaigns_reports.html" data-toggle="tooltip" data-placement="bottom" title="Отчет"><i class="icon-reports"></i></a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="content__body__areaitem__info__descr offers__descr">Описание:<br>Активный цитатник с адекватной ценой за размещение поста. Успей заказать рекламу до конца февраля с хорошей скидкой.</div>
+						</div>
+					</div> <!-- .content__body__areaitem -->
+					<div class="content__body__areaitem youtube-preroll clearfix">
+						<div class="content__body__areaitem__photo">
+							<img src="img/areaitem-photo.jpg" alt="nameorwhat?">
+						</div>
+						<div class="content__body__areaitem__info">
+							<div class="content__body__areaitem__info__main clearfix">
+								<div class="content__body__areaitem__info__main__left">
+									<a class="offers__rowh1 content__body__areaitem__info__main__left__title no-icon" href="#">Youtube: Преролл</a>
+									<div class="offers__row offers__icontext"><i class="icon icon-response-time"></i>Время отклика: 5 мин.</div>
+									<div class="offers__row content__body__areaitem__info__main__left__online"><i class="icon offline icon-online"></i>3 дня назад</div>
+									<div class="offers__row offers__icontext offers__inlineblock" data-toggle="tooltip" data-placement="bottom" title="Дата&nbsp;и&nbsp;время&nbsp;публикации"><i class="icon icon-calendar"></i>15.02.2016 в 23:30</div>
+									<div class="offers__row offers__icontext"><i class="icon icon-accept"></i>Согласился</div>
+								</div>
+								<div class="content__body__areaitem__info__main__middle clearfix">
+									<div class="content__body__areaitem__info__item">
+										<div class="content__body__areaitem__info__item__row item__row__title">Участников</div>
+										<div class="content__body__areaitem__info__item__row" data-toggle="tooltip" data-placement="bottom" title="Количество&nbsp;подписчиков">120000000</div>
+										<div class="content__body__areaitem__info__item__row" data-toggle="tooltip" data-placement="bottom" title="Количество&nbsp;загруженных видеороликов"><i class="icon icon-videos"></i>20</div>
+										<div class="content__body__areaitem__info__item__row" data-toggle="tooltip" data-placement="bottom" title="Среднее&nbsp;количество&nbsp;просмотров&nbsp;на 1&nbsp;видео&nbsp;за&nbsp;1&nbsp;неделю"><i class="icon icon-views"></i>20</div>
+									</div>
+									<div class="content__body__areaitem__info__item">
+										<div class="content__body__areaitem__info__item__row item__row__title">Охват</div>
+										<div class="content__body__areaitem__info__item__row" data-toggle="tooltip" data-placement="bottom" title="Охват&nbsp;рекламы">120000000</div>
+										<div class="content__body__areaitem__info__item__row" data-toggle="tooltip" data-placement="bottom" title="Количество&nbsp;комментариев"><i class="icon icon-comments-bold"></i>10000</div>
+									</div>
+									<div class="content__body__areaitem__info__item">
+										<div class="content__body__areaitem__info__item__row item__row__title">ER</div>
+										<div class="content__body__areaitem__info__item__row" data-toggle="tooltip" data-placement="bottom" title="ER&nbsp;сообщества">120000000</div>
+									</div>
+									<div class="content__body__areaitem__info__item">
+										<div class="content__body__areaitem__info__item__row item__row__title">Цена</div>
+										<div class="content__body__areaitem__info__item__row" data-toggle="tooltip" data-placement="bottom" title="Стоимость&nbsp;размещенгия&nbsp;за&nbsp;24&nbsp;часа">120000000</div>
+									</div>
+									<div class="content__body__areaitem__info__item">
+										<div class="content__body__areaitem__info__item__row item__row__title">Заработано</div>
+										<div class="content__body__areaitem__info__item__row" data-toggle="tooltip" data-placement="bottom" title="Заработано">120000000 р.</div>
+									</div>
+								</div>
+								<div class="content__body__areaitem__info__main__right">
+									<div class="content__body__areaitem__info__item">
+										<div class="content__body__areaitem__info__item__row item__row__title">Управление:</div>
+										<div class="content__body__areaitem__info__item__row item__row__right">
+											<div class="btn-icon message2agent" data-toggle="tooltip" data-placement="bottom" title="Написать&nbsp;агенту"><i class="icon-message"></i></div>
+											<div class="btn-offer-favorite btn-icon" data-toggle="tooltip" data-placement="bottom" title="Добавить&nbsp;в&nbsp;избранное"><i class="icon-favorite"></i></div>
+											<a class="btn-icon" href="advertiser_campaigns_reports.html" data-toggle="tooltip" data-placement="bottom" title="Отчет"><i class="icon-reports"></i></a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="content__body__areaitem__info__descr offers__descr">Описание:<br>Активный цитатник с адекватной ценой за размещение поста. Успей заказать рекламу до конца февраля с хорошей скидкой.</div>
+						</div>
+					</div> <!-- .content__body__areaitem -->
+					<div class="content__body__areaitem youtube-textlink clearfix">
+						<div class="content__body__areaitem__photo">
+							<img src="img/areaitem-photo.jpg" alt="nameorwhat?">
+						</div>
+						<div class="content__body__areaitem__info">
+							<div class="content__body__areaitem__info__main clearfix">
+								<div class="content__body__areaitem__info__main__left">
+									<a class="offers__rowh1 content__body__areaitem__info__main__left__title no-icon" href="#">Youtube: Текстовая реклама</a>
+									<div class="offers__row offers__icontext"><i class="icon icon-response-time"></i>Время отклика: 5 мин.</div>
+									<div class="offers__row content__body__areaitem__info__main__left__online"><i class="icon offline icon-online"></i>3 дня назад</div>
+									<div class="offers__row offers__icontext offers__inlineblock" data-toggle="tooltip" data-placement="bottom" title="Дата&nbsp;и&nbsp;время&nbsp;публикации"><i class="icon icon-calendar"></i>15.02.2016 в 23:30</div>
+									<div class="offers__row offers__icontext"><i class="icon icon-accept"></i>Согласился</div>
+								</div>
+								<div class="content__body__areaitem__info__main__middle clearfix">
+									<div class="content__body__areaitem__info__item">
+										<div class="content__body__areaitem__info__item__row item__row__title">Участников</div>
+										<div class="content__body__areaitem__info__item__row" data-toggle="tooltip" data-placement="bottom" title="Количество&nbsp;подписчиков">120000000</div>
+										<div class="content__body__areaitem__info__item__row" data-toggle="tooltip" data-placement="bottom" title="Количество&nbsp;комментариев"><i class="icon icon-comments-bold"></i>10000</div>
+									</div>
+									<div class="content__body__areaitem__info__item">
+										<div class="content__body__areaitem__info__item__row item__row__title">Охват</div>
+										<div class="content__body__areaitem__info__item__row" data-toggle="tooltip" data-placement="bottom" title="Охват&nbsp;рекламы">120000000</div>
+									</div>
+									<div class="content__body__areaitem__info__item">
+										<div class="content__body__areaitem__info__item__row item__row__title">ER</div>
+										<div class="content__body__areaitem__info__item__row" data-toggle="tooltip" data-placement="bottom" title="ER&nbsp;сообщества">120000000</div>
+									</div>
+									<div class="content__body__areaitem__info__item">
+										<div class="content__body__areaitem__info__item__row item__row__title">Цена</div>
+										<div class="content__body__areaitem__info__item__row" data-toggle="tooltip" data-placement="bottom" title="Стоимость&nbsp;размещенгия&nbsp;за&nbsp;24&nbsp;часа">120000000</div>
+									</div>
+									<div class="content__body__areaitem__info__item">
+										<div class="content__body__areaitem__info__item__row item__row__title">Заработано</div>
+										<div class="content__body__areaitem__info__item__row" data-toggle="tooltip" data-placement="bottom" title="Заработано">120000000 р.</div>
+									</div>
+								</div>
+								<div class="content__body__areaitem__info__main__right">
+									<div class="content__body__areaitem__info__item">
+										<div class="content__body__areaitem__info__item__row item__row__title">Управление:</div>
+										<div class="content__body__areaitem__info__item__row item__row__right">
+											<div class="btn-icon message2agent" data-toggle="tooltip" data-placement="bottom" title="Написать&nbsp;агенту"><i class="icon-message"></i></div>
+											<div class="btn-offer-favorite btn-icon" data-toggle="tooltip" data-placement="bottom" title="Добавить&nbsp;в&nbsp;избранное"><i class="icon-favorite"></i></div>
+											<a class="btn-icon" href="advertiser_campaigns_reports.html" data-toggle="tooltip" data-placement="bottom" title="Отчет"><i class="icon-reports"></i></a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="content__body__areaitem__info__descr offers__descr">Описание:<br>Активный цитатник с адекватной ценой за размещение поста. Успей заказать рекламу до конца февраля с хорошей скидкой.</div>
+						</div>
+					</div> <!-- .content__body__areaitem -->
+					<div class="content__body__areaitem vk clearfix">
+						<div class="content__body__areaitem__photo">
+							<img src="img/areaitem-photo.jpg" alt="nameorwhat?">
+						</div>
+						<div class="content__body__areaitem__info">
+							<div class="content__body__areaitem__info__main clearfix">
+								<div class="content__body__areaitem__info__main__left">
+									<a class="offers__rowh1 content__body__areaitem__info__main__left__title no-icon" href="#">Не верь не бойся не</a>
+									<div class="offers__row offers__icontext"><i class="icon icon-response-time"></i>Время отклика: 5 мин.</div>
+									<div class="offers__row content__body__areaitem__info__main__left__online"><i class="icon offline icon-online"></i>3 дня назад</div>
+									<div class="offers__row offers__icontext offers__inlineblock" data-toggle="tooltip" data-placement="bottom" title="Дата&nbsp;и&nbsp;время&nbsp;публикации"><i class="icon icon-calendar"></i>15.02.2016 в 23:30</div>
+									<div class="offers__row offers__icontext"><i class="icon icon-accept"></i>Согласился</div>
+								</div>
+								<div class="content__body__areaitem__info__main__middle clearfix">
+									<div class="content__body__areaitem__info__item">
+										<div class="content__body__areaitem__info__item__row item__row__title">Участников</div>
+										<div class="content__body__areaitem__info__item__row" data-toggle="tooltip" data-placement="bottom" title="Количество&nbsp;подписчиков">120000000</div>
+										<div class="content__body__areaitem__info__item__row" data-toggle="tooltip" data-placement="bottom" title="Мужчины"><i class="icon icon-man"></i>100%</div>
+										<div class="content__body__areaitem__info__item__row" data-toggle="tooltip" data-placement="bottom" title="Женщины"><i class="icon icon-woman"></i>100%</div>
+									</div>
+									<div class="content__body__areaitem__info__item">
+										<div class="content__body__areaitem__info__item__row item__row__title">Охват</div>
+										<div class="content__body__areaitem__info__item__row" data-toggle="tooltip" data-placement="bottom" title="Охват&nbsp;рекламы">120000000</div>
+										<div class="content__body__areaitem__info__item__row" data-toggle="tooltip" data-placement="bottom" title="Среднее&nbsp;количество&nbsp;лайков"><i class="icon icon-like-fill"></i>10000</div>
+										<div class="content__body__areaitem__info__item__row" data-toggle="tooltip" data-placement="bottom" title="Среднее&nbsp;количество&nbsp;комментариев"><i class="icon icon-comments-bold"></i>10000</div>
+									</div>
+									<div class="content__body__areaitem__info__item">
+										<div class="content__body__areaitem__info__item__row item__row__title">ER</div>
+										<div class="content__body__areaitem__info__item__row" data-toggle="tooltip" data-placement="bottom" title="ER&nbsp;сообщества">120000000</div>
+										<div class="content__body__areaitem__info__item__row" data-toggle="tooltip" data-placement="bottom" title="ПК"><i class="icon icon-desktop"></i>100%</div>
+										<div class="content__body__areaitem__info__item__row" data-toggle="tooltip" data-placement="bottom" title="Мобильные&nbsp;устройства"><i class="icon icon-mobile"></i>100%</div>
+									</div>
+									<div class="content__body__areaitem__info__item">
+										<div class="content__body__areaitem__info__item__row item__row__title">Цена</div>
+										<div class="content__body__areaitem__info__item__row" data-toggle="tooltip" data-placement="bottom" title="Стоимость&nbsp;размещенгия&nbsp;за&nbsp;24&nbsp;часа">120000000</div>
+										<div class="content__body__areaitem__info__item__row" data-toggle="tooltip" data-placement="bottom" title="Стоимость&nbsp;записей&nbsp;за&nbsp;24&nbsp;часа"><i class="icon icon-recording"></i>20</div>
+									</div>
+									<div class="content__body__areaitem__info__item">
+										<div class="content__body__areaitem__info__item__row item__row__title">Заработано</div>
+										<div class="content__body__areaitem__info__item__row" data-toggle="tooltip" data-placement="bottom" title="Заработано">120000000 р.</div>
+									</div>
+								</div>
+								<div class="content__body__areaitem__info__main__right">
+									<div class="content__body__areaitem__info__item">
+										<div class="content__body__areaitem__info__item__row item__row__title">Управление:</div>
+										<div class="content__body__areaitem__info__item__row item__row__right">
+											<div class="btn-icon message2agent" data-toggle="tooltip" data-placement="bottom" title="Написать&nbsp;агенту"><i class="icon-message"></i></div>
+											<div class="btn-offer-favorite btn-icon" data-toggle="tooltip" data-placement="bottom" title="Добавить&nbsp;в&nbsp;избранное"><i class="icon-favorite"></i></div>
+											<a class="btn-icon" href="advertiser_campaigns_reports.html" data-toggle="tooltip" data-placement="bottom" title="Отчет"><i class="icon-reports"></i></a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="content__body__areaitem__info__descr offers__descr">Описание:<br>Активный цитатник с адекватной ценой за размещение поста. Успей заказать рекламу до конца февраля с хорошей скидкой.</div>
+						</div>
+					</div> <!-- .content__body__areaitem -->
+					<div class="content__body__areaitem twitter clearfix">
+						<div class="content__body__areaitem__photo">
+							<img src="img/areaitem-photo.jpg" alt="nameorwhat?">
+						</div>
+						<div class="content__body__areaitem__info">
+							<div class="content__body__areaitem__info__main clearfix">
+								<div class="content__body__areaitem__info__main__left">
+									<a class="offers__rowh1 content__body__areaitem__info__main__left__title no-icon" href="#">Не верь не бойся не</a>
+									<div class="offers__row offers__icontext"><i class="icon icon-response-time"></i>Время отклика: 5 мин.</div>
+									<div class="offers__row content__body__areaitem__info__main__left__online"><i class="icon offline icon-online"></i>3 дня назад</div>
+									<div class="offers__row offers__icontext offers__inlineblock" data-toggle="tooltip" data-placement="bottom" title="Дата&nbsp;и&nbsp;время&nbsp;публикации"><i class="icon icon-calendar"></i>15.02.2016 в 23:30</div>
+									<div class="offers__row offers__icontext"><i class="icon icon-accept"></i>Согласился</div>
+								</div>
+								<div class="content__body__areaitem__info__main__middle clearfix">
+									<div class="content__body__areaitem__info__item">
+										<div class="content__body__areaitem__info__item__row item__row__title">Участников</div>
+										<div class="content__body__areaitem__info__item__row" data-toggle="tooltip" data-placement="bottom" title="Количество&nbsp;подписчиков">120000000</div>
+									</div>
+									<div class="content__body__areaitem__info__item">
+										<div class="content__body__areaitem__info__item__row item__row__title">Цена</div>
+										<div class="content__body__areaitem__info__item__row" data-toggle="tooltip" data-placement="bottom" title="Стоимость&nbsp;размещенгия&nbsp;за&nbsp;24&nbsp;часа">120000000</div>
+									</div>
+									<div class="content__body__areaitem__info__item">
+										<div class="content__body__areaitem__info__item__row item__row__title">Заработано</div>
+										<div class="content__body__areaitem__info__item__row" data-toggle="tooltip" data-placement="bottom" title="Заработано">120000000 р.</div>
+									</div>
+								</div>
+								<div class="content__body__areaitem__info__main__right">
+									<div class="content__body__areaitem__info__item">
+										<div class="content__body__areaitem__info__item__row item__row__title">Управление:</div>
+										<div class="content__body__areaitem__info__item__row item__row__right">
+											<div class="btn-icon message2agent" data-toggle="tooltip" data-placement="bottom" title="Написать&nbsp;агенту"><i class="icon-message"></i></div>
+											<div class="btn-offer-favorite btn-icon" data-toggle="tooltip" data-placement="bottom" title="Добавить&nbsp;в&nbsp;избранное"><i class="icon-favorite"></i></div>
+											<a class="btn-icon" href="advertiser_campaigns_reports.html" data-toggle="tooltip" data-placement="bottom" title="Отчет"><i class="icon-reports"></i></a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="content__body__areaitem__info__descr offers__descr">Описание:<br>Активный цитатник с адекватной ценой за размещение поста. Успей заказать рекламу до конца февраля с хорошей скидкой.</div>
+						</div>
+					</div> <!-- .content__body__areaitem -->
+					<div class="content__body__areaitem googleplus clearfix">
+						<div class="content__body__areaitem__photo">
+							<img src="img/areaitem-photo.jpg" alt="nameorwhat?">
+						</div>
+						<div class="content__body__areaitem__info">
+							<div class="content__body__areaitem__info__main clearfix">
+								<div class="content__body__areaitem__info__main__left">
+									<a class="offers__rowh1 content__body__areaitem__info__main__left__title no-icon" href="#">Не верь не бойся не</a>
+									<div class="offers__row offers__icontext"><i class="icon icon-response-time"></i>Время отклика: 5 мин.</div>
+									<div class="offers__row content__body__areaitem__info__main__left__online"><i class="icon offline icon-online"></i>3 дня назад</div>
+									<div class="offers__row offers__icontext offers__inlineblock" data-toggle="tooltip" data-placement="bottom" title="Дата&nbsp;и&nbsp;время&nbsp;публикации"><i class="icon icon-calendar"></i>15.02.2016 в 23:30</div>
+									<div class="offers__row offers__icontext"><i class="icon icon-accept"></i>Согласился</div>
+								</div>
+								<div class="content__body__areaitem__info__main__middle clearfix">
+									<div class="content__body__areaitem__info__item">
+										<div class="content__body__areaitem__info__item__row item__row__title">Участников</div>
+										<div class="content__body__areaitem__info__item__row" data-toggle="tooltip" data-placement="bottom" title="Количество&nbsp;подписчиков">120000000</div>
+									</div>
+									<div class="content__body__areaitem__info__item">
+										<div class="content__body__areaitem__info__item__row item__row__title">Охват</div>
+										<div class="content__body__areaitem__info__item__row" data-toggle="tooltip" data-placement="bottom" title="Охват&nbsp;рекламы">120000000</div>
+									</div>
+									<div class="content__body__areaitem__info__item">
+										<div class="content__body__areaitem__info__item__row item__row__title">Цена</div>
+										<div class="content__body__areaitem__info__item__row" data-toggle="tooltip" data-placement="bottom" title="Стоимость&nbsp;размещенгия&nbsp;за&nbsp;24&nbsp;часа">120000000</div>
+									</div>
+									<div class="content__body__areaitem__info__item">
+										<div class="content__body__areaitem__info__item__row item__row__title">Заработано</div>
+										<div class="content__body__areaitem__info__item__row" data-toggle="tooltip" data-placement="bottom" title="Заработано">120000000 р.</div>
+									</div>
+								</div>
+								<div class="content__body__areaitem__info__main__right">
+									<div class="content__body__areaitem__info__item">
+										<div class="content__body__areaitem__info__item__row item__row__title">Управление:</div>
+										<div class="content__body__areaitem__info__item__row item__row__right">
+											<div class="btn-icon message2agent" data-toggle="tooltip" data-placement="bottom" title="Написать&nbsp;агенту"><i class="icon-message"></i></div>
+											<div class="btn-offer-favorite btn-icon" data-toggle="tooltip" data-placement="bottom" title="Добавить&nbsp;в&nbsp;избранное"><i class="icon-favorite"></i></div>
+											<a class="btn-icon" href="advertiser_campaigns_reports.html" data-toggle="tooltip" data-placement="bottom" title="Отчет"><i class="icon-reports"></i></a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="content__body__areaitem__info__descr offers__descr">Описание:<br>Активный цитатник с адекватной ценой за размещение поста. Успей заказать рекламу до конца февраля с хорошей скидкой.</div>
+						</div>
+					</div> <!-- .content__body__areaitem -->
+					<div class="content__body__areaitem facebook clearfix">
+						<div class="content__body__areaitem__photo">
+							<img src="img/areaitem-photo.jpg" alt="nameorwhat?">
+						</div>
+						<div class="content__body__areaitem__info">
+							<div class="content__body__areaitem__info__main clearfix">
+								<div class="content__body__areaitem__info__main__left">
+									<a class="offers__rowh1 content__body__areaitem__info__main__left__title no-icon" href="#">Не верь не бойся не</a>
+									<div class="offers__row offers__icontext"><i class="icon icon-response-time"></i>Время отклика: 5 мин.</div>
+									<div class="offers__row content__body__areaitem__info__main__left__online"><i class="icon offline icon-online"></i>3 дня назад</div>
+									<div class="offers__row offers__icontext offers__inlineblock" data-toggle="tooltip" data-placement="bottom" title="Дата&nbsp;и&nbsp;время&nbsp;публикации"><i class="icon icon-calendar"></i>15.02.2016 в 23:30</div>
+									<div class="offers__row offers__icontext"><i class="icon icon-accept"></i>Согласился</div>
+								</div>
+								<div class="content__body__areaitem__info__main__middle clearfix">
+									<div class="content__body__areaitem__info__item">
+										<div class="content__body__areaitem__info__item__row item__row__title">Участников</div>
+										<div class="content__body__areaitem__info__item__row" data-toggle="tooltip" data-placement="bottom" title="Количество&nbsp;подписчиков">120000000</div>
+									</div>
+									<div class="content__body__areaitem__info__item">
+										<div class="content__body__areaitem__info__item__row item__row__title">Охват</div>
+										<div class="content__body__areaitem__info__item__row" data-toggle="tooltip" data-placement="bottom" title="Охват&nbsp;рекламы">120000000</div>
+									</div>
+									<div class="content__body__areaitem__info__item">
+										<div class="content__body__areaitem__info__item__row item__row__title">Цена</div>
+										<div class="content__body__areaitem__info__item__row" data-toggle="tooltip" data-placement="bottom" title="Стоимость&nbsp;размещенгия&nbsp;за&nbsp;24&nbsp;часа">120000000</div>
+									</div>
+									<div class="content__body__areaitem__info__item">
+										<div class="content__body__areaitem__info__item__row item__row__title">Заработано</div>
+										<div class="content__body__areaitem__info__item__row" data-toggle="tooltip" data-placement="bottom" title="Заработано">120000000 р.</div>
+									</div>
+								</div>
+								<div class="content__body__areaitem__info__main__right">
+									<div class="content__body__areaitem__info__item">
+										<div class="content__body__areaitem__info__item__row item__row__title">Управление:</div>
+										<div class="content__body__areaitem__info__item__row item__row__right">
+											<div class="btn-icon message2agent" data-toggle="tooltip" data-placement="bottom" title="Написать&nbsp;агенту"><i class="icon-message"></i></div>
+											<div class="btn-offer-favorite btn-icon" data-toggle="tooltip" data-placement="bottom" title="Добавить&nbsp;в&nbsp;избранное"><i class="icon-favorite"></i></div>
+											<a class="btn-icon" href="advertiser_campaigns_reports.html" data-toggle="tooltip" data-placement="bottom" title="Отчет"><i class="icon-reports"></i></a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="content__body__areaitem__info__descr offers__descr">Описание:<br>Активный цитатник с адекватной ценой за размещение поста. Успей заказать рекламу до конца февраля с хорошей скидкой.</div>
+						</div>
+					</div> <!-- .content__body__areaitem -->
+				</div> <!-- .content__body -->
+				<div class="pagination">
+					<a href="#" class="pagination__lnk active">1</a>
+					<a href="#" class="pagination__lnk">2</a>
+					<a href="#" class="pagination__lnk">3</a>
+					<a href="#" class="pagination__lnk">4</a>
+					<a href="#" class="pagination__lnk">5</a>
+					<a href="#" class="pagination__lnk">...</a>
+					<a href="#" class="pagination__lnk">56</a>
+					<a href="#" class="pagination__lnk">57</a>
+				</div>
+			</div> <!-- .content__inner -->
+		</div> <!-- .content -->
+		<div class="sidebarright">
+			<div class="sidebarright__inner clearfix" data-simplebar-direction="vertical">
+				<div class="sidebarright__inner-padding">
+					<div class="clearfix">
+						<button class="sidebarright__close"><i class="icon-close"></i></button>
+					</div>
+					<div class="search clearfix">
+						<form class="search-form" action="" method="post">
+							<input class="search-input" type="text" name="search-messages" placeholder="Поиск">
+							<button class="btn-icon search-button" type="submit"><i class="icon-search"></i></button>
+						</form>
+					</div>
+					<div class="chain-messages clearfix">
+						<div class="chain-messages__photo">
+							<div class="chain-messages__img">
+								<img src="img/user-0001-ava-small.jpg" alt="">
+							</div>
+							<div class="online"></div>
+						</div>
+						<div class="chain-messages__text">
+							<div class="chain-messages__name">Анастасия Бежена</div>
+							<div class="chain-messages__message">Проверьте задание, сколько можно ждать программ ещедлинный текст, который уже не видно но без троеточия((</div>
+						</div>
+						<button class="chain-messages__del"><i class="icon-delete"></i></button>
+					</div> <!-- .chain-messages -->
+					<div class="chain-messages clearfix">
+						<div class="chain-messages__photo">
+							<div class="chain-messages__img">
+								<img src="img/user-0003-ava-small.jpg" alt="">
+							</div>
+							<div class="online"></div>
+						</div>
+						<div class="chain-messages__text">
+							<div class="chain-messages__name">Игорь Юртаев</div>
+							<div class="chain-messages__message">По какому сроку действуем?</div>
+						</div>
+						<button class="chain-messages__del"><i class="icon-delete"></i></button>
+					</div> <!-- .chain-messages -->
+					<div class="chain-messages clearfix">
+						<div class="chain-messages__photo">
+							<div class="chain-messages__img">
+								<img src="img/user-0002-ava-small.jpg" alt="">
+							</div>
+							<div class="online offline"></div>
+						</div>
+						<div class="chain-messages__text">
+							<div class="chain-messages__name">Ваня Поддубный</div>
+							<div class="chain-messages__message">Проверьте задание, сколько можно ждать программ...</div>
+						</div>
+						<button class="chain-messages__del"><i class="icon-delete"></i></button>
+					</div> <!-- .chain-messages -->
+					<div class="chain-messages clearfix">
+						<div class="chain-messages__photo">
+							<div class="chain-messages__img">
+								<img src="img/user-0001-ava-small.jpg" alt="">
+							</div>
+							<div class="online"></div>
+						</div>
+						<div class="chain-messages__text">
+							<div class="chain-messages__name">Анастасия Бежена</div>
+							<div class="chain-messages__message">По какому сроку действуем?</div>
+						</div>
+						<button class="chain-messages__del"><i class="icon-delete"></i></button>
+					</div> <!-- .chain-messages -->
+					<div class="chain-messages clearfix">
+						<div class="chain-messages__photo">
+							<div class="chain-messages__img">
+								<img src="img/user-0003-ava-small.jpg" alt="">
+							</div>
+							<div class="online"></div>
+						</div>
+						<div class="chain-messages__text">
+							<div class="chain-messages__name">Игорь Юртаев</div>
+							<div class="chain-messages__message">По какому сроку действуем?</div>
+						</div>
+						<button class="chain-messages__del"><i class="icon-delete"></i></button>
+					</div> <!-- .chain-messages -->
+					<div class="chain-messages clearfix">
+						<div class="chain-messages__photo">
+							<div class="chain-messages__img">
+								<img src="img/user-0002-ava-small.jpg" alt="">
+							</div>
+							<div class="online offline"></div>
+						</div>
+						<div class="chain-messages__text">
+							<div class="chain-messages__name">Ваня Поддубный</div>
+							<div class="chain-messages__message">Проверьте задание, сколько можно ждать программ...</div>
+						</div>
+						<button class="chain-messages__del"><i class="icon-delete"></i></button>
+					</div> <!-- .chain-messages -->
+					<div class="chain-messages clearfix">
+						<div class="chain-messages__photo">
+							<div class="chain-messages__img">
+								<img src="img/user-0001-ava-small.jpg" alt="">
+							</div>
+							<div class="online"></div>
+						</div>
+						<div class="chain-messages__text">
+							<div class="chain-messages__name">Анастасия Бежена</div>
+							<div class="chain-messages__message">По какому сроку действуем?</div>
+						</div>
+						<button class="chain-messages__del"><i class="icon-delete"></i></button>
+					</div> <!-- .chain-messages -->
+					<div class="chain-messages clearfix">
+						<div class="chain-messages__photo">
+							<div class="chain-messages__img">
+								<img src="img/user-0003-ava-small.jpg" alt="">
+							</div>
+							<div class="online"></div>
+						</div>
+						<div class="chain-messages__text">
+							<div class="chain-messages__name">Игорь Юртаев</div>
+							<div class="chain-messages__message">По какому сроку действуем?</div>
+						</div>
+						<button class="chain-messages__del"><i class="icon-delete"></i></button>
+					</div> <!-- .chain-messages -->
+					<div class="chain-messages clearfix">
+						<div class="chain-messages__photo">
+							<div class="chain-messages__img">
+								<img src="img/user-0002-ava-small.jpg" alt="">
+							</div>
+							<div class="online offline"></div>
+						</div>
+						<div class="chain-messages__text">
+							<div class="chain-messages__name">Ваня Поддубный</div>
+							<div class="chain-messages__message">Проверьте задание, сколько можно ждать программ...</div>
+						</div>
+						<button class="chain-messages__del"><i class="icon-delete"></i></button>
+					</div> <!-- .chain-messages -->
+					<div class="chain-messages clearfix">
+						<div class="chain-messages__photo">
+							<div class="chain-messages__img">
+								<img src="img/user-0001-ava-small.jpg" alt="">
+							</div>
+							<div class="online"></div>
+						</div>
+						<div class="chain-messages__text">
+							<div class="chain-messages__name">Анастасия Бежена</div>
+							<div class="chain-messages__message">По какому сроку действуем?</div>
+						</div>
+						<button class="chain-messages__del"><i class="icon-delete"></i></button>
+					</div> <!-- .chain-messages -->
+					<div class="chain-messages clearfix">
+						<div class="chain-messages__photo">
+							<div class="chain-messages__img">
+								<img src="img/user-0003-ava-small.jpg" alt="">
+							</div>
+							<div class="online"></div>
+						</div>
+						<div class="chain-messages__text">
+							<div class="chain-messages__name">Игорь Юртаев</div>
+							<div class="chain-messages__message">По какому сроку действуем?</div>
+						</div>
+						<button class="chain-messages__del"><i class="icon-delete"></i></button>
+					</div> <!-- .chain-messages -->
+					<div class="chain-messages clearfix">
+						<div class="chain-messages__photo">
+							<div class="chain-messages__img">
+								<img src="img/user-0002-ava-small.jpg" alt="">
+							</div>
+							<div class="online offline"></div>
+						</div>
+						<div class="chain-messages__text">
+							<div class="chain-messages__name">Ваня Поддубный</div>
+							<div class="chain-messages__message">Проверьте задание, сколько можно ждать программ...</div>
+						</div>
+						<button class="chain-messages__del"><i class="icon-delete"></i></button>
+					</div> <!-- .chain-messages -->
+					<div class="chain-messages clearfix">
+						<div class="chain-messages__photo">
+							<div class="chain-messages__img">
+								<img src="img/user-0001-ava-small.jpg" alt="">
+							</div>
+							<div class="online"></div>
+						</div>
+						<div class="chain-messages__text">
+							<div class="chain-messages__name">Анастасия Бежена</div>
+							<div class="chain-messages__message">По какому сроку действуем?</div>
+						</div>
+						<button class="chain-messages__del"><i class="icon-delete"></i></button>
+					</div> <!-- .chain-messages -->
+					<div class="chain-messages clearfix">
+						<div class="chain-messages__photo">
+							<div class="chain-messages__img">
+								<img src="img/user-0003-ava-small.jpg" alt="">
+							</div>
+							<div class="online"></div>
+						</div>
+						<div class="chain-messages__text">
+							<div class="chain-messages__name">Игорь Юртаев</div>
+							<div class="chain-messages__message">По какому сроку действуем?</div>
+						</div>
+						<button class="chain-messages__del"><i class="icon-delete"></i></button>
+					</div> <!-- .chain-messages -->
+					<div class="chain-messages clearfix">
+						<div class="chain-messages__photo">
+							<div class="chain-messages__img">
+								<img src="img/user-0002-ava-small.jpg" alt="">
+							</div>
+							<div class="online offline"></div>
+						</div>
+						<div class="chain-messages__text">
+							<div class="chain-messages__name">Ваня Поддубный</div>
+							<div class="chain-messages__message">Проверьте задание, сколько можно ждать программ...</div>
+						</div>
+						<button class="chain-messages__del"><i class="icon-delete"></i></button>
+					</div> <!-- .chain-messages -->
+				</div> <!-- .sidebarright__inner-padding -->
+			</div> <!-- .sidebarright__inner -->
+			<div class="chain-messages-dialog">
+				<div class="chain-messages-dialog__header clearfix">Анастасия Бежена<button class="btn-dialog-close icon-close"></button></div>
+				<div class="chain-messages-dialog__messages" data-simplebar-direction="vertical">
+					<div class="chain-messages-dialog__messages-inner">
+						<div class="message clearfix">
+							<div class="message__photo">
+								<div class="message__img">
+									<img src="img/user-0001-ava-small.jpg" alt="">
+								</div>
+								<div class="online offline"></div>
+							</div>
+							<div class="message__info">
+								<div class="message__text">Проверьте задание, сколько можно ждать программ...<br>Которые не расчитаны на общепринятые действия, когда в друг</div>
+								<div class="message__date">15.02.2016 в 13:45</div>
+							</div>
+						</div> <!-- .message -->
+						<div class="message clearfix">
+							<div class="message__photo">
+								<div class="message__img">
+									<img src="img/user-0002-ava-small.jpg" alt="">
+								</div>
+								<div class="online"></div>
+							</div>
+							<div class="message__info">
+								<div class="message__text my">Задание проверили, смотрите в готовых у вас</div>
+								<div class="message__date">15.02.2016 в 13:45</div>
+							</div>
+						</div> <!-- .message -->
+						<div class="message clearfix">
+							<div class="message__photo">
+								<div class="message__img">
+									<img src="img/user-0001-ava-small.jpg" alt="">
+								</div>
+								<div class="online offline"></div>
+							</div>
+							<div class="message__info">
+								<div class="message__text">Проверьте задание, сколько можно ждать программ...<br>Которые не расчитаны на общепринятые действия, когда в друг</div>
+								<div class="message__date">15.02.2016 в 13:45</div>
+							</div>
+						</div> <!-- .message -->
+						<div class="message clearfix">
+							<div class="message__photo">
+								<div class="message__img">
+									<img src="img/user-0002-ava-small.jpg" alt="">
+								</div>
+								<div class="online"></div>
+							</div>
+							<div class="message__info">
+								<div class="message__text my">Задание проверили, смотрите в готовых у вас</div>
+								<div class="message__date">15.02.2016 в 13:45</div>
+							</div>
+						</div> <!-- .message -->
+					</div> <!-- .chain-messages-dialog__messages-inner -->
+				</div> <!-- .chain-messages-dialog__messages -->
+				<div class="chain-messages-dialog__textarea-container">
+					<form action="" method="post">
+						<textarea class="chain-messages-dialog__textarea" name="message" placeholder="Введите сообщение"></textarea>
+					</form>
+				</div>
+			</div>
+		</div> <!-- .sidebarright -->
+	</div>
+	<!--[if lt IE 9]>
+	<script src="js/html5shiv/es5-shim.min.js"></script>
+	<script src="js/html5shiv/html5shiv.min.js"></script>
+	<script src="js/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="js/html5shiv/respond.min.js"></script>
+	<![endif]-->
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/simplebar.min.js"></script>
+	<script src="js/jquery.customSelect.min.js"></script>
+	<script src="js/bootstrap.tooltip.min.js"></script>
+	<script src="js/bootstrap-slider.min.js"></script>
+	<script src="js/fancybox/jquery.fancybox.pack.js"></script>
+	<script src="js/jquery.smoothscroll.js"></script>
+	<script src="js/jquery.scrollTo.min.js"></script>
+	<script src="js/jquery.textPlaceholder.js"></script>
+	<script src="js/jquery.pickmeup.min.js"></script>
+	<script src="js/common.js"></script>
+	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>

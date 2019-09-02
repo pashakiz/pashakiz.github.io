@@ -1,0 +1,218 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+	.first-screen__h1 {
+		font-size: 50px;
+	}
+	.btn {
+		width: auto;
+		letter-spacing: 4px;
+		padding: 30px 65px;
+	}
+	.btn-first-screen {
+		margin-bottom: 40px;
+	}
+	.col-custom {
+		width: 50%;
+		float: left;
+	}
+	.reviews__slider__item {
+		width: 370px;
+		/* height: 407px; */
+	}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	.first-screen__h1 {
+		font-size: 60px;
+	}
+	.parners__lnk {
+		margin: 0 auto 0;
+	}
+	.parners__lnk.yandex {
+		margin: 5px auto 0;
+	}
+	.bottom__item {
+		padding: 47px 50px 52px;
+	}
+	.bottom__item__pricelist {
+		padding: 0 50px;
+	}
+	.bottom__item__pricelist__row {
+		font-size: 18px;
+		line-height: 40px;
+		margin-bottom: 10px;
+	}
+	.bottom__item__bottomtext {
+		padding: 3px 50px 0;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	.col-custom {
+		width: 25%;
+	}
+	.header .btn-nav-toggle {
+		display: none;
+	}
+	.header .nav {
+		display: block;
+		float: right;
+		margin: 0;
+		text-align: left;
+	}
+	.header .nav .nav-item {
+		float: left;
+		margin-right: 9px;
+	}
+	.header .nav .nav-item .nav-item-lnk,
+	.header.fixed_menu .nav .nav-item .nav-item-lnk.btn-on-fixed {
+		padding-right: 28px;
+		padding-left: 28px;
+	}
+	.first-screen__h1 {
+		margin-top: 97px;
+	}
+	.first-screen__h2 {
+		font-size: 30px;
+	}
+	.forwho__item {
+		margin-bottom: 0;
+	}
+	.features__item {
+		height: 344px;
+	}
+	.features__item.wide {
+		padding: 67px 100px 50px;
+	}
+	.programm__course__title {
+		position: static;
+		padding: 0;
+		background-color: transparent;
+	}
+	.programm__course__title__count {
+		float: left;
+		width: 45px;
+		height: 110px;
+		background-color: transparent;
+		background-image: url(../img/sprite.png);
+		background-repeat: no-repeat;
+		background-position: -679px -18px;
+		position: relative;
+	}
+	.programm__course__title__count__inner {
+		top: 30px;
+		left: -35px;
+		margin-left: 0;
+	}
+	.programm__course__title__text {
+		float: left;
+		font-size: 28px;
+		height: 110px;
+		width: 733px;
+		padding: 46px 25px 0;
+		text-align: left;
+	}
+	.programm__course__about {
+		padding: 0 70px 45px;
+	}
+	.programm__course__more {
+		padding: 0 70px 0;
+	}
+	.bottom__item {
+		padding: 47px 50px 52px;
+	}
+	.bottom__item__title {
+		font-size: 36px;
+		line-height: 60px;
+	}
+	.bottom__item__pricelist {
+		padding: 0;
+	}
+	.bottom__item__btn-bottom-coursera {
+		width: 406px;
+	}
+	.bottom__item__bottomtext {
+		padding: 3px 0 0;
+	}
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	.header .nav .nav-item .nav-item-lnk {
+		padding-right: 50px;
+		padding-left: 50px;
+	}
+	.header.fixed_menu .nav .nav-item .nav-item-lnk.btn-on-fixed {
+		padding-right: 45px;
+		padding-left: 45px;
+	}
+	.btn-first-screen {
+		margin-bottom: 15px;
+	}
+	.forwho__sidebar {
+		margin-top: 0;
+	}
+	.features__item {
+		height: 280px;
+	}
+	.features__item.wide {
+		padding: 67px 100px 50px;
+	}
+	.programm__course__title__text {
+		width: 900px;
+	}
+	.parners__lnk {
+		margin: 0 0 0 205px;
+	}
+	.parners__lnk.yandex {
+		margin: 5px 0 0 114px;
+	}
+	.reviews__slider__item {
+		margin: 0;
+	}
+	.bottom__item__pricelist {
+		padding: 0 80px;
+	}
+	.bottom__item__bottomtext {
+		padding: 3px 80px 0;
+	}
+}

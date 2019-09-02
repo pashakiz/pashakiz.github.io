@@ -1,0 +1,53 @@
+- main image / thumbnail images must follow the rules on category.html regarding image containers
+- do not implement image switching or a light box
+
+- the gallery area must contain a hidden element with a class of "video-container"
+- if #product-container has the "playing-video" class the main image must be hidden and the "video-container" element must be shown
+- the "video-container" element must replace the main image, that is have the exact same width and height
+
+- mandatory markup:
+
+...
+<div id="product-container">
+	...
+	<ul class="form-errors">
+		<li>Error</li>
+		<li>Error</li>
+		<li>Error</li>
+	</ul>
+	...
+	<form action="" method="post" class="form-with-validation product-form">
+		...
+	</form>
+	...
+</div>
+...
+Related Products
+...
+
+- the price area must use the following markup:
+<div class="...">
+	<span class="product-price-value">&pound;9999.99</span>
+	<span class="product-sale-price-value">&pound;9999.99</span>
+</div>
+- the "product-sale-price-value" element must be hidden by default and visible only when #product-container has a class of "has-sale-price"
+
+- the reward points area must use the following markup:
+<div class="reward-points">
+	...
+	<span class="product-reward-points-value">99999</span>
+	...
+</div>
+- the "reward-points" element must be hidden by default and visible only when #product-container has a class of "has-reward-points"
+
+- the button area must use the following markup:
+<button class="... add-button">...</button>
+<div class="... out-of-stock-button">Out Of Stock</div>
+- the "add-button" element must be hidden by default and visible only when #product-container has a class of "can-be-added"
+- the "out-of-stock-button" element must be visible by default and hidden when #product-container has a class of "can-be-added"
+
+- the stock area must use the following markup:
+<span class="in-stock">...</span>
+<span class="out-of-stock">...</span>
+- the "in-stock" element must be hidden by default and visible only when #product-container has a class of "in-stock"
+- the "out-of-stock" element must be visible by default and hidden when #product-container has a class of "in-stock"

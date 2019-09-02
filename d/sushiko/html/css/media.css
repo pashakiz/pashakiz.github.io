@@ -1,0 +1,333 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+	.container {
+		width: auto;
+	}
+	.carousel__text {
+		width: auto;
+		padding: 17px 37px 26px;
+	}
+	.carousel__text__title {
+		font-size: 32px;
+		margin-bottom: 14px;
+	}
+	.carousel__text__descr {
+		font-size: 20px;
+	}
+	.carousel .owl-controls .owl-dots {
+		bottom: 25px;
+	}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	.container {
+		width: auto;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	.container {
+		width: auto;
+	}
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	.container {
+		width: 1010px;
+	}
+	header {
+		padding-top: 14px;
+	}
+	header .logo {
+		width: 277px;
+		height: 74px;
+		margin: 2px 30px 17px 0;
+	}
+	header .panel {
+		float: left;
+	}
+	header .panel .info {
+		padding-bottom: 12px;
+		border-bottom: 1px solid #707070;
+	}
+	header .panel .info .worktime {
+		display: block;
+	}
+	header .panel .info .phone {
+		display: block;
+	}
+	header .panel .info .basket {
+		color: #fff;
+		padding: 6px 14px 4px 9px;
+		border: 1px solid #ed1c24;
+		-webkit-border-radius: 30px;
+		-moz-border-radius: 30px;
+		border-radius: 30px;
+		margin-top: 7px;
+	}
+	header .panel .info .basket .icon-basket {
+		font-size: 18px;
+		margin-right: 22px;
+	}
+	header .panel .info .basket .icon-basket .basket-items-qty {
+		min-width: 14px;
+		padding: 2px 3px 2px 2px;
+		text-align: center;
+		background-color: #fff;
+		-webkit-border-radius: 7px;
+		-moz-border-radius: 7px;
+		border-radius: 7px;
+		color: #3d3c42;
+		font-family: Arial, sans-serif;
+		font-size: 10px;
+		letter-spacing: -1px;
+		position: absolute;
+		top: -3px;
+		left: 15px;
+	}
+	header .panel .info .basket .basket-title {
+		display: block;
+	}
+	header .panel .nav {
+		display: block;
+	}
+	header .btn-mobile-menu {
+		display: none;
+	}
+	header .panel .header-nav {
+		display: block;
+		margin: 0;
+		padding: 0;
+		background-color: transparent;
+		position: static;
+		width: auto;
+	}
+	header .panel .header-nav > li.btn-mobile-close {
+		display: none;
+	}
+	header .panel .header-nav > li {
+		float: left;
+		list-style: none;
+		margin-right: 18px;
+		text-align: left;
+	}
+	header .panel .header-nav > li > a {
+		display: block;
+	}
+	.carousel__slide {
+		height: 419px;
+		padding-top: 142px;
+	}
+	.benefit__container {
+		padding-top: 41px;
+	}
+	.benefit__items {
+		float: left;
+		width: 1032px;
+		position: relative;
+		left: -26px;
+	}
+	.benefit__items__item {
+		float: left;
+		padding: 0 26px 25px;
+	}
+	.categories__items {
+		float: left;
+		width: 1032px;
+		position: relative;
+		left: -26px;
+	}
+	.categories__item {
+		float: left;
+	}
+	.new-products__title {
+		margin: 15px 0;
+	}
+	.new-products__items {
+		float: left;
+		width: 1032px;
+		position: relative;
+		left: -26px;
+	}
+	.new-products__item {
+		float: left;
+		padding: 0 26px 62px;
+	}
+	.banners-bottom {
+		margin-top: 0;
+	}
+	.banners-bottom__banner {
+		float: left;
+		width: 50%;
+	}
+	.banner__text {
+		margin: 0 46px 0;
+	}
+	/* -------------------------- category (begin) -------------------------- */
+	.subcategory-nav {
+		text-align: center;
+		margin: 0 0 15px 0;
+	}
+	.subcategory-nav > li {
+		margin-right: 23px;
+		margin-bottom: 14px;
+	}
+	.subcategory-nav > li > a {
+		padding: 4px 16px 4px;
+		-webkit-border-radius: 16px;
+		-moz-border-radius: 16px;
+		border-radius: 16px;
+		font-size: 18px;
+	}
+	.category__item {
+		float: left;
+	}
+	.category__item.hover:hover {
+		border-color: #c7c7c7;
+		-webkit-box-shadow: 3px 3px 10px 0px rgba(195, 190, 195, 1);
+		-moz-box-shadow:    3px 3px 10px 0px rgba(195, 190, 195, 1);
+		box-shadow:         3px 3px 10px 0px rgba(195, 190, 195, 1);
+	}
+	.category__item.hover:hover .category__item__more {
+		display: block;
+	}
+	/* -------------------------- category (end) -------------------------- */
+	/* -------------------------- product (begin) -------------------------- */
+	.subcategory-nav.special4productpage {
+		border-bottom: none;
+	}
+	.product__img {
+		float: left;
+		width: 346px;
+		height: 309px;
+		margin-right: 50px;
+		margin-top: 0;
+	}
+	.product__info {
+		float: left;
+		width: 584px;
+	}
+	.product__info__title {
+		position: static;
+		margin-top: -5px;
+		border-top: none;
+		border-bottom: 1px solid #e9e9e9;
+	}
+	.product__info__ingredients {
+		padding: 16px 15px;
+	}
+	.product__info__ingredients .owl-controls .owl-nav {
+		display: block;
+	}
+	.product__info__ingredients .owl-controls .owl-dots .owl-dot {
+		display: none;
+	}
+	/* -------------------------- category (end) -------------------------- */
+	/* -------------------------- contacts (begin) -------------------------- */
+	.contacts__info-map {
+		padding-bottom: 0;
+	}
+	.contacts__info {
+		float: left;
+		width: 463px;
+	}
+	.contacts__map {
+		position: static;
+		float: right;
+		width: 517px;
+		height: 529px;
+	}
+	.contacts__info__item {
+		float: left;
+	}
+	.contacts__info__item.right {
+		float: right;
+		width: 150px;
+		margin-right: 10px;
+	}
+	#contacts_feedback input,
+	#contacts_feedback textarea {
+		width: 395px;
+	}
+	/* -------------------------- contacts (end) -------------------------- */
+	.footer-row1 {
+		height: 45px;
+	}
+	.footer-nav {
+		float: left;
+		padding: 0;
+	}
+	.footer-nav > li {
+		float: left;
+		margin-right: 34px;
+	}
+	.footer-nav > li:last-child {
+		margin-right: 0;
+	}
+	.footer-nav > li > a {
+		display: block;
+		padding: 14px 0 15px;
+	}
+	.footer-nav > li > a:hover,
+	.footer-nav > li.active > a {
+		padding-bottom: 12px;
+	}
+	.copy {
+		color: #fff;
+		position: static;
+		float: right;
+		padding-top: 14px;
+	}
+	.footer-row2 {
+		padding: 22px 0 20px 0;
+	}
+	.footer-contacts {
+		float: left;
+	}
+	.footer-social {
+		float: right;
+		margin: 20px 184px 0 0;
+	}
+	.footer-logo {
+		display: block;
+	}
+}

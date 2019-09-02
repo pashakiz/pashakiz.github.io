@@ -1,0 +1,72 @@
+@font-face {  font-family: 'proxima-nova';
+  src: url('https://fonts.shopwired.co.uk/proxima_nova/proxima_nova_100_normal.eot');
+  src: url('https://fonts.shopwired.co.uk/proxima_nova/proxima_nova_100_normal.eot?#iefi100') format('embedded-opentype'), url('https://fonts.shopwired.co.uk/proxima_nova/proxima_nova_100_normal.woff2') format('woff2'), url('https://fonts.shopwired.co.uk/proxima_nova/proxima_nova_100_normal.woff') format('woff'), url('https://fonts.shopwired.co.uk/proxima_nova/proxima_nova_100_normal.ttf') format('truetype'), url('https://fonts.shopwired.co.uk/proxima_nova/proxima_nova_100_normal.svg#proximanova100') format('svg');
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {  font-family: 'proxima-nova';
+  src: url('https://fonts.shopwired.co.uk/proxima_nova/proxima_nova300_normal.eot');
+  src: url('https://fonts.shopwired.co.uk/proxima_nova/proxima_nova300_normal.eot?#iefi300') format('embedded-opentype'), url('https://fonts.shopwired.co.uk/proxima_nova/proxima_nova300_normal.woff2') format('woff2'), url('https://fonts.shopwired.co.uk/proxima_nova/proxima_nova300_normal.woff') format('woff'), url('https://fonts.shopwired.co.uk/proxima_nova/proxima_nova300_normal.ttf') format('truetype'), url('https://fonts.shopwired.co.uk/proxima_nova/proxima_nova300_normal.svg#proximanova300') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {  font-family: 'proxima-nova';
+  src: url('https://fonts.shopwired.co.uk/proxima_nova/proxima_nova_400_normal.eot');
+  src: url('https://fonts.shopwired.co.uk/proxima_nova/proxima_nova_400_normal.eot?#iefi400') format('embedded-opentype'), url('https://fonts.shopwired.co.uk/proxima_nova/proxima_nova_400_normal.woff2') format('woff2'), url('https://fonts.shopwired.co.uk/proxima_nova/proxima_nova_400_normal.woff') format('woff'), url('https://fonts.shopwired.co.uk/proxima_nova/proxima_nova_400_normal.ttf') format('truetype'), url('https://fonts.shopwired.co.uk/proxima_nova/proxima_nova_400_normal.svg#proximanova400') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {  font-family: 'proxima-nova';
+  src: url('https://fonts.shopwired.co.uk/proxima_nova/proxima_nova_600_normal.eot');
+  src: url('https://fonts.shopwired.co.uk/proxima_nova/proxima_nova_600_normal.eot?#iefi600') format('embedded-opentype'), url('https://fonts.shopwired.co.uk/proxima_nova/proxima_nova_600_normal.woff2') format('woff2'), url('https://fonts.shopwired.co.uk/proxima_nova/proxima_nova_600_normal.woff') format('woff'), url('https://fonts.shopwired.co.uk/proxima_nova/proxima_nova_600_normal.ttf') format('truetype'), url('https://fonts.shopwired.co.uk/proxima_nova/proxima_nova_600_normal.svg#proximanova600') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {  font-family: 'proxima-nova';
+  src: url('https://fonts.shopwired.co.uk/proxima_nova/proxima_nova_700_normal.eot');
+  src: url('https://fonts.shopwired.co.uk/proxima_nova/proxima_nova_700_normal.eot?#iefi700') format('embedded-opentype'), url('https://fonts.shopwired.co.uk/proxima_nova/proxima_nova_700_normal.woff2') format('woff2'), url('https://fonts.shopwired.co.uk/proxima_nova/proxima_nova_700_normal.woff') format('woff'), url('https://fonts.shopwired.co.uk/proxima_nova/proxima_nova_700_normal.ttf') format('truetype'), url('https://fonts.shopwired.co.uk/proxima_nova/proxima_nova_700_normal.svg#proximanova700') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {  font-family: 'proxima-nova';
+  src: url('https://fonts.shopwired.co.uk/proxima_nova/proxima_nova_800_normal.eot');
+  src: url('https://fonts.shopwired.co.uk/proxima_nova/proxima_nova_800_normal.eot?#iefi800') format('embedded-opentype'), url('https://fonts.shopwired.co.uk/proxima_nova/proxima_nova_800_normal.woff2') format('woff2'), url('https://fonts.shopwired.co.uk/proxima_nova/proxima_nova_800_normal.woff') format('woff'), url('https://fonts.shopwired.co.uk/proxima_nova/proxima_nova_800_normal.ttf') format('truetype'), url('https://fonts.shopwired.co.uk/proxima_nova/proxima_nova_800_normal.svg#proximanova800') format('svg');
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {  font-family: 'proxima-nova';
+  src: url('https://fonts.shopwired.co.uk/proxima_nova/proxima_nova_100_italic.eot');
+  src: url('https://fonts.shopwired.co.uk/proxima_nova/proxima_nova_100_italic.eot?#iefi100') format('embedded-opentype'), url('https://fonts.shopwired.co.uk/proxima_nova/proxima_nova_100_italic.woff2') format('woff2'), url('https://fonts.shopwired.co.uk/proxima_nova/proxima_nova_100_italic.woff') format('woff'), url('https://fonts.shopwired.co.uk/proxima_nova/proxima_nova_100_italic.ttf') format('truetype'), url('https://fonts.shopwired.co.uk/proxima_nova/proxima_nova_100_italic.svg#proximanova100') format('svg');
+  font-weight: 100;
+  font-style: italic;
+}
+@font-face {  font-family: 'proxima-nova';
+  src: url('https://fonts.shopwired.co.uk/proxima_nova/proxima_nova_300_italic.eot');
+  src: url('https://fonts.shopwired.co.uk/proxima_nova/proxima_nova_300_italic.eot?#iefi300') format('embedded-opentype'), url('https://fonts.shopwired.co.uk/proxima_nova/proxima_nova_300_italic.woff2') format('woff2'), url('https://fonts.shopwired.co.uk/proxima_nova/proxima_nova_300_italic.woff') format('woff'), url('https://fonts.shopwired.co.uk/proxima_nova/proxima_nova_300_italic.ttf') format('truetype'), url('https://fonts.shopwired.co.uk/proxima_nova/proxima_nova_300_italic.svg#proximanova300') format('svg');
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {  font-family: 'proxima-nova';
+  src: url('https://fonts.shopwired.co.uk/proxima_nova/proxima_nova_400_italic.eot');
+  src: url('https://fonts.shopwired.co.uk/proxima_nova/proxima_nova_400_italic.eot?#iefi400') format('embedded-opentype'), url('https://fonts.shopwired.co.uk/proxima_nova/proxima_nova_400_italic.woff2') format('woff2'), url('https://fonts.shopwired.co.uk/proxima_nova/proxima_nova_400_italic.woff') format('woff'), url('https://fonts.shopwired.co.uk/proxima_nova/proxima_nova_400_italic.ttf') format('truetype'), url('https://fonts.shopwired.co.uk/proxima_nova/proxima_nova_400_italic.svg#proximanova400') format('svg');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {  font-family: 'proxima-nova';
+  src: url('https://fonts.shopwired.co.uk/proxima_nova/proxima_nova_600_italic.eot');
+  src: url('https://fonts.shopwired.co.uk/proxima_nova/proxima_nova_600_italic.eot?#iefi600') format('embedded-opentype'), url('https://fonts.shopwired.co.uk/proxima_nova/proxima_nova_600_italic.woff2') format('woff2'), url('https://fonts.shopwired.co.uk/proxima_nova/proxima_nova_600_italic.woff') format('woff'), url('https://fonts.shopwired.co.uk/proxima_nova/proxima_nova_600_italic.ttf') format('truetype'), url('https://fonts.shopwired.co.uk/proxima_nova/proxima_nova_600_italic.svg#proximanova600') format('svg');
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {  font-family: 'proxima-nova';
+  src: url('https://fonts.shopwired.co.uk/proxima_nova/proxima_nova700_italic.eot');
+  src: url('https://fonts.shopwired.co.uk/proxima_nova/proxima_nova700_italic.eot?#iefi700') format('embedded-opentype'), url('https://fonts.shopwired.co.uk/proxima_nova/proxima_nova700_italic.woff2') format('woff2'), url('https://fonts.shopwired.co.uk/proxima_nova/proxima_nova700_italic.woff') format('woff'), url('https://fonts.shopwired.co.uk/proxima_nova/proxima_nova700_italic.ttf') format('truetype'), url('https://fonts.shopwired.co.uk/proxima_nova/proxima_nova700_italic.svg#proximanova700') format('svg');
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {  font-family: 'proxima-nova';
+  src: url('https://fonts.shopwired.co.uk/proxima_nova/proxima_nova_800_italic.eot');
+  src: url('https://fonts.shopwired.co.uk/proxima_nova/proxima_nova_800_italic.eot?#iefi800') format('embedded-opentype'), url('https://fonts.shopwired.co.uk/proxima_nova/proxima_nova_800_italic.woff2') format('woff2'), url('https://fonts.shopwired.co.uk/proxima_nova/proxima_nova_800_italic.woff') format('woff'), url('https://fonts.shopwired.co.uk/proxima_nova/proxima_nova_800_italic.ttf') format('truetype'), url('https://fonts.shopwired.co.uk/proxima_nova/proxima_nova_800_italic.svg#proximanova800') format('svg');
+  font-weight: 800;
+  font-style: italic;
+}

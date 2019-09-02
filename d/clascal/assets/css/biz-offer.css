@@ -1,0 +1,151 @@
+.adn-ad-offer-container {
+    margin-bottom: 10px;
+}
+.adn-ad-offer {  /*85x55*/
+    width: 288px;
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+    margin-bottom: 10px;
+}
+.adn-ad-offer.line1-borders {
+    padding: 2px;
+}
+.adn-ad-offer_check {
+    position: relative;
+    padding-left: 30px;
+}
+.adn-ad-offer_check-none .adn-ad-offer-left {
+    display: none;
+}
+.adn-ad-offer_check .adn-ad-offer-left {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 50%;
+    left: 9px;
+    margin-top: -9px;
+}
+.adn-ad-offer table {
+    width: 100%;
+    border: none;
+    border-spacing: 0;
+    border-collapse: collapse;
+    line-height: 1.42857143;
+}
+.adn-ad-offer_mv5,
+.adn-ad-offer_mv5 + .adn-ad-offer_mv5{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.adn-ad-offer table tr td {
+    height: 55px;
+    min-height: 55px;
+    vertical-align: middle;
+    padding: 0;
+    border: none;
+}
+.adn-ad-offer table tr td.image {
+    width: 85px;
+}
+.adn-ad-offer table tr td.content {
+    width: auto;
+}
+.adn-ad-offer__img {
+    width: 85px;
+    height: 55px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.adn-ad-offer__img-text {
+    margin-top: 17px;
+    display: inline-block;
+    cursor: pointer;
+}
+.adn-ad-offer__info {
+    width: 196px; /*208*/
+    height: 55px;
+    padding: 0 0 0 5px;
+    overflow: hidden;
+    position: relative;
+    text-align: left;
+    word-wrap: break-word;
+}
+.adn-ad-offer__info textarea.adn-ad-offer__edit {
+    width: 100%;
+    height: 55px;
+    border: none;
+    resize: none;
+    outline: none;
+    overflow: hidden;
+}
+.adn-ad-offer__description {
+    width: 106px;
+    position: absolute;
+    text-align: center;
+    top: 9px;
+    left: 50%;
+    margin-left: -53px;
+}
+.adn-ad-offer-bottom {
+    display: block;
+    font-size: 1px;
+    font-size: 0;
+}
+.adn-ad-offer__link {
+    display: inline-block;
+    width: 64%;
+    overflow: hidden;
+    height: 15px;
+    vertical-align: middle;
+    box-sizing: content-box;
+}
+.adn-ad-offer__status {
+    display: inline-block;
+    width: 30%;
+    text-align: right;
+    padding-right: 1%;
+    vertical-align: middle;
+    padding-left: 5%;
+    box-sizing: content-box;
+}
+.adn-ad-offer_i120 {}
+.adn-ad-offer.adn-ad-offer_i120 table tr td {
+    height: 80px;
+    min-height: 80px;
+}
+.adn-ad-offer.adn-ad-offer_i120 table tr td.image {
+    width: 120px;
+}
+.adn-ad-offer_i120 .adn-ad-offer__img {
+    width: 120px;
+    height: 80px;
+}
+.adn-ad-offer.adn-ad-offer_i120 table tr td.content {
+    padding-left: 8px;
+    text-align: left;
+    position: relative;
+    overflow: hidden;
+}
+.adn-ad-offer_i120 .adn-ad-offer__info {
+    height: 80px;
+}
+.adn-ad-offer_w400,
+.adn-ad-offer_w450 {
+    width: auto;
+}
+@media only screen and (min-width : 360px) {
+    .adn-ad-offer {
+        width: 300px;
+    }
+}
+@media only screen and (min-width : 480px) {
+    .adn-ad-offer_w400 {
+        width: 400px;
+    }
+    .adn-ad-offer_w450 {
+        width: 450px;
+    }
+}

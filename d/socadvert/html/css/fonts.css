@@ -1,0 +1,40 @@
+@font-face {
+	font-family: "HelveticaNeueCyr";
+	src: url("../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Light.eot");
+	src: url("../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Light.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Light.woff") format("woff"),
+	url("../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Light.ttf") format("truetype"),
+	url("../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Light.svg#HelveticaNeueCyrLight") format("svg");
+	font-style: normal;
+	font-weight: 300;
+}
+@font-face {
+	font-family: "HelveticaNeueCyr";
+	src: url("../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Roman.eot");
+	src: url("../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Roman.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Roman.woff") format("woff"),
+	url("../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Roman.ttf") format("truetype"),
+	url("../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Roman.svg#HelveticaNeueCyrRoman") format("svg");
+	font-style: normal;
+	font-weight: 400;
+}
+@font-face {
+	font-family: "HelveticaNeueCyr";
+	src: url("../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Medium.eot");
+	src: url("../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Medium.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Medium.woff") format("woff"),
+	url("../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Medium.ttf") format("truetype"),
+	url("../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Medium.svg#HelveticaNeueCyrMedium") format("svg");
+	font-style: normal;
+	font-weight: 500;
+}
+@font-face {
+	font-family: "HelveticaNeueCyr";
+	src: url("../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Bold.eot");
+	src: url("../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Bold.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Bold.woff") format("woff"),
+	url("../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Bold.ttf") format("truetype"),
+	url("../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Bold.svg#HelveticaNeueCyrBold") format("svg");
+	font-style: normal;
+	font-weight: 600;
+}

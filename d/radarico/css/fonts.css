@@ -1,0 +1,61 @@
+/* font-family: "Lato"; */
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato/LatoLight.eot");
+	src: url("../fonts/Lato/LatoLight.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/Lato/LatoLight.woff") format("woff"),
+	url("../fonts/Lato/LatoLight.ttf") format("truetype"),
+	url("../fonts/Lato/LatoLight.svg#LatoLight") format("svg");
+	font-style: normal;
+	font-weight: 300;
+}
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato/LatoLightItalic.eot");
+	src: url("../fonts/Lato/LatoLightItalic.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/Lato/LatoLightItalic.woff") format("woff"),
+	url("../fonts/Lato/LatoLightItalic.ttf") format("truetype"),
+	url("../fonts/Lato/LatoLightItalic.svg#LatoLightItalic") format("svg");
+	font-style: italic;
+	font-weight: 300;
+}
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato/LatoRegular.eot");
+	src: url("../fonts/Lato/LatoRegular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/Lato/LatoRegular.woff") format("woff"),
+	url("../fonts/Lato/LatoRegular.ttf") format("truetype"),
+	url("../fonts/Lato/LatoRegular.svg#LatoRegular") format("svg");
+	font-style: normal;
+	font-weight: 400;
+}
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato/LatoItalic.eot");
+	src: url("../fonts/Lato/LatoItalic.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/Lato/LatoItalic.woff") format("woff"),
+	url("../fonts/Lato/LatoItalic.ttf") format("truetype"),
+	url("../fonts/Lato/LatoItalic.svg#LatoItalic") format("svg");
+	font-style: italic;
+	font-weight: 400;
+}
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato/LatoBold.eot");
+	src: url("../fonts/Lato/LatoBold.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/Lato/LatoBold.woff") format("woff"),
+	url("../fonts/Lato/LatoBold.ttf") format("truetype"),
+	url("../fonts/Lato/LatoBold.svg#LatoBold") format("svg");
+	font-style: normal;
+	font-weight: 700;
+}
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato/LatoBoldItalic.eot");
+	src: url("../fonts/Lato/LatoBoldItalic.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/Lato/LatoBoldItalic.woff") format("woff"),
+	url("../fonts/Lato/LatoBoldItalic.ttf") format("truetype"),
+	url("../fonts/Lato/LatoBoldItalic.svg#LatoBoldItalic") format("svg");
+	font-style: italic;
+	font-weight: 700;
+}

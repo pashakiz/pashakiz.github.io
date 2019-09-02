@@ -1,0 +1,151 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+	header h1 {
+		font-size: 40px;
+	}
+	section.request h2 {
+		font-size: 24px;
+	}
+	section.choice-program .illustration {
+		height: 400px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	header .logo {
+		margin: 0;
+	}
+	.callback {
+		float: right;
+		margin-top: 20px;
+	}
+	.m_center {
+		text-align: left;
+	}
+	header h1 {
+		font-size: 60px;
+		top: 120px;
+	}
+	header .header-bg {
+		padding-top: 250px;
+	}
+	header .header-bg .benefit {
+		width: 210px;
+	}
+	header .header-bg .benefit.last {
+		margin-bottom: 0
+	}
+	section.request h2 {
+		font-size: 27px;
+	}
+	.program-intro {
+		margin-bottom: 0;
+	}
+	.program-intro h4 {
+		min-height: 70px;
+	}
+	.program-intro p {
+		min-height: 125px;
+	}
+	.more {
+		position: absolute;
+		z-index: 50;
+	}
+	section.differences .you-want-get .want-get {
+		width: 100%;
+		margin-left: 30px;
+	}
+	section.differences .partners img {
+		display: inline-block;
+		margin-left: 0;
+		margin-right: 30px;
+		margin-bottom: 25px;
+	}
+	section.differences .partners img:last-child {
+		margin-right: 0;
+		margin-bottom: 0;
+	}
+	footer .logo {
+		margin: 0;
+	}
+	footer .contacts {
+		float: right;
+		text-align: left;
+		margin-right: 20px;
+	}
+	section.choice-program .illustration {
+		width: 90%;
+		height: 600px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	.program-intro h4 {
+		min-height: auto;
+	}
+	.program-intro p {
+		min-height: 100px;
+	}
+	section.choice-program .illustration {
+		width: 70%;
+		height: 610px;
+	}
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	.container {
+		width: 1000px;
+	}
+	.program-intro p {
+		min-height: 75px;
+	}
+	section.differences .partners img {
+		margin-bottom: 0;
+	}
+	header .header-bg {
+		min-height: 375px;
+		padding-top: 200px;
+	}
+	section.choice-program .illustration {
+		width: 85%;
+		height: 775px;
+	}
+}

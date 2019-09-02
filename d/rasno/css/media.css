@@ -1,0 +1,191 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+@media only screen and (min-width : 340px) {
+	section.news .users-feed__item .user-avatar {
+		float: left;
+		margin: 0 10px;
+	}
+	section.news .users-feed__item .user-info {
+		float: left;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+	section.projects .projects__sidebar__partners a {
+		width: 145px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	section.nav-wrap .btn-mobile-nav {
+		display: none;
+	}
+	section.nav-wrap .nav {
+		display: block;
+	}
+	section.nav-wrap .nav > .nav-item {
+		float: left;
+		width: 16.666666%;
+		position: relative;
+	}
+	section.nav-wrap .nav > .nav-item > a {
+		border-right: 1px solid #1a7fc2;
+	}
+	section.nav-wrap .nav > .nav-item:first-child > a {
+		border-left: 1px solid #1a7fc2;
+	}
+	section.nav-wrap .nav > .nav-item > .sub {
+		width: 720px;
+		position: absolute;
+		left: 0;
+		z-index: 400;
+	}
+	section.nav-wrap .nav > .nav-item > .sub > .sub-item {
+		float: left;
+		position: relative;
+	}
+	section.nav-wrap .nav > .nav-item > .sub > .sub-item > a {
+		text-align: left;
+	}
+	section.nav-wrap .nav > .nav-item > .sub > .sub-item:hover:after {
+		border: none;
+		background-color: #ec1b23;
+		content: "";
+		display: block;
+		width: 100%;
+		height: 4px;
+		position: absolute;
+		bottom: 0;
+	}
+	section.news .owl-carousel-news .owl-controls .owl-dots .owl-dot {
+		display: block;
+	}
+	section.news .owl-carousel-news .item .info {
+		margin-left: -15px;
+		margin-top: 0;
+	}
+	section.projects .projects__main .main-projects .project-item-container {
+		float: left;
+		width: 33.333333%;
+	}
+	section.projects .projects__main .project-item-container .project-item {
+		margin: 0 5px;
+	}
+	section.projects .projects__main .project-item-container .project-item .project-item__text {
+		text-align: left;
+	}
+	footer .footer-nav .nav > .nav-item {
+		float: left;
+		position: relative;
+	}
+	footer .footer-nav .nav > .nav-item:first-child > a {
+		padding-left: 0;
+		margin-left: 0;
+		text-align: left;
+	}
+	footer .footer-nav .nav > .nav-item:last-child > a {
+		padding-right: 0;
+		margin-right: 0;
+		text-align: right;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	header .logo {
+		float: left;
+		margin: 24px 58px 0 0;
+	}
+	header .links {
+		float: left;
+		padding-top: 10px;
+		padding-bottom: 0;
+		text-align: left;
+	}
+	header .links ul.extra {
+		margin: 47px 0 0 0;
+	}
+	header .links ul.extra > li {
+		padding: 0 18px;
+	}
+	header .links ul.extra > li > a {
+		font-size: 16px;
+	}
+	header .login-search {
+		float: right;
+		margin-bottom: 4px;
+	}
+	section.nav-wrap .nav > .nav-item > .sub {
+		width: 940px;
+	}
+	section.carousel-wrap {
+		display: block;
+	}
+	section.carousel-wrap .owl-carousel .owl-controls .owl-nav {
+		display: block;
+	}
+	section.carousel-wrap .owl-carousel .owl-controls .owl-dots .owl-dot {
+		display: block;
+	}
+	section.news .news-feed .item .news-img img {
+		padding-right: 20px;
+		padding-bottom: 0;
+	}
+	section.news .news-feed .item.with-image .info {
+		width: 450px;
+	}
+	section.projects .projects__sidebar__users {
+		width: 295px;
+	}
+	section.projects .projects__sidebar__partners a {
+		width: 50%;
+	}
+	footer .footer-nav .nav > .nav-item > a {
+		margin: 0 28px;
+	}
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	.container {
+		width: 970px;
+	}
+	section.nav-wrap .nav > .nav-item > .sub {
+		width: 980px;
+	}
+}

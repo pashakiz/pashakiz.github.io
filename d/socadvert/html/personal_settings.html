@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>SocAdvert</title>
+	<meta name="description" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="css/normalize.css" />
+	<link rel="stylesheet" href="css/fancybox/jquery.fancybox.css" />
+	<link rel="stylesheet" href="css/icomoon.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/simplebar.css" />
+	<link rel="stylesheet" href="css/bootstrap-slider.css" />
+	<link rel="stylesheet" href="css/pickmeup.css" />
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+	<div class="container">
+		<div class="sidebarleft">
+			<div class="sidebarleft__header clearfix">
+				<div class="sidebarleft__header__logo">SocAdvert</div>
+				<div class="sidebarleft__header__controls clearfix">
+					<div class="sidebarleft__header__controls__item"><span class="icon-message"></span></div>
+					<div class="sidebarleft__header__controls__item">
+						<i class="icon-help"></i>
+						<div class="sidebarleft__header__controls__item__inner">
+							<a href="help.html">Помощь</a>
+							<a href="tickets.html">Тикеты</a>
+						</div>
+					</div>
+					<div class="sidebarleft__header__controls__item">
+						<i class="icon-settings"></i>
+						<div class="sidebarleft__header__controls__item__inner">
+							<a href="settings.html">Настройка профиля</a>
+							<a href="?logout">Выйти</a>
+						</div>
+					</div>
+				</div>
+			</div> <!-- .sidebarleft__header -->
+			<div class="sidebarleft__user clearfix">
+				<div class="sidebarleft__user__avatar">
+					<img src="img/user-0001-ava-small.jpg" alt="urermane">
+				</div>
+				<div class="sidebarleft__user__info">
+					<div class="sidebarleft__user__info__role">Рекламодатель</div>
+					<div class="sidebarleft__user__info__row"><i class="icon-online"></i>lilia_veshena</div>
+					<a href="#" class="sidebarleft__user__info__row hover" data-toggle="tooltip" data-placement="left" title="Баланс"><i class="icon-balance"></i>20 р.</a>
+					<a href="#" class="sidebarleft__user__info__row hover" data-toggle="tooltip" data-placement="left" title="Заработано"><i class="icon-balance-earned"></i>50000000 р.</a>
+				</div>
+			</div> <!-- .sidebarleft__user -->
+			<ul class="sidebarleft__nav">
+				<li>
+					<a href="advertiser_campaigns_active.html" class="sidebarleft__nav__a"><i class="icon-campaign"></i><span class="sidebarleft__nav__a__text">Кампании</span><span class="sidebarleft__nav__a__count">7</span></a>
+				</li>
+				<li>
+					<a href="#" class="sidebarleft__nav__a"><i class="icon-playground"></i>Площадки</a>
+				</li>
+				<li>
+					<a href="#" class="sidebarleft__nav__a"><i class="icon-favorite-bold"></i>Избранное</a>
+				</li>
+				<li>
+					<a href="#" class="sidebarleft__nav__a"><i class="icon-news"></i><span class="sidebarleft__nav__a__text">Новости</span><span class="sidebarleft__nav__a__count">99</span></a>
+				</li>
+				<li>
+					<a href="#" class="sidebarleft__nav__a"><i class="icon-partners"></i>Партнерская программа</a>
+				</li>
+				<li class="sidebarleft__social clearfix">
+					<a href="#" class="sidebarleft__social__a"><i class="icon-instagram"></i></a>
+					<a href="#" class="sidebarleft__social__a"><i class="icon-facebook"></i></a>
+					<a href="#" class="sidebarleft__social__a"><i class="icon-twitter"></i></a>
+					<a href="#" class="sidebarleft__social__a"><i class="icon-youtube"></i></a>
+				</li>
+			</ul> <!-- .sidebarleft__nav -->
+		</div> <!-- .sidebarleft -->
+		<div class="content" data-simplebar-direction="vertical">
+			<div class="content__inner">
+				<div class="content__body">
+					<div class="content__body-inner">
+						<form action="" method="post">
+							<div class="content__body-header">Личная информация:</div>
+							<div class="content__body-rowb">
+								<div class="settings__block1 clearfix">
+									<div class="settings__avatar">
+										<img class="addphoto__img" src="img/user-0001-ava-small.jpg" alt="username">
+									</div>
+									<div class="settings__role">
+										<div class="btn-inner btn-upload-avatar">Изменить аватар
+											<input id="upload-avatar" type="file" class="inputfile" name="avatar" value="">
+										</div>
+										<div class="settings__role-change">
+											Сменить роль на сайте:
+											<span class="btn-text btn-role-advertiser active">Рекламодатель</span>
+											<span class="btn-text btn-role-agent">Агент</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="content__body-row">
+								<input class="input-long-15mb" name="fio" type="text" placeholder="ФИО">
+								<input class="input-long-15mb" name="email" type="text" placeholder="Email">
+								<input class="input-long-15mb" name="wmr" type="text" placeholder="Номер счета WMR">
+								<input class="input-long-15mb" name="pass" type="text" placeholder="Новый пароль">
+								<input class="input-long-15mb" name="passconfirm" type="text" placeholder="Пароль еще раз">
+								<input class="input-long-15mb" name="phone" type="text" placeholder="+7">
+								<div class="settings__sms">
+									<span class="btn-text btn-send-smscode">Получить код по смс</span>
+									<input class="settings__sms-input" name="smscode" type="text" placeholder="Введите код">
+									<span class="btn-text btn-send-smscode-again">Прислать повторно</span>
+									<button class="btn-inner btn-smscode-ok" name="btn-smscode" type="submit">Подтвердить</button>
+								</div>
+							</div>
+							<div class="content__body-footer">
+								<button class="btn-inner" name="submit" type="submit">Сохранить изменения</button>
+							</div>
+						</form>
+					</div>
+				</div> <!-- .content__body -->
+			</div> <!-- .content__inner -->
+		</div> <!-- .content -->
+		<div class="sidebarright">
+			<div class="sidebarright__inner clearfix" data-simplebar-direction="vertical">
+				<div class="sidebarright__inner-padding">
+					<div class="clearfix">
+						<button class="sidebarright__close"><i class="icon-close"></i></button>
+					</div>
+					<div class="search clearfix">
+						<form class="search-form" action="" method="post">
+							<input class="search-input" type="text" name="search-messages" placeholder="Поиск">
+							<button class="btn-icon search-button" type="submit"><i class="icon-search"></i></button>
+						</form>
+					</div>
+					<div class="chain-messages clearfix">
+						<div class="chain-messages__photo">
+							<div class="chain-messages__img">
+								<img src="img/user-0001-ava-small.jpg" alt="">
+							</div>
+							<div class="online"></div>
+						</div>
+						<div class="chain-messages__text">
+							<div class="chain-messages__name">Анастасия Бежена</div>
+							<div class="chain-messages__message">Проверьте задание, сколько можно ждать программ ещедлинный текст, который уже не видно но без троеточия((</div>
+						</div>
+						<button class="chain-messages__del"><i class="icon-delete"></i></button>
+					</div> <!-- .chain-messages -->
+					<div class="chain-messages clearfix">
+						<div class="chain-messages__photo">
+							<div class="chain-messages__img">
+								<img src="img/user-0003-ava-small.jpg" alt="">
+							</div>
+							<div class="online"></div>
+						</div>
+						<div class="chain-messages__text">
+							<div class="chain-messages__name">Игорь Юртаев</div>
+							<div class="chain-messages__message">По какому сроку действуем?</div>
+						</div>
+						<button class="chain-messages__del"><i class="icon-delete"></i></button>
+					</div> <!-- .chain-messages -->
+					<div class="chain-messages clearfix">
+						<div class="chain-messages__photo">
+							<div class="chain-messages__img">
+								<img src="img/user-0002-ava-small.jpg" alt="">
+							</div>
+							<div class="online offline"></div>
+						</div>
+						<div class="chain-messages__text">
+							<div class="chain-messages__name">Ваня Поддубный</div>
+							<div class="chain-messages__message">Проверьте задание, сколько можно ждать программ...</div>
+						</div>
+						<button class="chain-messages__del"><i class="icon-delete"></i></button>
+					</div> <!-- .chain-messages -->
+					<div class="chain-messages clearfix">
+						<div class="chain-messages__photo">
+							<div class="chain-messages__img">
+								<img src="img/user-0001-ava-small.jpg" alt="">
+							</div>
+							<div class="online"></div>
+						</div>
+						<div class="chain-messages__text">
+							<div class="chain-messages__name">Анастасия Бежена</div>
+							<div class="chain-messages__message">По какому сроку действуем?</div>
+						</div>
+						<button class="chain-messages__del"><i class="icon-delete"></i></button>
+					</div> <!-- .chain-messages -->
+					<div class="chain-messages clearfix">
+						<div class="chain-messages__photo">
+							<div class="chain-messages__img">
+								<img src="img/user-0003-ava-small.jpg" alt="">
+							</div>
+							<div class="online"></div>
+						</div>
+						<div class="chain-messages__text">
+							<div class="chain-messages__name">Игорь Юртаев</div>
+							<div class="chain-messages__message">По какому сроку действуем?</div>
+						</div>
+						<button class="chain-messages__del"><i class="icon-delete"></i></button>
+					</div> <!-- .chain-messages -->
+					<div class="chain-messages clearfix">
+						<div class="chain-messages__photo">
+							<div class="chain-messages__img">
+								<img src="img/user-0002-ava-small.jpg" alt="">
+							</div>
+							<div class="online offline"></div>
+						</div>
+						<div class="chain-messages__text">
+							<div class="chain-messages__name">Ваня Поддубный</div>
+							<div class="chain-messages__message">Проверьте задание, сколько можно ждать программ...</div>
+						</div>
+						<button class="chain-messages__del"><i class="icon-delete"></i></button>
+					</div> <!-- .chain-messages -->
+					<div class="chain-messages clearfix">
+						<div class="chain-messages__photo">
+							<div class="chain-messages__img">
+								<img src="img/user-0001-ava-small.jpg" alt="">
+							</div>
+							<div class="online"></div>
+						</div>
+						<div class="chain-messages__text">
+							<div class="chain-messages__name">Анастасия Бежена</div>
+							<div class="chain-messages__message">По какому сроку действуем?</div>
+						</div>
+						<button class="chain-messages__del"><i class="icon-delete"></i></button>
+					</div> <!-- .chain-messages -->
+					<div class="chain-messages clearfix">
+						<div class="chain-messages__photo">
+							<div class="chain-messages__img">
+								<img src="img/user-0003-ava-small.jpg" alt="">
+							</div>
+							<div class="online"></div>
+						</div>
+						<div class="chain-messages__text">
+							<div class="chain-messages__name">Игорь Юртаев</div>
+							<div class="chain-messages__message">По какому сроку действуем?</div>
+						</div>
+						<button class="chain-messages__del"><i class="icon-delete"></i></button>
+					</div> <!-- .chain-messages -->
+					<div class="chain-messages clearfix">
+						<div class="chain-messages__photo">
+							<div class="chain-messages__img">
+								<img src="img/user-0002-ava-small.jpg" alt="">
+							</div>
+							<div class="online offline"></div>
+						</div>
+						<div class="chain-messages__text">
+							<div class="chain-messages__name">Ваня Поддубный</div>
+							<div class="chain-messages__message">Проверьте задание, сколько можно ждать программ...</div>
+						</div>
+						<button class="chain-messages__del"><i class="icon-delete"></i></button>
+					</div> <!-- .chain-messages -->
+					<div class="chain-messages clearfix">
+						<div class="chain-messages__photo">
+							<div class="chain-messages__img">
+								<img src="img/user-0001-ava-small.jpg" alt="">
+							</div>
+							<div class="online"></div>
+						</div>
+						<div class="chain-messages__text">
+							<div class="chain-messages__name">Анастасия Бежена</div>
+							<div class="chain-messages__message">По какому сроку действуем?</div>
+						</div>
+						<button class="chain-messages__del"><i class="icon-delete"></i></button>
+					</div> <!-- .chain-messages -->
+					<div class="chain-messages clearfix">
+						<div class="chain-messages__photo">
+							<div class="chain-messages__img">
+								<img src="img/user-0003-ava-small.jpg" alt="">
+							</div>
+							<div class="online"></div>
+						</div>
+						<div class="chain-messages__text">
+							<div class="chain-messages__name">Игорь Юртаев</div>
+							<div class="chain-messages__message">По какому сроку действуем?</div>
+						</div>
+						<button class="chain-messages__del"><i class="icon-delete"></i></button>
+					</div> <!-- .chain-messages -->
+					<div class="chain-messages clearfix">
+						<div class="chain-messages__photo">
+							<div class="chain-messages__img">
+								<img src="img/user-0002-ava-small.jpg" alt="">
+							</div>
+							<div class="online offline"></div>
+						</div>
+						<div class="chain-messages__text">
+							<div class="chain-messages__name">Ваня Поддубный</div>
+							<div class="chain-messages__message">Проверьте задание, сколько можно ждать программ...</div>
+						</div>
+						<button class="chain-messages__del"><i class="icon-delete"></i></button>
+					</div> <!-- .chain-messages -->
+					<div class="chain-messages clearfix">
+						<div class="chain-messages__photo">
+							<div class="chain-messages__img">
+								<img src="img/user-0001-ava-small.jpg" alt="">
+							</div>
+							<div class="online"></div>
+						</div>
+						<div class="chain-messages__text">
+							<div class="chain-messages__name">Анастасия Бежена</div>
+							<div class="chain-messages__message">По какому сроку действуем?</div>
+						</div>
+						<button class="chain-messages__del"><i class="icon-delete"></i></button>
+					</div> <!-- .chain-messages -->
+					<div class="chain-messages clearfix">
+						<div class="chain-messages__photo">
+							<div class="chain-messages__img">
+								<img src="img/user-0003-ava-small.jpg" alt="">
+							</div>
+							<div class="online"></div>
+						</div>
+						<div class="chain-messages__text">
+							<div class="chain-messages__name">Игорь Юртаев</div>
+							<div class="chain-messages__message">По какому сроку действуем?</div>
+						</div>
+						<button class="chain-messages__del"><i class="icon-delete"></i></button>
+					</div> <!-- .chain-messages -->
+					<div class="chain-messages clearfix">
+						<div class="chain-messages__photo">
+							<div class="chain-messages__img">
+								<img src="img/user-0002-ava-small.jpg" alt="">
+							</div>
+							<div class="online offline"></div>
+						</div>
+						<div class="chain-messages__text">
+							<div class="chain-messages__name">Ваня Поддубный</div>
+							<div class="chain-messages__message">Проверьте задание, сколько можно ждать программ...</div>
+						</div>
+						<button class="chain-messages__del"><i class="icon-delete"></i></button>
+					</div> <!-- .chain-messages -->
+				</div> <!-- .sidebarright__inner-padding -->
+			</div> <!-- .sidebarright__inner -->
+			<div class="chain-messages-dialog">
+				<div class="chain-messages-dialog__header clearfix">Анастасия Бежена<button class="btn-dialog-close icon-close"></button></div>
+				<div class="chain-messages-dialog__messages" data-simplebar-direction="vertical">
+					<div class="chain-messages-dialog__messages-inner">
+						<div class="message clearfix">
+							<div class="message__photo">
+								<div class="message__img">
+									<img src="img/user-0001-ava-small.jpg" alt="">
+								</div>
+								<div class="online offline"></div>
+							</div>
+							<div class="message__info">
+								<div class="message__text">Проверьте задание, сколько можно ждать программ...<br>Которые не расчитаны на общепринятые действия, когда в друг</div>
+								<div class="message__date">15.02.2016 в 13:45</div>
+							</div>
+						</div> <!-- .message -->
+						<div class="message clearfix">
+							<div class="message__photo">
+								<div class="message__img">
+									<img src="img/user-0002-ava-small.jpg" alt="">
+								</div>
+								<div class="online"></div>
+							</div>
+							<div class="message__info">
+								<div class="message__text my">Задание проверили, смотрите в готовых у вас</div>
+								<div class="message__date">15.02.2016 в 13:45</div>
+							</div>
+						</div> <!-- .message -->
+						<div class="message clearfix">
+							<div class="message__photo">
+								<div class="message__img">
+									<img src="img/user-0001-ava-small.jpg" alt="">
+								</div>
+								<div class="online offline"></div>
+							</div>
+							<div class="message__info">
+								<div class="message__text">Проверьте задание, сколько можно ждать программ...<br>Которые не расчитаны на общепринятые действия, когда в друг</div>
+								<div class="message__date">15.02.2016 в 13:45</div>
+							</div>
+						</div> <!-- .message -->
+						<div class="message clearfix">
+							<div class="message__photo">
+								<div class="message__img">
+									<img src="img/user-0002-ava-small.jpg" alt="">
+								</div>
+								<div class="online"></div>
+							</div>
+							<div class="message__info">
+								<div class="message__text my">Задание проверили, смотрите в готовых у вас</div>
+								<div class="message__date">15.02.2016 в 13:45</div>
+							</div>
+						</div> <!-- .message -->
+					</div> <!-- .chain-messages-dialog__messages-inner -->
+				</div> <!-- .chain-messages-dialog__messages -->
+				<div class="chain-messages-dialog__textarea-container">
+					<form action="" method="post">
+						<textarea class="chain-messages-dialog__textarea" name="message" placeholder="Введите сообщение"></textarea>
+					</form>
+				</div>
+			</div>
+		</div> <!-- .sidebarright -->
+	</div>
+	<!--[if lt IE 9]>
+	<script src="js/html5shiv/es5-shim.min.js"></script>
+	<script src="js/html5shiv/html5shiv.min.js"></script>
+	<script src="js/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="js/html5shiv/respond.min.js"></script>
+	<![endif]-->
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/simplebar.min.js"></script>
+	<script src="js/jquery.customSelect.min.js"></script>
+	<script src="js/bootstrap.tooltip.min.js"></script>
+	<script src="js/bootstrap-slider.min.js"></script>
+	<script src="js/fancybox/jquery.fancybox.pack.js"></script>
+	<script src="js/jquery.smoothscroll.js"></script>
+	<script src="js/jquery.scrollTo.min.js"></script>
+	<script src="js/jquery.textPlaceholder.js"></script>
+	<script src="js/jquery.pickmeup.min.js"></script>
+	<script src="js/common.js"></script>
+	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>

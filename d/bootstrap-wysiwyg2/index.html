@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>editor</title>
+	<meta name="description" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<style>
+		#editor {
+			width: 80%;
+			height: 123px;
+			border: 1px solid silver;
+			padding: 5px;
+			display: inline-block;
+			vertical-align: middle;
+			overflow: auto;
+			max-height: 300px;
+			width: 500px;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<div class="container">header</div>
+	</header>
+	<section>
+		<div class="container">
+			Editor:
+			<div id="editor"></div>
+		</div>
+	</section>
+	<footer>
+		<div class="container">footer</div>
+	</footer>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="http://adnetwork.snezhnoe.in.ua/assets/external/jquery.hotkeys.js"></script>
+	<script src="http://adnetwork.snezhnoe.in.ua/assets/js/bootstrap-wysiwyg.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('#editor').wysiwyg();
+		});
+	</script>
+
+</body>
+</html>

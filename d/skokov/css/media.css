@@ -1,0 +1,236 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1663px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	footer .footer-bottom .copyright {
+		text-align: center;
+	}
+	footer .footer-bottom nav ul.menu {
+		float: none;
+		margin: 0 auto;
+		width: 510px;
+	}
+	nav ul.menu > li {
+		margin-right: 20px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	header .logo {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	nav ul.menu {
+		float: none;
+		text-align: center;
+	}
+	nav ul.menu > li {
+		float: none;
+		margin-right: 0;
+	}
+	.h2-bg {
+		text-align: center;
+	}
+	section.content .contact-info {
+		float: none;
+		margin-top: 30px;
+	}
+	section.content .contact-form form button {
+		width: 100%;
+		float: none;
+	}
+	section.content .contact-form form input[type=text] {
+		margin-bottom: 20px;
+	}
+	section.content .contact-form form textarea {
+		margin-top: 0;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	footer .footer-bottom nav ul.menu {
+		width: 110px;
+		text-align: center;
+	}
+	footer .footer-bottom nav ul.menu > li {
+		margin-right: 0;
+		float: none;
+		display: block;
+	}
+	section.content h3.btn-darkgrey {
+		float: none;
+	}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.h2-bg h2 {
+		width: auto;
+	}
+	.contact-info .text {
+		width: 180px;
+	}
+	.contact-info .text.one-line {
+		padding-top: 0;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+	footer .footer-top .tweets .tweet .text {
+		width: 195px;
+	}
+}
+@media only screen and (min-width : 360px) {
+	footer .footer-top .tweets .tweet .text {
+		width: 230px;
+	}
+	footer .footer-top .follow-us form .followus-form input[type="text"] {
+		width: 240px;
+	}
+}
+@media only screen and (min-width : 400px) {
+	footer .footer-top .tweets .tweet .text {
+		width: 263px;
+	}
+	footer .footer-top .contact-info .text {
+		width: 235px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+	footer .footer-top .tweets .tweet .text {
+		width: 329px;
+	}
+}
+@media only screen and (min-width : 600px) {
+	footer .footer-top .tweets .tweet .text {
+		width: auto;
+		max-width: 335px; /*343px -moz: 337px*/
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	/*footer .footer-top .photostream img {
+		width: 130px;
+		height: 70px;
+	}*/
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	section.content .contact-info {
+		float: none;
+	}
+}
+@media only screen and (min-width : 993px) {
+	footer .footer-bottom nav ul.menu > li {
+		margin-right: 20px;
+	}
+	footer .footer-bottom nav ul.menu > li:last-child {
+		margin-right: 0;
+	}
+}
+@media only screen and (min-width : 1057px) {
+	footer .footer-top .tweets .tweet .text {
+		max-width: none;
+	}
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	section.content .contact-info {
+		float: right;
+	}
+	.contact-info .text {
+		width: 220px;
+	}
+	.contact-info .text.one-line {
+		padding-top: 0;
+	}
+	footer .footer-top .footer-top-block.about {
+		/*width: 400px;*/
+	}
+	footer .footer-top .footer-top-block.latesttweets {
+		width: 350px;
+		float: right;
+		margin-top: 0;
+	}
+	footer .footer-top .footer-top-block.contactinfo {
+		width: 280px;
+		float: right;
+		margin-top: 0;
+	}
+	footer .footer-top .tweets .tweet .text {
+		max-width: 309px;
+	}
+	footer .footer-bottom .copyright {
+		text-align: left;
+		font-size: 12px;
+	}
+	footer .footer-bottom nav ul.menu {
+		float: right;
+	}
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1280px) {
+	section.content .contact-info .text {
+		width: 245px;
+	}
+	section.content .contact-info .text.one-line {
+		padding-top: 5px;
+	}
+	footer .footer-top .contact-info .text {
+		width: 235px;
+	}
+}
+@media only screen and (min-width : 1337px) {
+	footer .footer-bottom .copyright {
+		font-size: 14px;
+	}
+}
+@media only screen and (min-width : 1400px) {
+	footer .footer-top .footer-top-block.latesttweets {
+		width: 430px;
+	}
+	footer .footer-top .tweets .tweet .text {
+		max-width: none;
+	}
+	footer .footer-top .photostream img {
+		width: 100%;
+		height: auto;
+	}
+}
+
+@media only screen and (min-width : 1512px) {
+	footer .footer-bottom nav ul.menu > li {
+		margin-right: 60px;
+	}
+}
+
+@media only screen and (min-width : 1663px) {
+	footer .footer-top .photostream img {
+		width: 130px;
+		height: 70px;
+		margin-bottom: 10px;
+	}
+}

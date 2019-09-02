@@ -1,0 +1,138 @@
+*::-webkit-input-placeholder {
+	color: #c6c6c6;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #c6c6c6;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #c6c6c6;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #c6c6c6;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+}
+header.top{
+	margin-top: 30px;
+}
+.logo {
+	width: 256px;
+	height: 100px;
+	background-color: #1d1d1d;
+	float: left;
+}
+.header_right {
+	float: right;
+}
+input.searchfield {
+	background: url(../img/icon-search.png) no-repeat;
+	background-position: 97% center;
+	border: 2px solid #0d0d0e;
+	width: 250px;
+	padding: 7px 35px 7px 7px;
+	font-family: "Arial", "Helvetica", sans-serif;
+	font-size: 13px;
+	margin-bottom: 19px;
+	margin-top: 17px;
+}
+ul.smenu {
+	list-style-type: none;
+	margin: 0 0 0 5px;
+	padding: 0;
+}
+ul.smenu li {
+	display: inline;
+	margin-right: 23px;
+}
+ul.smenu li:last-child {
+	margin-right: 0;
+}
+ul.smenu li a {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #000;
+	font-family: "Arial", "Helvetica", sans-serif;
+	font-size: 13px;
+	text-shadow: 0px 0px 0px #000;
+}
+.main_nav {
+	float: left;
+	width: 100%;
+	margin-top: 21px;
+	border: 1px solid #000;
+	background-color: #1d1d1d;
+	color: #fff;
+	font-family: "Arial", "Helvetica", sans-serif;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+ul.mmenu {
+	display: block;
+	list-style-type: none;
+	margin: 0;
+	padding: 0 15px;
+}
+ul.mmenu:after {
+	display: block;
+	content: ' ';
+	clear: both;
+	float: none;
+}
+ul.mmenu > li {
+	float: left;
+	position: relative;
+	margin-right: 35px;
+	padding: 7px 0;
+}
+ul.mmenu li:last-child {
+	margin-right: 0;
+}
+ul.mmenu li a {
+	display: block;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #fff;
+	font-family: "Arial", "Helvetica", sans-serif;
+	font-size: 14px;
+}
+ul.mmmenu_sub li a {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #fff;
+	font-family: "Arial", "Helvetica", sans-serif;
+	font-size: 13px;
+}
+ul.mmmenu_sub {
+	display: none;
+	position: absolute;
+	list-style-type: none;
+	width: 135px;
+	top: 35px;
+	left: 0;
+	background-color: #1d1d1d;
+	margin: 0;
+	padding: 0;
+}
+ul.mmmenu_sub li {
+	display: block;
+	padding: 7px 15px;
+	border-top: 1px solid #fff;
+}
+.mobile_mnu_btn {
+	display: none;
+}

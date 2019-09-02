@@ -1,0 +1,48 @@
+@font-face {  font-family: 'aktiv-grotesk';
+  src: url('https://fonts.shopwired.co.uk/aktiv_grotesk/aktiv_grotesk300_normal.eot');
+  src: url('https://fonts.shopwired.co.uk/aktiv_grotesk/aktiv_grotesk300_normal.eot?#iefi300') format('embedded-opentype'), url('https://fonts.shopwired.co.uk/aktiv_grotesk/aktiv_grotesk300_normal.woff2') format('woff2'), url('https://fonts.shopwired.co.uk/aktiv_grotesk/aktiv_grotesk300_normal.woff') format('woff'), url('https://fonts.shopwired.co.uk/aktiv_grotesk/aktiv_grotesk300_normal.ttf') format('truetype'), url('https://fonts.shopwired.co.uk/aktiv_grotesk/aktiv_grotesk300_normal.svg#aktivgrotesk300') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {  font-family: 'aktiv-grotesk';
+  src: url('https://fonts.shopwired.co.uk/aktiv_grotesk/aktiv_grotesk_400_normal.eot');
+  src: url('https://fonts.shopwired.co.uk/aktiv_grotesk/aktiv_grotesk_400_normal.eot?#iefi400') format('embedded-opentype'), url('https://fonts.shopwired.co.uk/aktiv_grotesk/aktiv_grotesk_400_normal.woff2') format('woff2'), url('https://fonts.shopwired.co.uk/aktiv_grotesk/aktiv_grotesk_400_normal.woff') format('woff'), url('https://fonts.shopwired.co.uk/aktiv_grotesk/aktiv_grotesk_400_normal.ttf') format('truetype'), url('https://fonts.shopwired.co.uk/aktiv_grotesk/aktiv_grotesk_400_normal.svg#aktivgrotesk400') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {  font-family: 'aktiv-grotesk';
+  src: url('https://fonts.shopwired.co.uk/aktiv_grotesk/aktiv_grotesk_500_normal.eot');
+  src: url('https://fonts.shopwired.co.uk/aktiv_grotesk/aktiv_grotesk_500_normal.eot?#iefi500') format('embedded-opentype'), url('https://fonts.shopwired.co.uk/aktiv_grotesk/aktiv_grotesk_500_normal.woff2') format('woff2'), url('https://fonts.shopwired.co.uk/aktiv_grotesk/aktiv_grotesk_500_normal.woff') format('woff'), url('https://fonts.shopwired.co.uk/aktiv_grotesk/aktiv_grotesk_500_normal.ttf') format('truetype'), url('https://fonts.shopwired.co.uk/aktiv_grotesk/aktiv_grotesk_500_normal.svg#aktivgrotesk500') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {  font-family: 'aktiv-grotesk';
+  src: url('https://fonts.shopwired.co.uk/aktiv_grotesk/aktiv_grotesk_700_normal.eot');
+  src: url('https://fonts.shopwired.co.uk/aktiv_grotesk/aktiv_grotesk_700_normal.eot?#iefi700') format('embedded-opentype'), url('https://fonts.shopwired.co.uk/aktiv_grotesk/aktiv_grotesk_700_normal.woff2') format('woff2'), url('https://fonts.shopwired.co.uk/aktiv_grotesk/aktiv_grotesk_700_normal.woff') format('woff'), url('https://fonts.shopwired.co.uk/aktiv_grotesk/aktiv_grotesk_700_normal.ttf') format('truetype'), url('https://fonts.shopwired.co.uk/aktiv_grotesk/aktiv_grotesk_700_normal.svg#aktivgrotesk700') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {  font-family: 'aktiv-grotesk';
+  src: url('https://fonts.shopwired.co.uk/aktiv_grotesk/aktiv_grotesk_300_italic.eot');
+  src: url('https://fonts.shopwired.co.uk/aktiv_grotesk/aktiv_grotesk_300_italic.eot?#iefi300') format('embedded-opentype'), url('https://fonts.shopwired.co.uk/aktiv_grotesk/aktiv_grotesk_300_italic.woff2') format('woff2'), url('https://fonts.shopwired.co.uk/aktiv_grotesk/aktiv_grotesk_300_italic.woff') format('woff'), url('https://fonts.shopwired.co.uk/aktiv_grotesk/aktiv_grotesk_300_italic.ttf') format('truetype'), url('https://fonts.shopwired.co.uk/aktiv_grotesk/aktiv_grotesk_300_italic.svg#aktivgrotesk300') format('svg');
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {  font-family: 'aktiv-grotesk';
+  src: url('https://fonts.shopwired.co.uk/aktiv_grotesk/aktiv_grotesk_400_italic.eot');
+  src: url('https://fonts.shopwired.co.uk/aktiv_grotesk/aktiv_grotesk_400_italic.eot?#iefi400') format('embedded-opentype'), url('https://fonts.shopwired.co.uk/aktiv_grotesk/aktiv_grotesk_400_italic.woff2') format('woff2'), url('https://fonts.shopwired.co.uk/aktiv_grotesk/aktiv_grotesk_400_italic.woff') format('woff'), url('https://fonts.shopwired.co.uk/aktiv_grotesk/aktiv_grotesk_400_italic.ttf') format('truetype'), url('https://fonts.shopwired.co.uk/aktiv_grotesk/aktiv_grotesk_400_italic.svg#aktivgrotesk400') format('svg');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {  font-family: 'aktiv-grotesk';
+  src: url('https://fonts.shopwired.co.uk/aktiv_grotesk/aktiv_grotesk_500_italic.eot');
+  src: url('https://fonts.shopwired.co.uk/aktiv_grotesk/aktiv_grotesk_500_italic.eot?#iefi500') format('embedded-opentype'), url('https://fonts.shopwired.co.uk/aktiv_grotesk/aktiv_grotesk_500_italic.woff2') format('woff2'), url('https://fonts.shopwired.co.uk/aktiv_grotesk/aktiv_grotesk_500_italic.woff') format('woff'), url('https://fonts.shopwired.co.uk/aktiv_grotesk/aktiv_grotesk_500_italic.ttf') format('truetype'), url('https://fonts.shopwired.co.uk/aktiv_grotesk/aktiv_grotesk_500_italic.svg#aktivgrotesk500') format('svg');
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {  font-family: 'aktiv-grotesk';
+  src: url('https://fonts.shopwired.co.uk/aktiv_grotesk/aktiv_grotesk700_italic.eot');
+  src: url('https://fonts.shopwired.co.uk/aktiv_grotesk/aktiv_grotesk700_italic.eot?#iefi700') format('embedded-opentype'), url('https://fonts.shopwired.co.uk/aktiv_grotesk/aktiv_grotesk700_italic.woff2') format('woff2'), url('https://fonts.shopwired.co.uk/aktiv_grotesk/aktiv_grotesk700_italic.woff') format('woff'), url('https://fonts.shopwired.co.uk/aktiv_grotesk/aktiv_grotesk700_italic.ttf') format('truetype'), url('https://fonts.shopwired.co.uk/aktiv_grotesk/aktiv_grotesk700_italic.svg#aktivgrotesk700') format('svg');
+  font-weight: 700;
+  font-style: italic;
+}

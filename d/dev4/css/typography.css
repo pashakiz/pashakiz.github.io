@@ -1,0 +1,173 @@
+﻿/* Paragraph styling */
+
+@font-face {
+	font-family: 'BoleroScript';
+	src: url(fonts/boleroscript.eot);
+	src: local('Bolero Script'), local('BoleroScript'),
+	url(fonts/boleroscript.eot?#iefix) format('embedded-opentype'),
+	url(fonts/boleroscript.svg) format('svg'),
+	url(fonts/boleroscript.ttf) format('truetype'),
+	url(font/boleroscript.woff) format('woff');	
+}
+
+@font-face {
+    font-family: 'Roboto Thin';
+	src: url(fonts/Roboto-Thin.eot);
+	src: local('Roboto Thin'), local('RobotoThin'),
+	url(fonts/Roboto-Thin.eot?#iefix) format('embedded-opentype'),
+	url(fonts/Roboto-Thin.svg) format('svg'),
+	url(fonts/Roboto-Thin.ttf) format('truetype'),
+	url(font/Roboto-Thin.woff) format('woff');
+}
+
+/*@font-face {
+	font-family: 'Infinity';
+	src: url(fonts/Infinity.eot);
+	src: local('Infinity'),
+	url(fonts/Infinity.eot?#iefix) format('embedded-opentype'),
+	url(fonts/Infinity.svg) format('svg'),
+	url(fonts/Infinity.ttf) format('truetype'),
+	url(font/Infinity.woff) format('woff');	
+}*/
+
+@font-face {
+    font-family: 'Segoe UI Light';
+	src: url(fonts/segoeuil.eot);
+	src: local('Segoe UI Light'), local('SegoeUI Light'),
+	url(fonts/segoeuil.eot?#iefix) format('embedded-opentype'),
+	url(fonts/segoeuil.svg) format('svg'),
+	url(fonts/segoeuil.ttf) format('truetype'),
+	url(font/segoeuil.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Segoe UI Regular';
+	src: url(fonts/segoeui.eot);
+	src: local('Segoe UI Regular'), local('SegoeUI Regular'),
+	url(fonts/segoeui.eot?#iefix) format('embedded-opentype'),
+	url(fonts/segoeui.svg) format('svg'),
+	url(fonts/segoeui.ttf) format('truetype'),
+	url(font/segoeui.woff) format('woff');
+}
+@font-face {
+    font-family: 'Segoe UI Bold';
+	src: url(fonts/segoeuib.eot);
+	src: local('Segoe UI Bold'), local('SegoeUI Bold'),
+	url(fonts/segoeui.eotb?#iefix) format('embedded-opentype'),
+	url(fonts/segoeuib.svg) format('svg'),
+	url(fonts/segoeuib.ttf) format('truetype'),
+	url(font/segoeuib.woff) format('woff');
+}
+@font-face {
+    font-family: 'MyriadPro Regular';
+	src: url(fonts/MyriadPro-Regular.eot);
+	src: local('Myriad Pro'), local('Myriad Pro Regular'),
+	url(fonts/MyriadPro-Regular.eotb?#iefix) format('embedded-opentype'),
+	url(fonts/MyriadPro-Regular.svg) format('svg'),
+	url(fonts/MyriadPro-Regular.otf) format('opentype'),
+	url(font/MyriadPro-Regular.woff) format('woff');
+}
+@font-face {
+    font-family: 'HelveticaNeue-CondensedBold';
+	src: url(fonts/HelveticaNeue-CondensedBold.eot);
+	src: local('Helvetica Neue Condensed Bold'), local('HelveticaNeue CondensedBold'), local('HelveticaNeue Condensed Bold'),
+	url(fonts/HelveticaNeue-CondensedBold.eotb?#iefix) format('embedded-opentype'),
+	url(fonts/HelveticaNeue-CondensedBold.svg) format('svg'),
+	url(fonts/HelveticaNeue-CondensedBold.otf) format('opentype'),
+	url(font/HelveticaNeue-CondensedBold.woff) format('woff');
+}
+
+/*================================================================================================*/
+h1 {
+	color: #0d0d0b;
+	font: normal 78px "BoleroScript", serif;
+	margin: 0 0 5px 0;
+}
+#pre {
+	font-size: 41px;
+	line-height: 1;
+	color: #797778;
+}
+h2 {
+	color: #0d0d0b;
+	font: normal 30px "Roboto Thin", Arial, sans-serif;
+	margin: 0 0 34px 0;;
+}
+h3 {
+	color: #06235d;
+	font: normal 32px "Segoe UI Bold", Arial, sans-serif;
+	margin: 24px 0 14px 0;
+	text-transform: uppercase;
+}
+h4 {
+	color: #ffffff;
+	font: normal 28px "Segoe UI Bold", Arial, sans-serif;
+	margin: 3px 0 -5px 0;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+
+.first {margin-top: 0;}
+
+h5 {
+	color: #ffffff;
+	font-family: Roboto Light, Arial, sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	margin: 0 0 15px 0;
+}
+
+h1 a {
+	text-decoration: none;
+}
+
+p {
+	font-family: Roboto Regular, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+p.sub {
+	color: #999;
+	font-size: 14px;
+ }
+
+blockquote {
+	background-color: #f1f1f1;
+	line-height: 1.5;
+	font: 16px Roboto Light, Arial, sans-serif;
+	padding: 10px 30px;
+	margin: 20px 0 20px 0;
+	/*box-shadow: inset 3px 0px 0px #c4c4c4;*/
+	border-left: 3px solid #c4c4c4;
+}
+
+ul {
+	margin: 10px 0 10px 50px;
+	font: 16px Roboto Regular, Arial, sans-serif;
+	line-height: 1.5;
+	list-style: disc;
+}
+
+ul li, ol li {
+	margin-bottom: 10px;
+}
+
+/*
+ol {
+	list-style-type: decimal;
+	font: 16px PT Sans, Helvetica, Arial, Verdana, sans-serif;
+	line-height: 1.5;
+	font-weight: bold;
+}
+
+li span { font-weight: normal; }*/
+
+a {
+	font: normal 19px "Segoe UI Regular", Arial, sans-serif;
+	color: #2268a4;
+	text-decoration: none;
+}
+
+a:link, a:visited { border-bottom: 1px dashed #2268a4; }
+a:hover, a:active {	border-bottom: 0; }

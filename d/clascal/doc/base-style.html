@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Base Styles</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="../assets/css/base.css" rel="stylesheet">
+    <link href="../assets/css/custom.css" rel="stylesheet">
+    <link href="../assets/css/biz-offer.css" rel="stylesheet">
+    <link href="../assets/css/admin.css" rel="stylesheet">
+    <link href="../assets/css/media.css" rel="stylesheet">
+    <link href="../assets/css/admin.media.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+      .example-box {
+        display: inline-block;
+        width: 5rem;
+        height: 5rem;
+        margin: .25rem;
+      }
+      .example-box2 {
+        display: inline-block;
+        width: 10rem;
+        height: 10rem;
+        margin: .25rem;
+      }
+    </style>
+  </head>
+  <body style="margin: 30px 0;">
+    <div class="container">
+      <div class="col-md-12">
+        <h1>Base Styles <small><code>ver. 2018-12-28</code></small></h1>
+        <br>
+
+        <h2>Design</h2>
+        The last Basic Design look here: <a href="https://bitbucket.org/patatay/patatayadnetwork-design/issues/10/">[issue #10] CSS</a>
+
+        <h2>CSS</h2>
+        <h3>Typography</h3>
+        <br>
+        <table class="table">
+          <tr>
+            <td><div class="title15">Title15</div> has class <code>.title15</code></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><div class="title1">Title1</div> has class <code>.title1</code></td>
+            <td><div class="title10">Title10</div> has class <code>.title10</code></td>
+            <td><div class="title100">Title100</div> has class <code>.title100</code></td>
+          </tr>
+          <tr>
+            <td><div class="title2">Title2</div> has class <code>.title2</code></td>
+            <td><div class="title20">Title20</div> has class <code>.title20</code></td>
+            <td><div class="title200">Title200</div> has class <code>.title200</code></td>
+          </tr>
+          <tr>
+            <td><div class="title3">Title3</div> has class <code>.title3</code></td>
+            <td><div class="title30">Title30</div> has class <code>.title30</code></td>
+            <td><div class="title300">Title300</div> has class <code>.title300</code></td>
+          </tr>
+          <tr>
+            <td><div class="title4">Title4</div> has class <code>.title4</code></td>
+            <td><div class="title40">Title40</div> has class <code>.title40</code></td>
+            <td><div class="title400">Title400</div> has class <code>.title400</code></td>
+          </tr>
+          <tr>
+            <td><div class="base1">Base1</div> has class <code>.base1</code></td>
+            <td><div class="base10">Base10</div> has class <code>.base10</code></td>
+            <td><div class="base100">Base100</div> has class <code>.base100</code></td>
+          </tr>
+          <tr>
+            <td><div class="base2">Base2</div> has class <code>.base2</code></td>
+            <td><div class="base20">Base20</div> has class <code>.base20</code></td>
+            <td><div class="base200">Base200</div> has class <code>.base200</code></td>
+          </tr>
+          <tr>
+            <td><div class="mini1">Mini1</div> has class <code>.mini1</code></td>
+            <td><div class="mini10">Mini10</div> has class <code>.mini10</code></td>
+            <td><div class="mini100">Mini100</div> has class <code>.mini100</code></td>
+          </tr>
+        </table>
+
+        <h3>Graphics</h3>
+        <h5>Line1</h5>
+        <table class="table">
+          <tr>
+            <td>
+              <div class="example-box bg01 line1-borders"></div>
+              <br><code>.line1-borders</code>
+            </td>
+            <td>
+              <div class="example-box bg01 line1-bt"></div>
+              <br><code>.line1-bt</code><br>(border-top)
+            </td>
+            <td>
+              <div class="example-box bg01 line1-bb"></div>
+              <br><code>.line1-bb</code><br>(border-bottom)
+            </td>
+          </tr>
+        </table>
+
+        <h5>Line1 1px height, 100% width, div block</h5>
+        <div class="line1-div"></div>
+        <code>.line1-div</code>
+
+        <br><br>
+        <h4>Backgrounds</h4>
+        <table class="table">
+          <tr>
+            <td>
+              <h5>Bg01</h5>
+              <div class="example-box bg01"></div>
+              <br><code>.bg01</code>
+            </td>
+            <td>
+              <h5>Bg02</h5>
+              <div class="example-box bg02"></div>
+              <br><code>.bg02</code>
+            </td>
+            <td>
+              <h5>Bg03</h5>
+              <div class="example-box bg03"></div>
+              <br><code>.bg02</code>
+            </td>
+          </tr>
+        </table>
+
+        <h3>Buttons</h3>
+        <br>
+        <h5>Button1</h5>
+        <button class="btn adn-btn1 btn-success btn-lg" type="button">Button1</button>
+        <br><br>Has class <code>.adn-btn1</code> and need bootstrap classes: <code>.btn</code> <code>.btn-success</code> <code>.btn-lg</code>
+        <br><br>
+
+        <h5>Button2</h5>
+        <button class="btn adn-btn2 btn-success" type="button">Button2</button>
+        <br><br>Has class <code>.adn-btn2</code> and need bootstrap classes: <code>.btn</code> <code>.btn-success</code>
+        <br><br>
+
+        <h5>Button3</h5>
+        <button class="btn adn-btn3 btn-primary btn-sm" type="button">Button3</button>
+        <br><br>Has class <code>.adn-btn3</code> and need bootstrap classes: <code>.btn</code> <code>.btn-primary</code> <code>.btn-sm</code>
+        <br><br>
+
+        <h5>Button4</h5>
+        <button class="btn adn-btn4 btn-xs" type="button">Button4</button>
+        <br><br>Has class <code>.adn-btn4</code> and need bootstrap classes: <code>.btn</code> <code>.btn-xs</code>
+        <br><br>
+
+        <h5>Button5</h5>
+        <button class="btn adn-btn5 btn-success btn-xs" type="button">Button5</button>
+        <br><br>Has class <code>.adn-btn5</code> and need bootstrap classes: <code>.btn</code> <code>.btn-success</code> <code>.btn-xs</code>
+        <br><br>
+
+        <h5>Button Clear Text</h5>
+        <button class="btn btn-clear" type="button">Button clear styles</button>
+        <br><br>Has class <code>.btn-clear</code> and need bootstrap class: <code>.btn</code>
+        <br><br>
+
+        <h5>Button Link</h5>
+        <button type="button" class="btn btn-link">Button link</button>
+        <br><code>.btn.btn-link</code>
+        <br><br>Has bootstrap classes: <code>.btn</code> <code>.btn-link</code> (example)
+        <br><br>
+
+        <h2>Also useful:</h2>
+        <a href="https://getbootstrap.com/docs/3.3/css/#helper-classes">Bootstrap helper classes</a>
+        <br><br>
+
+        <h3>CSS Preloader</h3>
+        <table class="table">
+          <tr>
+            <td>
+              <h5>For use on full page (with bg fill) - <a href="/doc/preloader.html" target="_blank">example</a></h5>
+              <div class="example-box2" style="position: relative;">
+                <div class="preloader preloader_fullscreen" style="position: absolute;">
+                  <div class="preloader__spinner"></div>
+                </div>
+              </div>
+              <figure class="highlight">
+                <pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"preloader preloader_fullscreen"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"preloader__spinner"</span><span class="nt">&gt;</span><span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre>
+              </figure>
+              <h5>JS</h5>
+              <figure class="highlight">
+                <pre><code class="language-js" data-lang="js">$(window).load(function() {
+  setTimeout(function() {
+    var preloader = $('.preloader_fullscreen');
+    if ( !preloader.hasClass('done') ) {
+      preloader.addClass('done');
+    }
+  }, 1000);
+});</code></pre>
+              </figure>
+            </td>
+            <td>
+              <h5>For use in custom position</h5>
+              <div class="example-box2">
+                <div class="preloader">
+                  <div class="preloader__spinner"></div>
+                </div>
+              </div>
+              <figure class="highlight">
+                <pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"preloader"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"preloader__spinner"</span><span class="nt">&gt;</span><span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre>
+              </figure>
+            </td>
+          </tr>
+        </table>
+
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </body>
+</html>

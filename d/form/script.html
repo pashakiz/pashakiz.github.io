@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Uploads Page</title>
+<style>
+body {margin:0;padding:0;}
+#main-wrapper {border-radius:20px;display:block;margin:auto auto 100px;width:420px;margin-top:115px;padding:25px 0 0;background: #323a43 no-repeat 60px 25px;border-top:1px solid #222222;-webkit-box-shadow: rgba(200,200,200,0.7) 0 4px 10px -1px;
+box-shadow: rgba(200,200,200,0.7) 0 4px 10px -1px;}
+#error-mssg {display:none;}
+form {background:#fff;padding:30px 20px;border:1px solid #ccc;border-top:1px solid #eee;font-family: 'Droid Sans', sans-serif;font-size:16px;color:#555;border-bottom-right-radius: 20px;
+border-bottom-left-radius: 20px;
+}
+.input-title {display:block;font-size:14px;padding-left:5px;
+}
+.f2b-field.check {margin:30px 0 35px; margin-bottom: 35px;
+}
+.check .input-title {width:80%;
+}
+input[type="text"]{width:90%;border-radius:4px;border:1px solid #fefefe;border-top:1px solid #a7a9ab;background:#e6e7e8;padding:3px 10px;height:25px;margin:10px 0 0;font-size:18px;color:#323a43
+}
+input[type="text"]:active,input[type="text"]:focus {background:#eee;border:1px solid #ccc;
+}
+.f2b-field {margin-bottom:20px;position:relative;
+}
+.input-example {font-family:times new roman;color:#ccc;font-size:12px;letter-spacing:1px;display:block;padding-left:5px;
+}
+span.input-check {position:absolute;top:0; right:5%;font-size:12px;
+}
+input[type="checkbox"] {}
+.f2b-submit {text-align:right;display:block;padding-right:5%;}
+.f2b-submit input {background: #6bb327; /* Old browsers */
+background: -moz-linear-gradient(top, #6bb327 1%, #5d9921 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#6bb327), color-stop(100%,#5d9921)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #6bb327 1%,#5d9921 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #6bb327 1%,#5d9921 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #6bb327 1%,#5d9921 100%); /* IE10+ */
+background: linear-gradient(to bottom, #6bb327 1%,#5d9921 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6bb327', endColorstr='#5d9921',GradientType=0 ); /* IE6-9 */;border:1px solid #6bb327;padding:12px 20px;color:#fff;border-radius:5px;text-shadow: 0 -1px #000;
+-webkit-text-shadow: 0 -1px #000;
+-khtml-text-shadow: 0 -1px #000;
+-moz-text-shadow: 0 -1px #000;text-transform:uppercase
+}
+.f2b-submit input:hover {border-color:#666;-webkit-box-shadow: rgba(200,200,200,0.7) 0 2px 3px -1px;
+box-shadow: rgba(200,200,200,0.7) 0 2px 3px -1px;
+}
+</style>
+</head>
+
+<body>
+<div id="main-wrapper">
+    <form action='http://api.marketingefficiencyconsultants.com/products/file2box/webform.php' method='POST' enctype='multipart/form-data'>
+    <input type='hidden' name='returnURL' value='https://zq155.infusionsoft.com/app/form/job-posting-1' /> <!-- Thank You Page Url -->
+    <input type='hidden' name='sendContactInfo' value='on' /> <!-- Append Contact Fields to Thank You Page Url -->
+    <input type='hidden' name='grpId' value='262' /> <!-- Apply This Tag To Contact -->
+    <input type='hidden' name='customerKey' value='zq155' /> <!-- Infusionsoft App Name -->
+    <div class="f2b-field">
+        <span class="input-title">First Name:</span>
+        <input type='text' name='firstname' />
+    </div>
+
+    <div class="f2b-field">
+        <span class="input-title">Last Name:</span>
+        <input type='text' name='lastname' />
+    </div>
+
+    <div class="f2b-field">
+        <span class="input-title">City:</span>
+        <input type='text' name='city' />
+    </div>
+
+    <div class="f2b-field">
+    <span class="input-title">Country:</span>
+    <input type='text' name='country' />
+    </div>
+
+    <div class="f2b-field">
+        <span class="input-title">Phone:</span>
+    <input type='text' name='phone' /></div>
+
+    <div class="f2b-field">
+        <span class="input-title">E-mail:</span>
+    <input type='text' name='email' /></div>
+
+   <div class="f2b-fieldset upload">
+       <div class="f2b-field">
+            <span class="input-title">Attachment #1:</span>
+        <input type='file' name='File1' /></div>
+        <div class="f2b-field">
+            <span class="input-title">Attachment #2:</span>
+        <input type='file' name='File2' /></div>
+        <div class="f2b-field">
+            <span class="input-title">Attachment #3:</span>
+        <input type='file' name='File3' /></div>
+        <div class="f2b-field">
+            <span class="input-title">Attachment #4:</span>
+        <input type='file' name='File4' /></div>
+        <div class="f2b-field">
+            <span class="input-title">Attachment #5:</span>
+        <input type='file' name='File5' /></div>
+    </div>
+
+
+    <div class="f2b-submit"><input type='submit' value='Upload Attachments' /></div>
+    </form>
+</div>
+</body>
+</html>

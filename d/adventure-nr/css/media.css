@@ -1,0 +1,145 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1296px) {
+	.country-items {
+		width: 960px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.country-items {
+		width: 640px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 650px) { /*768*/
+	.country-items {
+		width: 300px;
+		left: 0;
+		position: static;
+	}
+	.mobile_menu {
+		display: block;
+		cursor: pointer;
+		font-family: 'NewBaskervilleC', serif;
+		font-size: 32px;
+		text-align: center;
+	}
+	ul.menu {
+		display: none;
+		list-style-type: none;
+		text-align: center;
+	}
+	nav ul.menu > li {
+		display: list-item;
+		margin-right: 0;
+		line-height: 30px;
+	}
+	.country-items .country-item.big-item,
+	.country-items .country-item.big-item .img-container,
+	.country-items .country-item.big-item .img-container img,
+	.country-items .country-item.big-item .hover,
+	.country-items .country-item.big-item .carousel .carousel-item,
+	.country-items .country-item.big-item .carousel .owl-item {
+		width: 300px;
+		height: 420px;
+	}
+	.country-items .country-item {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.country-items .country-item.big-item .img-container {
+		overflow: hidden;
+	}
+	.country-items .country-item.big-item .img-container img {
+		width: auto;
+		position: relative;
+		left: -132px;
+	}
+	.country-items .country-item.big-item .img-container .title > h1 {
+		top: 28px;
+	}
+	.country-items .country-item.big-item .img-container .title > ol {
+		top: 103px;
+	}
+	footer {
+		height: 110px;
+		text-align: center;
+	}
+	footer span {
+		padding-left: 0;
+		padding-bottom: 0;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/*чтобы не редактировать оновной style.css
+ибо версталось изначально под десктоп*/
+@media only screen and (min-width : 100px) {
+	.container {
+		width: 300px;
+		padding: 0;
+		margin: 0 auto;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+	.container {
+		width: 300px;
+		padding: 0;
+		margin: 0 auto;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 650px) { /*480*/
+	.container {
+		width: 620px;
+		padding: 0;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {/*768*/
+	.container {
+		width: 620px;
+		padding: 0;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	.container {
+		width: 940px;
+		padding: 0;
+	}
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1296px) {
+	.container {
+		width: 1260px;
+		padding: 0;
+	}
+}
+
+/*========== Retina ==========*/
+@media (-webkit-min-device-pixel-ratio:2), (min-resolution:192dpi) {
+
+}

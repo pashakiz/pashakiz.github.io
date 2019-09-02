@@ -1,0 +1,145 @@
+*::-webkit-input-placeholder {
+	color: #939393;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #939393;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #939393;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #939393;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-family: "aktiv-grotesk", Arial, sans-serif;
+	font-size: 13px;
+}
+svg.define {
+	display: none;
+}
+header.top {
+	/*margin-top: 9px;*/
+}
+.logo {
+	width: 200px;
+	height: 75px;
+	background-color: #000;
+	float: left;
+	margin: 10px 0 12px 0;
+}
+.search {
+	float: left;
+	margin-left: 35px;
+	width: 220px;
+	margin-top: 12px;
+}
+.search p.text {
+	font-family: "aktiv-grotesk", Arial, sans-serif;
+	font-size: 12px;
+	color: #595959;
+	font-weight: normal;
+	margin: 0 0 10px 0;
+}
+.search_container {
+	position: relative;
+}
+.search input.searchfield {
+	/*background: url(../images/icons/search.svg) no-repeat;
+	background-position: 97% center;
+	background-size: 10%;*/
+	background-color: #f7f9fb;
+	border: 1px solid #d3dcde;
+	width: 100%;
+	padding: 10px 35px 10px 12px;
+	font-family: "aktiv-grotesk", Arial, sans-serif;
+	font-size: 12px;
+	color: #595959;
+}
+.topleft {
+	float: left;
+}
+.topright {
+	float: right;
+}
+.reglog {
+	float: right;
+	border-right: 1px solid #eaefef;
+	font-family: "aktiv-grotesk", Arial, sans-serif;
+	font-size: 13px;
+	color: #595959;
+	font-weight: bold;
+	padding: 30px 13px 15px 0;
+}
+.reglog a {
+	font-family: "aktiv-grotesk", Arial, sans-serif;
+	font-size: 13px;
+	color: #ff5a3d;
+	font-weight: bold;
+	text-decoration: none;
+}
+.reglog a:hover {
+	text-decoration: underline;
+}
+.reglog p {
+	font-family: "aktiv-grotesk", Arial, sans-serif;
+	font-size: 12px;
+	color: #595959;
+	margin: 10px auto 0 auto;
+}
+.reglog p a {
+	color: #595959;
+	font-size: 12px;
+}
+.wishlist {
+	float: right;
+	padding: 11px 13px 15px 13px;
+	text-align: center;
+	border-right: 1px solid #eaefef;
+	cursor: pointer;
+}
+.items {
+	float: right;
+	padding: 11px 13px 15px 13px;
+	text-align: center;
+	border-right: 1px solid #eaefef;
+	cursor: pointer;
+}
+.icon-search {
+	position: absolute;
+	width: 21px;
+	height: 21px;
+	top: 8px;
+	right: 8px;
+	fill: #ff5a3d;
+}
+.icon-star {
+	width: 30px;
+	height: 30px;
+	fill: #ff5a3d;
+}
+.icon-shopping-basket {
+	width: 30px;
+	height: 30px;
+	fill: #ff5a3d;
+}
+p.itemstext {
+	font-family: "aktiv-grotesk", Arial, sans-serif;
+	font-size: 13px;
+	color: #595959;
+	font-weight: bold;
+	margin: 5px auto 0 auto;
+	line-height: 1.3;
+}

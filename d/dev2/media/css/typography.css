@@ -1,0 +1,45 @@
+h1 {
+	font: normal 42px Arial, Helvetica, Sans-serif;
+	color: #010101;
+	margin-top: 40px;
+	margin-bottom: 15px;
+}
+
+h2 {
+	font: bold 27px Arial, Helvetica, Sans-serif;
+	color: #010101;
+	margin-top: 20px;
+	margin-bottom: 12px;
+}
+
+h3 {
+	font: bold 22px Arial, Helvetica, Sans-serif;
+	color: #010101;
+	margin-top: 25px;
+}
+
+p {
+	font: normal 15px Arial, Helvetica, Sans-serif;
+	color: #010101;
+	margin-top: 20px;
+	line-height: 1.5;
+}
+
+#content ul {padding-left: 40px;}
+
+#proposition ul {
+	list-style-image: url(../images/list-tick.png);
+}
+
+#proposition ul li {
+	margin-bottom: 19px;
+}
+
+p.bold_16 { font-weight: bold; font-size: 16px; line-height: 1.7; }
+.price_left p {margin-top: 15px;}
+.ccc { color: #cccccc; }
+.f_20 { font-size: 20px; }
+p.italic { font-style: italic; }
+
+a:link, a:visited { color: #ea61a0; }
+a:hover, a:active { color: #ff0000; text-decoration: none; }

@@ -1,0 +1,164 @@
+@import url('reset.css');
+
+@font-face {
+	font-family: 'Roboto Regular';
+	src: url(fonts/Roboto-Regular.eot); /* For IE5-8 */
+	src: local('Roboto Regular'), local('RobotoRegular'),
+	url(fonts/Roboto-Regular.eot?#iefix) format('embedded-opentype'),
+	url(fonts/Roboto-Regular.svg) format('svg'),
+	url(fonts/Roboto-Regular.ttf) format('truetype'),
+	url(font/Roboto-Regular.woff) format('woff');	
+}
+
+@font-face {
+	font-family: 'Roboto Light';
+	src: url(fonts/Roboto-Light.eot); /* For IE5-8 */
+	src: local('Roboto Light'), local('RobotoLight'),
+	url(fonts/Roboto-Light.eot?#iefix) format('embedded-opentype'),
+	url(fonts/Roboto-Light.svg) format('svg'),
+	url(fonts/Roboto-Light.ttf) format('truetype'),
+	url(font/Roboto-Light.woff) format('woff');	
+}
+
+#main {
+	width: 976px;
+	min-height: 500px;
+	margin: 100px auto;
+}
+
+.menu {
+	width: 976px;
+	height: 678px;
+}
+
+.menu_line {
+	width: 976px;
+	/*height: 210px;
+	margin-bottom: 24px;*/
+}
+
+.canvas_btn {
+	width: 310px;
+	height: 210px;
+	float: left;
+	display: block;
+	margin: 0 23px 24px 0;
+	cursor: pointer;
+}
+
+.mright0 { margin-right: 0; }
+.mbottom0 { margin-bottom: 0; }
+
+.btn {
+	position: relative;
+	overflow: hidden;
+	width: 310px;
+	height: 210px;
+	margin: 0;
+}
+
+.img01 { background: url(../img/img01.png) no-repeat; }
+.img02 { background: url(../img/img02.png) no-repeat; }
+.img03 { background: url(../img/img03.png) no-repeat; }
+.img04 { background: url(../img/img04.png) no-repeat; }
+.img05 { background: url(../img/img05.png) no-repeat; }
+.img06 { background: url(../img/img06.png) no-repeat; }
+.img07 { background: url(../img/img07.png) no-repeat; }
+.img08 { background: url(../img/img08.png) no-repeat; }
+.img09 { background: url(../img/img09.png) no-repeat; }
+
+.bg_red { background: #ef4036; }
+.bg_blue { background: #3498db; }
+.bg_green { background: #27ae60; }
+
+.hover {
+	position: absolute;
+	width: 310px;
+	height: 210px;
+	right: 250px;
+	top: 150px;
+	margin: 0;
+	font: 16px Roboto Regular, Arial, sans-serif;
+	color: #ffffff;
+}
+
+.hover span {
+	font: 12px Roboto Regular, Arial, sans-serif;
+}
+
+.hover_text { display: none; opacity: 0; text-align: center; margin-top: 124px; }
+
+.hover img {
+	position: absolute;
+	width: 31px;
+	height: 31px;
+	right: 14px;
+	top: 14px;
+}
+
+.containers {
+	padding-top: 210px;
+}
+
+.container {
+	width: 928px;
+	padding: 24px;
+	background: #444444;
+	color: #ffffff;
+	font: 14px Roboto light, Arial, sans-serif;
+	margin: 24px 0;
+}
+
+.c1, .c2, .c3 { display: none; }
+
+.content {
+	width: 928px;
+	margin-bottom: 24px;
+	border: 0;
+}
+
+.container p { font-size: 16px; margin-top: 10px; }
+
+.container_title {
+	float: left;
+	font-size: 23px;
+}
+
+.share {
+	float: right;
+}
+
+.icon_fb {
+	float: right;
+	height: 18px;
+	width: 10px;
+	background: url(../img/facebook.png) no-repeat;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.icon_tw {
+	float: right;
+	height: 18px;
+	width: 18px;
+	background: url(../img/twitter.png) no-repeat;
+	margin-right: 20px;
+}
+
+.icon_gp {
+	float: right;
+	height: 18px;
+	width: 20px;
+	background: url(../img/googleplus.png) no-repeat;
+	margin-right: 20px;
+}
+
+.icon_vk {
+	float: right;
+	height: 18px;
+	width: 14px;
+	background: url(../img/vk.png) no-repeat;
+}
+
+/*======== if no need - delete ===================================================================*/
+.clear { clear: both; }

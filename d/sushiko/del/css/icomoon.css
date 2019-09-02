@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'icomoon';
+    src:    url('../fonts/icomoon/icomoon.eot?6t5zro');
+    src:    url('../fonts/icomoon/icomoon.eot?6t5zro#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon/icomoon.ttf?6t5zro') format('truetype'),
+        url('../fonts/icomoon/icomoon.woff?6t5zro') format('woff'),
+        url('../fonts/icomoon/icomoon.svg?6t5zro#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-clock:before {
+    content: "\e900";
+}
+.icon-phone:before {
+    content: "\e901";
+}
+.icon-basket:before {
+    content: "\e902";
+}
+.icon-mobile-menu:before {
+    content: "\e903";
+}
+.icon-close:before {
+    content: "\e904";
+}
+.icon-freshmade:before {
+    content: "\e905";
+}
+.icon-original-recipes:before {
+    content: "\e906";
+}
+.icon-professional-chefs:before {
+    content: "\e907";
+}
+.icon-high-quality-ingredients:before {
+    content: "\e908";
+}
+.icon-vk:before {
+    content: "\e909";
+}
+.icon-ok:before {
+    content: "\e90a";
+}
+.icon-instagram:before {
+    content: "\e90b";
+}
+.icon-facebook:before {
+    content: "\e90c";
+}
+.icon-arrow-left:before {
+    content: "\e90d";
+}
+.icon-arrow-right:before {
+    content: "\e90e";
+}
+.icon-minus:before {
+    content: "\e90f";
+}
+.icon-plus:before {
+    content: "\e910";
+}

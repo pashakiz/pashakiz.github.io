@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>Земля в Крыму</title>
+	<meta name="description" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="css/bootstrap-grid-3.3.1.min.css" />
+	<link rel="stylesheet" href="css/fancybox/jquery.fancybox.css" />
+	<link rel="stylesheet" href="css/icomoon.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/media.css" />
+	<script src="http://api-maps.yandex.ru/2.0/?load=package.full&lang=ru-RU" type="text/javascript"></script>
+</head>
+<body>
+	<header class="header">
+		<div class="header-top">
+			<div class="container clearfix">
+				<div class="worktime"><i class="icon icon-time"></i>с 9:00 до 21:00<span class="worktime__note">(без выходных)</span></div>
+				<a class="call2skype" href="skype:berdyugin_o"><i class="icon icon-skype"></i><span class="call2skype__underline">Позвонить в Skype</span></a>
+			</div>
+		</div>
+		<div class="header-bottom">
+			<div class="container clearfix">
+				<a class="logo clearfix" href="/">
+					<div class="logo__image">
+						<img src="img/logo.png" alt="" class="logo__img">
+					</div>
+					<div class="logo__text">
+						<div class="logo__name">Zem-Krym.ru</div>
+						<div class="logo__slogan">Продажа земли в Крыму</div>
+					</div>
+				</a>
+				<div class="header-contact">
+					<div class="phone">
+						<div class="phone__text">Есть вопросы? Звоните по телефону:</div>
+						<div class="phone__number">+7 (978)738-98-97</div>
+					</div>
+					<a href="#form-recall" class="btn btn-recall fancybox">Заказать обратный звонок</a>
+				</div>
+			</div>
+			<div class="header-bottom__line"></div>
+		</div>
+	</header>
+	<section class="firstscreen">
+		<div class="container">
+			<div class="firstscreen__title">Более 700 живописных земельных участков в Крыму от 180 т.р. за сотку</div>
+			<div class="form1">
+				<div class="form1__header">
+					<div class="form1__title">Отправьте заявку сейчас и получите:</div>
+				</div>
+				<div class="form1__body">
+					<div class="form1__body-row">
+						<ul class="list">
+							<li class="list__item"><i class="list__item-icon icon-check"></i>Информацию о земельных участках в продаже</li>
+							<li class="list__item"><i class="list__item-icon icon-check"></i>Бесплатную консультацию эксперта</li>
+						</ul>
+					</div>
+					<div class="form1__body-hr1"></div>
+					<div class="form1__body-row">
+						<form id="form1-firstscreen" action="" method="POST">
+							<input class="form1__input" type="text" name="name" placeholder="Введите ваше имя" required>
+							<input class="form1__input customer_phone" type="text" name="phone" placeholder="Ваш телефон" required>
+							<button class="btn btn-send-firstscreen" type="submit">Подобрать лучшие участки</button>
+						</form>
+					</div>
+					<div class="form1__body-hr2"></div>
+					<div class="form1__body-row">
+						<div class="data-security"><i class="data-security__icon icon-lock"></i>Ваши данные в безопасности</div>
+					</div>
+				</div> <!-- .form1__body -->
+				<div class="tooltip tooltip_sale">
+					<div class="tooltip__title">Акция!</div>
+					<div class="tooltip__text">Отправьте заявку до 30 мая и получите:</div>
+					<ul class="list list_circle">
+						<li class="list__item"><i class="list__item-icon icon-circle"></i>Бесплатное оформление сделки купли-продажи</li>
+						<li class="list__item"><i class="list__item-icon icon-circle"></i>Скидку до <span class="salesumm">30 000 рублей</span> рублей при покупке</li>
+					</ul>
+				</div>
+			</div> <!-- .form1 -->
+		</div> <!-- .container -->
+	</section>
+	<section class="advantages">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4">
+					<div class="advantage">
+						<div class="advantage__icon-border">
+							<div class="advantage__icon">
+								<i class="icon-safety"></i>
+							</div>
+						</div>
+						<div class="advantage__info">
+							<div class="advantage__title">Безопасная покупка</div>
+							<div class="advantage__text">Сделка купли-продажи проводится с использованием депозитарной ячейки банка</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="advantage">
+						<div class="advantage__icon-border">
+							<div class="advantage__icon">
+								<i class="icon-house"></i>
+							</div>
+						</div>
+						<div class="advantage__info">
+							<div class="advantage__title">Большой выбор и разнообразие</div>
+							<div class="advantage__text">В продаже участки от 1 сотки до десятка гектар. В лучших уголках Крыма. Под любые цели</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="advantage">
+						<div class="advantage__icon-border">
+							<div class="advantage__icon">
+								<i class="icon-write"></i>
+							</div>
+						</div>
+						<div class="advantage__info">
+							<div class="advantage__title">Комплексные услуги</div>
+							<div class="advantage__text">Мы окажем вам помощь на любом этапе - от выбора земельного участка до строительства</div>
+						</div>
+					</div>
+				</div>
+			</div> <!-- .row -->
+			<div class="advantages__title">Полный комплекс услуг по приобретению недвижимости в Крыму</div>
+			<div class="advantages__subtitle">На любом из этапов вы получите оптимальное предложение</div>
+		</div>
+	</section>
+	<section class="stages">
+		<div class="container clearfix">
+			<div class="stage stage_1">
+				<div class="stage__title"><div class="stage__title-val">Продажа земельных участков</div></div>
+				<ul class="list list_circle list_circle-white">
+					<li class="list__item"><i class="list__item-icon icon-circle"></i>Продажа земельных участков</li>
+					<li class="list__item"><i class="list__item-icon icon-circle"></i>Аудит земельных участков</li>
+					<li class="list__item"><i class="list__item-icon icon-circle"></i>Выкуп земельных участков</li>
+				</ul>
+			</div>
+			<div class="stage stage_2">
+				<div class="stage__title"><div class="stage__title-val">Проектирование и получение разрешений</div></div>
+				<ul class="list list_circle list_circle-white list_circle-stage2">
+					<li class="list__item"><i class="list__item-icon icon-circle"></i>Получение градостроительного заключения</li>
+					<li class="list__item"><i class="list__item-icon icon-circle"></i>Получение технических условий на инженерные сети</li>
+					<li class="list__item"><i class="list__item-icon icon-circle"></i>Получение заключения надзорных служб</li>
+					<li class="list__item"><i class="list__item-icon icon-circle"></i>Проектные работы по наружным инженерным сетям</li>
+					<li class="list__item"><i class="list__item-icon icon-circle"></i>Проектирование сданий и сооружений</li>
+				</ul>
+			</div>
+			<div class="stage stage_3">
+				<div class="stage__title"><div class="stage__title-val">Строительные работы</div></div>
+				<ul class="list list_circle list_circle-white">
+					<li class="list__item"><i class="list__item-icon icon-circle"></i>Строительные и отделочные работы под ключ с гарантией</li>
+					<li class="list__item"><i class="list__item-icon icon-circle"></i>Ландшафтный дизайн</li>
+					<li class="list__item"><i class="list__item-icon icon-circle"></i>Введение в эксплуатацию</li>
+					<li class="list__item"><i class="list__item-icon icon-circle"></i>Проведение сопутствующих строительству экспертиз</li>
+				</ul>
+			</div>
+		</div> <!-- .container -->
+	</section>
+	<section class="regions">
+		<div class="container">
+			<div class="regions__title">Вы сможете подобрать великолепный земельный участок под любые нужды в наилучших регионах Крыма</div>
+			<div class="regions__needs">
+				<div class="row">
+					<div class="col-lg-3 col-xs-6">
+						<div class="need">
+							<div class="need__img-container">
+								<img src="img/needs1.jpg" alt="" class="need__img">
+							</div>
+							<div class="need__label">Индивидуальное жилищное строительство</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-xs-6">
+						<div class="need">
+							<div class="need__img-container">
+								<img src="img/needs2.png" alt="" class="need__img">
+							</div>
+							<div class="need__label">Многоэтажное жилое строительство</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-xs-6">
+						<div class="need">
+							<div class="need__img-container">
+								<img src="img/needs3.png" alt="" class="need__img">
+							</div>
+							<div class="need__label">Коммерческое<br>использование</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-xs-6">
+						<div class="need">
+							<div class="need__img-container">
+								<img src="img/needs4.png" alt="" class="need__img">
+							</div>
+							<div class="need__label">Сельскохозяйственное<br>назначение</div>
+						</div>
+					</div>
+				</div> <!-- .row -->
+			</div> <!-- .regions__needs -->
+		</div> <!-- .container -->
+		<div class="regions__map">
+			<object id="svgmap" data="img/map.svg" type="image/svg+xml" height="560" width="1205">
+				<p>К сожалению, вы используете устаревшую версию браузера, который не поддерживает интерактивную карту.</p>
+			</object>
+			<div class="container">
+				<div class="regions__title2">Выберите свою часть Крыма:</div>
+				<div class="tooltip-region__title-btn">Восточное побережье</div>
+			</div>
+			<div class="tooltip-region tooltip-region_arrow-right tooltip-region_east clearfix">
+				<div class="tooltip-region__inner clearfix">
+					<div class="tooltip-region__image">
+						<img src="img/region-east.jpg" alt="">
+					</div>
+					<div class="tooltip-region__info">
+						<div class="tooltip-region__title clearfix">Восточное побережье<span class="tooltip-region__title-btn-hide">Свернуть</span></div>
+						<div class="tooltip-region__text">Хоть восточное побережье и не может конкурировать с южным по уровню инфраструктуры, красоте природы и достопримечательностям, оно обладает своими весомыми преимуществами. Здесь меньший наплыв туристов, более низкие цены и близкое расположение Керченского моста.</div>
+						<a href="#form-region-east" class="btn btn-tooltip-region fancybox">Оставить заявку на подбор участка</a>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="tooltip-region__title-btn">Западное побережье</div>
+			</div>
+			<div class="tooltip-region tooltip-region_west clearfix">
+				<div class="tooltip-region__inner clearfix">
+					<div class="tooltip-region__image">
+						<img src="img/region-west.jpg" alt="">
+					</div>
+					<div class="tooltip-region__info">
+						<div class="tooltip-region__title clearfix">Западное побережье<span class="tooltip-region__title-btn-hide">Свернуть</span></div>
+						<div class="tooltip-region__text">Преимущественно дикие пляжи Западного берега Крыма идеально подойдут для ценителей уединенного отдыха подальше от цивилизации. Ландшафт представлен бескрайней равнинной степью. Сезонные ветра оценят любители водных видов спорта. Запад Крыма славится своими демократичными ценами.</div>
+						<a href="#form-region-west" class="btn btn-tooltip-region fancybox">Оставить заявку на подбор участка</a>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="tooltip-region__title-btn">Южный Берег Крыма</div>
+			</div>
+			<div class="tooltip-region tooltip-region_south clearfix">
+				<div class="tooltip-region__inner clearfix">
+					<div class="tooltip-region__image">
+						<img src="img/region-south.jpg" alt="">
+					</div>
+					<div class="tooltip-region__info">
+						<div class="tooltip-region__title clearfix">ЮБК<span class="tooltip-region__title-btn-hide">Свернуть</span></div>
+						<div class="tooltip-region__text">Именно благодаря Южному берегу Крым называют Русской Ривьерой. Субтропический климат, живописные горы и леса, самое теплое море и долгий бархатный сезон. не оставят равнодушным никого! Поражает количество исторических памятников на ЮБК, одних только дворцов более 30! Недаром Южный берег воспет в творчестве десятков поэтов и писателей.</div>
+						<a href="#form-region-south" class="btn btn-tooltip-region fancybox">Оставить заявку на подбор участка</a>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="tooltip-region__title-btn">Горный крым</div>
+			</div>
+			<div class="tooltip-region tooltip-region_mountain">
+				<div class="tooltip-region__inner clearfix">
+					<div class="tooltip-region__image">
+						<img src="img/region-mountain.jpg" alt="">
+					</div>
+					<div class="tooltip-region__info">
+						<div class="tooltip-region__title clearfix">Горный крым<span class="tooltip-region__title-btn-hide">Свернуть</span></div>
+						<div class="tooltip-region__text">Горная часть Крыма прекрасно подойдет тем, кому важны тишина и покой. Живописные горы и долины, реки и озера поразят вас своей красотой. В горах можно спокойно и уютно жить или отдыхать не сталкиваясь с шумом и скоплением туристов, как на побережье. Также именно горный Крым лучше всего подходит для зимнего отдыха.</div>
+						<a href="#form-region-mountain" class="btn btn-tooltip-region fancybox">Оставить заявку на подбор участка</a>
+					</div>
+				</div>
+			</div>
+		</div> <!-- .regions__map -->
+	</section>
+	<section class="formblue">
+		<div class="formblue__container">
+			<div class="container clearfix">
+				<div class="formblue__form">
+					<div class="formblue__title1">Отправьте заявку</div>
+					<div class="formblue__title2">На подбор земельного участка <b>вашей мечты!</b></div>
+					<form id="formblue" action="" method="POST">
+						<input class="formblue__input" type="text" name="name" placeholder="Введите ваше имя" required>
+						<input class="formblue__input" type="text" name="phone" placeholder="Ваш телефон" required>
+						<button class="btn btn-send-formblue" type="submit">Подобрать лучшие участки</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="reviews">
+		<div class="container">
+			<div class="reviews__title">Прочитайте отзывы наших клиентов</div>
+			<div class="recall">
+				<div class="recall__inner">
+					<i class="recall__title-icon icon-quotes"></i>
+					<div class="recall__title">Рекомендую данную фирму потенциальным покупателям!</div>
+					<div class="recall__text">Фирму Элитстрой нашел при поиске в интернете земельного участка. Позвонил поуказанным реквизитам и попал на директора фирмы Бердюгина Олега Ивановича. Мне сразу предложили множество вариантво участков на электронную почту. Все было понятно и доступно. оговорили бюджет покупки и мои требования. До этого я приезжал ранее и не смог ничего подыскать по причине безразличного отношения со стороны других риэлторов. В этот раз по приезду меня встретили, все показали, рассказали плюсы и минусы всех участков. особенно понравилось то, что не стали впихивать и уговаривать, подвели к самостоятельносу решению. Грамотно оформили  договор задатка. Рекомендую данную фирму и директора потенциальным покупателям.</div>
+					<div class="recall__user clearfix">
+						<div class="recall__user-img">
+							<img src="img/user1.jpg" alt="">
+						</div>
+						<div class="recall__name">Виталий Паньков, г. Ижевск, предприниматель</div>
+					</div>
+					<a class="recall__social" href="https://ok.ru/profile/355089095978" target="_blank">
+						<i class="recall__social-icon icon-ok"></i>
+						<span class="recall__social-text">Виталий в Одноклассниках</span>
+					</a>
+					<div class="recall__original">
+						<a class="recall__original-lnk fancybox" href="img/recall-original-01.jpg" target="_blank">
+							<div class="recall__original-img">
+								<img src="img/recall-original-01-small.jpg" alt="">
+							</div>
+							<i class="recall__original-icon icon-fullsize"></i>
+							<span class="recall__original-text"><span class="recall__original-text-mobile">Посмотреть оригинал отзыва</span><span class="recall__original-text-desktop">В полном размере</span></span>
+						</a>
+					</div>
+				</div> <!-- .recall__inner -->
+			</div> <!-- .recall -->
+			<div class="recall">
+				<div class="recall__inner">
+					<i class="recall__title-icon icon-quotes"></i>
+					<div class="recall__title">Очень доволен работой с Zem-Krym!</div>
+					<div class="recall__text">Выбор пал на это агенство по причине того, что статистику по ценам сделок о покупке/аренде квартир в Киеве SV Development публикуют во многих интернет изданиях и цены в ней ниже, как объясняет сама компания цены ниже из-за того, что их статистика ведется на реальных сделках.<br>Созвонилась с риелтором АН SV Realty(Бокша Владимир <vboksha@svdevelopment.com>), ей выслали варианты, отобрав подходящие она связалась ещё раз с риелтором и договорились о просмотре. Прийдя домой коллега с мужем нашли это же объявление в свежем номере Авизо, но с другими контактными телефонами. Позвонив по номерам указанным в Авизо они попали на другое АН и в ходе разговора выяснилось, что хозяйка квартиры не обращалась в АН SV Realty.</div>
+					<div class="recall__user clearfix">
+						<div class="recall__user-img">
+							<img src="img/user2.png" alt="">
+						</div>
+						<div class="recall__name">Михаил Хазанов, г. Таганрог, ген. директор ООО &laquo;Газпром&raquo;</div>
+					</div>
+					<a class="recall__social" href="#" target="_blank">
+						<i class="recall__social-icon icon-vk"></i>
+						<span class="recall__social-text">Михаил в VK</span>
+					</a>
+					<div class="recall__original">
+						<a class="recall__original-lnk fancybox" href="img/recall-original-02.jpg" target="_blank">
+							<div class="recall__original-img">
+								<img src="img/recall-original-02-small.jpg" alt="">
+							</div>
+							<i class="recall__original-icon icon-fullsize"></i>
+							<span class="recall__original-text"><span class="recall__original-text-mobile">Посмотреть оригинал отзыва</span><span class="recall__original-text-desktop">В полном размере</span></span>
+						</a>
+					</div>
+				</div> <!-- .recall__inner -->
+			</div> <!-- .recall -->
+		</div> <!-- .container -->
+	</section>
+	<section class="guarantees">
+		<div class="container">
+			<div class="guarantees__rope">
+				<img src="img/rope.svg" alt="">
+			</div>
+			<div class="guarantees__box1">
+				<div class="guarantees__box2">
+					<div class="guarantees__title">Вы получаете 3 неоспоримые гарантии</div>
+					<div class="row">
+						<div class="col-md-4">
+							<div class="guarantees__item">
+								<div class="guarantees__ititle">Гарантия сохраненности средств</div>
+								<div class="guarantees__itext">Сделка купли-продажи заключается с использованием сейфовой ячейки в банке.<br>Продавец не получит деньги до тех пор, пока вы не получите документы на право собственности.</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="guarantees__item">
+								<div class="guarantees__ititle">Гарантия качества земельного участка</div>
+								<div class="guarantees__itext">Все участки перед продажей проходят проверку.<br>Мы всегда удостовремяемся в должном качестве земли. А если в ходе проверки у земельного участка выявляются каки-либо особенности, то всегда уведомляем об этом клиентов.</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="guarantees__item">
+								<div class="guarantees__ititle">Гарантия соблюдения законодательства</div>
+								<div class="guarantees__itext">Мы официально зарегистрированная крмапния и ведем свою деятельность в полном соответствии с законодательством РФ.<br>Мы оказываем комплексные услуги и направлены на долгосрочное сотрудничество.</div>
+							</div>
+						</div>
+					</div> <!-- .row -->
+				</div> <!-- .guarantees__box2 -->
+			</div> <!-- .guarantees__box1 -->
+		</div> <!-- .container -->
+	</section>
+	<section class="formbluesale">
+		<div class="container">
+			<div class="formbluesale__title">Подберите себе земельный участок и получите максимум выгод при покупке!</div>
+		</div>
+		<div class="formbluesale__sale">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4">
+						<div class="formbluesale__sale-icon">
+							<img src="img/gifts.svg" alt="">
+						</div>
+						<div class="formbluesale__sale-title">Акция</div>
+					</div>
+					<div class="col-lg-8">
+						<div class="formbluesale__sale-text">
+							<div class="formbluesale__sale-text-title">Отправьте заявку до 30 мая и получите:</div>
+							<ul class="list list_circle">
+								<li class="list__item"><i class="list__item-icon icon-circle"></i>Бесплатное оформление сделки купли-продажи</li>
+								<li class="list__item"><i class="list__item-icon icon-circle"></i>Скидку до <span class="salesumm">30 000 рублей</span> рублей при покупке</li>
+							</ul>
+						</div>
+					</div>
+				</div> <!-- .row -->
+			</div> <!-- .container -->
+		</div>
+		<div class="container">
+			<div class="formbluesale__form">
+				<form id="formbluesale" action="" method="POST">
+					<input class="formbluesale__input" type="text" name="name" placeholder="Введите ваше имя" required>
+					<input class="formbluesale__input" type="text" name="phone" placeholder="Ваш телефон" required>
+					<button class="btn btn-send-formbluesale" type="submit">Подобрать лучшие участки</button>
+				</form>
+			</div>
+		</div> <!-- .container -->
+	</section>
+	<section class="whynow">
+		<div class="container">
+			<div class="whynow__title">Узнайте почему вы будете в выигрыше, купив землю в Крыму именно сейчас</div>
+			<div class="whynow__container">
+				<div class="whynow__item">
+					<div class="whynow__count">01</div>
+					<div class="whynow__info">
+						<div class="whynow__item-title">Земля скоро подорожает</div>
+						<div class="whynow__text">По мере прохождения переходного периода и  полноценного встраивается Крыма в экономику Российской Федерации земля будет дорожать.<br>Мощном толчком к росту цены выступит введение в строй Керченсокго моста в 2017 году. Спешите обзавестись крымской землей до подорожания!</div>
+					</div>
+				</div>
+				<div class="whynow__item">
+					<div class="whynow__count">02</div>
+					<div class="whynow__info">
+						<div class="whynow__item-title">Крым вне конкуренции</div>
+						<div class="whynow__text">Сейчас земля в Крыму не имеет себе равных в рамках Российской Федерации. Большинство курортов Краснодарского края уступают Крыму по количеству достопримечательностей, длительности бархатного сезона и также природной красоте.<br>Сравниться может только Сочи, но и он уступает из-за высоких цен (вызванных инвистициями в Олимпиаду) и более жарким и влажным климатом.</div>
+					</div>
+				</div>
+				<div class="whynow__item">
+					<div class="whynow__count">03</div>
+					<div class="whynow__info">
+						<div class="whynow__item-title">Крым - свободная экономическая зона</div>
+						<div class="whynow__text">Введение свободной экономической зоны со льготным налогообложением и защитой инвестиций способствуют весомой экономии средств при начале нового бизнеса.<br>В свою очередь это в ближайшие годы приведет к уверенному экономическому росту, развитию инфраструктуры и созданию новых рабочих мест.</div>
+					</div>
+				</div>
+				<a class="btn btn-whynow fancybox" href="#form-whynow">Оставить заявку на подбор участка</a>
+			</div> <!-- .whynow__container -->
+		</div>
+	</section>
+	<section class="bigtest">
+		<div class="container">
+			<div class="bigtest__title">Каждый из предлагаемых к продаже участков проходит всестороннюю проверку:</div>
+			<div class="bigtest__items">
+				<div class="bigtest__item">
+					<i class="bigtest__item-icon icon-document"></i>
+					<div class="bigtest__item-text">Проверка правоустанавливающих документов и технической документации</div>
+				</div>
+				<div class="bigtest__item">
+					<i class="bigtest__item-icon icon-water-tap"></i>
+					<div class="bigtest__item-text">Наличие инженерных сетей, дальность до точек подключения и свободные мощности</div>
+				</div>
+				<div class="bigtest__item">
+					<i class="bigtest__item-icon icon-calm"></i>
+					<div class="bigtest__item-text">Геологическая проверка - установление несущей способности грунтов и наличия подземных вод</div>
+				</div>
+				<div class="bigtest__item">
+					<i class="bigtest__item-icon icon-forest"></i>
+					<div class="bigtest__item-text">Наличие краснокнижных деревьев</div>
+				</div>
+				<div class="bigtest__item">
+					<i class="bigtest__item-icon icon-close"></i>
+					<div class="bigtest__item-text">Наличие каких либо ограничений и сервитутов</div>
+				</div>
+			</div>
+			<div class="bigtest__ps">Вы будете знать обо всех особенностях заинтересовавшего участка!</div>
+		</div>
+	</section>
+	<section class="formblue3">
+		<div class="container">
+			<div class="formblue3__title1">Отправьте заявку</div>
+			<div class="formblue3__title2">и получите консультацию эксперта об особенностях покупки земли в Крыму</div>
+			<form id="formblue3" action="" method="POST">
+				<input class="formblue__input" type="text" name="name" placeholder="Введите ваше имя" required>
+				<input class="formblue__input" type="text" name="phone" placeholder="Ваш телефон" required>
+				<button class="btn btn-send-formblue3" type="submit">Получить консультацию</button>
+				<div class="data-security"><i class="data-security__icon icon-lock"></i>Ваши данные в безопасности</div>
+			</form>
+		</div>
+	</section>
+	<section class="buyprocess">
+		<div class="container clearfix">
+			<div class="buyprocess__title">Простой и легкий процесс выбора и покупки</div>
+			<div class="buyprocess__step buyprocess__step_1">
+				<div class="buyprocess__icon icon-resume-document"></div>
+				<div class="buyprocess__text">Вы <a class="fancybox" href="#form-buyprocess">отправляете нам заявку</a></div>
+			</div>
+			<div class="buyprocess__step buyprocess__step_2">
+				<div class="buyprocess__icon icon-telemarketer"></div>
+				<div class="buyprocess__text">Мы звоним вам, уточняем критерии земельного участка и консультируем</div>
+			</div>
+			<div class="buyprocess__step buyprocess__step_3">
+				<div class="buyprocess__icon icon-letter"></div>
+				<div class="buyprocess__text">Отправляем вам на почту предложения участков</div>
+			</div>
+			<div class="buyprocess__step buyprocess__step_4">
+				<div class="buyprocess__icon icon-area-with-pins"></div>
+				<div class="buyprocess__text">Организовываем трансфер, подбор жилья и просмотр земельных участков</div>
+			</div>
+			<div class="buyprocess__step buyprocess__step_last">
+				<div class="buyprocess__icon icon-finish"></div>
+				<div class="buyprocess__text">Безопасная покупка участка с использованием депозитарной ячейки банка</div>
+			</div>
+		</div>
+	</section>
+	<section class="contacts">
+		<div class="contacts__address">
+			<div class="container">
+				<i class="contacts__address-icon icon-location-pin"></i>
+				<div class="contacts__address-text">Республика Крым, г. Ялта, ул. Московская 1/6, офис 212</div>
+			</div>
+		</div>
+		<div class="contacts__row clearfix">
+			<div id="ymap" class="contacts__map">
+				<script type="text/javascript">
+					ymaps.ready(init);
+					function init () {
+						var myMap = new ymaps.Map('ymap', {
+								center: [44.49728974, 34.17058541],
+								zoom: 16
+							});
+						var myPlacemark = new ymaps.Placemark([44.49728974, 34.17058541], {
+								hintContent: 'Zem-Krym.ru',
+								balloonContentHeader: 'Продажа земли в Крыму',
+								balloonContentBody: 'Республика Крым, г. Ялта, ул. Московская 1/6, офис 212' 
+							}, {
+								preset: 'twirl#redDotIcon'
+							});
+
+						myMap.geoObjects.add(myPlacemark);
+					}
+				</script>
+			</div>
+			<div class="contacts__form">
+				<div class="contacts__form-title">Остались вопросы?</div>
+				<div class="contacts__form-subtitle">Задайте их нам!</div>
+				<form id="form-question" action="" method="POST">
+					<textarea class="formquestion__textarea" type="text" name="question" placeholder="Введите ваш вопрос" required></textarea>
+					<input class="formquestion__input" type="text" name="phone" placeholder="Ваш телефон" required>
+					<button class="btn btn-send-question" type="submit">Задать вопрос</button>
+				</form>
+			</div>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="footer__top">
+			<div class="container">
+				<div class="footer__right">
+					<div class="footer__phone">+7 (978) 738-98-97</div>
+					<a class="footer__email" href="mailto:bo@zem-krym.ru">bo@zem-krym.ru</a>
+				</div>
+				<div class="footer__left">
+					<div class="footer__lefttext">ООО "ЗемКрым"<br>ОГРН 2343554942</div>
+					<div class="footer__lefttext">ИНН 6498542<br>КПП 4592000</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer__bottom">&copy; 2016 ЗемКрым</div>
+	</footer>
+	<div class="popup" id="form-recall">
+		<div class="popup__header">
+			<div class="popup__title">Закажите обратный звонок</div>
+		</div>
+		<div class="popup__body">
+			<div class="popup__body-row">
+				<form id="formpopup1" action="" method="POST">
+					<input class="form1__input" type="text" name="name" placeholder="Введите ваше имя" required="">
+					<input class="form1__input" type="text" name="phone" placeholder="Ваш телефон" required="">
+					<button class="btn btn-send-popup btn-send-popup-firstscreen" type="submit">Заказать обратный звонок</button>
+				</form>
+			</div>
+			<div class="form1__body-hr2"></div>
+			<div class="form1__body-row">
+				<div class="data-security"><i class="data-security__icon icon-lock"></i>Ваши данные в безопасности</div>
+			</div>
+		</div> <!-- .popup__body -->
+	</div>
+	<div class="popup" id="form-region-mountain">
+		<div class="popup__header">
+			<div class="popup__title">Оставить заявку на подбор участка</div>
+		</div>
+		<div class="popup__body">
+			<div class="popup__body-row">
+				<form id="formpopup2" action="" method="POST">
+					<input class="form1__input" type="text" name="name" placeholder="Введите ваше имя" required="">
+					<input class="form1__input" type="text" name="phone" placeholder="Ваш телефон" required="">
+					<button class="btn btn-send-popup btn-send-popup-firstscreen" type="submit">Отправить заявку</button>
+				</form>
+			</div>
+			<div class="form1__body-hr2"></div>
+			<div class="form1__body-row">
+				<div class="data-security"><i class="data-security__icon icon-lock"></i>Ваши данные в безопасности</div>
+			</div>
+		</div> <!-- .popup__body -->
+	</div>
+	<div class="popup" id="form-region-south">
+		<div class="popup__header">
+			<div class="popup__title">Оставить заявку на подбор участка</div>
+		</div>
+		<div class="popup__body">
+			<div class="popup__body-row">
+				<form id="formpopup3" action="" method="POST">
+					<input class="form1__input" type="text" name="name" placeholder="Введите ваше имя" required="">
+					<input class="form1__input" type="text" name="phone" placeholder="Ваш телефон" required="">
+					<button class="btn btn-send-popup btn-send-popup-firstscreen" type="submit">Отправить заявку</button>
+				</form>
+			</div>
+			<div class="form1__body-hr2"></div>
+			<div class="form1__body-row">
+				<div class="data-security"><i class="data-security__icon icon-lock"></i>Ваши данные в безопасности</div>
+			</div>
+		</div> <!-- .popup__body -->
+	</div>
+	<div class="popup" id="form-region-west">
+		<div class="popup__header">
+			<div class="popup__title">Оставить заявку на подбор участка</div>
+		</div>
+		<div class="popup__body">
+			<div class="popup__body-row">
+				<form id="formpopup4" action="" method="POST">
+					<input class="form1__input" type="text" name="name" placeholder="Введите ваше имя" required="">
+					<input class="form1__input" type="text" name="phone" placeholder="Ваш телефон" required="">
+					<button class="btn btn-send-popup btn-send-popup-firstscreen" type="submit">Отправить заявку</button>
+				</form>
+			</div>
+			<div class="form1__body-hr2"></div>
+			<div class="form1__body-row">
+				<div class="data-security"><i class="data-security__icon icon-lock"></i>Ваши данные в безопасности</div>
+			</div>
+		</div> <!-- .popup__body -->
+	</div>
+	<div class="popup" id="form-region-east">
+		<div class="popup__header">
+			<div class="popup__title">Оставить заявку на подбор участка</div>
+		</div>
+		<div class="popup__body">
+			<div class="popup__body-row">
+				<form id="formpopup5" action="" method="POST">
+					<input class="form1__input" type="text" name="name" placeholder="Введите ваше имя" required="">
+					<input class="form1__input" type="text" name="phone" placeholder="Ваш телефон" required="">
+					<button class="btn btn-send-popup btn-send-popup-firstscreen" type="submit">Отправить заявку</button>
+				</form>
+			</div>
+			<div class="form1__body-hr2"></div>
+			<div class="form1__body-row">
+				<div class="data-security"><i class="data-security__icon icon-lock"></i>Ваши данные в безопасности</div>
+			</div>
+		</div> <!-- .popup__body -->
+	</div>
+	<div class="popup" id="form-whynow">
+		<div class="popup__header">
+			<div class="popup__title">Оставить заявку на подбор участка</div>
+		</div>
+		<div class="popup__body">
+			<div class="popup__body-row">
+				<form id="formpopup6" action="" method="POST">
+					<input class="form1__input" type="text" name="name" placeholder="Введите ваше имя" required="">
+					<input class="form1__input" type="text" name="phone" placeholder="Ваш телефон" required="">
+					<button class="btn btn-send-popup btn-send-popup-firstscreen" type="submit">Отправить заявку</button>
+				</form>
+			</div>
+			<div class="form1__body-hr2"></div>
+			<div class="form1__body-row">
+				<div class="data-security"><i class="data-security__icon icon-lock"></i>Ваши данные в безопасности</div>
+			</div>
+		</div> <!-- .popup__body -->
+	</div>
+	<div class="popup" id="form-buyprocess">
+		<div class="popup__header">
+			<div class="popup__title">Отправьте заявку</div>
+		</div>
+		<div class="popup__body">
+			<div class="popup__body-row">
+				<form id="formpopup7" action="" method="POST">
+					<input class="form1__input" type="text" name="name" placeholder="Введите ваше имя" required="">
+					<input class="form1__input" type="text" name="phone" placeholder="Ваш телефон" required="">
+					<button class="btn btn-send-popup btn-send-popup-firstscreen" type="submit">Отправить заявку</button>
+				</form>
+			</div>
+			<div class="form1__body-hr2"></div>
+			<div class="form1__body-row">
+				<div class="data-security"><i class="data-security__icon icon-lock"></i>Ваши данные в безопасности</div>
+			</div>
+		</div> <!-- .popup__body -->
+	</div>
+	<!--[if lt IE 9]>
+	<script src="js/html5shiv/es5-shim.min.js"></script>
+	<script src="js/html5shiv/html5shiv.min.js"></script>
+	<script src="js/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="js/html5shiv/respond.min.js"></script>
+	<![endif]-->
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/fancybox/jquery.fancybox.pack.js"></script>
+	<script src="js/jquery.smoothscroll.js"></script>
+	<script src="js/jquery.textPlaceholder.js"></script>
+	<script src="js/common.js"></script>
+	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>

@@ -1,0 +1,30 @@
+- the following types of form fields must be supported:
+a. text inputs
+b. drop downs
+c. check boxes
+d. static text
+- the above types must properly align / fit with the rest of the elements (like form labels)
+- medium fields (like city) must use the "medium" class
+- small fields (like postcode) must use the "small" class
+
+- bottom buttons must all be <button> tags
+
+- the page must have support for a version displaying only a processing message
+<p>
+	<img src="ajax-loader.gif" alt="Loading">
+	Please wait, processing...
+</p>
+
+- mandatory markup:
+
+...
+<form action="" method="post" class="form-with-validation checkout-form">
+	...
+	<ul class="form-errors">
+		<li>Error</li>
+		<li>Error</li>
+		<li>Error</li>
+	</ul>
+	...
+</form>
+...
