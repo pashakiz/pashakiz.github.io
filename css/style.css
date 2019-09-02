@@ -1,0 +1,48 @@
+body {
+    font-size: 1rem;
+}
+.header {
+    padding-top: 20px;
+}
+.mainav {}
+.mainav>ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.mainav>ul>li {
+    display: inline-block;
+    margin: 0 20px;
+}
+.themedark .mainav>ul>li a {
+    color: rgba(255, 255, 255, 0.5);
+}
+.themelight .mainav>ul>li a {
+    color: rgba(0,0,0,.65);
+}
+.themedark .mainav>ul>li:hover a,
+.themedark .mainav>ul>li.active a {
+    color: #fff;
+    text-decoration: none;
+}
+.themelight .mainav>ul>li:hover a,
+.themelight .mainav>ul>li.active a {
+    color: rgba(0,0,0,.85);
+    text-decoration: none;
+}
+.cssmode {
+    display: inline-block;
+}
+.cssmode__icon {
+    cursor: pointer;
+}
+.cssmode__icon.icon-sun {
+    color: #ffcb5f;
+}
+.cssmode__icon.icon-moon {
+    color: #212529;
+}
+
+.footer {
+    margin-top: 500px;
+}

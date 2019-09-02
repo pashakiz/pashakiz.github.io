@@ -1,0 +1,139 @@
+{
+  "metadata": {
+    "name": "lubus_ru",
+    "lastOpened": 0,
+    "created": 1567439622164
+  },
+  "iconSets": [
+    {
+      "selection": [
+        {
+          "order": 1,
+          "id": 0,
+          "name": "moon",
+          "prevSize": 32,
+          "code": 59648,
+          "tempChar": ""
+        }
+      ],
+      "id": 4,
+      "metadata": {
+        "name": "Iconic (subset)",
+        "url": "https://github.com/somerandomdude/Iconic",
+        "designer": "P.J. Onori",
+        "designerURL": "http://somerandomdude.com/",
+        "license": "CC BY-SA 3.0",
+        "licenseURL": "http://creativecommons.org/licenses/by-sa/3.0/us/",
+        "iconsHash": 895603607,
+        "importSize": {
+          "width": 32,
+          "height": 32
+        }
+      },
+      "height": 1024,
+      "prevSize": 32,
+      "icons": [
+        {
+          "id": 0,
+          "paths": [
+            "M788.256 709.888c-262.016 0-474.24-212.384-474.24-474.24 0-86.24 24.736-166.016 64.992-235.616-218.368 62.976-379.008 261.984-379.008 500.608 0 288.992 234.24 523.36 523.264 523.36 238.624 0 437.76-160.736 500.736-379.008-69.76 40.128-149.504 64.896-235.744 64.896z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "tags": [
+            "moon-fill",
+            "night"
+          ],
+          "grid": 16
+        }
+      ],
+      "invisible": false,
+      "colorThemes": []
+    },
+    {
+      "selection": [
+        {
+          "order": 1,
+          "id": 0,
+          "name": "sun",
+          "prevSize": 32,
+          "code": 59649,
+          "tempChar": ""
+        }
+      ],
+      "id": 1,
+      "metadata": {
+        "name": "Brankic 1979 (subset)",
+        "url": "http://brankic1979.com/icons/",
+        "designer": "Brankic1979",
+        "designerURL": "http://www.brankic1979.com/",
+        "license": "Custom",
+        "licenseURL": "http://brankic1979.com/icons/",
+        "iconsHash": 1724841611,
+        "importSize": {
+          "width": 32,
+          "height": 32
+        }
+      },
+      "height": 1024,
+      "prevSize": 32,
+      "icons": [
+        {
+          "id": 0,
+          "paths": [
+            "M216.754 512c0 163.77 132.74 296.472 296.472 296.472 163.77 0 296.472-132.699 296.472-296.472s-132.699-296.472-296.472-296.472c-163.732 0-296.472 132.699-296.472 296.472zM513.225 8l-83.367 166.775h166.775l-83.408-166.775zM869.464 154.536l-176.893 58.938 117.876 117.917 59.017-176.855zM333.88 213.474l-176.855-58.938 58.938 176.893 117.917-117.955zM174.774 427.366l-166.775 83.408 166.775 83.367v-166.775zM849.225 596.631l166.775-83.367-166.775-83.367v166.734zM513.225 1016l83.367-166.775h-166.775l83.408 166.775zM692.57 810.526l176.893 58.938-58.979-176.893-117.917 117.955zM157.026 869.464l176.893-58.938-117.917-117.917-58.979 176.855z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "tags": [
+            "sun",
+            "light",
+            "brightness",
+            "sunny",
+            "weather",
+            "day"
+          ],
+          "grid": 16
+        }
+      ],
+      "invisible": false,
+      "colorThemes": []
+    }
+  ],
+  "uid": -1,
+  "preferences": {
+    "showGlyphs": true,
+    "showCodes": true,
+    "showQuickUse": true,
+    "showQuickUse2": true,
+    "showSVGs": true,
+    "fontPref": {
+      "prefix": "icon-",
+      "metadata": {
+        "fontFamily": "icomoon"
+      },
+      "metrics": {
+        "emSize": 1024,
+        "baseline": 6.25,
+        "whitespace": 50
+      },
+      "embed": false
+    },
+    "imagePref": {
+      "prefix": "icon-",
+      "png": true,
+      "useClassSelector": true,
+      "color": 0,
+      "bgColor": 16777215
+    },
+    "historySize": 50,
+    "gridSize": 16,
+    "showGrid": true
+  }
+}
