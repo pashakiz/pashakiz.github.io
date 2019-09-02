@@ -4,9 +4,9 @@
 .logo {
     color: #fff;
 }
-.logo span.bar {
+/*.logo span.bar {
     background-color: #fff;
-}
+}*/
 .mainav>ul>li a {
     color: rgba(255, 255, 255, 0.5);
 }

@@ -27,6 +27,7 @@ body {
     color: orange;
 }
 .logo span.bar {
+    background-color: orange;
     display: inline-block;
     height: .3rem;
     width: 1rem;
@@ -52,7 +53,7 @@ body {
 }
 .mainav>ul>li {
     display: inline-block;
-    margin: 0 15px;
+    margin: 0 10px;
 }
 .cssmode {
     display: inline-block;
@@ -69,6 +70,26 @@ body {
 }
 .block {
     padding: 2rem 0;
+}
+.photo {
+    max-width: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 20px;
+}
+.photo > img {
+    width: 100%;
+    height: auto;
+}
+h1 {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+h2 {
+    font-weight: 400;
+}
+h1>span {
+    color: orange;
 }
 
 .footer {
