@@ -1,11 +1,21 @@
 function enableStylesheet (node) {
-  node.disabled = false;
+    node.disabled = false;
 }
 
 function disableStylesheet (node) {
-  node.disabled = true;
+    node.disabled = true;
 }
 
-document
-  .querySelectorAll('link[rel=stylesheet].alternate')
-  .forEach(disableStylesheet);
+var themelight = document.getElementById('light');
+var themedark = document.getElementById('dark');
+disableStylesheet(themelight);
+
+function toggleStylesheets() {
+    if (themelight.disabled) {
+        disableStylesheet(themedark);
+        enableStylesheet(themelight);
+    } else {
+        disableStylesheet(themelight);
+        enableStylesheet(themedark);
+    }
+}
