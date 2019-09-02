@@ -1,3 +1,12 @@
+.header {
+    border-bottom: 1px solid #e9ecef;
+}
+.logo {
+    color: rgba(0,0,0,.85);
+}
+.logo span.bar {
+    background-color: rgba(0,0,0,.85);;
+}
 .mainav>ul>li a {
     color: rgba(0,0,0,.65);
 }
@@ -5,4 +14,7 @@
 .mainav>ul>li.active a {
     color: rgba(0,0,0,.85);
     text-decoration: none;
+}
+.block_shadow {
+    background-color: #e9ecef;
 }

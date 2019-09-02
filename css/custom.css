@@ -4,7 +4,47 @@ body {
 .header {
     padding: 20px 0 25px;
 }
-.mainav {}
+.header__logo {
+    order: 1;
+}
+.header__nav {
+    order: 3;
+    -ms-flex-basis: auto;
+    flex-basis: auto;
+    max-width: none;
+    margin-top: 20px;
+}
+.header__action {
+    order: 2;
+}
+.logo {
+    display: inline-block;
+    font-size: 2rem;
+    font-family: monospace;
+    white-space: nowrap;
+}
+.logo span.letter {
+    color: orange;
+}
+.logo span.bar {
+    display: inline-block;
+    height: .3rem;
+    width: 1rem;
+    margin-left: 2px;
+    position: relative;
+    top: 4px;
+    -webkit-animation: blim 3s linear infinite;
+    -moz-animation:    blim 3s linear infinite;
+    -o-animation:      blim 3s linear infinite;
+    animation:         blim 3s linear infinite;
+}
+@keyframes blim {
+    0%,20%,50%,70% {opacity:1}
+    25%,45%,75%,95% {opacity:0}
+}
+.mainav {
+    padding: 8px 0;
+}
 .mainav>ul {
     list-style: none;
     margin: 0;
@@ -12,10 +52,11 @@ body {
 }
 .mainav>ul>li {
     display: inline-block;
-    margin: 0 20px;
+    margin: 0 15px;
 }
 .cssmode {
     display: inline-block;
+    padding: 12px 0;
 }
 .cssmode__icon {
     cursor: pointer;
@@ -26,9 +67,8 @@ body {
 .cssmode__icon.icon-moon {
     color: #212529;
 }
-.jumbotron_simple {
-    border: none;
-    border-radius: 0;
+.block {
+    padding: 2rem 0;
 }
 
 .footer {
