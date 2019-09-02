@@ -6,8 +6,10 @@ function disableStylesheet (node) {
     node.disabled = true;
 }
 
-var themelight = document.getElementById('light');
-var themedark = document.getElementById('dark');
+var themelight = document.getElementById('themelight');
+var customlight = document.getElementById('customlight');
+var themedark = document.getElementById('themedark');
+var customdark = document.getElementById('customdark');
 if( $('html').hasClass('themedark') ) {
     turnDarkTheme();
 }
@@ -21,7 +23,9 @@ function turnLightTheme() {
     $('.cssmode__icon').removeClass('icon-sun');
     $('.cssmode__icon').addClass('icon-moon');
     disableStylesheet(themedark);
+    disableStylesheet(customdark);
     enableStylesheet(themelight);
+    enableStylesheet(customlight);
 }
 function turnDarkTheme(){
     $('html').removeClass('themelight');
@@ -29,7 +33,9 @@ function turnDarkTheme(){
     $('.cssmode__icon').removeClass('icon-moon');
     $('.cssmode__icon').addClass('icon-sun');
     disableStylesheet(themelight);
+    disableStylesheet(customlight);
     enableStylesheet(themedark);
+    enableStylesheet(customdark);
 }
 
 $('.cssmode__icon').on('click', function(){
