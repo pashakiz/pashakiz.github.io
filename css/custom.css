@@ -2,7 +2,7 @@ body {
     font-size: 1rem;
 }
 .header {
-    padding-top: 20px;
+    padding: 20px 0 25px;
 }
 .mainav {}
 .mainav>ul {
@@ -25,6 +25,10 @@ body {
 }
 .cssmode__icon.icon-moon {
     color: #212529;
+}
+.jumbotron_simple {
+    border: none;
+    border-radius: 0;
 }
 
 .footer {
