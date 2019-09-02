@@ -1,0 +1,5 @@
+RewriteBase /
+#RemoveHandler .html .htmAddType application/x-httpd-php .php .htm .html .phtmlAddHandler fcgid-script .htm .html
+Options -IndexesOptions +FollowSymLinksRewriteEngine OnRewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+ErrorDocument 403 /403.htmlErrorDocument 404 /404.htmlErrorDocument 500 /500.html
+# redirect from /dev to d/dev# redirect from /dev2 to d/dev2# redirect from /dev3 to d/dev3# redirect from /dev4 to d/dev4# redirect from /dev5 to d/dev5# redirect from /devsg to d/devsg
