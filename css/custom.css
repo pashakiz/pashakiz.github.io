@@ -24,10 +24,10 @@ body {
     font-weight: 400;
     white-space: nowrap;
 }
-.logo span.letter {
+.logo__letter {
     color: orange;
 }
-.logo span.bar {
+.logo__bar {
     background-color: orange;
     display: inline-block;
     height: .3rem;
@@ -40,10 +40,10 @@ body {
     -o-animation:      blim 3s linear infinite;
     animation:         blim 3s linear infinite;
 }
-.footer .logo span.letter {
+.footer .logo__letter {
     color: #7f8081;
 }
-.footer .logo span.bar {
+.footer .logo__bar {
     background-color: #7f8081;
 }
 @keyframes blim {
