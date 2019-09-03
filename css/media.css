@@ -51,7 +51,8 @@
         font-weight: 400;
     }
     .aboutphoto {
-        max-width: 250px;
+        width: 200px;
+        height: 200px;
         margin: auto;
     }
 }
@@ -60,6 +61,10 @@
 @media (min-width: 992px) {
     .mainav>ul>li {
         margin: 0 20px;
+    }
+    .aboutphoto {
+        width: 250px;
+        height: 250px;
     }
     h3 {
         margin: 0;

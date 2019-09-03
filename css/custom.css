@@ -79,10 +79,12 @@ body {
     padding: 2rem 0;
 }
 .aboutphoto {
-    max-width: 150px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     overflow: hidden;
     margin: 0 auto 20px;
+    position: relative;
 }
 .aboutphoto > img {
     width: 100%;
