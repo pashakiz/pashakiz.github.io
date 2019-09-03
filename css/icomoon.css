@@ -31,3 +31,12 @@
 .icon-sun:before {
   content: "\e901";
 }
+.icon-linkedin:before {
+  content: "\e902";
+}
+.icon-skype:before {
+  content: "\e903";
+}
+.icon-telegram:before {
+  content: "\e904";
+}

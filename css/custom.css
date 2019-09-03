@@ -88,11 +88,45 @@ h1 {
 }
 h2 {
     font-weight: 400;
+    margin-bottom: 1.8rem;
 }
 h1>span {
     color: orange;
 }
+h3 {
+    font-weight: 400;
+    font-size: 1.4rem;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.skill-row {
+    margin-bottom: 20px;
+}
+.skills {}
+.skill {
+    display: inline-block;
+    /*vertical-align: middle;*/
+    margin: 10px 15px;
+    width: 50px;
+    height: 50px;
+}
+.skill img {
+    width: 100%;
+    height: auto;
+}
 
 .footer {
     margin-top: 500px;
+}
+.links {}
+.links>a {
+    font-size: 1.8rem;
+    color: #5f6770;
+    text-decoration: none;
+}
+.links>a:hover {
+    color: #858e99;
+}
+.links>a+a {
+    margin-left: 10px;
 }

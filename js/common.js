@@ -45,3 +45,7 @@ $('.cssmode__icon').on('click', function(){
         turnDarkTheme();
     }
 });
+
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+})

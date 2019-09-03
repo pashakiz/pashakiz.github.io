@@ -61,6 +61,9 @@
     .mainav>ul>li {
         margin: 0 20px;
     }
+    h3 {
+        margin: 0;
+    }
 
 }
 
