@@ -19,8 +19,9 @@ body {
 }
 .logo {
     display: inline-block;
-    font-size: 2rem;
-    font-family: monospace;
+    font-family: "consolas", monospace;
+    font-size: 1.62rem;
+    font-weight: 400;
     white-space: nowrap;
 }
 .logo span.letter {
