@@ -39,6 +39,12 @@ body {
     -o-animation:      blim 3s linear infinite;
     animation:         blim 3s linear infinite;
 }
+.footer .logo span.letter {
+    color: #7f8081;
+}
+.footer .logo span.bar {
+    background-color: #7f8081;
+}
 @keyframes blim {
     0%,20%,50%,70% {opacity:1}
     25%,45%,75%,95% {opacity:0}
