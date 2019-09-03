@@ -1,3 +1,12 @@
+html, body {
+    height: 100%;
+}
+#page-content {
+    flex: 1 0 auto;
+}
+#sticky-footer {
+    flex-shrink: none;
+}
 body {
     font-size: 1rem;
 }
@@ -122,7 +131,6 @@ h3 {
     width: 100%;
     height: auto;
 }
-
 .footer {}
 .links {}
 .links>a {
@@ -136,3 +144,24 @@ h3 {
 .links>a+a {
     margin-left: 10px;
 }
+.contact-form {
+    margin-bottom: 20px;
+}
+.contactlnk {}
+a.contactlnk__item {
+    display: block;
+    color: #5f6770;
+    text-decoration: none;
+}
+a.contactlnk__item:hover {
+     color: #858e99;
+}
+.contactlnk__item + .contactlnk__item {
+    margin-top: 10px;
+}
+.contactlnk__icon {
+    margin-right: 10px;
+    font-size: 1.8rem;
+    vertical-align: middle;
+}
+.portfolio {}

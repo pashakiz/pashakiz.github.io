@@ -43,3 +43,6 @@
 .icon-github:before {
   content: "\e905";
 }
+.icon-email:before {
+  content: "\e906";
+}
