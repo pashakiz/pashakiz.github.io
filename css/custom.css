@@ -77,13 +77,13 @@ body {
 .block {
     padding: 2rem 0;
 }
-.photo {
+.aboutphoto {
     max-width: 150px;
     border-radius: 50%;
     overflow: hidden;
     margin: 0 auto 20px;
 }
-.photo > img {
+.aboutphoto > img {
     width: 100%;
     height: auto;
 }
