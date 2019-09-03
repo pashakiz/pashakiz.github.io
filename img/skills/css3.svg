@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1"
+	 id="svg2" inkscape:version="0.48.3.1 r9886" sodipodi:docname="htmlcss.svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 362.7 512"
+	 style="enable-background:new 0 0 362.7 512;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#264DE4;}
+	.st1{fill:#2965F1;}
+	.st2{fill:#EBEBEB;}
+	.st3{fill:#FFFFFF;}
+</style>
+<sodipodi:namedview  bordercolor="#666666" borderopacity="1.0" fit-margin-bottom="0" fit-margin-left="0" fit-margin-right="0" fit-margin-top="0" id="base" inkscape:current-layer="layer1" inkscape:cx="-276.49014" inkscape:cy="244.10462" inkscape:document-units="px" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:window-height="938" inkscape:window-maximized="1" inkscape:window-width="1280" inkscape:window-x="0" inkscape:window-y="31" inkscape:zoom="0.35" pagecolor="#ffffff" showgrid="false">
+	</sodipodi:namedview>
+<g id="layer1" transform="translate(-170.06157,-270.18109)" inkscape:groupmode="layer" inkscape:label="Calque 1">
+	<g id="g3013" transform="translate(95.428571,270.18109)">
+		<polygon id="polygon2989" class="st0" points="255.8,512 107.6,470.9 74.6,100.6 437.4,100.6 404.3,470.8 		"/>
+		<polygon id="polygon2991" class="st1" points="376,447.2 404.3,130.9 256,130.9 256,480.5 		"/>
+		<polygon id="polygon2993" class="st2" points="150.3,268.2 154.4,313.6 256,313.6 256,268.2 		"/>
+		<polygon id="polygon2995" class="st2" points="142.1,176.3 146.3,221.7 256,221.7 256,176.3 255.8,176.3 		"/>
+		<polygon id="polygon2997" class="st2" points="256,386.2 255.8,386.2 205.2,372.5 202,336.3 177.4,336.3 156.4,336.3 162.8,407.6 
+			255.8,433.5 256,433.4 		"/>
+		<path id="path2999" inkscape:connector-curvature="0" d="M160,0h55v23h-32v23h32v23h-55V0z"/>
+		<path id="path3001" inkscape:connector-curvature="0" d="M226,0h55v20h-32v4h32v46h-55V49h32v-4h-32V0z"/>
+		<path id="path3003" inkscape:connector-curvature="0" d="M292,0h55v20h-32v4h32v46h-55V49h32v-4h-32V0z"/>
+		<polygon id="polygon3005" class="st3" points="361.4,268.2 369.6,176.3 255.8,176.3 255.8,221.7 319.8,221.7 315.7,268.2 
+			255.8,268.2 255.8,313.6 311.8,313.6 306.5,372.5 255.8,386.2 255.8,433.4 348.9,407.6 349.6,400 360.3,280.4 		"/>
+	</g>
+</g>
+</svg>
