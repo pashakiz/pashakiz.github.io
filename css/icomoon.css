@@ -40,3 +40,6 @@
 .icon-telegram:before {
   content: "\e904";
 }
+.icon-github:before {
+  content: "\e905";
+}

@@ -121,9 +121,7 @@ h3 {
     height: auto;
 }
 
-.footer {
-    margin-top: 500px;
-}
+.footer {}
 .links {}
 .links>a {
     font-size: 1.8rem;
