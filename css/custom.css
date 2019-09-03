@@ -84,7 +84,6 @@ body {
     border-radius: 50%;
     overflow: hidden;
     margin: 0 auto 20px;
-    position: relative;
 }
 .aboutphoto > img {
     width: 100%;
