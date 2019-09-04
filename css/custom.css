@@ -165,3 +165,38 @@ a.contactlnk__item:hover {
     vertical-align: middle;
 }
 .portfolio {}
+a.thumbs {
+    text-decoration: none;
+}
+.thumbs {
+    height: 200px;
+    display: block;
+    position: relative;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.thumbs__img {
+    width: 100%;
+    height: auto;
+}
+.thumbs__hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    background-color: rgba(0,0,0,0.8);
+    transition: all 0.5s ease 0s;
+}
+.thumbs__hover:hover {
+    opacity: 0;
+}
+.thumbs__title {
+    font-size: 2rem;
+    color: rgb(170, 170, 170);
+    text-shadow: 1px 1px 10px rgba(0,0,0,0.3);
+}
