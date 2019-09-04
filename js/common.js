@@ -10,11 +10,22 @@ var themelight = document.getElementById('themelight');
 var customlight = document.getElementById('customlight');
 var themedark = document.getElementById('themedark');
 var customdark = document.getElementById('customdark');
-if( $('html').hasClass('themedark') ) {
-    turnDarkTheme();
-}
-if( $('html').hasClass('themelight') ) {
-    turnLightTheme();
+
+var userTheme = localStorage.getItem('userTheme');
+if (userTheme) {
+    if (userTheme == 'dark') {
+        turnDarkTheme();
+    }
+    if (userTheme == 'light') {
+        turnLightTheme();
+    }
+} else {
+    if( $('html').hasClass('themedark') ) {
+        turnDarkTheme();
+    }
+    if( $('html').hasClass('themelight') ) {
+        turnLightTheme();
+    }
 }
 
 function turnLightTheme() {
@@ -26,6 +37,7 @@ function turnLightTheme() {
     disableStylesheet(customdark);
     enableStylesheet(themelight);
     enableStylesheet(customlight);
+    localStorage.setItem('userTheme', 'light');
 }
 function turnDarkTheme(){
     $('html').removeClass('themelight');
@@ -36,6 +48,7 @@ function turnDarkTheme(){
     disableStylesheet(customlight);
     enableStylesheet(themedark);
     enableStylesheet(customdark);
+    localStorage.setItem('userTheme', 'dark');
 }
 
 $('.cssmode__icon').on('click', function(){
