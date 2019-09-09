@@ -15,12 +15,22 @@
 
 }
 @media only screen and (min-width : 480px) {
-
+    .exam__content-box {
+        padding: 20px;
+    }
+    .exam__content-inner {
+        padding: 0;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-
+    .sticky__body {
+        margin-bottom: 102px;
+    }
+    .sticky__footer {
+        height: 72px;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -29,8 +39,13 @@
         display: inline-block;
         margin-bottom: 0;
     }
-    .exam__content-box {
-        padding: 20px;
+    .cardstable__td {
+        padding: 5px 10px;
+    }
+    .btn_ticket {
+        width: 100px;
+        font-size: 16px;
+        line-height: 1.5;
     }
 }
 
