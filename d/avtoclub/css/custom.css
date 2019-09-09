@@ -1,0 +1,99 @@
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+}
+.absolute-logo {
+    display: block;
+    margin-bottom: 10px;
+}
+.exam {
+    max-width: 710px;
+    margin: 20px auto;
+}
+.exam__tabs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+.exam__tab {
+    cursor: pointer;
+    padding: 10px 10px;
+    font-size: 16px;
+    color: #203f54;
+    transition: background .5s ease-out;
+    border: 1px solid #f37e00;
+    border-bottom: none;
+    line-height: 1.1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: center;
+    text-align: center;
+}
+.exam__tab + .exam__tab {
+    border-left: none;
+}
+.exam__tab:hover,
+.exam__tab.active {
+    background: #f37e00;
+    color: #f7f6f6;
+}
+.exam__content-box {
+    padding: 10px;
+    border: 1px solid #f37e00;
+    border-top: 3px solid #f37e00;
+}
+.exam__content_topics,
+.exam__content_numbers,
+.exam__content_exam {
+    display: none;
+}
+.exam__content.active {
+    display: block;
+}
+.d-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+.btn {
+    width: 100px;
+    display: block;
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 16px;
+    margin: 0 10px 10px 0;
+    border-radius: 3px;
+    border: 1px solid #f37e00;
+    outline: 0;
+    color: #203f54;
+    text-decoration: none;
+}
+.btn:hover {
+    background: #f37e00;
+    color: #fff;
+}
