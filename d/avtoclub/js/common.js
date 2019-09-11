@@ -18,6 +18,19 @@ $(document).ready(function(){
         }
     });
 
+    //ticket by number
+    $('.btn_ticket').on('click', function(){
+        $('.cardstable-wrap').hide();
+        $('#exam-content-numbers-inner').show();
+        var ticket = $(this).data('ticket');
+
+        $('#exam-content-numbers-inner').html('<h1>Билет '+ticket+'</h1>'+question[getTicket(ticket)[0]].text+'<br>...');
+        console.log( question[getTicket(ticket)[0]].text );
+        //load all questions
+        //show first question -> next -> next...
+        //show result -> return to all tickets
+    });
+
     //button to up
     $('#gotop').on('click', function () {
         $('body,html').animate({scrollTop: 0}, 800);

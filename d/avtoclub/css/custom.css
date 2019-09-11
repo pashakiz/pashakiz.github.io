@@ -50,6 +50,7 @@
     line-height: 1.1;
     border: none;
     outline: none;
+    box-sizing: border-box;
 }
 .btn:hover,
 .btn.active {
@@ -132,6 +133,7 @@
 .btn_up:hover {
     border: 1px solid transparent;
 }
+.cardstable-wrap {}
 .cardstable {
     width: 100%;
     border-collapse: collapse;
