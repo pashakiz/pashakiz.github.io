@@ -1,3 +1,57 @@
+/* Flexbox utilities from bootstrap 4.3.0 [base classes without -sm-/-md-/-lg-/-xl-] (start) */
+.d-flex{display:-ms-flexbox!important;display:flex!important}
+.d-inline-flex{display:-ms-inline-flexbox!important;display:inline-flex!important}
+.flex-row{-ms-flex-direction:row!important;flex-direction:row!important}
+.flex-row-reverse{-ms-flex-direction:row-reverse!important;flex-direction:row-reverse!important}
+.flex-column{-ms-flex-direction:column!important;flex-direction:column!important}
+.flex-column-reverse{-ms-flex-direction:column-reverse!important;flex-direction:column-reverse!important}
+.justify-content-start{-ms-flex-pack:start!important;justify-content:flex-start!important}
+.justify-content-end{-ms-flex-pack:end!important;justify-content:flex-end!important}
+.justify-content-center{-ms-flex-pack:center!important;justify-content:center!important}
+.justify-content-between{-ms-flex-pack:justify!important;justify-content:space-between!important}
+.justify-content-around{-ms-flex-pack:distribute!important;justify-content:space-around!important}
+.align-items-start{-ms-flex-align:start!important;align-items:flex-start!important}
+.align-items-end{-ms-flex-align:end!important;align-items:flex-end!important}
+.align-items-center{-ms-flex-align:center!important;align-items:center!important}
+.align-items-baseline{-ms-flex-align:baseline!important;align-items:baseline!important}
+.align-items-stretch{-ms-flex-align:stretch!important;align-items:stretch!important}
+.align-content-start{-ms-flex-line-pack:start!important;align-content:flex-start!important}
+.align-content-end{-ms-flex-line-pack:end!important;align-content:flex-end!important}
+.align-content-center{-ms-flex-line-pack:center!important;align-content:center!important}
+.align-content-between{-ms-flex-line-pack:justify!important;align-content:space-between!important}
+.align-content-around{-ms-flex-line-pack:distribute!important;align-content:space-around!important}
+.align-content-stretch{-ms-flex-line-pack:stretch!important;align-content:stretch!important}
+.align-self-auto{-ms-flex-item-align:auto!important;align-self:auto!important}
+.align-self-start{-ms-flex-item-align:start!important;align-self:flex-start!important}
+.align-self-end{-ms-flex-item-align:end!important;align-self:flex-end!important}
+.align-self-center{-ms-flex-item-align:center!important;align-self:center!important}
+.align-self-baseline{-ms-flex-item-align:baseline!important;align-self:baseline!important}
+.align-self-stretch{-ms-flex-item-align:stretch!important;align-self:stretch!important}
+.flex-fill{-ms-flex:1 1 auto!important;flex:1 1 auto!important}
+.flex-grow-0{-ms-flex-positive:0!important;flex-grow:0!important}
+.flex-grow-1{-ms-flex-positive:1!important;flex-grow:1!important}
+.flex-shrink-0{-ms-flex-negative:0!important;flex-shrink:0!important}
+.flex-shrink-1{-ms-flex-negative:1!important;flex-shrink:1!important}
+.flex-wrap{-ms-flex-wrap:wrap!important;flex-wrap:wrap!important}
+.flex-nowrap{-ms-flex-wrap:nowrap!important;flex-wrap:nowrap!important}
+.flex-wrap-reverse{-ms-flex-wrap:wrap-reverse!important;flex-wrap:wrap-reverse!important}
+.order-first{-ms-flex-order:-1;order:-1}
+.order-last{-ms-flex-order:13;order:13}
+.order-0{-ms-flex-order:0;order:0}
+.order-1{-ms-flex-order:1;order:1}
+.order-2{-ms-flex-order:2;order:2}
+.order-3{-ms-flex-order:3;order:3}
+.order-4{-ms-flex-order:4;order:4}
+.order-5{-ms-flex-order:5;order:5}
+.order-6{-ms-flex-order:6;order:6}
+.order-7{-ms-flex-order:7;order:7}
+.order-8{-ms-flex-order:8;order:8}
+.order-9{-ms-flex-order:9;order:9}
+.order-10{-ms-flex-order:10;order:10}
+.order-11{-ms-flex-order:11;order:11}
+.order-12{-ms-flex-order:12;order:12}
+/* Flexbox utilities from bootstrap 4.3.0 (end) */
+
 .sticky {
     position: relative;
     min-height: 100%;
@@ -26,7 +80,7 @@
     margin-bottom: 10px;
 }
 .exam {
-    max-width: 615px;
+    max-width: 815px;
     margin: 20px auto;
 }
 .exam__tabs {
@@ -93,22 +147,10 @@
 .exam__content.active {
     display: block;
 }
-.d-flex {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-box-align: stretch;
-    -ms-flex-align: stretch;
-    align-items: stretch;
-    -webkit-justify-content: flex-start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
-}
 .btn_ticket {
-    width: auto;
-    display: block;
+    width: 100%;
+    max-width: 80px;
+    display: inline-block;
     padding: 5px 10px;
     text-align: center;
     font-size: 14px;
@@ -117,7 +159,6 @@
     border-radius: 3px;
     border: 1px solid #f37e00;
     outline: 0;
-    color: #203f54;
     text-decoration: none;
     background: transparent;
     font-weight: normal;
@@ -133,15 +174,145 @@
 .btn_up:hover {
     border: 1px solid transparent;
 }
-.cardstable-wrap {}
+.cardstable-wrap {
+    max-width: 615px;
+    margin: auto;
+}
 .cardstable {
     width: 100%;
     border-collapse: collapse;
     border: none;
 }
 .cardstable__td {
-    padding: 3px 4px;
+    width: 25%;
+    padding: 4px 4px;
+    text-align: center;
 }
 .cardstable__td > .btn {
     margin: 0;
+}
+.exam__pagination {
+    /*max-width: 360px;*/
+}
+.btn__pagination {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 3px;
+    border: 1px solid #f37e00;
+    background: rgba(204, 219, 234, 0.5);
+    margin: 0 0 5px 0;
+    padding: 3px;
+}
+.btn__pagination.wrong {
+    border: 1px solid crimson;
+    background: lightcoral;
+}
+.btn__pagination.correct {
+    border: 1px solid limegreen;
+    background: lightgreen;
+}
+.btn__pagination.active {
+    color: #203f54;
+    border: 1px dotted #f37e00;
+    background: rgba(204, 219, 234, 0.5);
+}
+.btn__pagination.wrong:hover,
+.btn__pagination.correct:hover {
+    color: #203f54;
+}
+.btn__pagination:hover {}
+.exam__timer {
+    padding: 4px 0 0 10px;
+}
+.examtimer {
+    font-size: 18px;
+    color: #666;
+}
+.examtimer_overrun {
+    color: crimson;
+}
+.exam-question {}
+.exam-question__header {}
+.exam-question__body {}
+.exam-question__text {
+    font-size: 18px;
+    margin: 20px 0 0;
+}
+.exam-question__img {
+    max-width: 480px;
+    margin: 10px auto;
+    text-align: center;
+}
+.exam-question__img > img {
+    width: 100%;
+    height: auto;
+}
+.exam-question__answers {}
+.exam-question__answer {
+    margin-bottom: 10px;
+}
+.exam-question__label {
+    display: block;
+    width: 100%;
+    border: 1px solid #f37e00;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 5px 5px 15px;
+    box-sizing: border-box;
+}
+.exam-question__label:hover {
+    background: rgba(204, 219, 234, 0.5);
+}
+.exam-question__radio {}
+input[type=radio].exam-question__radio::before {
+    left: -2px;
+    border: 1px solid #f37e00;
+    box-sizing: border-box;
+    transition: background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+input[type=radio].exam-question__radio:checked::before {
+    width: 16px;
+    height: 16px;
+    box-shadow: none;
+    color: #fff;
+    border-color: #f37e00;
+    background-color: #f37e00;
+}
+input[type=radio].exam-question__radio::after {
+    position: absolute;
+    content: "";
+    display: block;
+    top: 50%;
+    left: -2px;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    background: #fff;
+    background: no-repeat 50%/50% 50%;
+}
+input[type=radio].exam-question__radio:checked::after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3E%3Ccircle r='4' fill='%23fff'/%3E%3C/svg%3E");
+}
+.exam-question__span {}
+.exam-question__footer {}
+.exam-question__btns {
+    margin: 20px 0;
+}
+.exam-question__btn {}
+.exam-prompt {}
+.exam-prompt__text {}
+.exam-prompt__res {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.exam-question.correct .exam-prompt__res {
+    color: green;
+}
+.exam-question.wrong .exam-prompt__res {
+    color: red;
 }

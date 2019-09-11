@@ -22,6 +22,9 @@
         padding: 0;
     }
 }
+@media only screen and (min-width : 490px) {
+
+}
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
@@ -31,14 +34,13 @@
     .sticky__footer {
         height: 72px;
     }
+    .btn_ticket {
+        width: 110px;
+        max-width: none;
+    }
 }
 
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-    .absolute-logo {
-        display: inline-block;
-        margin-bottom: 0;
-    }
+@media (min-width: 660px) {
     .cardstable__td {
         padding: 5px 10px;
     }
@@ -46,6 +48,14 @@
         width: 122px;
         font-size: 16px;
         line-height: 1.5;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .absolute-logo {
+        display: inline-block;
+        margin-bottom: 0;
     }
 }
 
