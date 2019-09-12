@@ -31,6 +31,10 @@ $(document).ready(function(){
         //show result -> return to all tickets
     });
 
+    $('.exam-prompt-btn').on('click', function(){
+        $('.exam-prompt__info').slideToggle();
+    });
+
     //button to up
     $('#gotop').on('click', function () {
         $('body,html').animate({scrollTop: 0}, 800);
