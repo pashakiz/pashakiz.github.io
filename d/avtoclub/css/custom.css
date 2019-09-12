@@ -201,29 +201,33 @@
     font-size: 16px;
     text-align: center;
     border-radius: 3px;
-    border: 1px solid #f37e00;
-    background: rgba(204, 219, 234, 0.5);
+    border: 1px dotted #f37e00;
+    background: transparent;
     margin: 0 0 5px 0;
     padding: 3px;
+    transition: none;
 }
 .btn__pagination.wrong {
     border: 1px solid crimson;
-    background: lightcoral;
+    background: #ea7f7f;
 }
 .btn__pagination.correct {
     border: 1px solid limegreen;
-    background: lightgreen;
+    background: #c2dc99;
 }
 .btn__pagination.active {
     color: #203f54;
-    border: 1px dotted #f37e00;
-    background: rgba(204, 219, 234, 0.5);
+    border: 1px solid #f37e00;
+    background: #f0e0ca;
 }
 .btn__pagination.wrong:hover,
 .btn__pagination.correct:hover {
     color: #203f54;
 }
-.btn__pagination:hover {}
+.btn__pagination:hover {
+    color: #203f54;
+    background: #f0e0ca;
+}
 .exam__timer {
     padding: 4px 0 0 10px;
 }
@@ -254,6 +258,16 @@
 .exam-question__answer {
     margin-bottom: 10px;
 }
+.exam-question__label.wrong {
+    background: #ea7f7f;
+}
+.exam-question__label.correct {
+    background: #c2dc99;
+    border: 1px solid transparent;
+}
+.exam-question__label.checked {
+    background: #f0e0ca;
+}
 .exam-question__label {
     display: block;
     width: 100%;
@@ -264,7 +278,8 @@
     box-sizing: border-box;
 }
 .exam-question__label:hover {
-    background: rgba(204, 219, 234, 0.5);
+    border: 1px solid #f0e0ca;
+    background: #f0e0ca;
 }
 .exam-question__radio {}
 input[type=radio].exam-question__radio::before {
@@ -302,7 +317,22 @@ input[type=radio].exam-question__radio:checked::after {
 .exam-question__btns {
     margin: 20px 0;
 }
-.exam-question__btn {}
+.exam-question__btn {
+    border-radius: 3px;
+}
+.exam-question__btn-submit {
+    border: 1px solid #f37e00;
+    background: #f0e0ca;
+}
+.exam-question__btn-next {
+    border: 1px dotted #f37e00;
+    background: transparent;
+}
+.exam-question__btn-next:hover {
+    color: #203f54;
+    background: #f0e0ca;
+    transition: none;
+}
 .exam-prompt {}
 .exam-prompt__text {}
 .exam-prompt__res {
