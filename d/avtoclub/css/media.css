@@ -28,6 +28,10 @@
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
+    .d-sm-flex {display: -ms-flexbox!important;display: flex!important;}
+    .exam-prompt-btn {
+        margin-top: 0;
+    }
     .sticky__body {
         margin-bottom: 102px;
     }

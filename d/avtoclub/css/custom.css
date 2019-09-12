@@ -134,7 +134,7 @@
     padding: 10px 5px;
     background: rgba(245, 236, 220, 0.2);
     border: 1px solid #f37e00;
-    border-top: 3px solid #f37e00;
+    border-top: 2px solid #f37e00;
 }
 .exam__content-inner {
     padding: 10px 15px;
@@ -208,12 +208,12 @@
     transition: none;
 }
 .btn__pagination.wrong {
-    border: 1px solid crimson;
-    background: #ea7f7f;
+    border: 1px solid #f54d4d !important;
+    background: #ea7f7f !important;
 }
 .btn__pagination.correct {
-    border: 1px solid limegreen;
-    background: #c2dc99;
+    border: 1px solid #23ab23 !important;
+    background: #c2dc99 !important;
 }
 .btn__pagination.active {
     color: #203f54;
@@ -241,9 +241,19 @@
 .exam-question {}
 .exam-question__header {}
 .exam-question__body {}
+.exam-question__title {
+    text-align: center;
+    margin: 15px 0 20px;
+}
+.exam-question__ticket-num {
+    font-size: 20px;
+}
+.exam-question__question-num {
+    font-size: 14px;
+}
 .exam-question__text {
     font-size: 18px;
-    margin: 20px 0 0;
+    margin: 20px 0 10px;
 }
 .exam-question__img {
     max-width: 480px;
@@ -313,7 +323,6 @@ input[type=radio].exam-question__radio:checked::after {
     border-color: #f54d4d;
     background-color: #f54d4d;
 }
-
 .exam-question__label.correct {
     background: #CDE8DA !important;
     border: 1px solid #23ab23 !important;
@@ -328,20 +337,24 @@ input[type=radio].exam-question__radio:checked::after {
     border-color: #23ab23;
     background-color: #23ab23;
 }
-
-
 .exam-question__label:hover {
     border: 1px solid #f37e00;
     background: #f0e0ca;
 }
-
-.exam-question__span {}
+.exam-question__span {
+    display: block;
+    margin-left: 20px;
+    margin-top: -24px;
+}
 .exam-question__footer {
     margin: 20px 0;
 }
 .exam-question__btns {}
 .exam-question__btn {
     border-radius: 3px;
+}
+.exam-question__btn + .exam-question__btn {
+    margin-left: 10px;
 }
 .exam-question__btn-submit {
     border: 1px solid #f37e00;
@@ -368,6 +381,7 @@ input[type=radio].exam-question__radio:checked::after {
     outline: none;
     padding: 10px 0;
     line-height: 1.1;
+    margin-top: 10px;
 }
 .exam-prompt-btn:hover,
 .exam-prompt-btn:focus,
