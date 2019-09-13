@@ -31,14 +31,6 @@ $(document).ready(function(){
         //show result -> return to all tickets
     });
 
-    $('.custom-control-checkbox__input').on('change', function(){
-        if ( $(this).prop('checked') ) {
-            $(this).closest('.custom-control-checkbox__label').addClass('active');
-        } else {
-            $(this).closest('.custom-control-checkbox__label').removeClass('active');
-        }
-    });
-
     $('.exam-prompt-btn').on('click', function(){
         $('.exam-prompt__info').slideToggle();
     });
