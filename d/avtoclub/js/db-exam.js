@@ -1,9 +1,9 @@
 // Массив объектов:
 // answer:		array of answers
 // answerTrue:	index of true answer [from 0]
-// using1:		question[getTicket(1)[0]].text
-// using2:		question[getTopic(1)[0]].text
-var question = [
+// using1:		questions[getTicket(1)[0]].text
+// using2:		questions[getTopic(1)[0]].text
+var questions = [
 	{	//num:1 //index:0
 		text: 'Какие транспортные средства относятся к маршрутным транспортным средствам (транспортным средствам общего пользования)?',
 		img: '',
@@ -327,7 +327,7 @@ function getTrueAnswers(ticket) {
     var str = '';
     var num = 0;
     for (var i=0; i<20; i++) {
-        num = question[getTicket(ticket)[i]].answerTrue + 1;
+        num = questions[getTicket(ticket)[i]].answerTrue + 1;
         str = str + num;
     }
     console.log(str);
