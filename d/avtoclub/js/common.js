@@ -20,12 +20,9 @@ $(document).ready(function(){
 
     //ticket by number
     $('.btn_ticket').on('click', function(){
-        $('.cardstable-wrap').hide();
-        $('#exam-content-numbers-inner').show();
+        $('.exam__cardstable').hide();
         var ticket = $(this).data('ticket');
-
-        $('#exam-content-numbers-inner').html('<h1>Билет '+ticket+'</h1>'+question[getTicket(ticket)[0]].text+'<br>...');
-        console.log( question[getTicket(ticket)[0]].text );
+        console.log( questions[getTicket(ticket)[0]].text );
         //load all questions
         //show first question -> next -> next...
         //show result -> return to all tickets

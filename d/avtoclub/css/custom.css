@@ -196,12 +196,9 @@ p {
     border: 1px solid #f37e00;
     border-top: 2px solid #f37e00;
 }
-.exam__content-inner {
-    padding: 10px 15px;
-}
-.exam__content-inner_center {
+.exam__random {
     text-align: center;
-    padding: 15px 0 !important;
+    padding: 15px;
 }
 .exam__content_topics,
 .exam__content_numbers,
@@ -211,7 +208,7 @@ p {
 .exam__content.active {
     display: block;
 }
-.cardstable-wrap {
+.exam__cardstable {
     max-width: 615px;
     margin: auto;
 }
@@ -233,16 +230,17 @@ p {
 }
 .btn__pagination {
     display: inline-block;
-    width: 30px;
-    height: 30px;
-    font-size: 16px;
+    width: 22px;
+    height: 22px;
+    font-size: 13px;
     text-align: center;
     border-radius: 3px;
     border: 1px dotted #f37e00;
     background: transparent;
     margin: 0 0 5px 0;
-    padding: 3px;
+    padding: 0;
     transition: none;
+    line-height: 1;
 }
 .btn__pagination.wrong {
     border: 1px solid #f54d4d !important;
@@ -266,7 +264,11 @@ p {
     background: #f0e0ca;
 }
 .exam__timer {
+    display: none;
     padding: 4px 0 0 10px;
+}
+.exam__timer-mob {
+    display: block;
 }
 .examtimer {
     font-size: 18px;
@@ -275,13 +277,15 @@ p {
 .examtimer_overrun {
     color: crimson;
 }
-.exam-question {}
+.exam-question {
+    padding: 10px;
+}
 .exam-question__header {}
 .exam-question__body {}
 .exam-question__title {
-    text-align: center;
     margin: 15px 0 20px;
 }
+.exam-question__titletxt {}
 .exam-question__ticket-num {
     font-size: 20px;
 }
@@ -491,7 +495,13 @@ input[type=radio].custom-control-input:checked::before {
 .exam-question.wrong .exam-prompt__res {
     color: red;
 }
+.col-topics,
+.col-topic-title {
+    padding: 0 15px;
+}
 .col-topics {
     flex-basis: 100%;
-    padding: 0 15px;
+}
+.exam__bytopics {
+    margin: 10px 0 20px;
 }

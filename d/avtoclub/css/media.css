@@ -18,8 +18,8 @@
     .exam__content-box {
         padding: 20px;
     }
-    .exam__content-inner {
-        padding: 0 0 15px 0;
+    .exam-question {
+        padding: 0;
     }
 }
 @media only screen and (min-width : 490px) {
@@ -42,6 +42,12 @@
         width: 110px;
         max-width: none;
     }
+    .btn__pagination {
+        width: 30px;
+        height: 30px;
+        font-size: 16px;
+        padding: 3px;
+    }
 }
 
 @media (min-width: 660px) {
@@ -60,6 +66,19 @@
     .absolute-logo {
         display: inline-block;
         margin-bottom: 0;
+    }
+}
+
+@media (min-width: 810px) {
+    .exam-question__title {
+        display: block !important;
+        text-align: center;
+    }
+    .exam__timer-mob {
+        display: none;
+    }
+    .exam__timer {
+        display: block;
     }
 }
 
