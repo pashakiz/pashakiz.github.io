@@ -50,6 +50,7 @@
 .order-10{-ms-flex-order:10;order:10}
 .order-11{-ms-flex-order:11;order:11}
 .order-12{-ms-flex-order:12;order:12}
+.w-100 {width: 100%!important;}
 /* Flexbox utilities from bootstrap 4.3.0 (end) */
 
 .sticky {
@@ -230,9 +231,9 @@ p {
 }
 .btn__pagination {
     display: inline-block;
-    width: 22px;
-    height: 22px;
-    font-size: 13px;
+    width: 25px;
+    height: 25px;
+    font-size: 14px;
     text-align: center;
     border-radius: 3px;
     border: 1px dotted #f37e00;
