@@ -17635,6 +17635,8 @@ var topicNames = [
     'Светофоры'
 ];
 
+var noimage = 'http://avtoclub.dn.ua/test/test/ab_images/noimage.png';
+
 // using:	getTicket(num)[q]
 // num:		number of ticket from 1 to 80
 // q:		index of question of this ticket [from 0 to 19]
