@@ -43,4 +43,5 @@ for (var i = 0; i < quest.length; i++) {
 
 }
 
+questions.shift();
 console.log( JSON.stringify(questions, null, 4) );
