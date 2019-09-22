@@ -70,16 +70,24 @@ function checkDoubles() {
 	}
     console.log( JSON.stringify(res, null, 1) );
 }
-
-
 /*=================================================================*/
 // поиск дублей
 var questionsStrs = [];
 for (var i = 0; i < questions.length-1; i++) {
-    questionsStrs.push(questions[i].text);
+    questionsStrs.push(questions[i].img);
 }
 var testres = questionsStrs.filter(function (elem, pos, arr) {
     return pos !== arr.indexOf(elem) || pos !== arr.lastIndexOf(elem);
 });
 console.log(testres);
+/*=================================================================*/
+function getAllImgs() {
+    var res = [];
+    for (var i = 0; i < questions.length-1; i++) {
+        if (questions[i].img) {
+        	res.push(questions[i].img);
+		}
+    }
+    console.log(res);
+}
 /*=================================================================*/
