@@ -168,6 +168,14 @@ p {
     line-height: 1.2;
     margin: 0 20px 15px 0;
 }
+.btn_ticket.correct {
+    border: 1px solid #23ab23;
+    background: #c2dc99;
+}
+.btn_ticket.wrong {
+    border: 1px solid #f54d4d;
+    background: #ea7f7f;
+}
 .btn_ticket:hover {
     background: #f37e00;
     color: #fff;
