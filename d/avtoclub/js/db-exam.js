@@ -17,7 +17,7 @@ var questions = [
 	},
 	{	//num:2 //index:1
 		text: 'В каких направлениях вам разрешено продолжить движение?',
-		img: 'http://avtoclub.dn.ua/test/test/ab_images/01-02.jpg',
+		img: 'img/tickets/01-02.jpg',
 		answer: [
 			'Только Б.',
 			'Только А и Б.',
@@ -28,7 +28,7 @@ var questions = [
 	},
 	{	//num:3 //index:2
 		text: 'Как называется данный дорожный знак?',
-		img: 'http://avtoclub.dn.ua/test/test/ab_images/01-03.jpg',
+		img: 'img/tickets/01-03.jpg',
 		answer: [
 			'Возможен неожиданный выезд трамвая на дорогу.',
 			'Пересечение подвесной канатной дороги.',
@@ -40,7 +40,7 @@ var questions = [
 	},
     {	//num:4 //index:3
         text: 'Эта табличка в сочетании с дорожным знаком "Зона стоянки" разрешает вам осуществлять стоянку легкового автомобиля с использованием тротуара:',
-        img: 'http://avtoclub.dn.ua/test/test/ab_images/01-04.jpg',
+        img: 'img/tickets/01-04.jpg',
         answer: [
             'Только на правой стороне дороги до ближайшего по ходу движения перекрестка.',
             'Только на правой стороне дороги до знака "Конец зоны стоянки".',
@@ -51,7 +51,7 @@ var questions = [
     },
     {	//num:5 //index:4
         text: 'Эта горизонтальная дорожная разметка, нанесенная на полосе движения:',
-        img: 'http://avtoclub.dn.ua/test/test/ab_images/01-05.jpg',
+        img: 'img/tickets/01-05.jpg',
         answer: [
             'Предоставляет вам преимущество при перестроении на правую полосу.',
             'Информирует вас о том, что дорога поворачивает направо.',
@@ -73,7 +73,7 @@ var questions = [
     },
     {	//num:7 //index:6
         text: 'Обязаны ли вы в данной ситуации подать сигнал правого поворота?',
-        img: 'http://avtoclub.dn.ua/test/test/ab_images/01-07.jpg',
+        img: 'img/tickets/01-07.jpg',
         answer: [
             'Да.',
             'Да, но только при наличии движущихся сзади транспортных средств.',
@@ -84,7 +84,7 @@ var questions = [
     },
     {	//num:8 //index:7
         text: 'Кто должен уступить дорогу при одновременном перестроении?',
-        img: 'http://avtoclub.dn.ua/test/test/ab_images/01-08.jpg',
+        img: 'img/tickets/01-08.jpg',
         answer: [
             'Водитель автомобиля.',
             'Водитель мотоцикла.'
@@ -94,7 +94,7 @@ var questions = [
     },
     {	//num:9 //index:8
         text: 'По какой траектории вам разрешено выполнить разворот?',
-        img: 'http://avtoclub.dn.ua/test/test/ab_images/01-09.jpg',
+        img: 'img/tickets/01-09.jpg',
         answer: [
             'Только по А.',
             'Только по Б.',
@@ -105,7 +105,7 @@ var questions = [
     },
     {	//num:10 //index:9
         text: 'С какой скоростью вы можете продолжить движение вне населенного пункта по левой полосе дороги на легковом автомобиле?',
-        img: 'http://avtoclub.dn.ua/test/test/ab_images/01-10.jpg',
+        img: 'img/tickets/01-10.jpg',
         answer: [
             'Не более 50 км/ч.',
             'Не менее 50 км/ч и не более 70 км/ч.',
@@ -116,7 +116,7 @@ var questions = [
     },
     {	//num:11 //index:10
         text: 'Может ли водитель легкового автомобиля в населенном пункте выполнить опережение грузового автомобиля по такой траектории?',
-        img: 'http://avtoclub.dn.ua/test/test/ab_images/01-11.jpg',
+        img: 'img/tickets/01-11.jpg',
         answer: [
             'Да.',
             'Нет.'
@@ -126,7 +126,7 @@ var questions = [
     },
     {	//num:12 //index:11
         text: 'Разрешено ли водителю поставить автомобиль на стоянку в указанном месте?',
-        img: 'http://avtoclub.dn.ua/test/test/ab_images/01-12.jpg',
+        img: 'img/tickets/01-12.jpg',
         answer: [
             'Да.',
             'Нет.'
@@ -136,7 +136,7 @@ var questions = [
     },
     {	//num:13 //index:12
         text: 'Вы намерены повернуть направо. Следует ли уступить дорогу автобусу?',
-        img: 'http://avtoclub.dn.ua/test/test/ab_images/01-13.jpg',
+        img: 'img/tickets/01-13.jpg',
         answer: [
             'Да.',
             'Нет.'
@@ -146,7 +146,7 @@ var questions = [
     },
     {	//num:14 //index:13
         text: 'Вы намерены проехать перекресток в прямом направлении. Ваши действия?',
-        img: 'http://avtoclub.dn.ua/test/test/ab_images/01-14.jpg',
+        img: 'img/tickets/01-14.jpg',
         answer: [
             'Уступите дорогу легковому автомобилю, поскольку он первым въехал на перекресток.',
             'Убедитесь, что легковой автомобиль уступает дорогу, и только тогда проедете перекресток первым.'
@@ -156,7 +156,7 @@ var questions = [
     },
     {	//num:15 //index:14
         text: 'Вы намерены повернуть налево. Кому следует уступить дорогу?',
-        img: 'http://avtoclub.dn.ua/test/test/ab_images/01-15.jpg',
+        img: 'img/tickets/01-15.jpg',
         answer: [
             'Только автобусу.',
             'Только легковому автомобилю.',
@@ -167,7 +167,7 @@ var questions = [
     },
     {	//num:16 //index:15
         text: 'С какой максимальной скоростью вы можете продолжить движение за знаком?',
-        img: 'http://avtoclub.dn.ua/test/test/ab_images/01-16.jpg',
+        img: 'img/tickets/01-16.jpg',
         answer: [
             '60 км/ч.',
             '50 км/ч.',
@@ -234,7 +234,7 @@ var questions = [
     },
     {
         text: "Можете ли вы въехать на мост первым?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/02-02.jpg",
+        img: "img/tickets/02-02.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -244,7 +244,7 @@ var questions = [
     },
     {
         text: "С какой максимальной скоростью вы можете продолжить движение на грузовом автомобиле с разрешенной максимальной массой не более 3,5 т?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/02-03.jpg",
+        img: "img/tickets/02-03.jpg",
         answer: [
             "60 км/ч.",
             "70 км/ч.",
@@ -255,7 +255,7 @@ var questions = [
     },
     {
         text: "Что запрещено в зоне действия этого знака?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/02-04.jpg",
+        img: "img/tickets/02-04.jpg",
         answer: [
             "Движение автомобилей со скоростью менее 20 км/ч.",
             "Движение пешеходов по проезжей части.",
@@ -266,7 +266,7 @@ var questions = [
     },
     {
         text: "Разрешен ли вам обгон, если реверсивные светофоры отключены?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/02-05.jpg",
+        img: "img/tickets/02-05.jpg",
         answer: [
             "Разрешен.",
             "Разрешен, если скорость автобуса менее 30 км/ч.",
@@ -277,7 +277,7 @@ var questions = [
     },
     {
         text: "В каких направлениях вам разрешено продолжить движение?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/02-06.jpg",
+        img: "img/tickets/02-06.jpg",
         answer: [
             "Только налево.",
             "Прямо и налево.",
@@ -288,7 +288,7 @@ var questions = [
     },
     {
         text: "Поднятая рука вверх водителя легкового автомобиля является сигналом, информирующим вас:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/02-07.jpg",
+        img: "img/tickets/02-07.jpg",
         answer: [
             "О его намерении повернуть направо.",
             "О его намерении продолжить движение прямо.",
@@ -299,7 +299,7 @@ var questions = [
     },
     {
         text: "Двигаясь по левой полосе, вы намерены перестроиться на правую. На каком из рисунков показана ситуация, в которой вы обязаны уступить дорогу?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/02-08.jpg",
+        img: "img/tickets/02-08.jpg",
         answer: [
             "На левом.",
             "На правом.",
@@ -310,7 +310,7 @@ var questions = [
     },
     {
         text: "Разрешен ли вам разворот в указанном месте?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/02-09.jpg",
+        img: "img/tickets/02-09.jpg",
         answer: [
             "Разрешен только при отсутствии приближающегося поезда.",
             "Разрешен.",
@@ -333,7 +333,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам обогнать мотоциклиста?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/02-11.jpg",
+        img: "img/tickets/02-11.jpg",
         answer: [
             "Разрешено.",
             "Запрещено."
@@ -343,7 +343,7 @@ var questions = [
     },
     {
         text: "Нарушил ли водитель грузового автомобиля с разрешенной массой не более 3,5 т правила стоянки в данной ситуации?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/02-12.jpg",
+        img: "img/tickets/02-12.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -353,7 +353,7 @@ var questions = [
     },
     {
         text: "Вы намерены повернуть налево. Кому следует уступить дорогу?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/02-13.jpg",
+        img: "img/tickets/02-13.jpg",
         answer: [
             "Только пешеходам.",
             "Только автобусу.",
@@ -365,7 +365,7 @@ var questions = [
     },
     {
         text: "Вы намерены повернуть налево. Ваши действия?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/02-14.jpg",
+        img: "img/tickets/02-14.jpg",
         answer: [
             "Проедете перекресток первым.",
             "Уступите дорогу автомобилю."
@@ -375,7 +375,7 @@ var questions = [
     },
     {
         text: "Обязан ли мотоциклист уступить вам дорогу в данной ситуации?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/02-15.jpg",
+        img: "img/tickets/02-15.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -385,7 +385,7 @@ var questions = [
     },
     {
         text: "В данной ситуации вы:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/02-16.jpg",
+        img: "img/tickets/02-16.jpg",
         answer: [
             "Должны уступить дорогу автобусу, начинающему движение от обозначенного места остановки.",
             "Имеете преимущество, т.к. водитель автобуса начинает движение с выездом на вторую полосу."
@@ -441,7 +441,7 @@ var questions = [
     },
     {   //B03
         text: "Выезжая с грунтовой дороги, вы попадаете:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/03-01.jpg",
+        img: "img/tickets/03-01.jpg",
         answer: [
             "На главную дорогу.",
             "На равнозначную дорогу."
@@ -451,7 +451,7 @@ var questions = [
     },
     {
         text: "В каком месте вы должны остановиться?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/03-02.jpg",
+        img: "img/tickets/03-02.jpg",
         answer: [
             "Перед знаком (А).",
             "Перед перекрестком (Б).",
@@ -462,7 +462,7 @@ var questions = [
     },
     {
         text: "В каком случае вам необходимо двигаться со скоростью 40 км/ч?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/03-03.jpg",
+        img: "img/tickets/03-03.jpg",
         answer: [
             "Во всех случаях.",
             "Только в том случае, когда покрытие на дороге влажное."
@@ -472,7 +472,7 @@ var questions = [
     },
     {
         text: "Какие из знаков устанавливают в начале дороги с односторонним движением?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/03-04.jpg",
+        img: "img/tickets/03-04.jpg",
         answer: [
             "Только А.",
             "Только Б.",
@@ -484,7 +484,7 @@ var questions = [
     },
     {
         text: "Можете ли вы остановиться в этом месте для посадки или высадки пассажиров?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/03-05.jpg",
+        img: "img/tickets/03-05.jpg",
         answer: [
             "Да.",
             "Да, если вы не создадите помех движению маршрутных транспортных средств.",
@@ -495,7 +495,7 @@ var questions = [
     },
     {
         text: "В каких направлениях может продолжить движение водитель автомобиля с включенными проблесковыми маячками?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/03-06.jpg",
+        img: "img/tickets/03-06.jpg",
         answer: [
             "Только направо.",
             "Только прямо или направо.",
@@ -517,7 +517,7 @@ var questions = [
     },
     {
         text: "По какой траектории вы можете выполнить правый поворот?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/03-08.jpg",
+        img: "img/tickets/03-08.jpg",
         answer: [
             "Только по А.",
             "Только по Б.",
@@ -528,7 +528,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам таким образом выполнить разворот на перекрестке?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/03-09.jpg",
+        img: "img/tickets/03-09.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -538,7 +538,7 @@ var questions = [
     },
     {
         text: "По какой полосе вам разрешено движение в данной ситуации?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/03-10.jpg",
+        img: "img/tickets/03-10.jpg",
         answer: [
             "По любой.",
             "Только по правой."
@@ -559,7 +559,7 @@ var questions = [
     },
     {
         text: "Разрешена ли вам остановка для посадки пассажира в этом месте?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/03-12.jpg",
+        img: "img/tickets/03-12.jpg",
         answer: [
             "Разрешена.",
             "Разрешена, если при этом не будет создано помех для движения маршрутных транспортных средств.",
@@ -570,7 +570,7 @@ var questions = [
     },
     {
         text: "При движении прямо вы:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/03-13.jpg",
+        img: "img/tickets/03-13.jpg",
         answer: [
             "Должны остановиться перед стоп-линией.",
             "Можете продолжить движение через перекресток без остановки.",
@@ -581,7 +581,7 @@ var questions = [
     },
     {
         text: "Вы намерены повернуть направо. Ваши действия?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/03-14.jpg",
+        img: "img/tickets/03-14.jpg",
         answer: [
             "Проедете перекресток вторым.",
             "Проедете перекресток первым.",
@@ -592,7 +592,7 @@ var questions = [
     },
     {
         text: "Вы намерены повернуть налево. Кому следует уступить дорогу?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/03-15.jpg",
+        img: "img/tickets/03-15.jpg",
         answer: [
             "Трамваю А и легковому автомобилю.",
             "Только трамваю А.",
@@ -604,7 +604,7 @@ var questions = [
     },
     {
         text: "Кто из водителей нарушил правила остановки?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/03-16.jpg",
+        img: "img/tickets/03-16.jpg",
         answer: [
             "Только водитель легкового автомобиля.",
             "Только водитель грузового автомобиля.",
@@ -661,7 +661,7 @@ var questions = [
     },
     {   //B04
         text: "Проезжая часть данной дороги имеет:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/04-01.jpg",
+        img: "img/tickets/04-01.jpg",
         answer: [
             "Одну полосу для движения.",
             "Две полосы для движения.",
@@ -672,7 +672,7 @@ var questions = [
     },
     {
         text: "Эти дорожные знаки (установленные вне населенного пункта) предупреждают вас:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/04-02.jpg",
+        img: "img/tickets/04-02.jpg",
         answer: [
             "О наличии через 500 м опасных поворотов.",
             "О том, что на расстоянии 150-300 м за дорожным знаком начнется участок дороги протяженностью 500 м с несколькими поворотами.",
@@ -683,7 +683,7 @@ var questions = [
     },
     {
         text: "Какой из знаков распространяет свое действие только на ту полосу, над которой он установлен?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/04-03.jpg",
+        img: "img/tickets/04-03.jpg",
         answer: [
             "Только А.",
             "Только Б.",
@@ -694,7 +694,7 @@ var questions = [
     },
     {
         text: "Этот дорожный знак с желтым фоном информирует вас о том, что:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/04-04.jpg",
+        img: "img/tickets/04-04.jpg",
         answer: [
             "Дальнейшее движение возможно только по второй полосе.",
             "Дальнейшее движение возможно только по проезжей части встречного направления.",
@@ -716,7 +716,7 @@ var questions = [
     },
     {
         text: "Каким транспортным средствам разрешено движение прямо?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/04-06.jpg",
+        img: "img/tickets/04-06.jpg",
         answer: [
             "Только легковому и грузовому автомобилям.",
             "Только грузовому автомобилю.",
@@ -728,7 +728,7 @@ var questions = [
     },
     {
         text: "Вы намерены продолжить движение по главной дороге. Обязаны ли вы при этом включить правые указатели поворота?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/04-07.jpg",
+        img: "img/tickets/04-07.jpg",
         answer: [
             "Да.",
             "Да, только при наличии движущегося сзади транспортного средства.",
@@ -739,7 +739,7 @@ var questions = [
     },
     {
         text: "Кто обязан уступить дорогу?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/04-08.jpg",
+        img: "img/tickets/04-08.jpg",
         answer: [
             "Водитель грузового автомобиля.",
             "Водитель легкового автомобиля."
@@ -749,7 +749,7 @@ var questions = [
     },
     {
         text: "По какой траектории вы можете выполнить разворот?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/04-09.jpg",
+        img: "img/tickets/04-09.jpg",
         answer: [
             "Только по А.",
             "Только по Б.",
@@ -771,7 +771,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам обогнать мотоциклиста?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/04-11.jpg",
+        img: "img/tickets/04-11.jpg",
         answer: [
             "Разрешено.",
             "Разрешено только после проезда перекрестка.",
@@ -782,7 +782,7 @@ var questions = [
     },
     {
         text: "Кто из водителей нарушил правила стоянки?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/04-12.jpg",
+        img: "img/tickets/04-12.jpg",
         answer: [
             "Оба нарушили.",
             "Только водитель автомобиля.",
@@ -794,7 +794,7 @@ var questions = [
     },
     {
         text: "Вы намерены проехать перекресток в прямом направлении. Ваши действия?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/04-13.jpg",
+        img: "img/tickets/04-13.jpg",
         answer: [
             "Проедете первым.",
             "Уступите дорогу только встречному автомобилю.",
@@ -806,7 +806,7 @@ var questions = [
     },
     {
         text: "Вы намерены продолжить движение в прямом направлении. Ваши действия?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/04-14.jpg",
+        img: "img/tickets/04-14.jpg",
         answer: [
             "Проедете перекресток первым.",
             "Продолжите движение после выезда на перекресток легкового автомобиля."
@@ -816,7 +816,7 @@ var questions = [
     },
     {
         text: "Вы намерены развернуться. Ваши действия?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/04-15.jpg",
+        img: "img/tickets/04-15.jpg",
         answer: [
             "Уступите дорогу только легковому автомобилю и развернетесь.",
             "Уступите дорогу обоим транспортным средствам и развернетесь."
@@ -883,7 +883,7 @@ var questions = [
     },
     {   //B05
         text: "Сколько проезжих частей имеет данная дорога?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/05-01.jpg",
+        img: "img/tickets/05-01.jpg",
         answer: [
             "Одну.",
             "Две.",
@@ -894,7 +894,7 @@ var questions = [
     },
     {
         text: "Какие знаки распространяют свое действие только на период времени, когда покрытие проезжей части влажное?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/05-02.jpg",
+        img: "img/tickets/05-02.jpg",
         answer: [
             "Только А.",
             "Только А и Б.",
@@ -905,7 +905,7 @@ var questions = [
     },
     {
         text: "Разрешена ли вам стоянка в указанном месте?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/05-03.jpg",
+        img: "img/tickets/05-03.jpg",
         answer: [
             "Разрешена.",
             "Разрешена, но только в светлое время суток.",
@@ -916,7 +916,7 @@ var questions = [
     },
     {
         text: "Нарушил ли водитель грузового автомобиля правила стоянки?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/05-04.jpg",
+        img: "img/tickets/05-04.jpg",
         answer: [
             "Нарушил.",
             "Нарушил, если разрешенная максимальная масса автомобиля более 3,5 т.",
@@ -927,7 +927,7 @@ var questions = [
     },
     {
         text: "Такая вертикальная разметка на ограждении дороги предупреждает вас:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/05-05.jpg",
+        img: "img/tickets/05-05.jpg",
         answer: [
             "О приближении к железнодорожному переезду.",
             "О приближении к опасному пересечению.",
@@ -949,7 +949,7 @@ var questions = [
     },
     {
         text: "Такой сигнал рукой, подаваемый мотоциклистом, информирует вас:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/05-07.jpg",
+        img: "img/tickets/05-07.jpg",
         answer: [
             "О его намерении продолжить движение прямо.",
             "О его намерении повернуть направо.",
@@ -960,7 +960,7 @@ var questions = [
     },
     {
         text: "В каких направлениях вы можете продолжить движение по второй полосе на легковом автомобиле?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/05-08.jpg",
+        img: "img/tickets/05-08.jpg",
         answer: [
             "Только прямо.",
             "Только прямо и налево.",
@@ -972,7 +972,7 @@ var questions = [
     },
     {
         text: "Вам необходимо повернуть на примыкающую справа дорогу. Ваши действия?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/05-09.jpg",
+        img: "img/tickets/05-09.jpg",
         answer: [
             "Не меняя полосы, снизить скорость, затем перестроиться на полосу торможения.",
             "Не меняя скорости, перестроиться на полосу торможения, снизить скорость, затем приступить к повороту.",
@@ -983,7 +983,7 @@ var questions = [
     },
     {
         text: "С какой максимальной скоростью вы можете продолжить движение на легковом автомобиле с прицепом?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/05-10.jpg",
+        img: "img/tickets/05-10.jpg",
         answer: [
             "50 км/ч.",
             "60 км/ч.",
@@ -995,7 +995,7 @@ var questions = [
     },
     {
         text: "Можете ли вы после опережения грузового автомобиля продолжить движение по левой полосе?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/05-11.jpg",
+        img: "img/tickets/05-11.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -1005,7 +1005,7 @@ var questions = [
     },
     {
         text: "Кто из водителей нарушил правила стоянки?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/05-12.jpg",
+        img: "img/tickets/05-12.jpg",
         answer: [
             "Только А.",
             "Только Б.",
@@ -1016,7 +1016,7 @@ var questions = [
     },
     {
         text: "Вы намерены развернуться. Ваши действия?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/05-13.jpg",
+        img: "img/tickets/05-13.jpg",
         answer: [
             "Проедете перекресток первым.",
             "Произведете разворот, уступив дорогу легковому автомобилю."
@@ -1026,7 +1026,7 @@ var questions = [
     },
     {
         text: "Вы намерены проехать перекресток в прямом направлении. Кому следует уступить дорогу?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/05-14.jpg",
+        img: "img/tickets/05-14.jpg",
         answer: [
             "Только трамваю.",
             "Только легковому автомобилю.",
@@ -1037,7 +1037,7 @@ var questions = [
     },
     {
         text: "Вы намерены повернуть налево. Ваши действия?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/05-15.jpg",
+        img: "img/tickets/05-15.jpg",
         answer: [
             "Проедете перекресток первым.",
             "Уступите дорогу только грузовому автомобилю с включенным проблесковым маячком.",
@@ -1048,7 +1048,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам проехать железнодорожный переезд?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/05-16.jpg",
+        img: "img/tickets/05-16.jpg",
         answer: [
             "Да, так как дежурный по переезду запрещает движение только встречному автомобилю.",
             "Да, если отсутствует приближающийся поезд.",
@@ -1092,7 +1092,7 @@ var questions = [
     },
     {
         text: "При движении в условиях тумана расстояние до предметов представляется:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/05-20.jpg",
+        img: "img/tickets/05-20.jpg",
         answer: [
             "Большим, чем в действительности.",
             "Меньшим, чем в действительности.",
@@ -1114,7 +1114,7 @@ var questions = [
     },
     {
         text: "В каких направлениях вам разрешено продолжить движение?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/06-02.jpg",
+        img: "img/tickets/06-02.jpg",
         answer: [
             "Только прямо.",
             "Прямо или в обратном направлении.",
@@ -1125,7 +1125,7 @@ var questions = [
     },
     {
         text: "Какие знаки разрешают вам проезд на автомобиле к месту проживания?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/06-03.jpg",
+        img: "img/tickets/06-03.jpg",
         answer: [
             "Только А.",
             "Только В.",
@@ -1137,7 +1137,7 @@ var questions = [
     },
     {
         text: "Что обозначают эти дорожные знаки?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/06-04.jpg",
+        img: "img/tickets/06-04.jpg",
         answer: [
             "Место или площадка для стоянки только для автобусов.",
             "Место или площадка для стоянки для автобусов и троллейбусов.",
@@ -1148,7 +1148,7 @@ var questions = [
     },
     {
         text: "Что обозначает разметка в виде треугольника на полосе движения?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/06-05.jpg",
+        img: "img/tickets/06-05.jpg",
         answer: [
             "Вы въезжаете на опасный участок дороги.",
             "Предупреждает о приближении к месту, где нужно уступить дорогу.",
@@ -1170,7 +1170,7 @@ var questions = [
     },
     {
         text: "Вы намерены продолжить движение по главной дороге. Обязаны ли вы включить левые указатели поворота?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/06-07.jpg",
+        img: "img/tickets/06-07.jpg",
         answer: [
             "Да.",
             "Обязаны, если с других направлений приближаются транспортные средства.",
@@ -1181,7 +1181,7 @@ var questions = [
     },
     {
         text: "Кому вы должны уступить дорогу при повороте во двор?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/06-08.jpg",
+        img: "img/tickets/06-08.jpg",
         answer: [
             "Только встречному автомобилю.",
             "Встречному автомобилю и пешеходам.",
@@ -1192,7 +1192,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам выполнить разворот на данном перекрестке?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/06-09.jpg",
+        img: "img/tickets/06-09.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -1202,7 +1202,7 @@ var questions = [
     },
     {
         text: "С какой максимальной скоростью вы можете продолжить движение на легковом автомобиле?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/06-10.jpg",
+        img: "img/tickets/06-10.jpg",
         answer: [
             "70 км/ч.",
             "90 км/ч.",
@@ -1214,7 +1214,7 @@ var questions = [
     },
     {
         text: "Должны ли вы уступить дорогу встречному автомобилю?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/06-11.jpg",
+        img: "img/tickets/06-11.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -1224,7 +1224,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам поставить автомобиль на стоянку в указанном месте?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/06-12.jpg",
+        img: "img/tickets/06-12.jpg",
         answer: [
             "Разрешено.",
             "Разрешено, если при этом не будут созданы помехи для движения маршрутных транспортных средств.",
@@ -1235,7 +1235,7 @@ var questions = [
     },
     {
         text: "Вы намерены повернуть налево. Ваши действия?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/06-13.jpg",
+        img: "img/tickets/06-13.jpg",
         answer: [
             "Уступите дорогу трамваю.",
             "Проедете перекресток первым.",
@@ -1246,7 +1246,7 @@ var questions = [
     },
     {
         text: "Вы намерены повернуть налево. Ваши действия?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/06-14.jpg",
+        img: "img/tickets/06-14.jpg",
         answer: [
             "Уступите дорогу пешеходам.",
             "Проедете перекресток, не уступая дорогу пешеходам."
@@ -1256,7 +1256,7 @@ var questions = [
     },
     {
         text: "Вы намерены проехать перекресток в прямом направлении. Ваши действия?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/06-15.jpg",
+        img: "img/tickets/06-15.jpg",
         answer: [
             "Проедете перекресток первым.",
             "Уступите дорогу автомобилю с включенными проблесковым маячком и специальным звуковым сигналом.",
@@ -1301,7 +1301,7 @@ var questions = [
     },
     {
         text: "Для обеспечения безопасности при остановке на подъеме (спуске) водителю следует повернуть передние колеса. Водители каких транспортных средств правильно выполнили это требование при отсутствии тротуара?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/06-19.jpg",
+        img: "img/tickets/06-19.jpg",
         answer: [
             "А и Г.",
             "Б и В.",
@@ -1336,7 +1336,7 @@ var questions = [
     },
     {
         text: "О чем информируют вас эти дорожные знаки?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/07-02.jpg",
+        img: "img/tickets/07-02.jpg",
         answer: [
             "О приближении к перекрестку, где установлен знак \"Уступить дорогу\".",
             "О приближении к перекрестку, где установлен знак \"Движение без остановки запрещено\".",
@@ -1347,7 +1347,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам произвести остановку в указанном месте?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/07-03.jpg",
+        img: "img/tickets/07-03.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -1357,7 +1357,7 @@ var questions = [
     },
     {
         text: "Действие каких знаков распространяется только до ближайшего по ходу движения перекрестка?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/07-04.jpg",
+        img: "img/tickets/07-04.jpg",
         answer: [
             "А и В.",
             "Б и Г.",
@@ -1368,7 +1368,7 @@ var questions = [
     },
     {
         text: "Что обозначают прерывистые линии разметки на перекрестке?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/07-05.jpg",
+        img: "img/tickets/07-05.jpg",
         answer: [
             "Обязательное направление движения на перекрестке.",
             "Границы полос движения в пределах перекрестка."
@@ -1378,7 +1378,7 @@ var questions = [
     },
     {
         text: "В каких направлениях вам разрешено движение?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/07-06.jpg",
+        img: "img/tickets/07-06.jpg",
         answer: [
             "Только прямо.",
             "Только прямо и направо.",
@@ -1401,7 +1401,7 @@ var questions = [
     },
     {
         text: "Обязаны ли вы, двигаясь по правой полосе, уступить дорогу водителю автомобиля, который намерен перестроиться на вашу полосу?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/07-08.jpg",
+        img: "img/tickets/07-08.jpg",
         answer: [
             "Обязаны, если водитель перестраивается после опережения вашего автомобиля.",
             "Обязаны.",
@@ -1412,7 +1412,7 @@ var questions = [
     },
     {
         text: "Разрешен ли вам разворот на указанном участке дороги?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/07-09.jpg",
+        img: "img/tickets/07-09.jpg",
         answer: [
             "Разрешен.",
             "Разрешен только при видимости дороги более 100 м.",
@@ -1423,7 +1423,7 @@ var questions = [
     },
     {
         text: "Какие знаки разрешают разворот?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/07-10.jpg",
+        img: "img/tickets/07-10.jpg",
         answer: [
             "Только А.",
             "Только Б.",
@@ -1435,7 +1435,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам в конце подъема перестроиться на среднюю полосу для опережения грузового автомобиля?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/07-11.jpg",
+        img: "img/tickets/07-11.jpg",
         answer: [
             "Запрещено.",
             "Разрешено."
@@ -1445,7 +1445,7 @@ var questions = [
     },
     {
         text: "В каком из указанных мест вы можете поставить на стоянку автомобиль?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/07-12.jpg",
+        img: "img/tickets/07-12.jpg",
         answer: [
             "Только А.",
             "Только В.",
@@ -1457,7 +1457,7 @@ var questions = [
     },
     {
         text: "Как вы должны действовать, если вам необходимо повернуть налево?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/07-13.jpg",
+        img: "img/tickets/07-13.jpg",
         answer: [
             "Выехать за стоп-линию и остановиться на перекрестке, чтобы уступить дорогу встречному автомобилю.",
             "Остановиться перед стоп-линией и после проезда легкового автомобиля повернуть налево.",
@@ -1468,7 +1468,7 @@ var questions = [
     },
     {
         text: "Вы имеете право выехать на перекресток, если за ним образовался затор:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/07-14.jpg",
+        img: "img/tickets/07-14.jpg",
         answer: [
             "Только если вы намерены проехать перекресток в прямом направлении.",
             "Только если вы намерены совершить поворот или разворот.",
@@ -1479,7 +1479,7 @@ var questions = [
     },
     {
         text: "Вы намерены продолжить движение прямо. Кому следует уступить дорогу?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/07-15.jpg",
+        img: "img/tickets/07-15.jpg",
         answer: [
             "Только мотоциклу.",
             "Мотоциклу и легковому автомобилю.",
@@ -1501,7 +1501,7 @@ var questions = [
     },
     {
         text: "На каком рисунке изображен автмообиль, водитель которого не нарушил правил перевозки грузов?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/07-17.jpg",
+        img: "img/tickets/07-17.jpg",
         answer: [
             "Только на А.",
             "Только на Б.",
@@ -1556,7 +1556,7 @@ var questions = [
     },
     {
         text: "В чем особенность скоростного режима на этом участке дороги?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/08-02.jpg",
+        img: "img/tickets/08-02.jpg",
         answer: [
             "Минимальная допустимая скорость движения на этой дороге - 50 км/ч.",
             "Рекомендуемая скорость движения на этой дороге - 50 км/ч.",
@@ -1567,7 +1567,7 @@ var questions = [
     },
     {
         text: "Какие знаки запрещают поворот налево?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/08-03.jpg",
+        img: "img/tickets/08-03.jpg",
         answer: [
             "Только А.",
             "Только А и Б.",
@@ -1579,7 +1579,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам повернуть направо на этом перекрестке?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/08-04.jpg",
+        img: "img/tickets/08-04.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -1589,7 +1589,7 @@ var questions = [
     },
     {
         text: "Разрешен ли вам выезд на вторую полосу?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/08-05.jpg",
+        img: "img/tickets/08-05.jpg",
         answer: [
             "Разрешен.",
             "Разрешен, если скорость грузового автомобиля менее 30 км/ч.",
@@ -1600,7 +1600,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам движение?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/08-06.jpg",
+        img: "img/tickets/08-06.jpg",
         answer: [
             "Разрешено только направо.",
             "Запрещено."
@@ -1610,7 +1610,7 @@ var questions = [
     },
     {
         text: "Водитель легкового автомобиля должен выключать левые указатели поворота:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/08-07.jpg",
+        img: "img/tickets/08-07.jpg",
         answer: [
             "Сразу же после перестроения на левую полосу.",
             "Только после опережения грузового автомобиля.",
@@ -1621,7 +1621,7 @@ var questions = [
     },
     {
         text: "По какой траектории Правила разрешают вам произвести поворот налево?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/08-08.jpg",
+        img: "img/tickets/08-08.jpg",
         answer: [
             "Только по А.",
             "Только по Б.",
@@ -1642,7 +1642,7 @@ var questions = [
     },
     {
         text: "По каким полосам Правила разрешают вам движение на этой дороге?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/08-10.jpg",
+        img: "img/tickets/08-10.jpg",
         answer: [
             "По любой.",
             "По любой, кроме левой.",
@@ -1653,7 +1653,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам после опережения первого автомобиля продолжить движение по левой полосе с целью опережения второго?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/08-11.jpg",
+        img: "img/tickets/08-11.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -1663,7 +1663,7 @@ var questions = [
     },
     {
         text: "Можете ли вы остановиться в указанном месте после поворота направо?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/08-12.jpg",
+        img: "img/tickets/08-12.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -1673,7 +1673,7 @@ var questions = [
     },
     {
         text: "Кто из водителей, совершающих поворот, нарушает Правила?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/08-13.jpg",
+        img: "img/tickets/08-13.jpg",
         answer: [
             "Только водитель легкового автомобиля.",
             "Только мотоциклист.",
@@ -1685,7 +1685,7 @@ var questions = [
     },
     {
         text: "Вы намерены повернуть направо. Ваши действия?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/08-14.jpg",
+        img: "img/tickets/08-14.jpg",
         answer: [
             "Уступите дорогу только пешеходу, переходящему проезжую часть по нерегулируемому пешеходному переходу.",
             "Уступите дорогу только пешеходам, переходящим проезжую часть, на которую вы поворачиваете.",
@@ -1696,7 +1696,7 @@ var questions = [
     },
     {
         text: "Вы намерены повернуть налево. Кому следует уступить дорогу?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/08-15.jpg",
+        img: "img/tickets/08-15.jpg",
         answer: [
             "Только трамваям.",
             "Трамваю Б и легковому автомобилю.",
@@ -1773,7 +1773,7 @@ var questions = [
     },
     {
         text: "Знаки предупреждают вас о том, что:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/09-02.jpg",
+        img: "img/tickets/09-02.jpg",
         answer: [
             "На протяжении 150 м возможно появление пешеходов на проезжей части.",
             "Через 150 м на вашем пути будет нерегулируемый пешеходный переход."
@@ -1783,7 +1783,7 @@ var questions = [
     },
     {
         text: "В каких направлениях вам разрешено продолжить движение?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/09-03.jpg",
+        img: "img/tickets/09-03.jpg",
         answer: [
             "Только Б.",
             "А или Б.",
@@ -1794,7 +1794,7 @@ var questions = [
     },
     {
         text: "Какие знаки запрещают движение транспортных средств, скорость которых по технической характеристике или их состоянию менее 40 км/ч?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/09-04.jpg",
+        img: "img/tickets/09-04.jpg",
         answer: [
             "Только А.",
             "Только В.",
@@ -1805,7 +1805,7 @@ var questions = [
     },
     {
         text: "Позволяет ли вам данная разметка выполнить обгон?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/09-05.jpg",
+        img: "img/tickets/09-05.jpg",
         answer: [
             "Да.",
             "Да, но только если скорость трактора менее 30 км/ч.",
@@ -1816,7 +1816,7 @@ var questions = [
     },
     {
         text: "В каких направлениях регулировщик разрешает вам движение?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/09-06.jpg",
+        img: "img/tickets/09-06.jpg",
         answer: [
             "Только прямо.",
             "Только прямо и направо.",
@@ -1838,7 +1838,7 @@ var questions = [
     },
     {
         text: "Кто должен уступить дорогу?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/09-08.jpg",
+        img: "img/tickets/09-08.jpg",
         answer: [
             "Водитель, намеревающийся начать движение от тротуара.",
             "Водитель, намеревающийся остановиться у тротуара."
@@ -1848,7 +1848,7 @@ var questions = [
     },
     {
         text: "Разрешен ли вам разворот в этом месте?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/09-09.jpg",
+        img: "img/tickets/09-09.jpg",
         answer: [
             "Разрешен.",
             "Разрешен, если не будет создано помех движению маршрутных транспортных средств.",
@@ -1859,7 +1859,7 @@ var questions = [
     },
     {
         text: "По какой траектории вы можете продолжить движение?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/09-10.jpg",
+        img: "img/tickets/09-10.jpg",
         answer: [
             "Только по А.",
             "Только по Б.",
@@ -1870,7 +1870,7 @@ var questions = [
     },
     {
         text: "Разрешен ли вам обгон?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/09-11.jpg",
+        img: "img/tickets/09-11.jpg",
         answer: [
             "Разрешен.",
             "Разрешен, только если обгон будет завершен до перекрестка.",
@@ -1881,7 +1881,7 @@ var questions = [
     },
     {
         text: "Кто нарушил правила стоянки?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/09-12.jpg",
+        img: "img/tickets/09-12.jpg",
         answer: [
             "Оба водителя.",
             "Только водитель грузового автомобиля.",
@@ -1893,7 +1893,7 @@ var questions = [
     },
     {
         text: "В каком случае вы имеете право выехать на перекресток, если за ним образовался затор?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/09-13.jpg",
+        img: "img/tickets/09-13.jpg",
         answer: [
             "Только если вы намерены совершить поворот или разворот.",
             "В любом случае."
@@ -1903,7 +1903,7 @@ var questions = [
     },
     {
         text: "Вы намерены продолжить движение в прямом направлении. Следует ли вам уступить дорогу грузовому автомобилю?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/09-14.jpg",
+        img: "img/tickets/09-14.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -1913,7 +1913,7 @@ var questions = [
     },
     {
         text: "Вы намерены повернуть налево. Кому следует уступить дорогу?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/09-15.jpg",
+        img: "img/tickets/09-15.jpg",
         answer: [
             "Только автобусу.",
             "Только легковому автомобилю.",
@@ -1957,7 +1957,7 @@ var questions = [
     },
     {
         text: "На каком рисунке показан безопасный способ разворота вне перекрестка с использованием прилегающей территории слева?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/09-19.jpg",
+        img: "img/tickets/09-19.jpg",
         answer: [
             "На левом.",
             "На правом."
@@ -1978,7 +1978,7 @@ var questions = [
     },
     {   //B10
         text: "На каких рисунках показана главная дорога?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/10-01.jpg",
+        img: "img/tickets/10-01.jpg",
         answer: [
             "Только на левом верхнем.",
             "На левом верхнем и нижнем.",
@@ -1989,7 +1989,7 @@ var questions = [
     },
     {
         text: "Какие знаки означают, что вы должны уступить дорогу, если встречный разъезд затруднен?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/10-02.jpg",
+        img: "img/tickets/10-02.jpg",
         answer: [
             "Только В.",
             "А и В.",
@@ -2001,7 +2001,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам поставить автомобиль на стоянку в указанном месте?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/10-03.jpg",
+        img: "img/tickets/10-03.jpg",
         answer: [
             "Разрешено.",
             "Разрешено, если вы проживаете рядом с этим местом.",
@@ -2012,7 +2012,7 @@ var questions = [
     },
     {
         text: "Вы управляете грузовым автомобилем с разрешенной максимальной массой не более 3,5 т. В каких направлениях вам разрешено дальнейшее движение?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/10-04.jpg",
+        img: "img/tickets/10-04.jpg",
         answer: [
             "Только направо.",
             "Только направо, налево и в обратном направлении.",
@@ -2023,7 +2023,7 @@ var questions = [
     },
     {
         text: "Такой вертикальной разметкой обозначают:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/10-05.jpg",
+        img: "img/tickets/10-05.jpg",
         answer: [
             "Все вертикальные элементы дорожных сооружений.",
             "Торцевые части искусственных сооружений."
@@ -2033,7 +2033,7 @@ var questions = [
     },
     {
         text: "Кто из водителей может продолжить движение?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/10-06.jpg",
+        img: "img/tickets/10-06.jpg",
         answer: [
             "Только водитель автобуса.",
             "Только водитель легкового автомобиля.",
@@ -2045,7 +2045,7 @@ var questions = [
     },
     {
         text: "Вы намерены произвести разворот на перекрестке. Какие указатели поворота необходимо включить при въезде на перекресток?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/10-07.jpg",
+        img: "img/tickets/10-07.jpg",
         answer: [
             "Правые.",
             "Левые.",
@@ -2056,7 +2056,7 @@ var questions = [
     },
     {
         text: "По какой траектории Правила разрешают вам произвести поворот налево?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/10-08.jpg",
+        img: "img/tickets/10-08.jpg",
         answer: [
             "Только по А.",
             "Только по Б.",
@@ -2067,7 +2067,7 @@ var questions = [
     },
     {
         text: "Водитель легкового автомобиля в данной ситуации:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/10-09.jpg",
+        img: "img/tickets/10-09.jpg",
         answer: [
             "Должен уступить дорогу грузовому автомобилю, т.к. выезжает с полосы разгона.",
             "Имеет преимущественное право на движение, т.к. находится справа от грузового автомобиля."
@@ -2087,7 +2087,7 @@ var questions = [
     },
     {
         text: "Можете ли вы обогнать трактор?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/10-11.jpg",
+        img: "img/tickets/10-11.jpg",
         answer: [
             "Да.",
             "Да, если обгон будет завершен за 100 м до переезда.",
@@ -2110,7 +2110,7 @@ var questions = [
     },
     {
         text: "При включении зеленого сигнала светофора вы должны:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/10-13.jpg",
+        img: "img/tickets/10-13.jpg",
         answer: [
             "Убедиться в отсутствии пешеходов, завершающих переход проезжей части, после чего начать движение.",
             "Руководствуясь сигналом светофора, сразу начать движение."
@@ -2120,7 +2120,7 @@ var questions = [
     },
     {
         text: "Вы намерены проехать перекресток в прямом направлении. Кому следует уступить дорогу?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/10-14.jpg",
+        img: "img/tickets/10-14.jpg",
         answer: [
             "Только трамваю.",
             "Только грузовому автомобилю.",
@@ -2131,7 +2131,7 @@ var questions = [
     },
     {
         text: "Вы намерены повернуть налево. Кому следует уступить дорогу?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/10-15.jpg",
+        img: "img/tickets/10-15.jpg",
         answer: [
             "Только автобусу.",
             "Только легковому автомобилю.",
@@ -2142,7 +2142,7 @@ var questions = [
     },
     {
         text: "Разрешен ли вам въезд на железнодорожный переезд в данной ситуации?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/10-16.jpg",
+        img: "img/tickets/10-16.jpg",
         answer: [
             "Да.",
             "Да, если отсутствует приближающийся поезд.",
@@ -2208,7 +2208,7 @@ var questions = [
     },
     {
         text: "Разрешен ли вам съезд на дорогу с грунтовым покрытием?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/11-02.jpg",
+        img: "img/tickets/11-02.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -2218,7 +2218,7 @@ var questions = [
     },
     {
         text: "Можете ли вы остановиться для посадки пассажира за знаком?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/11-03.jpg",
+        img: "img/tickets/11-03.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -2228,7 +2228,7 @@ var questions = [
     },
     {
         text: "Какой из знаков обозначает дорожку для пешеходов?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/11-04.jpg",
+        img: "img/tickets/11-04.jpg",
         answer: [
             "Только Б.",
             "Только Б и В.",
@@ -2239,7 +2239,7 @@ var questions = [
     },
     {
         text: "Вы намерены повернуть налево. Где вы должны остановиться, чтобы уступить дорогу?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/11-05.jpg",
+        img: "img/tickets/11-05.jpg",
         answer: [
             "Перед знаком.",
             "Перед перекрестком у линии разметки.",
@@ -2262,7 +2262,7 @@ var questions = [
     },
     {
         text: "Обязаны ли вы в данной ситуации включить сигнал правого поворота?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/11-07.jpg",
+        img: "img/tickets/11-07.jpg",
         answer: [
             "Да.",
             "Нет.",
@@ -2273,7 +2273,7 @@ var questions = [
     },
     {
         text: "По какой траектории вы можете выполнить поворот направо?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/11-08.jpg",
+        img: "img/tickets/11-08.jpg",
         answer: [
             "Только по А.",
             "Только по Б.",
@@ -2284,7 +2284,7 @@ var questions = [
     },
     {
         text: "По какой траектории вы можете выполнить разворот?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/11-09.jpg",
+        img: "img/tickets/11-09.jpg",
         answer: [
             "Только по А.",
             "Только по А или В.",
@@ -2316,7 +2316,7 @@ var questions = [
     },
     {
         text: "Кто из водителей нарушил правила стоянки?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/11-12.jpg",
+        img: "img/tickets/11-12.jpg",
         answer: [
             "Только водитель автомобиля А.",
             "Только водитель автомобиля Б.",
@@ -2328,7 +2328,7 @@ var questions = [
     },
     {
         text: "Вы намерены повернуть направо. Следует ли уступить дорогу автомобилю, выполняющему разворот?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/11-13.jpg",
+        img: "img/tickets/11-13.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -2338,7 +2338,7 @@ var questions = [
     },
     {
         text: "Намереваясь продолжить движение в прямом направлении, вы должны:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/11-14.jpg",
+        img: "img/tickets/11-14.jpg",
         answer: [
             "Уступить дорогу легковому автомобилю.",
             "Проехать перекресток первым."
@@ -2348,7 +2348,7 @@ var questions = [
     },
     {
         text: "Вы намерены продолжить движение прямо. При желтом мигающем сигнале светофора вы должны:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/11-15.jpg",
+        img: "img/tickets/11-15.jpg",
         answer: [
             "Проехать перекресток первым.",
             "Уступить дорогу только грузовому автомобилю.",
@@ -2393,7 +2393,7 @@ var questions = [
     },
     {
         text: "Для предупреждения скатывания автомобиля при остановке на подъеме (спуске) водителю следует повернуть передние колеса. Водители каких транспортных средств правильно выполнили это требование при наличии тротуара?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/11-19.jpg",
+        img: "img/tickets/11-19.jpg",
         answer: [
             "А и Г.",
             "Б и В.",
@@ -2428,7 +2428,7 @@ var questions = [
     },
     {
         text: "Этот дорожный знак:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/12-02.jpg",
+        img: "img/tickets/12-02.jpg",
         answer: [
             "Предупреждает о наличии узкого участка дороги, но не устанавливает очередность движения.",
             "Запрещает проезд через мост.",
@@ -2439,7 +2439,7 @@ var questions = [
     },
     {
         text: "В каких направлениях вам разрешено продолжить движение на перекрестке?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/12-03.jpg",
+        img: "img/tickets/12-03.jpg",
         answer: [
             "Только налево и в обратном направлении.",
             "Только прямо, налево и в обратном направлении.",
@@ -2450,7 +2450,7 @@ var questions = [
     },
     {
         text: "О чем информирует водителя табличка, установленная под знаком?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/12-04.jpg",
+        img: "img/tickets/12-04.jpg",
         answer: [
             "Парковка оборудована пунктом технической помощи.",
             "На парковке имеется место для осмотра автомобилей (эстакада или смотровая канава)."
@@ -2460,7 +2460,7 @@ var questions = [
     },
     {
         text: "Водитель какого автомобиля не нарушает Правила?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/12-05.jpg",
+        img: "img/tickets/12-05.jpg",
         answer: [
             "Только А.",
             "Только Б.",
@@ -2483,7 +2483,7 @@ var questions = [
     },
     {
         text: "Вы намерены повернуть налево на этом перекрестке. В какой момент вам следует включить указатели поворота?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/12-07.jpg",
+        img: "img/tickets/12-07.jpg",
         answer: [
             "Заблаговременно, до въезда на перекресток.",
             "После въезда на первое пересечение проезжих частей.",
@@ -2494,7 +2494,7 @@ var questions = [
     },
     {
         text: "Вы намерены повернуть на перекрестке направо. Как вам следует поступить?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/12-08.jpg",
+        img: "img/tickets/12-08.jpg",
         answer: [
             "Перестроиться на правую полосу, затем осуществить поворот.",
             "Продолжить движение по второй полосе до перекрестка, затем повернуть.",
@@ -2505,7 +2505,7 @@ var questions = [
     },
     {
         text: "Разрешен ли вам такой маневр на мосту?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/12-09.jpg",
+        img: "img/tickets/12-09.jpg",
         answer: [
             "Разрешен только при видимости дороги более 100 м.",
             "Не разрешен."
@@ -2515,7 +2515,7 @@ var questions = [
     },
     {
         text: "С какой скоростью вы можете продолжить движение в населенном пункте по правой полосе?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/12-10.jpg",
+        img: "img/tickets/12-10.jpg",
         answer: [
             "Не более 50 км/ч.",
             "Не более 60 км/ч.",
@@ -2526,7 +2526,7 @@ var questions = [
     },
     {
         text: "Разрешен ли вам обгон в данной ситуации?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/12-11.jpg",
+        img: "img/tickets/12-11.jpg",
         answer: [
             "Да.",
             "Да, если обгон будет завершен до перекрестка.",
@@ -2537,7 +2537,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам поставить автомобиль на стоянку в указанном месте?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/12-12.jpg",
+        img: "img/tickets/12-12.jpg",
         answer: [
             "Запрещено.",
             "Разрешено."
@@ -2547,7 +2547,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам повернуть направо?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/12-13.jpg",
+        img: "img/tickets/12-13.jpg",
         answer: [
             "Да, уступив дорогу пешеходам.",
             "Нет."
@@ -2557,7 +2557,7 @@ var questions = [
     },
     {
         text: "Вы намерены продолжить движение по перекрестку с круговым движением. Следует ли уступить дорогу грузовому автомобилю?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/12-14.jpg",
+        img: "img/tickets/12-14.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -2567,7 +2567,7 @@ var questions = [
     },
     {
         text: "Вы намерены повернуть налево. Кому следует уступить дорогу?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/12-15.jpg",
+        img: "img/tickets/12-15.jpg",
         answer: [
             "Всем транспортным средствам.",
             "Только легковому автомобилю.",
@@ -2611,7 +2611,7 @@ var questions = [
     },
     {
         text: "На каком рисунке показан безопансый способ разворота вне перекрестка с использованием прилегающей территории справа?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/12-19.jpg",
+        img: "img/tickets/12-19.jpg",
         answer: [
             "На левом.",
             "На правом."
@@ -2632,7 +2632,7 @@ var questions = [
     },
     {   //B13
         text: "Нарушает ли водитель Правила, двигаясь посередине дороги?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/13-01.jpg",
+        img: "img/tickets/13-01.jpg",
         answer: [
             "Не нарушает.",
             "Не нарушает, если отсутствуют встречные транспортные средства.",
@@ -2643,7 +2643,7 @@ var questions = [
     },
     {
         text: "Как следует поступить, если вам необходимо резвернуться?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/13-02.jpg",
+        img: "img/tickets/13-02.jpg",
         answer: [
             "Развернуться на этом перекрестке при отсутствии на нем других транспортных средств.",
             "Проехать прямо и развернуться за перекрестком.",
@@ -2654,7 +2654,7 @@ var questions = [
     },
     {
         text: "Разрешена ли вам стоянка в указанном месте?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/13-03.jpg",
+        img: "img/tickets/13-03.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -2664,7 +2664,7 @@ var questions = [
     },
     {
         text: "Эта табличка распространяет действие установленного с ней знака:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/13-04.jpg",
+        img: "img/tickets/13-04.jpg",
         answer: [
             "Только на легковые автомобили.",
             "На легковые автомобили, а также на грузовые автомобили с разрешенной максимальной массой до 3,5 т.",
@@ -2675,7 +2675,7 @@ var questions = [
     },
     {
         text: "В каком из указанных мест вы можете пересечь сплошную линию разметки и остановиться?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/13-05.jpg",
+        img: "img/tickets/13-05.jpg",
         answer: [
             "Только Б.",
             "В любом.",
@@ -2686,7 +2686,7 @@ var questions = [
     },
     {
         text: "Ваши действия в данной ситуации?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/13-06.jpg",
+        img: "img/tickets/13-06.jpg",
         answer: [
             "Проехать переезд.",
             "Остановиться перед переездом."
@@ -2706,7 +2706,7 @@ var questions = [
     },
     {
         text: "С какой полосы вы можете въехать на данный перекресток?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/13-08.jpg",
+        img: "img/tickets/13-08.jpg",
         answer: [
             "Только с правой.",
             "С правой или левой."
@@ -2716,7 +2716,7 @@ var questions = [
     },
     {
         text: "Разрешен ли вам разворот на указанном участке дороги?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/13-09.jpg",
+        img: "img/tickets/13-09.jpg",
         answer: [
             "Разрешен.",
             "Разрешен только при видимости дороги более 100 м.",
@@ -2727,7 +2727,7 @@ var questions = [
     },
     {
         text: "С какой максимальной скоростью вы можете продолжить движение на легковом автомобиле?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/13-10.jpg",
+        img: "img/tickets/13-10.jpg",
         answer: [
             "60 км/ч.",
             "70 км/ч.",
@@ -2739,7 +2739,7 @@ var questions = [
     },
     {
         text: "Разрешен ли вамм обгон сразу трех транспортных средств после проезда пешеходного перехода?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/13-11.jpg",
+        img: "img/tickets/13-11.jpg",
         answer: [
             "Запрешен.",
             "Разрешен."
@@ -2749,7 +2749,7 @@ var questions = [
     },
     {
         text: "Можете ли вы остановиться на мосту для посадки пассажира?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/13-12.jpg",
+        img: "img/tickets/13-12.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -2759,7 +2759,7 @@ var questions = [
     },
     {
         text: "Вы намерены проехать перекресток в прямом направлении. Ваши действия?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/13-13.jpg",
+        img: "img/tickets/13-13.jpg",
         answer: [
             "Проедете перекресток первым.",
             "Уступите дорогу трамваю."
@@ -2769,7 +2769,7 @@ var questions = [
     },
     {
         text: "Кто из водителей должен уступить дорогу пешеходам?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/13-14.jpg",
+        img: "img/tickets/13-14.jpg",
         answer: [
             "Только водитель легкового автомобиля.",
             "Только водитель грузового автомобиля.",
@@ -2780,7 +2780,7 @@ var questions = [
     },
     {
         text: "Вы намерены повернуть налево. Можете ли вы приступить к повороту?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/13-15.jpg",
+        img: "img/tickets/13-15.jpg",
         answer: [
             "Да.",
             "Да, но после проезда грузового автомобиля.",
@@ -2791,7 +2791,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам на легковом автомобиле продолжить движение по правой полосе?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/13-16.jpg",
+        img: "img/tickets/13-16.jpg",
         answer: [
             "Разрешено, если скорость грузового автомобиля менее 30 км/ч.",
             "Разрешено, если при этом не будет создано помех движению маршрутных транспортных средств.",
@@ -2856,7 +2856,7 @@ var questions = [
     },
     {
         text: "Эти знаки предупреждают вас о том, что:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/14-02.jpg",
+        img: "img/tickets/14-02.jpg",
         answer: [
             "Остановка транспортных средств на обочине запрещена.",
             "Съезд на обочину опасен в связи с проведением на ней ремонтных работ.",
@@ -2867,7 +2867,7 @@ var questions = [
     },
     {
         text: "Какие знаки разрешают движение грузовым автомобилям с разрешенной максимальной массой до 3,5 т?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/14-03.jpg",
+        img: "img/tickets/14-03.jpg",
         answer: [
             "Только А.",
             "Только Б.",
@@ -2879,7 +2879,7 @@ var questions = [
     },
     {
         text: "В каких направлениях вы можете продолжить движение по крайней левой полосе на легковом автомобиле?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/14-04.jpg",
+        img: "img/tickets/14-04.jpg",
         answer: [
             "Только налево.",
             "Только прямо или налево.",
@@ -2890,7 +2890,7 @@ var questions = [
     },
     {
         text: "Как называются данные таблички?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/14-05.jpg",
+        img: "img/tickets/14-05.jpg",
         answer: [
             "Вид ДТП.",
             "Вид опасности.",
@@ -2901,7 +2901,7 @@ var questions = [
     },
     {
         text: "Должны ли вы остановиться по требованию регулировщика в указанном им месте?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/14-06.jpg",
+        img: "img/tickets/14-06.jpg",
         answer: [
             "Да.",
             "Да, но только с заездом на тротуар.",
@@ -2912,7 +2912,7 @@ var questions = [
     },
     {
         text: "Такой сигнал рукой, подаваемый мотоциклистом, информирует вас:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/14-07.jpg",
+        img: "img/tickets/14-07.jpg",
         answer: [
             "О его намерении повернуть налево или выполнить разворот.",
             "О его намерении продолжить движение прямо или налево.",
@@ -2923,7 +2923,7 @@ var questions = [
     },
     {
         text: "Обязаны ли вы, двигаясь по левой полосе, уступить дорогу водителю автомобиля, который намерен перестроиться на вашу полосу?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/14-08.jpg",
+        img: "img/tickets/14-08.jpg",
         answer: [
             "Не обязаны.",
             "Обязаны."
@@ -2933,7 +2933,7 @@ var questions = [
     },
     {
         text: "Можете ли вы развернуться в этом месте?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/14-09.jpg",
+        img: "img/tickets/14-09.jpg",
         answer: [
             "Да, при видимости не менее 100 м.",
             "Да, но только в светлое время суток.",
@@ -2954,7 +2954,7 @@ var questions = [
     },
     {
         text: "В этой ситуации, двигаясь на спуске, вы:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/14-11.jpg",
+        img: "img/tickets/14-11.jpg",
         answer: [
             "Должны уступить дорогу.",
             "Имеете право проехать первым."
@@ -2964,7 +2964,7 @@ var questions = [
     },
     {
         text: "Можете ли вы остановиться на мосту в указанном месте?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/14-12.jpg",
+        img: "img/tickets/14-12.jpg",
         answer: [
             "Да.",
             "Да, только лоя высадки пассажиров.",
@@ -2975,7 +2975,7 @@ var questions = [
     },
     {
         text: "При включении зеленого сигнала светофора вы должны:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/14-13.jpg",
+        img: "img/tickets/14-13.jpg",
         answer: [
             "Уступить дорогу грузовому автомобилю, завершающему разворот на перекрестке.",
             "Начать движение, не уступая дорогу грузовому автомобилю."
@@ -2985,7 +2985,7 @@ var questions = [
     },
     {
         text: "При повороте налево вы должны:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/14-14.jpg",
+        img: "img/tickets/14-14.jpg",
         answer: [
             "Уступить дорогу легковому автомобилю.",
             "Проехать перекресток первым."
@@ -2995,7 +2995,7 @@ var questions = [
     },
     {
         text: "При повороте налево во второй проезд вы:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/14-15.jpg",
+        img: "img/tickets/14-15.jpg",
         answer: [
             "Имеете преимущество.",
             "Должны уступить дорогу легковому автомобилю и автобусу.",
@@ -3006,7 +3006,7 @@ var questions = [
     },
     {
         text: "Кто из водителей нарушает правила разворота на автомагистрали?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/14-16.jpg",
+        img: "img/tickets/14-16.jpg",
         answer: [
             "Только водитель легкового автомобиля.",
             "Только водитель грузового автомобиля, выполняющего ремонтные или уборочные работы.",
@@ -3074,7 +3074,7 @@ var questions = [
     },
     {
         text: "В каких направлениях вам разрешено продолжить движение на перекрестке?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/15-02.jpg",
+        img: "img/tickets/15-02.jpg",
         answer: [
             "Только Б.",
             "Б или В.",
@@ -3085,7 +3085,7 @@ var questions = [
     },
     {
         text: "Этот дорожный знак:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/15-03.jpg",
+        img: "img/tickets/15-03.jpg",
         answer: [
             "Рекомендует двигаться со скоростью 40 км/ч.",
             "Требует двигаться со скоростью не менее 40 км/ч.",
@@ -3096,7 +3096,7 @@ var questions = [
     },
     {
         text: "Какие таблички указывают протяженность зоны действия знаков, с которыми они применяются?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/15-04.jpg",
+        img: "img/tickets/15-04.jpg",
         answer: [
             "Только А.",
             "Только Б.",
@@ -3107,7 +3107,7 @@ var questions = [
     },
     {
         text: "Разрешен ли вам такой маневр при выключенных реверсивных светофорах?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/15-05.jpg",
+        img: "img/tickets/15-05.jpg",
         answer: [
             "Разрешен, если нет встречных транспортных средств.",
             "Разрешен только для обгона.",
@@ -3118,7 +3118,7 @@ var questions = [
     },
     {
         text: "При таком жесте регулировщика и сигналах светофора вы должны:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/15-06.jpg",
+        img: "img/tickets/15-06.jpg",
         answer: [
             "Продолжить движение прямо.",
             "Продолжить движение прямо или направо.",
@@ -3129,7 +3129,7 @@ var questions = [
     },
     {
         text: "Должен ли в этой ситуации водитель, остановившийся из-за неисправности, выставить знак аварийной остановки?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/15-07.jpg",
+        img: "img/tickets/15-07.jpg",
         answer: [
             "Должен, если неисправна аварийная сигнализация.",
             "Должен во всех случаях.",
@@ -3140,7 +3140,7 @@ var questions = [
     },
     {
         text: "По какой траектории вам разрешено выполнить поворот налево?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/15-08.jpg",
+        img: "img/tickets/15-08.jpg",
         answer: [
             "Только по А.",
             "Только по Б.",
@@ -3151,7 +3151,7 @@ var questions = [
     },
     {
         text: "Вы выезжаете с места стоянки одновременно с другим автомобилем. Должны ли вы уступить дорогу в данной ситуации?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/15-09.jpg",
+        img: "img/tickets/15-09.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -3183,7 +3183,7 @@ var questions = [
     },
     {
         text: "Кто из водителей нарушил правила остановки?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/15-12.jpg",
+        img: "img/tickets/15-12.jpg",
         answer: [
             "Только водитель автомобиля.",
             "Только водитель мотоцикла.",
@@ -3195,7 +3195,7 @@ var questions = [
     },
     {
         text: "Вы намерены проехать перекресток в прямом направлении. Ваши действия?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/15-13.jpg",
+        img: "img/tickets/15-13.jpg",
         answer: [
             "Проедете перекресток первым.",
             "Уступите дорогу трамваю."
@@ -3205,7 +3205,7 @@ var questions = [
     },
     {
         text: "Намереваясь продолжить движение в прямом напарвлении, вы должны:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/15-14.jpg",
+        img: "img/tickets/15-14.jpg",
         answer: [
             "Проехать перекресток первым.",
             "Уступить дорогу только трамваю.",
@@ -3216,7 +3216,7 @@ var questions = [
     },
     {
         text: "Вы намерены повернуть налево. Кому следует уступить дорогу?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/15-15.jpg",
+        img: "img/tickets/15-15.jpg",
         answer: [
             "Только автобусу.",
             "Только легковому автомобилю",
@@ -3227,7 +3227,7 @@ var questions = [
     },
     {
         text: "По какой траектории можно продолжить движение направо на легковом автомобиле?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/15-16.jpg",
+        img: "img/tickets/15-16.jpg",
         answer: [
             "Только по А.",
             "Только по Б.",
@@ -3296,7 +3296,7 @@ var questions = [
     },
     {
         text: "В какой из дворов вы можете въехать в данной ситуации?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/16-02.jpg",
+        img: "img/tickets/16-02.jpg",
         answer: [
             "Только во двор налево.",
             "Только во двор направо.",
@@ -3308,7 +3308,7 @@ var questions = [
     },
     {
         text: "Какой знак запрещает дальнейшее движение всех без исключения транспортных средств?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/16-03.jpg",
+        img: "img/tickets/16-03.jpg",
         answer: [
             "А.",
             "Б.",
@@ -3319,7 +3319,7 @@ var questions = [
     },
     {
         text: "О чем информирует вас эти знаки?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/16-04.jpg",
+        img: "img/tickets/16-04.jpg",
         answer: [
             "При влажном покрытии рекомендуемая скорость 40 км/ч.",
             "при влажном покрытии разрешенная скорость не более 40 км/ч."
@@ -3329,7 +3329,7 @@ var questions = [
     },
     {
         text: "Разрешена ли вам остановка в указанном месте?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/16-05.jpg",
+        img: "img/tickets/16-05.jpg",
         answer: [
             "Разрешена.",
             "Разрешена без заезда на тротуар.",
@@ -3340,7 +3340,7 @@ var questions = [
     },
     {
         text: "О чем информирует вас сигнал светофора в виде стрелки красного цвета?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/16-06.jpg",
+        img: "img/tickets/16-06.jpg",
         answer: [
             "На этом перекрестке всегда запрещен поворот направо.",
             "Поворот направо разрешен, но необходимо уступить дорогу пешеходам.",
@@ -3362,7 +3362,7 @@ var questions = [
     },
     {
         text: "По какой траектории Правила разрешают вам произвести поворот налево?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/16-08.jpg",
+        img: "img/tickets/16-08.jpg",
         answer: [
             "Только по А.",
             "Только по Б.",
@@ -3373,7 +3373,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам на перекрестке произвести разворот указанным способом?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/16-09.jpg",
+        img: "img/tickets/16-09.jpg",
         answer: [
             "Да.",
             "Да, если не будут созданы помехи другим участникам движения.",
@@ -3384,7 +3384,7 @@ var questions = [
     },
     {
         text: "С какой максимальной скоростью вы можете продолжить движение, управляя легковым автомобилем?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/16-10.jpg",
+        img: "img/tickets/16-10.jpg",
         answer: [
             "60 км/ч.",
             "90 км/ч.",
@@ -3395,7 +3395,7 @@ var questions = [
     },
     {
         text: "Разрешен ли вам обгон в данной ситуации?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/16-11.jpg",
+        img: "img/tickets/16-11.jpg",
         answer: [
             "Разрешен.",
             "Разрешен, только если скорость грузового автомобиля менее 30 км/ч.",
@@ -3406,7 +3406,7 @@ var questions = [
     },
     {
         text: "В каком из указанных мест вы можете поставить автомобиль на стоянку?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/16-12.jpg",
+        img: "img/tickets/16-12.jpg",
         answer: [
             "Только В.",
             "Б или В.",
@@ -3417,7 +3417,7 @@ var questions = [
     },
     {
         text: "Вы намерены проехать перекресток в прямом направлении. Ваши действия?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/16-13.jpg",
+        img: "img/tickets/16-13.jpg",
         answer: [
             "Проедете перекресток первым.",
             "Уступите дорогу только трамваю.",
@@ -3428,7 +3428,7 @@ var questions = [
     },
     {
         text: "При въезде на перекресток вы:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/16-14.jpg",
+        img: "img/tickets/16-14.jpg",
         answer: [
             "Должны уступить дорогу только мотоциклу.",
             "Должны уступить дорогу обоим транспортным средствам.",
@@ -3439,7 +3439,7 @@ var questions = [
     },
     {
         text: "Вы намерены повернуть налево. Кому следует уступить дорогу?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/16-15.jpg",
+        img: "img/tickets/16-15.jpg",
         answer: [
             "Только автобусу.",
             "Только легковому автомобилю.",
@@ -3450,7 +3450,7 @@ var questions = [
     },
     {
         text: "В каком случае на автомагистрали вам разрешено остановиться правее линии, обозначающей край проезжей части?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/16-16.jpg",
+        img: "img/tickets/16-16.jpg",
         answer: [
             "В любом случае.",
             "Только в светлое время суток.",
@@ -3483,7 +3483,7 @@ var questions = [
     },
     {
         text: "На каком рисунке водитель выполняет правый поворот по траектории, обеспечивающей наибольшую безопасность движения?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/16-19.jpg",
+        img: "img/tickets/16-19.jpg",
         answer: [
             "На правом.",
             "На левом."
@@ -3516,7 +3516,7 @@ var questions = [
     },
     {
         text: "На каком расстоянии до неровного участка дороги устанавливается этот знак вне населенного пункта?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/17-02.jpg",
+        img: "img/tickets/17-02.jpg",
         answer: [
             "150-300 м.",
             "50-100 м.",
@@ -3527,7 +3527,7 @@ var questions = [
     },
     {
         text: "Требование каких знаков вступают в силу непосредственно в том месте, где они установлены?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/17-03.jpg",
+        img: "img/tickets/17-03.jpg",
         answer: [
             "Только А и Б.",
             "Только Б.",
@@ -3538,7 +3538,7 @@ var questions = [
     },
     {
         text: "По какой траектории вам разрешено продолжить дальнейшее движение?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/17-04.jpg",
+        img: "img/tickets/17-04.jpg",
         answer: [
             "Только по А, В и Г.",
             "Только по В.",
@@ -3550,7 +3550,7 @@ var questions = [
     },
     {
         text: "Позволяет ли вам данная разметка выполнить обгон?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/17-05.jpg",
+        img: "img/tickets/17-05.jpg",
         answer: [
             "Да.",
             "Позволяет, если скорость трактора менее 30 км/ч.",
@@ -3561,7 +3561,7 @@ var questions = [
     },
     {
         text: "В каком месте вам следует остановиться?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/17-06.jpg",
+        img: "img/tickets/17-06.jpg",
         answer: [
             "Перед светофором.",
             "Перед пересекаемой проезжей частью.",
@@ -3572,7 +3572,7 @@ var questions = [
     },
     {
         text: "На каком расстоянии от транспортного средства должен быть выставлен знак аварийной остановки в данной ситуации?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/17-07.jpg",
+        img: "img/tickets/17-07.jpg",
         answer: [
             "Не менее 15 м.",
             "Не менее 20 м.",
@@ -3584,7 +3584,7 @@ var questions = [
     },
     {
         text: "Разрешен ли вам поворот направо в данной ситуации?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/17-08.jpg",
+        img: "img/tickets/17-08.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -3594,7 +3594,7 @@ var questions = [
     },
     {
         text: "По какой траектории вам разрешено выполнить разворот?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/17-09.jpg",
+        img: "img/tickets/17-09.jpg",
         answer: [
             "Только на перекрестке - по траектории А.",
             "Только перед перекрестком - по траектории Б.",
@@ -3617,7 +3617,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам начать обгон в населенном пункте?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/17-11.jpg",
+        img: "img/tickets/17-11.jpg",
         answer: [
             "Да.",
             "Да, если обгон будет завершен до переезда.",
@@ -3628,7 +3628,7 @@ var questions = [
     },
     {
         text: "В каком месте на данном участке дороги вы можете найти место для отдыха?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/17-12.jpg",
+        img: "img/tickets/17-12.jpg",
         answer: [
             "В любом месте на обочине.",
             "Только через 500 м на специальной площадке.",
@@ -3639,7 +3639,7 @@ var questions = [
     },
     {
         text: "При повороте направо вы должны уступить дорогу:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/17-13.jpg",
+        img: "img/tickets/17-13.jpg",
         answer: [
             "Только велосипедисту.",
             "Только пешеходам.",
@@ -3651,7 +3651,7 @@ var questions = [
     },
     {
         text: "Вы намерены повернуть налево. Ваши действия?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/17-14.jpg",
+        img: "img/tickets/17-14.jpg",
         answer: [
             "Уступите дорогу обоим грузовым автомобилям.",
             "Выехав на перекресток, уступите дорогу встречному грузовому автомобилю и завершите поворот."
@@ -3661,7 +3661,7 @@ var questions = [
     },
     {
         text: "Эти знаки, установленные перед перекрестком, обознавчают, что:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/17-15.jpg",
+        img: "img/tickets/17-15.jpg",
         answer: [
             "Находясь на таком перекрестке, вы должны будете уступать дорогу всем ТС, въезжающим на него.",
             "Находясь на таком перекрестке, вы будете иметь преимущество перед всеми ТС, въезжающими на него."
@@ -3671,7 +3671,7 @@ var questions = [
     },
     {
         text: "Кто из водителей должен уступить дорогу трамваю?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/17-16.jpg",
+        img: "img/tickets/17-16.jpg",
         answer: [
             "Оба водителя.",
             "Только водитель грузового автомобиля.",
@@ -3739,7 +3739,7 @@ var questions = [
     },
     {
         text: "Этот дорожный знак предупреждает вас:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/18-02.jpg",
+        img: "img/tickets/18-02.jpg",
         answer: [
             "О приближении к скользкому участку дороги.",
             "О приближении к мокрому и загрязненному участку дороги.",
@@ -3750,7 +3750,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам поставить автомобиль на стоянку в указанном месте по четным числам месяца?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/18-03.jpg",
+        img: "img/tickets/18-03.jpg",
         answer: [
             "Разрешено.",
             "Разрешено только после 19 часов.",
@@ -3761,7 +3761,7 @@ var questions = [
     },
     {
         text: "Какие знаки информируют вас, что на данной дороге действуют требования Правил, устанавливающие порядок движения в населенных пунктах?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/18-04.jpg",
+        img: "img/tickets/18-04.jpg",
         answer: [
             "Только А.",
             "Только А и Б.",
@@ -3772,7 +3772,7 @@ var questions = [
     },
     {
         text: "В данной ситуации вы должны:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/18-05.jpg",
+        img: "img/tickets/18-05.jpg",
         answer: [
             "Остановиться у знака.",
             "Остановиться у стоп-линии.",
@@ -3783,7 +3783,7 @@ var questions = [
     },
     {
         text: "В каких направлениях вам разрешено движение?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/18-06.jpg",
+        img: "img/tickets/18-06.jpg",
         answer: [
             "Только прямо и налево.",
             "Только прямо, налево и в обратном направлении.",
@@ -3795,7 +3795,7 @@ var questions = [
     },
     {
         text: "Вы намерены остановиться слева у тротуара. Следует ли в данной ситуации включить указатели поворота?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/18-07.jpg",
+        img: "img/tickets/18-07.jpg",
         answer: [
             "Да.",
             "Нет.",
@@ -3806,7 +3806,7 @@ var questions = [
     },
     {
         text: "По какой траектории вы можете продолжить движение?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/18-08.jpg",
+        img: "img/tickets/18-08.jpg",
         answer: [
             "По любой.",
             "Только по А.",
@@ -3828,7 +3828,7 @@ var questions = [
     },
     {
         text: "Можете ли вы продолжить движение по средней полосе после обгона?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/18-10.jpg",
+        img: "img/tickets/18-10.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -3838,7 +3838,7 @@ var questions = [
     },
     {
         text: "Имеет ли право водитель легкового автомобиля начать обгон?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/18-11.jpg",
+        img: "img/tickets/18-11.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -3848,7 +3848,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам остановиться на легковом автомобиле в указанном месте?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/18-12.jpg",
+        img: "img/tickets/18-12.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -3858,7 +3858,7 @@ var questions = [
     },
     {
         text: "Вы намерены повернуть направо. Следует ли уступить дорогу легковому автомобилю?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/18-13.jpg",
+        img: "img/tickets/18-13.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -3868,7 +3868,7 @@ var questions = [
     },
     {
         text: "Вы намерены повернуть налево. Ваши действия?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/18-14.jpg",
+        img: "img/tickets/18-14.jpg",
         answer: [
             "Проедете перекресток первым.",
             "Уступите дорогу автомобилю."
@@ -3878,7 +3878,7 @@ var questions = [
     },
     {
         text: "Вы намерены проехать перекресток в прямом направлении. Должны ли вы уступить дорогу встречному автомобилю с включенным проблесковым маячком?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/18-15.jpg",
+        img: "img/tickets/18-15.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -3888,7 +3888,7 @@ var questions = [
     },
     {
         text: "Обязаны ли вы уступить дорогу маршрутному транспортному средству, отъезжающему от тротуара, где нет обозначенного места остановки?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/18-16.jpg",
+        img: "img/tickets/18-16.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -3943,7 +3943,7 @@ var questions = [
     //B19
     {
         text: "Сколько проезжих частей имеет данная дорога?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/19-01.jpg",
+        img: "img/tickets/19-01.jpg",
         answer: [
             "Одну.",
             "Две.",
@@ -3954,7 +3954,7 @@ var questions = [
     },
     {
         text: "В каких напаравлениях вам разрешено продолжить движение на легковом автомобиле?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/19-02.jpg",
+        img: "img/tickets/19-02.jpg",
         answer: [
             "Только прямо.",
             "Только налево или направо.",
@@ -3965,7 +3965,7 @@ var questions = [
     },
     {
         text: "Разрешается ли вам осуществить посадку (высадку) пассажиров либо загрузку (разгрузку) транспортного средства в зоне действия этого знака?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/19-03.jpg",
+        img: "img/tickets/19-03.jpg",
         answer: [
             "Да, если это займет не более 5 минут.",
             "Да, даже если остановка продлиться более 5 минут.",
@@ -3976,7 +3976,7 @@ var questions = [
     },
     {
         text: "Какие знаки разрешают выполнить разворот?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/19-04.jpg",
+        img: "img/tickets/19-04.jpg",
         answer: [
             "Только Б.",
             "Только Б и В.",
@@ -3998,7 +3998,7 @@ var questions = [
     },
     {
         text: "Как вы должны поступить в данной ситуации?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/19-06.jpg",
+        img: "img/tickets/19-06.jpg",
         answer: [
             "Снизить скорость и быть готовым в случае необходимости незамедлительно остановиться.",
             "Продолжить движение, не изменяя скорости.",
@@ -4020,7 +4020,7 @@ var questions = [
     },
     {
         text: "По какой траектории Правила разрешают вам произвести поворот налево?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/19-08.jpg",
+        img: "img/tickets/19-08.jpg",
         answer: [
             "Только по А.",
             "Только по Б.",
@@ -4031,7 +4031,7 @@ var questions = [
     },
     {
         text: "Вы случайно проехали нужный въезд во двор. Разрешено ли вам в этой ситуации использовать задний ход, чтобы затем повернуть направо?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/19-09.jpg",
+        img: "img/tickets/19-09.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -4041,7 +4041,7 @@ var questions = [
     },
     {
         text: "С какой скоростью вы можете продолжить движение в населенном пункте по левой полосе?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/19-10.jpg",
+        img: "img/tickets/19-10.jpg",
         answer: [
             "Не более 50 км/ч.",
             "Не более 60 км/ч.",
@@ -4052,7 +4052,7 @@ var questions = [
     },
     {
         text: "В данной ситуации вам разрешается:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/19-11.jpg",
+        img: "img/tickets/19-11.jpg",
         answer: [
             "Объехать грузовой автомобиль справа по обочине.",
             "Продолжить движение только после того, как грузовой автомобиль освободит полосу движения.",
@@ -4063,7 +4063,7 @@ var questions = [
     },
     {
         text: "Кто из водителей нарушил правила стоянки?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/19-12.jpg",
+        img: "img/tickets/19-12.jpg",
         answer: [
             "Только А.",
             "Только Б.",
@@ -4075,7 +4075,7 @@ var questions = [
     },
     {
         text: "Вы намерены проехать перекресток в прямом направлении. Ваши действия?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/19-13.jpg",
+        img: "img/tickets/19-13.jpg",
         answer: [
             "Остановитесь перед стоп-линией.",
             "Уступите дорогу синему автомбилю и продолжите движение."
@@ -4085,7 +4085,7 @@ var questions = [
     },
     {
         text: "Вы намерены повернуть направо. Ваши действия?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/19-14.jpg",
+        img: "img/tickets/19-14.jpg",
         answer: [
             "Проедете перекресток первым.",
             "Уступите дорогу только легковому автомобилю.",
@@ -4096,7 +4096,7 @@ var questions = [
     },
     {
         text: "При въезде на перекресток вы:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/19-15.jpg",
+        img: "img/tickets/19-15.jpg",
         answer: [
             "Должны уступить дорогу только мотоциклу.",
             "Должны уступить дорогу обоим транспортным средствам.",
@@ -4107,7 +4107,7 @@ var questions = [
     },
     {
         text: "Разрешен ли такой маневр?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/19-16.jpg",
+        img: "img/tickets/19-16.jpg",
         answer: [
             "Да, если нет встречных транспортных средств.",
             "Да, если между шлагбаумом и остановившимся грузовым автомобилем расстояние 6 м.",
@@ -4118,7 +4118,7 @@ var questions = [
     },
     {
         text: "На транспортном средстве с опознавательным знаком \"Дети\" во время посадки (высадки) в (из) него пассажиров должны быть включены:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/19-17.jpg",
+        img: "img/tickets/19-17.jpg",
         answer: [
             "Дневные ходовые огни.",
             "Фары ближнего света или габаритные огни.",
@@ -4166,7 +4166,7 @@ var questions = [
     //B20
     {
         text: "На каких рисунках показана главная дорога?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/20-01.jpg",
+        img: "img/tickets/20-01.jpg",
         answer: [
             "Только на правом верхнем.",
             "На нижнем и правом врехнем.",
@@ -4177,7 +4177,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам за перкрестком въехать во двор?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/20-02.jpg",
+        img: "img/tickets/20-02.jpg",
         answer: [
             "Да.",
             "Нет.",
@@ -4188,7 +4188,7 @@ var questions = [
     },
     {
         text: "Разрешена ли вам остановка за знаком?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/20-03.jpg",
+        img: "img/tickets/20-03.jpg",
         answer: [
             "Разрешена.",
             "Разрешена только для посадки или высадки пассажиров.",
@@ -4199,7 +4199,7 @@ var questions = [
     },
     {
         text: "Какие знаки запрещают дальнейшее движение без остановки?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/20-04.jpg",
+        img: "img/tickets/20-04.jpg",
         answer: [
             "Только А и Г.",
             "Только Б и В.",
@@ -4224,7 +4224,7 @@ var questions = [
     },
     {
         text: "В каких направлениях вам разрешено движение?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/20-06.jpg",
+        img: "img/tickets/20-06.jpg",
         answer: [
             "Только А.",
             "А и Б.",
@@ -4235,7 +4235,7 @@ var questions = [
     },
     {
         text: "Какой знак используется для обозначения автомобиля при вынужденной остановке в местах, где с учетом условий видимости транспортное средство не может быть своевременно замечено другими водителями?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/20-07.jpg",
+        img: "img/tickets/20-07.jpg",
         answer: [
             "А.",
             "Б.",
@@ -4246,7 +4246,7 @@ var questions = [
     },
     {
         text: "По какой траектории Правила разрешают вам произвести поворот налево?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/20-08.jpg",
+        img: "img/tickets/20-08.jpg",
         answer: [
             "Только по А.",
             "Только по Б.",
@@ -4257,7 +4257,7 @@ var questions = [
     },
     {
         text: "Разрешается ли вам на узкой проезжей части произвести разворот с заездом во двор?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/20-09.jpg",
+        img: "img/tickets/20-09.jpg",
         answer: [
             "Да.",
             "Да, если не будут созданы помехи другим участникам движения.",
@@ -4268,7 +4268,7 @@ var questions = [
     },
     {
         text: "Укажите расстояние, под которым в Правилах подразумевается дистанция:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/20-10.jpg",
+        img: "img/tickets/20-10.jpg",
         answer: [
             "Только А.",
             "Только Б.",
@@ -4280,7 +4280,7 @@ var questions = [
     },
     {
         text: "Можете ли вы начать обгон грузового автомобиля в данной ситуации?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/20-11.jpg",
+        img: "img/tickets/20-11.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -4290,7 +4290,7 @@ var questions = [
     },
     {
         text: "Разрешено ли водителю поставить на стоянку грузовой автомобиль с разрешенной максимальной массой менее 3,5 т указанным на табличке способом?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/20-12.jpg",
+        img: "img/tickets/20-12.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -4300,7 +4300,7 @@ var questions = [
     },
     {
         text: "Вы намерены повернуть налево. Ваши действия?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/20-13.jpg",
+        img: "img/tickets/20-13.jpg",
         answer: [
             "Выполните маневр без остановки на перекрестке.",
             "Повернете налево, остановитесь в разрыве разделительной полосы и, после включения разрешающего сигнала светофора на выходе с перекрестка, завершите маневр."
@@ -4310,7 +4310,7 @@ var questions = [
     },
     {
         text: "Поворачивая направо, вы должны:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/20-14.jpg",
+        img: "img/tickets/20-14.jpg",
         answer: [
             "Уступить дорогу автомобилю.",
             "Проехать перекресток первым."
@@ -4320,7 +4320,7 @@ var questions = [
     },
     {
         text: "Вы намерены повернуть налево. Кому следует уступить дорогу?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/20-15.jpg",
+        img: "img/tickets/20-15.jpg",
         answer: [
             "Только автобусу и мотоциклу.",
             "Только легковому автомобилю и автобусу.",
@@ -4331,7 +4331,7 @@ var questions = [
     },
     {
         text: "В каком месте вы должны остановиться в данной ситуации?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/20-16.jpg",
+        img: "img/tickets/20-16.jpg",
         answer: [
             "У знака \"Движение без остановки запрещено\".",
             "У знака \"Однопутная железная дорога\".",
@@ -4354,7 +4354,7 @@ var questions = [
     },
     {
         text: "Что вам следует иметь в виду, увидев впереди пешехода, переходящего проезжую часть?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/20-18.jpg",
+        img: "img/tickets/20-18.jpg",
         answer: [
             "Что он может перейти дорогу, не меняя своего темпа движения, или ускориться.",
             "Что он может внезапно остановиться или отступить назад.",
@@ -4399,7 +4399,7 @@ var questions = [
     },
     {
         text: "Этот знак предупреждает о приближении к перекрестку, на котором вы:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/21-02.jpg",
+        img: "img/tickets/21-02.jpg",
         answer: [
             "Имеете право преимущественного проезда.",
             "Должны уступить дорогу всем транспортным средствам, движущимся по пересекаемой дороге.",
@@ -4410,7 +4410,7 @@ var questions = [
     },
     {
         text: "Можно ли продолжить буксировку легковым автомобилем мотоцикла с коляской при наличии такого знака на дороге?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/21-03.jpg",
+        img: "img/tickets/21-03.jpg",
         answer: [
             "Нет.",
             "Да.",
@@ -4421,7 +4421,7 @@ var questions = [
     },
     {
         text: "Какой знак информирует о начале дороги с реверсивным движением?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/21-04.jpg",
+        img: "img/tickets/21-04.jpg",
         answer: [
             "А.",
             "Б.",
@@ -4432,7 +4432,7 @@ var questions = [
     },
     {
         text: "Данная вертикальная разметка:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/21-05.jpg",
+        img: "img/tickets/21-05.jpg",
         answer: [
             "Запрещает стоянку транспортных средств.",
             "Запрещает остановку транспортных средств.",
@@ -4443,7 +4443,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам за перекрестком въехать на полосу с реверсивным движением?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/21-06.jpg",
+        img: "img/tickets/21-06.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -4453,7 +4453,7 @@ var questions = [
     },
     {
         text: "Такой сигнал рукой, подаваемый водителем легкового автомобиля, информирует вас:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/21-07.jpg",
+        img: "img/tickets/21-07.jpg",
         answer: [
             "О его намерении повернуть налево или выполнить разворот.",
             "О его намерении остановиться и уступить дорогу грузовому автомобилю.",
@@ -4464,7 +4464,7 @@ var questions = [
     },
     {
         text: "Может ли водитель легкового автомобиля в данной ситуации начать движение?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/21-08.jpg",
+        img: "img/tickets/21-08.jpg",
         answer: [
             "Да.",
             "Да, если он не создаст помех грузовому автомобилю.",
@@ -4487,7 +4487,7 @@ var questions = [
     },
     {
         text: "Разрешается ли вам, управляя легковым автомобилем, продолжить движение по трамвайным путям попутного направления?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/21-10.jpg",
+        img: "img/tickets/21-10.jpg",
         answer: [
             "Разрешается.",
             "Разрешается только для поворота налево и разворота.",
@@ -4498,7 +4498,7 @@ var questions = [
     },
     {
         text: "В каком месте вы можете начать обгон?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/21-11.jpg",
+        img: "img/tickets/21-11.jpg",
         answer: [
             "На переезде.",
             "Непосредственно за переездом.",
@@ -4509,7 +4509,7 @@ var questions = [
     },
     {
         text: "Можете ли вы поставить автомобиль на стоянку в указанном месте?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/21-12.jpg",
+        img: "img/tickets/21-12.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -4519,7 +4519,7 @@ var questions = [
     },
     {
         text: "Вы намерены повернуть налево. Кому следует уступить дорогу?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/21-13.jpg",
+        img: "img/tickets/21-13.jpg",
         answer: [
             "Только мотоциклу.",
             "Только автомобилю с включенными проблесковым маячком и специальным звуковым сигналом.",
@@ -4530,7 +4530,7 @@ var questions = [
     },
     {
         text: "Вы намерены повернуть налево. Ваши действия?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/21-14.jpg",
+        img: "img/tickets/21-14.jpg",
         answer: [
             "Проедете перекресток первым одновременно со встречным автомобилем.",
             "Проедете перекресток последним после проезда мотоцикла.",
@@ -4541,7 +4541,7 @@ var questions = [
     },
     {
         text: "Вы намерены продолжить движение прямо. Кому следует уступить дорогу?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/21-15.jpg",
+        img: "img/tickets/21-15.jpg",
         answer: [
             "Обоим транспортным средствам.",
             "Только легковому автомобилю.",
@@ -4563,7 +4563,7 @@ var questions = [
     },
     {
         text: "В зоне действия каких знаков разрешают подачу звуковых сигналов для предотвращения дорожно-транспортных происшествий?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/21-17.jpg",
+        img: "img/tickets/21-17.jpg",
         answer: [
             "Только А.",
             "Только Б.",
@@ -4586,7 +4586,7 @@ var questions = [
     },
     {
         text: "При выезде из лесистого участка на открытое место установлен знак \"Боковой ветер\". Ваши действия?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/21-19.jpg",
+        img: "img/tickets/21-19.jpg",
         answer: [
             "Уменьшить скорость и быть готовым к возможному отклонению автомобиля от заданного курса.",
             "Не изменяя скорости, сместиться ближе к центру дороги.",
@@ -4609,7 +4609,7 @@ var questions = [
     //B22
     {
         text: "Сколько перекрестков изображено на рисунке?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/22-01.jpg",
+        img: "img/tickets/22-01.jpg",
         answer: [
             "Один.",
             "Два.",
@@ -4620,7 +4620,7 @@ var questions = [
     },
     {
         text: "В каких направлениях вам разрешено продолжить движение на перекрестке?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/22-02.jpg",
+        img: "img/tickets/22-02.jpg",
         answer: [
             "Только прямо.",
             "Прямо и налево.",
@@ -4631,7 +4631,7 @@ var questions = [
     },
     {
         text: "Какие требования предъявляют к вам эти дорожные знаки?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/22-03.jpg",
+        img: "img/tickets/22-03.jpg",
         answer: [
             "Снизить скорость при проезде таможни.",
             "Остановиться через 300 м у таможни.",
@@ -4653,7 +4653,7 @@ var questions = [
     },
     {
         text: "Кому из водителей разрешено пересечь сплошную линию разметки с целью остановки в указанных местах?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/22-05.jpg",
+        img: "img/tickets/22-05.jpg",
         answer: [
             "Обоим разрешено.",
             "Разрешено только водителю встречного автомобиля.",
@@ -4664,7 +4664,7 @@ var questions = [
     },
     {
         text: "Как в данной ситуации должен поступить водитель легкового автомобиля при приближении автомобиля оперативной службы, сопровождающего колонну?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/22-06.jpg",
+        img: "img/tickets/22-06.jpg",
         answer: [
             "Перестроиться на правую полосу и продолжить движение.",
             "Остановиться у тротуара и продолжить движение сразу же после проезда автомобиля оперативной службы.",
@@ -4675,7 +4675,7 @@ var questions = [
     },
     {
         text: "Обязаны ли вы в данной ситуации включить левые указатели поворота?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/22-07.jpg",
+        img: "img/tickets/22-07.jpg",
         answer: [
             "Да.",
             "Да, если будете выполнять разворот.",
@@ -4686,7 +4686,7 @@ var questions = [
     },
     {
         text: "По какой траектории Правила разрешают вам произвести поворот налево?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/22-08.jpg",
+        img: "img/tickets/22-08.jpg",
         answer: [
             "Только по А.",
             "Только по Б.",
@@ -4697,7 +4697,7 @@ var questions = [
     },
     {
         text: "Разрешено ли водителю подъехать задним ходом к пассажиру, стоящему на мосту?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/22-09.jpg",
+        img: "img/tickets/22-09.jpg",
         answer: [
             "Да.",
             "Да, если не будут созданы помехи другим участникам движения.",
@@ -4730,7 +4730,7 @@ var questions = [
     },
     {
         text: "В каком из указанных мест вам разрешено поставить автомобиль на стоянку?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/22-12.jpg",
+        img: "img/tickets/22-12.jpg",
         answer: [
             "Только А.",
             "Только Б.",
@@ -4741,7 +4741,7 @@ var questions = [
     },
     {
         text: "Вы намерены повернуть налево. Кому следует уступить дорогу?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/22-13.jpg",
+        img: "img/tickets/22-13.jpg",
         answer: [
             "Только встречному автомобилю.",
             "Только пешеходам.",
@@ -4752,7 +4752,7 @@ var questions = [
     },
     {
         text: "Следует ли при движении прямо уступить дорогу трамваю?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/22-14.jpg",
+        img: "img/tickets/22-14.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -4762,7 +4762,7 @@ var questions = [
     },
     {
         text: "Вы намерены повернуть направо. Можете ли вы приступить к повороту?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/22-15.jpg",
+        img: "img/tickets/22-15.jpg",
         answer: [
             "Да.",
             "Да, но не создавая помех грузовому автомобилю.",
@@ -4773,7 +4773,7 @@ var questions = [
     },
     {
         text: "Разрешена ли вам остановка в указанном месте?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/22-16.jpg",
+        img: "img/tickets/22-16.jpg",
         answer: [
             "Запрещена.",
             "Разрешена только для посадки или высадки пассажиров.",
@@ -4830,7 +4830,7 @@ var questions = [
     //B23
     {
         text: "Сколько пересечений проезжих частей имеет этот перекресток?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/23-01.jpg",
+        img: "img/tickets/23-01.jpg",
         answer: [
             "Одно.",
             "Два."
@@ -4840,7 +4840,7 @@ var questions = [
     },
     {
         text: "Этот дорожный знак:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/23-02.jpg",
+        img: "img/tickets/23-02.jpg",
         answer: [
             "Предупреждает о приближении к месту пересечения с трамвайной линией.",
             "Предупреждает о приближении к трамвайной остановке.",
@@ -4851,7 +4851,7 @@ var questions = [
     },
     {
         text: "Эти знаки обязываются вас соблюдать дистанцию:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/23-03.jpg",
+        img: "img/tickets/23-03.jpg",
         answer: [
             "Менее 70 м на протяжении 100 м.",
             "Более 70 м на протяжении 100 м.",
@@ -4862,7 +4862,7 @@ var questions = [
     },
     {
         text: "Двигаясь по средней полосе на легковом автомобиле, вы можете продолжить движение:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/23-04.jpg",
+        img: "img/tickets/23-04.jpg",
         answer: [
             "Только прямо.",
             "Только прямо и налево.",
@@ -4873,7 +4873,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам поставить автомобиль на стоянку в указанном месте?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/23-05.jpg",
+        img: "img/tickets/23-05.jpg",
         answer: [
             "Разрешено.",
             "Разрешено только с частичным заездом на тротуар.",
@@ -4884,7 +4884,7 @@ var questions = [
     },
     {
         text: "В каких направлениях вы можете продолжить движение?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/23-06.jpg",
+        img: "img/tickets/23-06.jpg",
         answer: [
             "Только направо в первый проезд.",
             "Направо в первый и второй проезды.",
@@ -4906,7 +4906,7 @@ var questions = [
     },
     {
         text: "По какой траектории вы можете продолжить движение направо?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/23-08.jpg",
+        img: "img/tickets/23-08.jpg",
         answer: [
             "Только по А.",
             "Только по А и Б.",
@@ -4917,7 +4917,7 @@ var questions = [
     },
     {
         text: "Разрешен ли вамм разворот на этом участке дороги?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/23-09.jpg",
+        img: "img/tickets/23-09.jpg",
         answer: [
             "Разрешен только при видимости дороги более 100 м.",
             "Не разрешен."
@@ -4927,7 +4927,7 @@ var questions = [
     },
     {
         text: "С какой максимальной скоростью вы можете продолжить движение на грузовом автомобиле с разрешенной максимальной массой менее 3,5 т?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/23-10.jpg",
+        img: "img/tickets/23-10.jpg",
         answer: [
             "90 км/ч.",
             "70 км/ч.",
@@ -4938,7 +4938,7 @@ var questions = [
     },
     {
         text: "Выполняя объезд на подъеме, вы:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/23-11.jpg",
+        img: "img/tickets/23-11.jpg",
         answer: [
             "Должны уступить дорогу.",
             "Имеете право проехать первым."
@@ -4948,7 +4948,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам поставить автомобиль на стоянку в указанном месте?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/23-12.jpg",
+        img: "img/tickets/23-12.jpg",
         answer: [
             "Разрешено.",
             "Разрешено, если при этом не будут созданы помехи для движения маршрутных транспортных средств.",
@@ -4959,7 +4959,7 @@ var questions = [
     },
     {
         text: "Как следует поступить в этой ситуации, если вам необходимо повернуть направо?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/23-13.jpg",
+        img: "img/tickets/23-13.jpg",
         answer: [
             "Остановиться перед перекрестком и, дождавшись другого сигнала регулировщика, повернуть направо.",
             "Можно повернуть направо, уступив дорогу пешеходам."
@@ -4969,7 +4969,7 @@ var questions = [
     },
     {
         text: "Вы намерены проехать перекресток в прямом направлении. Кому следует уступить дорогу?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/23-14.jpg",
+        img: "img/tickets/23-14.jpg",
         answer: [
             "Только трамваю А.",
             "Только трамваю Б.",
@@ -4981,7 +4981,7 @@ var questions = [
     },
     {
         text: "Вы намерены повернуть налево. Кому следует уступить дорогу?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/23-15.jpg",
+        img: "img/tickets/23-15.jpg",
         answer: [
             "Только автобусу.",
             "Обоим транспортным средствам.",
@@ -4992,7 +4992,7 @@ var questions = [
     },
     {
         text: "Кто из водителей правильно остановился для высадки пассажиров?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/23-16.jpg",
+        img: "img/tickets/23-16.jpg",
         answer: [
             "Только А.",
             "Только В.",
@@ -5048,7 +5048,7 @@ var questions = [
     //B24
     {
         text: "Сколько полос для движения имеет данная дорога?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/24-01.jpg",
+        img: "img/tickets/24-01.jpg",
         answer: [
             "Две.",
             "Четыре."
@@ -5058,7 +5058,7 @@ var questions = [
     },
     {
         text: "Эти знаки предупреждают вас:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/24-02.jpg",
+        img: "img/tickets/24-02.jpg",
         answer: [
             "О приближении к железнодорожному переезду с тремя путями.",
             "О наличии через 150-300 м железнодорожного переезда без шлагбаума.",
@@ -5069,7 +5069,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам поставить автомобиль на стоянку в указанном месте?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/24-03.jpg",
+        img: "img/tickets/24-03.jpg",
         answer: [
             "Разрешено.",
             "Разрешено, если вы проживаете рядом с этим местом.",
@@ -5080,7 +5080,7 @@ var questions = [
     },
     {
         text: "Какие знаки обязывают водителя грузового автомобиля с разрешенной максимальной массой до 3,5 т повернуть направо?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/24-04.jpg",
+        img: "img/tickets/24-04.jpg",
         answer: [
             "Только А.",
             "Только Б.",
@@ -5092,7 +5092,7 @@ var questions = [
     },
     {
         text: "Эта разметка обозначает:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/24-05.jpg",
+        img: "img/tickets/24-05.jpg",
         answer: [
             "Место, где начинается или заканчивается жилая зона.",
             "Искусственную неровность на проезжей части.",
@@ -5115,7 +5115,7 @@ var questions = [
     },
     {
         text: "Какую ошибку совершает водитель, въезжающий во двор?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/24-07.jpg",
+        img: "img/tickets/24-07.jpg",
         answer: [
             "Поворачивает в зоне действия знака \"Движение прямо\".",
             "Поворачивает, не включив указатели поворота.",
@@ -5126,7 +5126,7 @@ var questions = [
     },
     {
         text: "Должны ли вы уступить дорогу грузовому автомобилю в данной ситуации?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/24-08.jpg",
+        img: "img/tickets/24-08.jpg",
         answer: [
             "Да.",
             "Да, если рн поворачивает направо.",
@@ -5137,7 +5137,7 @@ var questions = [
     },
     {
         text: "По какой траектории вы можете выполнить разворот?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/24-09.jpg",
+        img: "img/tickets/24-09.jpg",
         answer: [
             "Только по А.",
             "Только по Б.",
@@ -5148,7 +5148,7 @@ var questions = [
     },
     {
         text: "Разрешается ли вам обогнать легковой автомобиль по трамвайным путям в данной ситуации?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/24-10.jpg",
+        img: "img/tickets/24-10.jpg",
         answer: [
             "Не разрешается.",
             "Разрешается."
@@ -5158,7 +5158,7 @@ var questions = [
     },
     {
         text: "Разрешен ли вам обгон?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/24-11.jpg",
+        img: "img/tickets/24-11.jpg",
         answer: [
             "Запрещен.",
             "Разрешен, если скорость грузового автомобиля менее 30 км/ч.",
@@ -5169,7 +5169,7 @@ var questions = [
     },
     {
         text: "Кто из водителей нарушил правила стоянки?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/24-12.jpg",
+        img: "img/tickets/24-12.jpg",
         answer: [
             "Только А.",
             "Только Б.",
@@ -5180,7 +5180,7 @@ var questions = [
     },
     {
         text: "Вы намерены повернуть налево. Ваши действия?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/24-13.jpg",
+        img: "img/tickets/24-13.jpg",
         answer: [
             "Уступите дорогу трамваю и, убедившись, что ваши пути не пересекаются со встречным автомобилем, выполните поворот.",
             "Проедете перекресток первым."
@@ -5190,7 +5190,7 @@ var questions = [
     },
     {
         text: "Кто первым проедет перекресток, если все намерены двигаться прямо?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/24-14.jpg",
+        img: "img/tickets/24-14.jpg",
         answer: [
             "Вы одновременно с троллейбусом.",
             "Грузовой автомобиль.",
@@ -5201,7 +5201,7 @@ var questions = [
     },
     {
         text: "Вы обязаны уступить дорогу пешеходам:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/24-15.jpg",
+        img: "img/tickets/24-15.jpg",
         answer: [
             "Только при повороте налево по направлению главной дороги.",
             "Только при повороте направо.",
@@ -5212,7 +5212,7 @@ var questions = [
     },
     {
         text: "Как вы должны поступить в данной ситуации?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/24-16.jpg",
+        img: "img/tickets/24-16.jpg",
         answer: [
             "Объехать шлагбаум, т.к. светофор не запрещает движение.",
             "Остановиться и продолжить движение только при открытом шлагбауме."
@@ -5267,7 +5267,7 @@ var questions = [
     //B25
     {
         text: "На каком рисунке изображена дорога с разделительной полосой?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/25-01.jpg",
+        img: "img/tickets/25-01.jpg",
         answer: [
             "Только на правом.",
             "На обоих.",
@@ -5278,7 +5278,7 @@ var questions = [
     },
     {
         text: "В каких направлениях вам разрешено продолжить движение на грузовом автомобиле с разрешенной максимальной массой 3т?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/25-02.jpg",
+        img: "img/tickets/25-02.jpg",
         answer: [
             "Только прямо.",
             "Только налево или направо.",
@@ -5289,7 +5289,7 @@ var questions = [
     },
     {
         text: "Какой из знаков отменяет все ограничения, введенные ранее запрещающими знаками?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/25-03.jpg",
+        img: "img/tickets/25-03.jpg",
         answer: [
             "Только А и Б.",
             "Только В и Г.",
@@ -5301,7 +5301,7 @@ var questions = [
     },
     {
         text: "этот знак указывает, что:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/25-04.jpg",
+        img: "img/tickets/25-04.jpg",
         answer: [
             "Вы должны повернуть направо или налево.",
             "На пересекаемой дороге организовано реверсивное движение.",
@@ -5312,7 +5312,7 @@ var questions = [
     },
     {
         text: "Какой маневр запрещает вам данная линия разметки?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/25-05.jpg",
+        img: "img/tickets/25-05.jpg",
         answer: [
             "Только обгон.",
             "Только объезд.",
@@ -5324,7 +5324,7 @@ var questions = [
     },
     {
         text: "На какие транспортные средства распространяются сигналы такого светофора?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/25-06.jpg",
+        img: "img/tickets/25-06.jpg",
         answer: [
             "Только на трамваи.",
             "На трамваи, а также другие маршрутные транспортные средства, движущиеся по выделенной для них полосе.",
@@ -5335,7 +5335,7 @@ var questions = [
     },
     {
         text: "Обязаны ли вы включить указатели поворота в данной ситуации?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/25-07.jpg",
+        img: "img/tickets/25-07.jpg",
         answer: [
             "Да.",
             "Нет.",
@@ -5346,7 +5346,7 @@ var questions = [
     },
     {
         text: "Кто должен уступить дорогу?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/25-08.jpg",
+        img: "img/tickets/25-08.jpg",
         answer: [
             "Водитель легкового автомобиля.",
             "Водитель грузового автомобиля."
@@ -5356,7 +5356,7 @@ var questions = [
     },
     {
         text: "Вы случайно проехали поворот на перекрестке. Разрешено ли вам в этой ситуации использовать задний ход, чтобы затем продолжить движение налево?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/25-09.jpg",
+        img: "img/tickets/25-09.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -5377,7 +5377,7 @@ var questions = [
     },
     {
         text: "Разрешен ли вам обгон?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/25-11.jpg",
+        img: "img/tickets/25-11.jpg",
         answer: [
             "Да, если скорость грузового автомобиля менее 30 км/ч.",
             "Да.",
@@ -5388,7 +5388,7 @@ var questions = [
     },
     {
         text: "Разрешена ли вам остановка в указанном месте?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/25-12.jpg",
+        img: "img/tickets/25-12.jpg",
         answer: [
             "Разрешена.",
             "Разрешена, но только при отсутствии пешеходов на переходе.",
@@ -5411,7 +5411,7 @@ var questions = [
     },
     {
         text: "При повороте направо вы должны уступить дорогу:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/25-14.jpg",
+        img: "img/tickets/25-14.jpg",
         answer: [
             "Только велосипедистам.",
             "Только пешеходам.",
@@ -5423,7 +5423,7 @@ var questions = [
     },
     {
         text: "Вы намерены повернуть налево. Кому следует уступить дорогу?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/25-15.jpg",
+        img: "img/tickets/25-15.jpg",
         answer: [
             "Только легковому автомобилю.",
             "Легковому автомобилю и автобусу.",
@@ -5434,7 +5434,7 @@ var questions = [
     },
     {
         text: "Как вы должны действовать в данной ситуации?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/25-16.jpg",
+        img: "img/tickets/25-16.jpg",
         answer: [
             "Проехать железнодорожный переезд без остановки перед знаком.",
             "Остановиться перед знаком и продолжить движение сразу же после проезда поезда.",
@@ -5490,7 +5490,7 @@ var questions = [
     //B26
     {
         text: "Выезд из двора или с другой прилегающей территории:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/26-01.jpg",
+        img: "img/tickets/26-01.jpg",
         answer: [
             "Считается перекрестком равнозначных дорог.",
             "Считается перекрестком неравнозначных дорог.",
@@ -5501,7 +5501,7 @@ var questions = [
     },
     {
         text: "Какие знаки требуют обязательной остановки?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/26-02.jpg",
+        img: "img/tickets/26-02.jpg",
         answer: [
             "Только А и Б.",
             "Только Б.",
@@ -5513,7 +5513,7 @@ var questions = [
     },
     {
         text: "В каких случаях вам разрешается использовать звуковой сигнал в зоне действия этого знака?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/26-03.jpg",
+        img: "img/tickets/26-03.jpg",
         answer: [
             "Только для предупреждения об обгоне.",
             "Только для предотвращения дорожно-транспортного происшествия.",
@@ -5524,7 +5524,7 @@ var questions = [
     },
     {
         text: "Что означают эти дорожные знаки?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/26-04.jpg",
+        img: "img/tickets/26-04.jpg",
         answer: [
             "Стоянка разрешена только транспортным средствам оперативных служб.",
             "Стоянка разрешена только с включенными габаритными огнями.",
@@ -5535,7 +5535,7 @@ var questions = [
     },
     {
         text: "Такой вертикальной разметкой обозначают:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/26-05.jpg",
+        img: "img/tickets/26-05.jpg",
         answer: [
             "Боковые поверхности ограждений только на опасных участках дорог.",
             "Боковые поверхности ограждений на других участках дорог.",
@@ -5557,7 +5557,7 @@ var questions = [
     },
     {
         text: "Обязаны ли вы включить сигнал левого поворота в данной ситуации?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/26-07.jpg",
+        img: "img/tickets/26-07.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -5567,7 +5567,7 @@ var questions = [
     },
     {
         text: "В каких направлениях вы можете продолжить движение по второй полосе?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/26-08.jpg",
+        img: "img/tickets/26-08.jpg",
         answer: [
             "Только налево.",
             "Только налево и в обратном направлении.",
@@ -5578,7 +5578,7 @@ var questions = [
     },
     {
         text: "Вы случайно проехали нужный въезд во двор. Разрешено ли вам в этой ситуации использовать задний ход, чтобы затем повернуть направо?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/26-09.jpg",
+        img: "img/tickets/26-09.jpg",
         answer: [
             "Да, если не будет создано помех движению маршрутных транспортных средств.",
             "Нет."
@@ -5588,7 +5588,7 @@ var questions = [
     },
     {
         text: "По какой таректории вы можете продолжить движение?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/26-10.jpg",
+        img: "img/tickets/26-10.jpg",
         answer: [
             "Только по А.",
             "Только по Б.",
@@ -5609,7 +5609,7 @@ var questions = [
     },
     {
         text: "Водитель какого автомобиля нарушил правила остановки?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/26-12.jpg",
+        img: "img/tickets/26-12.jpg",
         answer: [
             "Только Б.",
             "Только Б и В.",
@@ -5620,7 +5620,7 @@ var questions = [
     },
     {
         text: "Кто должен уступить дорогу?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/26-13.jpg",
+        img: "img/tickets/26-13.jpg",
         answer: [
             "Водитель автомобиля, приближающегося слева.",
             "Водитель трамвая."
@@ -5630,7 +5630,7 @@ var questions = [
     },
     {
         text: "Вы намерены повернуть налево. Кому вы должны уступить дорогу?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/26-14.jpg",
+        img: "img/tickets/26-14.jpg",
         answer: [
             "Обоим транспортным средствам.",
             "Только грузовому автомобилю.",
@@ -5641,7 +5641,7 @@ var questions = [
     },
     {
         text: "Вы намерены продолжить движение прямо. Кому следует уступить дорогу?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/26-15.jpg",
+        img: "img/tickets/26-15.jpg",
         answer: [
             "Только легковому автомобилю.",
             "Только автобусу и легковому автомобилю.",
@@ -5663,7 +5663,7 @@ var questions = [
     },
     {
         text: "На каком рисунке изображен автомобиль, водитель которого не нарушает правил перевозки грузов?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/26-17.jpg",
+        img: "img/tickets/26-17.jpg",
         answer: [
             "Только на А.",
             "Только на Б.",
@@ -5717,7 +5717,7 @@ var questions = [
     },
     {
         text: "Какой знак используется для обозначения искусственной неровности?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/27-02.jpg",
+        img: "img/tickets/27-02.jpg",
         answer: [
             "Только А.",
             "Только Б.",
@@ -5729,7 +5729,7 @@ var questions = [
     },
     {
         text: "Каким транспортным средствам разрешена остановка в зоне действия знака?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/27-03.jpg",
+        img: "img/tickets/27-03.jpg",
         answer: [
             "Только маршрутным транспортным средствам.",
             "Только такси с включенным таксометром.",
@@ -5740,7 +5740,7 @@ var questions = [
     },
     {
         text: "Управляя каким автомобилем, вы можете опередить легковой автомобиль?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/27-04.jpg",
+        img: "img/tickets/27-04.jpg",
         answer: [
             "Только легковым.",
             "Только легковым или грузовым с разрешенной массой менее 3,5 т.",
@@ -5751,7 +5751,7 @@ var questions = [
     },
     {
         text: "Эта разметка обозначает:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/27-05.jpg",
+        img: "img/tickets/27-05.jpg",
         answer: [
             "Номер дороги или маршрута.",
             "Рекомендуемую скорость движения на данном участке дороги.",
@@ -5773,7 +5773,7 @@ var questions = [
     },
     {
         text: "Такой сигнал рукой, подаваемый мотоциклистом, движущимся по левой полосе, информирует:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/27-07.jpg",
+        img: "img/tickets/27-07.jpg",
         answer: [
             "О его наммерении продолжить движение прямо.",
             "О его намерении повернуть направо.",
@@ -5784,7 +5784,7 @@ var questions = [
     },
     {
         text: "При перерстроении на правую полосу вы:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/27-08.jpg",
+        img: "img/tickets/27-08.jpg",
         answer: [
             "Должны уступить дорогу всем транспортным средствам, движущимся по соседней полосе.",
             "Имеете преимущество."
@@ -5794,7 +5794,7 @@ var questions = [
     },
     {
         text: "По какой таректории вы можете выполнить разворот?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/27-09.jpg",
+        img: "img/tickets/27-09.jpg",
         answer: [
             "Только по А.",
             "Только по Б.",
@@ -5805,7 +5805,7 @@ var questions = [
     },
     {
         text: "По какой полосе вы можете продолжить движение, опередив грузовой автомобиль в населенном пункте?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/27-10.jpg",
+        img: "img/tickets/27-10.jpg",
         answer: [
             "Только по правой.",
             "По любой."
@@ -5826,7 +5826,7 @@ var questions = [
     },
     {
         text: "Разрешена ли водителям остановка в указанных местах?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/27-12.jpg",
+        img: "img/tickets/27-12.jpg",
         answer: [
             "Разрешена.",
             "Разрешена только мотоциклисту.",
@@ -5837,7 +5837,7 @@ var questions = [
     },
     {
         text: "Вы намерены повернуть направо. Ваши действия?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/27-13.jpg",
+        img: "img/tickets/27-13.jpg",
         answer: [
             "Уступите дорогу трамваю.",
             "Проедете перекресток первым."
@@ -5847,7 +5847,7 @@ var questions = [
     },
     {
         text: "Вы намерены развернуться. Ваши действия?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/27-14.jpg",
+        img: "img/tickets/27-14.jpg",
         answer: [
             "Развернетесь первым.",
             "Выедете на перекресток и, уступив дорогу автомобилю, завершите разворот."
@@ -5857,7 +5857,7 @@ var questions = [
     },
     {
         text: "Вы намерены продолжить движение прямо. Каковы ваши действия при желтом мигающем сигнале светофора?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/27-15.jpg",
+        img: "img/tickets/27-15.jpg",
         answer: [
             "Уступите дорогу только трамваю.",
             "Уступите дорогу только автомобилю.",
@@ -5868,7 +5868,7 @@ var questions = [
     },
     {
         text: "На каком наименьшем расстоянии до ближайшего рельса вы должны остановиться?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/27-16.jpg",
+        img: "img/tickets/27-16.jpg",
         answer: [
             "5 м.",
             "10 м.",
@@ -5934,7 +5934,7 @@ var questions = [
     },
     {
         text: "По какой траектории вы можете продолжить движение?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/28-02.jpg",
+        img: "img/tickets/28-02.jpg",
         answer: [
             "Только по А.",
             "Только по Б.",
@@ -5945,7 +5945,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам произвести остановку для посадки пассажира?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/28-03.jpg",
+        img: "img/tickets/28-03.jpg",
         answer: [
             "Разрешено.",
             "Разрешено только по четным числам месяца.",
@@ -5957,7 +5957,7 @@ var questions = [
     },
     {
         text: "Какие знаки используются для обозначения номера, присвоенного дороге (маршруту)?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/28-04.jpg",
+        img: "img/tickets/28-04.jpg",
         answer: [
             "Только А.",
             "Только Б.",
@@ -5980,7 +5980,7 @@ var questions = [
     },
     {
         text: "В каких направлениях вам разрешено движение?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/28-06.jpg",
+        img: "img/tickets/28-06.jpg",
         answer: [
             "Только прямо.",
             "Только направо.",
@@ -6002,7 +6002,7 @@ var questions = [
     },
     {
         text: "По какой траектории вам разрешено повернуть налево?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/28-08.jpg",
+        img: "img/tickets/28-08.jpg",
         answer: [
             "Только по А.",
             "Только по В.",
@@ -6013,7 +6013,7 @@ var questions = [
     },
     {
         text: "Разрешено ли водителю подъехать задним ходом к пассажиру на этом участке дороги?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/28-09.jpg",
+        img: "img/tickets/28-09.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -6023,7 +6023,7 @@ var questions = [
     },
     {
         text: "Разрешается ли вам, управляя грузовым автомобилем с разрешенной максимальной массой более 3,5 т выехать на третью полосу в данной ситуации?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/28-10.jpg",
+        img: "img/tickets/28-10.jpg",
         answer: [
             "Разрешается.",
             "Разрешается только для поворота налево или разворота.",
@@ -6035,7 +6035,7 @@ var questions = [
     },
     {
         text: "Можете ли вы обогнать трактор, управляя грузовым автомобилем с разрешенной максимальной массой не более 3,5 т?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/28-11.jpg",
+        img: "img/tickets/28-11.jpg",
         answer: [
             "Да.",
             "Да, если скорость трактора менее 30 км/ч.",
@@ -6046,7 +6046,7 @@ var questions = [
     },
     {
         text: "В каком месте вы можете произвести остановку?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/28-12.jpg",
+        img: "img/tickets/28-12.jpg",
         answer: [
             "Только В.",
             "Только Б и В.",
@@ -6057,7 +6057,7 @@ var questions = [
     },
     {
         text: "Вы намерены повернуть налево. Кому следует уступить дорогу?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/28-13.jpg",
+        img: "img/tickets/28-13.jpg",
         answer: [
             "Только автомобилю.",
             "Только трамваю.",
@@ -6069,7 +6069,7 @@ var questions = [
     },
     {
         text: "Намереваясь продолжить движение в прямом направлении, вы должны:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/28-14.jpg",
+        img: "img/tickets/28-14.jpg",
         answer: [
             "Проехать перекресток первым.",
             "Уступить дорогу грузовому автомобилю."
@@ -6079,7 +6079,7 @@ var questions = [
     },
     {
         text: "Вы намерены развернуться. Кому вы должны уступить дорогу?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/28-15.jpg",
+        img: "img/tickets/28-15.jpg",
         answer: [
             "Только грузовому автомобилю.",
             "Только легковому автомобилю.",
@@ -6090,7 +6090,7 @@ var questions = [
     },
     {
         text: "Двигаясь по автомагистрали, вы можете произвести остановку:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/28-16.jpg",
+        img: "img/tickets/28-16.jpg",
         answer: [
             "Только через 500 м.",
             "В любом месте правее линии, обозначающей край проезжей части.",
@@ -6158,7 +6158,7 @@ var questions = [
     },
     {
         text: "Какие знаки представляют вам преимущество при проезде нерегулируемых перекрестков?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/29-02.jpg",
+        img: "img/tickets/29-02.jpg",
         answer: [
             "Только А.",
             "А и В.",
@@ -6169,7 +6169,7 @@ var questions = [
     },
     {
         text: "Разрешен ли вам обгон?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/29-03.jpg",
+        img: "img/tickets/29-03.jpg",
         answer: [
             "Разрешен.",
             "Разрешен, если скорость мотоцикла менее 30 км/ч.",
@@ -6180,7 +6180,7 @@ var questions = [
     },
     {
         text: "Разрешено ли водителю поставить грузовой автомобиль на стоянку в этом месте указанным способом?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/29-04.jpg",
+        img: "img/tickets/29-04.jpg",
         answer: [
             "Да.",
             "Да, если разрешенная максимальная масса автомобиля менее 3,5 т.",
@@ -6191,7 +6191,7 @@ var questions = [
     },
     {
         text: "Такой вертикальной разметкой обозначают:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/29-05.jpg",
+        img: "img/tickets/29-05.jpg",
         answer: [
             "Только нижний край искусственных сооружений (тоннелей, мостов и путепроводов).",
             "Только въезд в неосвещенные тоннели.",
@@ -6202,7 +6202,7 @@ var questions = [
     },
     {
         text: "В каком месте вам следует остановиться?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/29-06.jpg",
+        img: "img/tickets/29-06.jpg",
         answer: [
             "Перед светофором.",
             "Перед стоп-линией.",
@@ -6224,7 +6224,7 @@ var questions = [
     },
     {
         text: "Кто нарушает правила поворота на перекрестке?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/29-08.jpg",
+        img: "img/tickets/29-08.jpg",
         answer: [
             "Только водитель мотоцикла, поворачивающий налево.",
             "Только водитель автомобиля.",
@@ -6236,7 +6236,7 @@ var questions = [
     },
     {
         text: "Разрешено ли водителю движение задним ходом при отсутствии других участников движения?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/29-09.jpg",
+        img: "img/tickets/29-09.jpg",
         answer: [
             "Разрешено, но только до пешеходного перехода.",
             "Запрещено.",
@@ -6258,7 +6258,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам совершить такой маневр?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/29-11.jpg",
+        img: "img/tickets/29-11.jpg",
         answer: [
             "Разрешено.",
             "Запрещено."
@@ -6268,7 +6268,7 @@ var questions = [
     },
     {
         text: "Кто из водителей нарушил правила остановки?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/29-12.jpg",
+        img: "img/tickets/29-12.jpg",
         answer: [
             "Только водитель автомобиля А.",
             "Только водитель автомобиля Б.",
@@ -6280,7 +6280,7 @@ var questions = [
     },
     {
         text: "Вы намерены повернуть налево. Ваши действия?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/29-13.jpg",
+        img: "img/tickets/29-13.jpg",
         answer: [
             "Выполните маневр без остановки на перекрестке.",
             "Выехав на перекресток, остановитесь у стоп-линии и, дождавшись зеленого сигнала светофора на разделительной полосе, завершите маневр."
@@ -6290,7 +6290,7 @@ var questions = [
     },
     {
         text: "Вы намерены повернуть налево. Ваши действия?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/29-14.jpg",
+        img: "img/tickets/29-14.jpg",
         answer: [
             "Уступите дорогу трамваю.",
             "Проедете перекресток первым."
@@ -6300,7 +6300,7 @@ var questions = [
     },
     {
         text: "Вы намерены проехать перекресток в прямом направлении. Следует ли уступить дорогу грузовому автомобилю, выезжающему с грунтовой дороги?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/29-15.jpg",
+        img: "img/tickets/29-15.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -6310,7 +6310,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам, управляя грузовым автомобилем, совершить опережение в данной ситуации?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/29-16.jpg",
+        img: "img/tickets/29-16.jpg",
         answer: [
             "Да, если разрешенная максимальная масса вашего автомобиля менее 3,5 т.",
             "Да, независимо от величины разрешенной максимальной массы вашего автомобиля.",
@@ -6367,7 +6367,7 @@ var questions = [
     //B30
     {
         text: "На каком рисунке изображен перекресток?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/30-01.jpg",
+        img: "img/tickets/30-01.jpg",
         answer: [
             "Только на левом.",
             "Только на правом.",
@@ -6378,7 +6378,7 @@ var questions = [
     },
     {
         text: "По какой траектории вы можете выполнить разворот?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/30-02.jpg",
+        img: "img/tickets/30-02.jpg",
         answer: [
             "Только по А.",
             "Только по Б.",
@@ -6389,7 +6389,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам поставить автомобиль на стоянку в указанном месте по нечетным числам месяца?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/30-03.jpg",
+        img: "img/tickets/30-03.jpg",
         answer: [
             "Разрешено.",
             "Разрешено только после 19 часов.",
@@ -6400,7 +6400,7 @@ var questions = [
     },
     {
         text: "Какими знаками обозначают участки, на которых водитель обязан уступить дорогу пешеходам, находящимся на проезжей части?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/30-04.jpg",
+        img: "img/tickets/30-04.jpg",
         answer: [
             "Только А и Б.",
             "Только Б и В.",
@@ -6411,7 +6411,7 @@ var questions = [
     },
     {
         text: "Что означает надпись на проезжей части дороги?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/30-05.jpg",
+        img: "img/tickets/30-05.jpg",
         answer: [
             "Расстояние до ближайшего перекрестка.",
             "Расстояние до ближайшего населенного пункта.",
@@ -6422,7 +6422,7 @@ var questions = [
     },
     {
         text: "В каких направлениях вы можете продолжить движение?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/30-06.jpg",
+        img: "img/tickets/30-06.jpg",
         answer: [
             "Прямо или направо.",
             "Только прямо.",
@@ -6443,7 +6443,7 @@ var questions = [
     },
     {
         text: "Вы собираетесь начать движение от тротуара. Должны ли вы уступить дорогу автомобилю, выполняющему разворот?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/30-08.jpg",
+        img: "img/tickets/30-08.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -6453,7 +6453,7 @@ var questions = [
     },
     {
         text: "Разрешено ли водителю легкового автомобиля подъехать задним ходом к пассажиру, стоящему на тротуаре в тоннеле?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/30-09.jpg",
+        img: "img/tickets/30-09.jpg",
         answer: [
             "Да.",
             "Да, если не будут созданы помехи другим участникам движения.",
@@ -6464,7 +6464,7 @@ var questions = [
     },
     {
         text: "По какой полосе вам разрешено движение на легковом автомобиле в данной ситуации?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/30-10.jpg",
+        img: "img/tickets/30-10.jpg",
         answer: [
             "По любой.",
             "Только по правой.",
@@ -6485,7 +6485,7 @@ var questions = [
     },
     {
         text: "Нарушил ли водитель легкового автомобиля Правила, поставив автомобиль на стоянку указанным способом?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/30-12.jpg",
+        img: "img/tickets/30-12.jpg",
         answer: [
             "Нет.",
             "Нет, если при этом не создаются помехи движения других транспортных средств.",
@@ -6496,7 +6496,7 @@ var questions = [
     },
     {
         text: "Вы намерены повернуть налево. Следует ли уступить дорогу грузовому автомобилю?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/30-13.jpg",
+        img: "img/tickets/30-13.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -6506,7 +6506,7 @@ var questions = [
     },
     {
         text: "При желтом мигающем сигнале светофора, двигаясь прямо, вы должны:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/30-14.jpg",
+        img: "img/tickets/30-14.jpg",
         answer: [
             "Остановиться и продолжить движение только после включения зеленого сигнала светофора.",
             "Уступить дорогу гужевой повозке.",
@@ -6517,7 +6517,7 @@ var questions = [
     },
     {
         text: "Вы намерены повернуть налево. Кому следует уступить дорогу?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/30-15.jpg",
+        img: "img/tickets/30-15.jpg",
         answer: [
             "Только автобусу.",
             "Легковому автомобилю и автобусу.",
@@ -6562,7 +6562,7 @@ var questions = [
     },
     {
         text: "На каком рисунке показано правильное положение рук на рулевом колесе?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/30-19.jpg",
+        img: "img/tickets/30-19.jpg",
         answer: [
             "На левом.",
             "На среднем.",
@@ -6585,7 +6585,7 @@ var questions = [
     //B31
     {
         text: "Сколько полос для движения имеет данная дорога?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/31-01.jpg",
+        img: "img/tickets/31-01.jpg",
         answer: [
             "Две.",
             "Четыре."
@@ -6595,7 +6595,7 @@ var questions = [
     },
     {
         text: "Какие знаки информируют вас о приближении к началу участка дороги со встречным движением?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/31-02.jpg",
+        img: "img/tickets/31-02.jpg",
         answer: [
             "Только А.",
             "Только А и Б.",
@@ -6606,7 +6606,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам подъехать к месту своей работы, расположенному в зоне действия этих знаков?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/31-03.jpg",
+        img: "img/tickets/31-03.jpg",
         answer: [
             "Разрешено только в нерабочие дни.",
             "Разрешено только в рабочие дни.",
@@ -6618,7 +6618,7 @@ var questions = [
     },
     {
         text: "Вы буксируете неисправный автмообиль. По какой полосе вы можете продолжить движение?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/31-04.jpg",
+        img: "img/tickets/31-04.jpg",
         answer: [
             "Только по правой.",
             "По любой."
@@ -6640,7 +6640,7 @@ var questions = [
     },
     {
         text: "О чем информируют вас стрелки на зеленом сигнале светофора?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/31-06.jpg",
+        img: "img/tickets/31-06.jpg",
         answer: [
             "На этом перекрестке всегда запрещен поворот направо?",
             "Движение направо регулируется дополнительной секцией."
@@ -6650,7 +6650,7 @@ var questions = [
     },
     {
         text: "Вытянутая рука водителя стоящего легкового автомобиля является предупреждающим сигналом, информирующим вас:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/31-07.jpg",
+        img: "img/tickets/31-07.jpg",
         answer: [
             "О его намерении начать движение.",
             "О его просьбе оказать помощь.",
@@ -6661,7 +6661,7 @@ var questions = [
     },
     {
         text: "Водитель какого транспортного средства нарушает Правила?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/31-08.jpg",
+        img: "img/tickets/31-08.jpg",
         answer: [
             "Только легкового автомобиля.",
             "Обоих транспортных средств.",
@@ -6672,7 +6672,7 @@ var questions = [
     },
     {
         text: "Разрешается ли вам выполнить разворот на перекрестке?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/31-09.jpg",
+        img: "img/tickets/31-09.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -6693,7 +6693,7 @@ var questions = [
     },
     {
         text: "При затрудненном встречном разъезде на таком участке дороги преимущество имеет:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/31-11.jpg",
+        img: "img/tickets/31-11.jpg",
         answer: [
             "Водитель легкового автомобиля.",
             "Водитель грузового автомобиля."
@@ -6703,7 +6703,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам поставить автомобиль на стоянку в указанном месте?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/31-12.jpg",
+        img: "img/tickets/31-12.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -6713,7 +6713,7 @@ var questions = [
     },
     {
         text: "Вы намерены повернуть налево. Ваши действия?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/31-13.jpg",
+        img: "img/tickets/31-13.jpg",
         answer: [
             "Выехав на перекресток, дождетесь сигнала регулировщика, разрешающего поворот, и повернете.",
             "Остановитесь у стоп-линии, дождетесь сигнала регулировщика, разрешающего поворот, и повернете.",
@@ -6724,7 +6724,7 @@ var questions = [
     },
     {
         text: "Вы намерены проехать перекресток в прямом направлении. Должны ли вы уступить дорогу грузовому автмообилю?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/31-14.jpg",
+        img: "img/tickets/31-14.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -6734,7 +6734,7 @@ var questions = [
     },
     {
         text: "Вы намерены продолжить движение прямо. Кому следует уступить дорогу?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/31-15.jpg",
+        img: "img/tickets/31-15.jpg",
         answer: [
             "Только мотоциклу.",
             "Только мотоциклу и легковому автомобилю.",
@@ -6746,7 +6746,7 @@ var questions = [
     },
     {
         text: "Можно ли обучать вождению на этой дороге?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/31-16.jpg",
+        img: "img/tickets/31-16.jpg",
         answer: [
             "Можно, используя для движения только правую полосу проезжей части.",
             "Можно только при наличии данного опознавательного знака.",
@@ -6813,7 +6813,7 @@ var questions = [
     },
     {
         text: "Какие знаки информируют вас, что на перекрестке необходимо уступить дорогу транспортным средствам, приближающимся слева?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/32-02.jpg",
+        img: "img/tickets/32-02.jpg",
         answer: [
             "Только А.",
             "Только Б.",
@@ -6825,7 +6825,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам при управлении легковым автомобилем с прицепом продолжить движение в прямом направлении при наличии на дороге такого знака?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/32-03.jpg",
+        img: "img/tickets/32-03.jpg",
         answer: [
             "Разрешено.",
             "Разрешено, если вы проживаете в зоне действия знака.",
@@ -6836,7 +6836,7 @@ var questions = [
     },
     {
         text: "В каком направлении вам разрешено движение?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/32-04.jpg",
+        img: "img/tickets/32-04.jpg",
         answer: [
             "Только Б.",
             "Только А и Б.",
@@ -6848,7 +6848,7 @@ var questions = [
     },
     {
         text: "Разметкой в виде буквы \"А\" обозначают:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/32-05.jpg",
+        img: "img/tickets/32-05.jpg",
         answer: [
             "Специальную полосу для любых автобусов.",
             "Специальную полосу для маршрутных транспортных средств.",
@@ -6859,7 +6859,7 @@ var questions = [
     },
     {
         text: "Можете ли вы двигаться по второй полосе?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/32-06.jpg",
+        img: "img/tickets/32-06.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -6869,7 +6869,7 @@ var questions = [
     },
     {
         text: "Обязаны ли вы включить правые указатели поворота при въезде на этот перекресток?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/32-07.jpg",
+        img: "img/tickets/32-07.jpg",
         answer: [
             "Да.",
             "Нет.",
@@ -6891,7 +6891,7 @@ var questions = [
     },
     {
         text: "Разрешен ли разворот на участках дорог, обозначенных этим знаком?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/32-09.jpg",
+        img: "img/tickets/32-09.jpg",
         answer: [
             "Разрешен только в населенных пунктах.",
             "Разрешен только при видимости дороги более 100 м.",
@@ -6902,7 +6902,7 @@ var questions = [
     },
     {
         text: "Разрешено ли водителю легкового автомобиля выполнить поворот налево?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/32-10.jpg",
+        img: "img/tickets/32-10.jpg",
         answer: [
             "Разрешено только с прицепом.",
             "Разрешено.",
@@ -6924,7 +6924,7 @@ var questions = [
     },
     {
         text: "В каком из указанных мест вы можете остановиться?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/32-12.jpg",
+        img: "img/tickets/32-12.jpg",
         answer: [
             "Только В.",
             "Только А и В.",
@@ -6936,7 +6936,7 @@ var questions = [
     },
     {
         text: "Вы намерены повернуть налево. Ваши действия?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/32-13.jpg",
+        img: "img/tickets/32-13.jpg",
         answer: [
             "Проедете перекресток первым.",
             "Уступите дорогу только грузовому автомобилю с включенным проблесковым маячком.",
@@ -6947,7 +6947,7 @@ var questions = [
     },
     {
         text: "Намереваясь продолжить движение в прямом направлении, вы должны:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/32-14.jpg",
+        img: "img/tickets/32-14.jpg",
         answer: [
             "Проехать перекресток первым.",
             "Пропустить автомобиль с включенными проблесковым маячком и специальным звуковым сигналом."
@@ -6957,7 +6957,7 @@ var questions = [
     },
     {
         text: "Вы намерены продолжить движение прямо. Кому следует уступить дорогу?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/32-15.jpg",
+        img: "img/tickets/32-15.jpg",
         answer: [
             "Только трамваю.",
             "Только легковому автомобилю.",
@@ -7002,7 +7002,7 @@ var questions = [
     },
     {
         text: "На каком рисунке водитель выполняет левый поворот по траектории, обеспечиващей наибольшую безопасность движения?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/32-19.jpg",
+        img: "img/tickets/32-19.jpg",
         answer: [
             "На правом.",
             "На левом."
@@ -7024,7 +7024,7 @@ var questions = [
     //B33
     {
         text: "Какой маневр намеревается выполнить водитель легкового автомобиля?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/33-01.jpg",
+        img: "img/tickets/33-01.jpg",
         answer: [
             "Обгон.",
             "Перестроение с дальнейшим опережением.",
@@ -7035,7 +7035,7 @@ var questions = [
     },
     {
         text: "Этот знак:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/33-02.jpg",
+        img: "img/tickets/33-02.jpg",
         answer: [
             "Показывает направление движения на перекрестке.",
             "Указывает, что на пересекаемой дороге движение осуществляется по двум полосам."
@@ -7045,7 +7045,7 @@ var questions = [
     },
     {
         text: "С какой скоростью вы можете двигаться на грузовом автомобиле с разрешенной максимальной массой не более 3,5 т?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/33-03.jpg",
+        img: "img/tickets/33-03.jpg",
         answer: [
             "Не более 50 км/ч.",
             "Не более 70 км/ч.",
@@ -7056,7 +7056,7 @@ var questions = [
     },
     {
         text: "Какие знаки указывают протяженность зоны для разворота?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/33-04.jpg",
+        img: "img/tickets/33-04.jpg",
         answer: [
             "Только А.",
             "Только Б.",
@@ -7067,7 +7067,7 @@ var questions = [
     },
     {
         text: "Этой линией обозначают:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/33-05.jpg",
+        img: "img/tickets/33-05.jpg",
         answer: [
             "Участок дороги, где запрещено движение вблизи тротуара.",
             "Места, где запрещена любая остановка.",
@@ -7078,7 +7078,7 @@ var questions = [
     },
     {
         text: "Обязаны ли вы уступить дорогу автомобилю \"Скорой медицинской помощи\" с выключенным проблесковым маячком?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/33-06.jpg",
+        img: "img/tickets/33-06.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -7099,7 +7099,7 @@ var questions = [
     },
     {
         text: "Разрешен ли вам поворот направо по указанной траектории в данной ситуации?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/33-08.jpg",
+        img: "img/tickets/33-08.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -7109,7 +7109,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам выполнить разворот по указанным траекториям?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/33-09.jpg",
+        img: "img/tickets/33-09.jpg",
         answer: [
             "Разрешено только по А.",
             "Разрешено только по Б.",
@@ -7120,7 +7120,7 @@ var questions = [
     },
     {
         text: "По какой полосе вы можете продолжить движение, завершив опережение вне населенного пункта?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/33-10.jpg",
+        img: "img/tickets/33-10.jpg",
         answer: [
             "Только по правой.",
             "По любой."
@@ -7130,7 +7130,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам обогнать грузовой автомобиль в конце подъема?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/33-11.jpg",
+        img: "img/tickets/33-11.jpg",
         answer: [
             "Разрешено, если скорость грузового автомобиля не более 30 км/ч.",
             "Разрешено.",
@@ -7141,7 +7141,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам поставить автомобиль на стоянку в указанном месте при наличии узкой обочины?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/33-12.jpg",
+        img: "img/tickets/33-12.jpg",
         answer: [
             "Разрешено.",
             "Разрешено, но только в светлое время суток.",
@@ -7152,7 +7152,7 @@ var questions = [
     },
     {
         text: "Вы намерены повернуть направо. Ваши действия?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/33-13.jpg",
+        img: "img/tickets/33-13.jpg",
         answer: [
             "Уступите дорогу только трамваю А.",
             "Уступите дорогу только трамваю Б.",
@@ -7164,7 +7164,7 @@ var questions = [
     },
     {
         text: "Вы намерены повернуть налево. Ваши действия?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/33-14.jpg",
+        img: "img/tickets/33-14.jpg",
         answer: [
             "Проедете перекресток первым.",
             "Выедете на перекресток и, уступив дорогу мотоциклисту, завершите поворот."
@@ -7174,7 +7174,7 @@ var questions = [
     },
     {
         text: "Вы намерены продолжить движение прямо. Кому следует уступить дорогу?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/33-15.jpg",
+        img: "img/tickets/33-15.jpg",
         answer: [
             "Только легковому автомобилю.",
             "Только грузовому автомобилю.",
@@ -7185,7 +7185,7 @@ var questions = [
     },
     {
         text: "Кто из водителей нарушил Правила?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/33-16.jpg",
+        img: "img/tickets/33-16.jpg",
         answer: [
             "Никто из водителей.",
             "Только водитель трактора.",
@@ -7242,7 +7242,7 @@ var questions = [
     //B34
     {
         text: "На каких рисунках показана главная дорога?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/34-01.jpg",
+        img: "img/tickets/34-01.jpg",
         answer: [
             "Только на левом верхнем.",
             "Только на правом верхнем.",
@@ -7254,7 +7254,7 @@ var questions = [
     },
     {
         text: "На каком расстоянии до скользкого участка дороги устанавливается этот знак в населенном пункте?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/34-02.jpg",
+        img: "img/tickets/34-02.jpg",
         answer: [
             "150-300 м.",
             "50-100 м.",
@@ -7265,7 +7265,7 @@ var questions = [
     },
     {
         text: "Каким тарнспортным средствам разрешена остановка в зоне действия знака?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/34-03.jpg",
+        img: "img/tickets/34-03.jpg",
         answer: [
             "Только такси с включенным таксометром.",
             "Только автомобилям, на которых установлен опознавательный знак \"Инвалид\".",
@@ -7276,7 +7276,7 @@ var questions = [
     },
     {
         text: "Какой из знаков используется для обозначения кемпинга?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/34-04.jpg",
+        img: "img/tickets/34-04.jpg",
         answer: [
             "Только А.",
             "Только Б.",
@@ -7288,7 +7288,7 @@ var questions = [
     },
     {
         text: "Как вы должны действовать, если реверсивные светофоры выключились?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/34-05.jpg",
+        img: "img/tickets/34-05.jpg",
         answer: [
             "Немедленно перестроиться на правую полосу.",
             "Можете продолжить движение по полосе только до перекрестка.",
@@ -7299,7 +7299,7 @@ var questions = [
     },
     {
         text: "В каких направлениях вам разрешено продолжить движение?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/34-06.jpg",
+        img: "img/tickets/34-06.jpg",
         answer: [
             "Только налево.",
             "Только в обратном направлении.",
@@ -7321,7 +7321,7 @@ var questions = [
     },
     {
         text: "Въезжая во двор, вы обязаны уступить дорогу:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/34-08.jpg",
+        img: "img/tickets/34-08.jpg",
         answer: [
             "Только велосипедисту.",
             "Только пешеходам.",
@@ -7333,7 +7333,7 @@ var questions = [
     },
     {
         text: "Разрешен ли вам разворот в этом месте?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/34-09.jpg",
+        img: "img/tickets/34-09.jpg",
         answer: [
             "Разрешен.",
             "Разрешен, если не будет создано помех движению маршрутных транспортных средств.",
@@ -7344,7 +7344,7 @@ var questions = [
     },
     {
         text: "Кто из мотоциклистов занял правильное положение на полосе движения?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/34-10.jpg",
+        img: "img/tickets/34-10.jpg",
         answer: [
             "Только мотоциклист, занимающий левое положение на полосе движения.",
             "Только мотоциклист, занимающий правое положение на полосе движения.",
@@ -7355,7 +7355,7 @@ var questions = [
     },
     {
         text: "В данной ситуации для того, чтобы продолжить движение в прямом направлении, вам разрешается:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/34-11.jpg",
+        img: "img/tickets/34-11.jpg",
         answer: [
             "Объехать грузовой автомобиль справа, соблюдая безопасный интервал и требования разметки 1.1.",
             "Продолжить движение только после того, как грузовой автомобиль выполнит поворот налево.",
@@ -7366,7 +7366,7 @@ var questions = [
     },
     {
         text: "В каком из указанных мест вы можете произвести остановку?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/34-12.jpg",
+        img: "img/tickets/34-12.jpg",
         answer: [
             "Только А.",
             "Только Б.",
@@ -7378,7 +7378,7 @@ var questions = [
     },
     {
         text: "Вы намерены проехать перекресток в прямом направлении. Ваши действия?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/34-13.jpg",
+        img: "img/tickets/34-13.jpg",
         answer: [
             "Проедете перекресток первым.",
             "Уступите дорогу трамваю."
@@ -7388,7 +7388,7 @@ var questions = [
     },
     {
         text: "Вы намерены повернуть налево. Ваши действия?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/34-14.jpg",
+        img: "img/tickets/34-14.jpg",
         answer: [
             "Проедете перекресток первым.",
             "Уступите дорогу только легковому автомобилю.",
@@ -7399,7 +7399,7 @@ var questions = [
     },
     {
         text: "Вы намерены повернуть налево. Кому следует уступить дорогу?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/34-15.jpg",
+        img: "img/tickets/34-15.jpg",
         answer: [
             "Обоим транспортным средствам.",
             "Только легковому автомобилю.",
@@ -7444,7 +7444,7 @@ var questions = [
     },
     {
         text: "После длительного движения по двухполосной дороге за грузовым автомобилем на безопасной дистанции у вас появилась возможность совершить обгон. Ваши действия?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/34-19.jpg",
+        img: "img/tickets/34-19.jpg",
         answer: [
             "Максимально приблизитесь к обгоняемому автомобилю, затем преестроитесь на полосу встречного движения и совершите маневр.",
             "Перестроитесь на полосу встречного движения, после чего произведете сближение с обгоняемым транспортным средством.",
@@ -7478,7 +7478,7 @@ var questions = [
     },
     {
         text: "В каких из указанных направлений вы можете продолжить движение на следующем перекрестке?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/35-02.jpg",
+        img: "img/tickets/35-02.jpg",
         answer: [
             "Только Б.",
             "А или Б.",
@@ -7489,7 +7489,7 @@ var questions = [
     },
     {
         text: "Какие знаки разрешают движение со скоростью 60 км/ч?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/35-03.jpg",
+        img: "img/tickets/35-03.jpg",
         answer: [
             "Только Б.",
             "Б и В.",
@@ -7500,7 +7500,7 @@ var questions = [
     },
     {
         text: "Кто из водителей нарушил правила стоянки?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/35-04.jpg",
+        img: "img/tickets/35-04.jpg",
         answer: [
             "Только водитель грузового автомобиля.",
             "Водители мотоцикла и грузового автомобиля.",
@@ -7512,7 +7512,7 @@ var questions = [
     },
     {
         text: "По какой траектории вы можете объехать препятствие?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/35-05.jpg",
+        img: "img/tickets/35-05.jpg",
         answer: [
             "Только по А.",
             "Только по Б.",
@@ -7534,7 +7534,7 @@ var questions = [
     },
     {
         text: "На каком расстоянии от транспортного средства должен быть выставлен знак аварийной остановки в данной ситуации?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/35-07.jpg",
+        img: "img/tickets/35-07.jpg",
         answer: [
             "Не менее 10 м.",
             "Не менее 15 м.",
@@ -7546,7 +7546,7 @@ var questions = [
     },
     {
         text: "Двигаясь по правой полосе, вы намерены перестроиться на левую. На каком из рисунков показана ситуация, в которой вы обязаны уступить дорогу?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/35-08.jpg",
+        img: "img/tickets/35-08.jpg",
         answer: [
             "На левом.",
             "На правом.",
@@ -7557,7 +7557,7 @@ var questions = [
     },
     {
         text: "Допускается ли выполнить разворот по данной траектории при видимости дороги более 100 м?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/35-09.jpg",
+        img: "img/tickets/35-09.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -7567,7 +7567,7 @@ var questions = [
     },
     {
         text: "С какой максимальной скоростью вы можете продолжить движение на грузовом автомобиле с разрешенной максимальной массой менее 3,5 т после въезда на примыкающую слева дорогу?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/35-10.jpg",
+        img: "img/tickets/35-10.jpg",
         answer: [
             "60 км/ч.",
             "70 км/ч.",
@@ -7578,7 +7578,7 @@ var questions = [
     },
     {
         text: "В данной ситуации вы:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/35-11.jpg",
+        img: "img/tickets/35-11.jpg",
         answer: [
             "Должны уступить дорогу.",
             "Имеете право проехать первым."
@@ -7588,7 +7588,7 @@ var questions = [
     },
     {
         text: "В каком из указанных мест вы можете остановиться на легковом автомобиле?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/35-12.jpg",
+        img: "img/tickets/35-12.jpg",
         answer: [
             "Только Б.",
             "Только А и Б.",
@@ -7600,7 +7600,7 @@ var questions = [
     },
     {
         text: "В каком случае вам не придется уступать дорогу другим участникам движения?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/35-13.jpg",
+        img: "img/tickets/35-13.jpg",
         answer: [
             "Только если вы намерены продолжить движение прямо.",
             "Только если вы намерены продолжить движение прямо или направо.",
@@ -7611,7 +7611,7 @@ var questions = [
     },
     {
         text: "Вы намерены продолжить движение прямо. Ваши действия?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/35-14.jpg",
+        img: "img/tickets/35-14.jpg",
         answer: [
             "Завершите проезд перекрестка, если вы первым въедете на него.",
             "Уступите дорогу грузовому автомобилю."
@@ -7621,7 +7621,7 @@ var questions = [
     },
     {
         text: "Вы намерены повернуть налево. Кому следует уступить дорогу?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/35-15.jpg",
+        img: "img/tickets/35-15.jpg",
         answer: [
             "Никому.",
             "Только автомобилю с включеннными проблесковым маячком и специальным звуковым сигналом.",
@@ -7698,7 +7698,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам въехать на мост одновременно с мотоциклом, если вы не затрудните ему движение?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/36-02.jpg",
+        img: "img/tickets/36-02.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -7708,7 +7708,7 @@ var questions = [
     },
     {
         text: "В каких направлениях вам разрешено продолжить движение на перекрестке?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/36-03.jpg",
+        img: "img/tickets/36-03.jpg",
         answer: [
             "Только В.",
             "А или В.",
@@ -7719,7 +7719,7 @@ var questions = [
     },
     {
         text: "Какие таблички распространяют действие установленных с ними знаков на грузовые автомобили с разрешенной максимальной массой менее 3,5 т?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/36-04.jpg",
+        img: "img/tickets/36-04.jpg",
         answer: [
             "Только Б.",
             "Только В.",
@@ -7731,7 +7731,7 @@ var questions = [
     },
     {
         text: "Какие из перечисленных транспортных средств имеют право двигаться по полосе, обозначенной разметкой в виде буквы \"А\"?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/36-05.jpg",
+        img: "img/tickets/36-05.jpg",
         answer: [
             "Автобусы, микроавтобусы, маршрутные такси и троллейбусы, движущиеся по установленным маршрутам с обозначенными местами остановок.",
             "Троллейбусы и любые автобусы.",
@@ -7742,7 +7742,7 @@ var questions = [
     },
     {
         text: "Как в данной ситуации должен поступить водитель легкового автомобиля при приближении автомобиля оперативной службы?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/36-06.jpg",
+        img: "img/tickets/36-06.jpg",
         answer: [
             "Перестроиться на правую полосу и продолжить движение.",
             "Остановиться справа у тротуара."
@@ -7752,7 +7752,7 @@ var questions = [
     },
     {
         text: "Согнутая в локте рука водителя автомобиля является сигналом, информирующим вас:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/36-07.jpg",
+        img: "img/tickets/36-07.jpg",
         answer: [
             "О его намерении повернуть направо.",
             "О его намерении продолжить движение прямо.",
@@ -7763,7 +7763,7 @@ var questions = [
     },
     {
         text: "Кто имеет преимущество в движении?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/36-08.jpg",
+        img: "img/tickets/36-08.jpg",
         answer: [
             "Водитель легкового автомобиля.",
             "Водитель грузового автомобиля."
@@ -7773,7 +7773,7 @@ var questions = [
     },
     {
         text: "По какой траектории вам разрешено выполнить разворот?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/36-09.jpg",
+        img: "img/tickets/36-09.jpg",
         answer: [
             "Только по А.",
             "Только по Б.",
@@ -7806,7 +7806,7 @@ var questions = [
     },
     {
         text: "Разрешена ли вам остановка для высадки пассажиров в указанном месте?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/36-12.jpg",
+        img: "img/tickets/36-12.jpg",
         answer: [
             "Разрешена.",
             "Разрешена, если не будет создано помех для движения маршрутных транспортных средств.",
@@ -7817,7 +7817,7 @@ var questions = [
     },
     {
         text: "Вы намерены повернуть направо. Ваши действия?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/36-13.jpg",
+        img: "img/tickets/36-13.jpg",
         answer: [
             "Остановитесь перед стоп-линией и, пропустив пешеходов, повернете направо.",
             "Выехав на перекресток, остановитесь перед пешеходным переходом, чтобы пропустить пешеходов.",
@@ -7828,7 +7828,7 @@ var questions = [
     },
     {
         text: "Должны ли вы при движении прямо уступить дорогу трамваю?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/36-14.jpg",
+        img: "img/tickets/36-14.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -7838,7 +7838,7 @@ var questions = [
     },
     {
         text: "Намереваясь повернуть налево, вы должны:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/36-15.jpg",
+        img: "img/tickets/36-15.jpg",
         answer: [
             "Уступить дорогу грузовому автомобилю.",
             "Уступить дорогу обоим транспортным средствам.",
@@ -7849,7 +7849,7 @@ var questions = [
     },
     {
         text: "Должны ли вы уступить дорогу грузовому автомобилю?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/36-16.jpg",
+        img: "img/tickets/36-16.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -7914,7 +7914,7 @@ var questions = [
     },
     {
         text: "Какие знаки устанавливают непосредственно перед железнодорожным переездом?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/37-02.jpg",
+        img: "img/tickets/37-02.jpg",
         answer: [
             "Только А.",
             "Только Б.",
@@ -7926,7 +7926,7 @@ var questions = [
     },
     {
         text: "Разрешен ли вам разворот в указанном месте?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/37-03.jpg",
+        img: "img/tickets/37-03.jpg",
         answer: [
             "Разрешен.",
             "Не разрешен."
@@ -7936,7 +7936,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам поставить автмообиль на стоянку за путепроводом?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/37-04.jpg",
+        img: "img/tickets/37-04.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -7946,7 +7946,7 @@ var questions = [
     },
     {
         text: "Разрешается ли вам перестроиться на реверсивную полосу в данной ситуации?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/37-05.jpg",
+        img: "img/tickets/37-05.jpg",
         answer: [
             "Разрешается.",
             "Разрешается только для поворота налево или разворота.",
@@ -7957,7 +7957,7 @@ var questions = [
     },
     {
         text: "Вы были намерены проехать перекресток в прямом направлении. Как следует поступить, если вы не успели заранее перестроиться на левую полосу?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/37-06.jpg",
+        img: "img/tickets/37-06.jpg",
         answer: [
             "Выехать за стоп-линию, перестроиться на левую полосу и остановиться перед пересекаемой проезжей частью.",
             "Остановиться перед стоп-линией и, дождавшись зеленого сигнала светофора, продолжить движение прямо.",
@@ -7968,7 +7968,7 @@ var questions = [
     },
     {
         text: "Какие указатели поворота вы обязаны включить при выполнении разворота по такой траектории?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/37-07.jpg",
+        img: "img/tickets/37-07.jpg",
         answer: [
             "Только правые.",
             "Только левые.",
@@ -7979,7 +7979,7 @@ var questions = [
     },
     {
         text: "Кто должен уступить дорогу при взаимном перестроении?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/37-08.jpg",
+        img: "img/tickets/37-08.jpg",
         answer: [
             "Водитель легкового автомобиля.",
             "Водитель грузового автомобиля."
@@ -7989,7 +7989,7 @@ var questions = [
     },
     {
         text: "Разрешено ли водителю легкового автомобиля подъехать задним ходом и остановиться возле пассажира, стоящего на автобусной остановке?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/37-09.jpg",
+        img: "img/tickets/37-09.jpg",
         answer: [
             "Разрешено.",
             "Запрещено."
@@ -8020,7 +8020,7 @@ var questions = [
     },
     {
         text: "Можете ли вы остановиться для посадки пассажира?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/37-12.jpg",
+        img: "img/tickets/37-12.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -8030,7 +8030,7 @@ var questions = [
     },
     {
         text: "Вы намерены повернуть направо. Ваши действия?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/37-13.jpg",
+        img: "img/tickets/37-13.jpg",
         answer: [
             "Уступите дорогу легковому автомобилю, производящему разворот.",
             "Проедете перекресток первым."
@@ -8040,7 +8040,7 @@ var questions = [
     },
     {
         text: "Поворачивая налево, вы должны:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/37-14.jpg",
+        img: "img/tickets/37-14.jpg",
         answer: [
             "Уступить дорогу автомобилю.",
             "Проехать перекресток первым."
@@ -8050,7 +8050,7 @@ var questions = [
     },
     {
         text: "Намереваясь продолжить движение прямо, вы должны:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/37-15.jpg",
+        img: "img/tickets/37-15.jpg",
         answer: [
             "Проехать перекресток первым.",
             "Уступить дорогу трамваю."
@@ -8118,7 +8118,7 @@ var questions = [
     //B38
     {
         text: "Сколько пересечений проезжих частей имеет этот перекресток?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/38-01.jpg",
+        img: "img/tickets/38-01.jpg",
         answer: [
             "Одно.",
             "Два.",
@@ -8129,7 +8129,7 @@ var questions = [
     },
     {
         text: "Эти знаки предупреждают вас о приближении:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/38-02.jpg",
+        img: "img/tickets/38-02.jpg",
         answer: [
             "К месту производства работ на дороге.",
             "К железнодорожному переезду со шлагбаумом.",
@@ -8140,7 +8140,7 @@ var questions = [
     },
     {
         text: "Какие знаки разрешают разворот?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/38-03.jpg",
+        img: "img/tickets/38-03.jpg",
         answer: [
             "Все, кроме В.",
             "Все.",
@@ -8151,7 +8151,7 @@ var questions = [
     },
     {
         text: "Двигаясь по крайней левой полосе, вы можете продолжить движение:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/38-04.jpg",
+        img: "img/tickets/38-04.jpg",
         answer: [
             "Только налево.",
             "Только в обратном направлении.",
@@ -8162,7 +8162,7 @@ var questions = [
     },
     {
         text: "Разрешена ли вам остановка в указанном месте?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/38-05.jpg",
+        img: "img/tickets/38-05.jpg",
         answer: [
             "Разрешена.",
             "Разрешена только с заездом на тротуар.",
@@ -8186,7 +8186,7 @@ var questions = [
     },
     {
         text: "Вы приняли решение остановиться сразу же после перекрестка. Когда необходимо включить правые указатели поворота?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/38-07.jpg",
+        img: "img/tickets/38-07.jpg",
         answer: [
             "До въезда на перекресток, чтобы заблаговременно предупредить других водителей об остановке.",
             "Только после въезда на перекресток.",
@@ -8197,7 +8197,7 @@ var questions = [
     },
     {
         text: "Съезжая с дороги на прилегающую справа территорию, вы:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/38-08.jpg",
+        img: "img/tickets/38-08.jpg",
         answer: [
             "Пользуетесь преимуществом перед другими участниками движения.",
             "Должны уступить дорогу только пешеходам.",
@@ -8209,7 +8209,7 @@ var questions = [
     },
     {
         text: "Разрешен ли разворот на данном учатске дороги с подъемом?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/38-09.jpg",
+        img: "img/tickets/38-09.jpg",
         answer: [
             "Разрешен.",
             "Разрешен только при видимости дороги более 100 м.",
@@ -8220,7 +8220,7 @@ var questions = [
     },
     {
         text: "С какой максимальной скоростью вы можете продолжить движение, если вы буксируете неисправное механическое транспортное средство?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/38-10.jpg",
+        img: "img/tickets/38-10.jpg",
         answer: [
             "50 км/ч.",
             "70 км/ч.",
@@ -8231,7 +8231,7 @@ var questions = [
     },
     {
         text: "Можете ли вы начать обгон?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/38-11.jpg",
+        img: "img/tickets/38-11.jpg",
         answer: [
             "Да, если обгон будет завершен до перекрестка.",
             "Да.",
@@ -8242,7 +8242,7 @@ var questions = [
     },
     {
         text: "Разрешена ли вам остановка в укаазанных местах?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/38-12.jpg",
+        img: "img/tickets/38-12.jpg",
         answer: [
             "Разрешена только в Б.",
             "Разрешена только в В.",
@@ -8254,7 +8254,7 @@ var questions = [
     },
     {
         text: "Вы намерены повернуть налево. Ваши действия?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/38-13.jpg",
+        img: "img/tickets/38-13.jpg",
         answer: [
             "Проедете перекресток первым.",
             "Уступите дорогу только автомобилю с включенными проблесковым маячком и специальным звуковым сигналом.",
@@ -8265,7 +8265,7 @@ var questions = [
     },
     {
         text: "Следует ли при движении прямо уступить дорогу трамваю?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/38-14.jpg",
+        img: "img/tickets/38-14.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -8275,7 +8275,7 @@ var questions = [
     },
     {
         text: "Вы намерены повернуть направо. Можете ли вы приступить к повороту?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/38-15.jpg",
+        img: "img/tickets/38-15.jpg",
         answer: [
             "Да.",
             "Да, после того, как грузовой автомобиль приступит к выполнению поворота.",
@@ -8353,7 +8353,7 @@ var questions = [
     },
     {
         text: "Этот знак предупрежадет вас о приближении к тоннелю, в котором:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/39-02.jpg",
+        img: "img/tickets/39-02.jpg",
         answer: [
             "Будет затруднен разъезд со встречными транспортными средствами.",
             "Отсутствует искусственное освещение или на подъезде к нему сужена проезжая часть.",
@@ -8364,7 +8364,7 @@ var questions = [
     },
     {
         text: "В каком из указанных мест вы можете поставить автомобиль на стоянку?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/39-03.jpg",
+        img: "img/tickets/39-03.jpg",
         answer: [
             "А, если расстояние до перекрестка не менее 10 м.",
             "Б, если расстояние от перекрестка не менее 10 м.",
@@ -8375,7 +8375,7 @@ var questions = [
     },
     {
         text: "Какие знаки разрешают выполнить поворот налево?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/39-04.jpg",
+        img: "img/tickets/39-04.jpg",
         answer: [
             "Только Б.",
             "А и Б.",
@@ -8386,7 +8386,7 @@ var questions = [
     },
     {
         text: "Увеличение длины штриха прерывистой линии разметки информирует вас:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/39-05.jpg",
+        img: "img/tickets/39-05.jpg",
         answer: [
             "О начале зоны, где запрещены любые маневры.",
             "О начале опасного участка дороги.",
@@ -8397,7 +8397,7 @@ var questions = [
     },
     {
         text: "В каких направлениях вам разрешено движение?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/39-06.jpg",
+        img: "img/tickets/39-06.jpg",
         answer: [
             "Только налево и в обратном направлении.",
             "Прямо, налево и в обратном направлении.",
@@ -8419,7 +8419,7 @@ var questions = [
     },
     {
         text: "Водитель автомобиля, выполняющий перестроение на правую полосу, в данной ситуации:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/39-08.jpg",
+        img: "img/tickets/39-08.jpg",
         answer: [
             "Обязан уступить дорогу.",
             "Имеет преимущество, так как завершает обгон."
@@ -8429,7 +8429,7 @@ var questions = [
     },
     {
         text: "Кто должен уступить дорогу при одновременном развороте?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/39-09.jpg",
+        img: "img/tickets/39-09.jpg",
         answer: [
             "Водитель автобуса.",
             "Водитель легкового автомобиля."
@@ -8439,7 +8439,7 @@ var questions = [
     },
     {
         text: "С какой максимальной скоростью вы можете продолжить движение на легковом автомобиле с прицепом?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/39-10.jpg",
+        img: "img/tickets/39-10.jpg",
         answer: [
             "50 км/ч.",
             "70 км/ч.",
@@ -8451,7 +8451,7 @@ var questions = [
     },
     {
         text: "По какой траектории водитель легкового автомобиля может выполнить обгон?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/39-11.jpg",
+        img: "img/tickets/39-11.jpg",
         answer: [
             "По любой.",
             "Только по А.",
@@ -8462,7 +8462,7 @@ var questions = [
     },
     {
         text: "По какой траектории вы можете подъехать к пассажирам?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/39-12.jpg",
+        img: "img/tickets/39-12.jpg",
         answer: [
             "Только по А.",
             "Только по Б.",
@@ -8473,7 +8473,7 @@ var questions = [
     },
     {
         text: "Должен ли водиетль легкового автомобиля при развороте уступить дорогу автобусу?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/39-13.jpg",
+        img: "img/tickets/39-13.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -8483,7 +8483,7 @@ var questions = [
     },
     {
         text: "Вы намерены проехать перекресток в прямом направлении. Кому следует уступить дорогу?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/39-14.jpg",
+        img: "img/tickets/39-14.jpg",
         answer: [
             "Только трамваю А.",
             "Только трамваю Б.",
@@ -8494,7 +8494,7 @@ var questions = [
     },
     {
         text: "Вы намерены продолжить движение прямо. Кому следует уступить дорогу?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/39-15.jpg",
+        img: "img/tickets/39-15.jpg",
         answer: [
             "Только легковому автомобилю.",
             "Легковому автомобилю и мотоциклу.",
@@ -8505,7 +8505,7 @@ var questions = [
     },
     {
         text: "Нарушил ли водитель Правила при вынужденной остановке на автомагистрали?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/39-16.jpg",
+        img: "img/tickets/39-16.jpg",
         answer: [
             "Да.",
             "Да, если не выставил знак аварийной остановки.",
@@ -8584,7 +8584,7 @@ var questions = [
     },
     {
         text: "Действие каких знаков не распространяются на транспортные средства, управляемые инвалидами?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/40-03.jpg",
+        img: "img/tickets/40-03.jpg",
         answer: [
             "Только А и Б.",
             "Только Б и Г.",
@@ -8596,7 +8596,7 @@ var questions = [
     },
     {
         text: "Какие транспортные средства можно поставить на стоянку указанным на табличке способом?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/40-04.jpg",
+        img: "img/tickets/40-04.jpg",
         answer: [
             "Только легковые автомобили и мотоциклы.",
             "Все, кроме грузовых автомобилей с разрешенной максимальной массой более 3,5 т.",
@@ -8607,7 +8607,7 @@ var questions = [
     },
     {
         text: "Эта разметка, нанесенная на полосе движения:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/40-05.jpg",
+        img: "img/tickets/40-05.jpg",
         answer: [
             "Разрешает вам только поворот налево.",
             "Разрешает вам только разворот.",
@@ -8618,7 +8618,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам движение?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/40-06.jpg",
+        img: "img/tickets/40-06.jpg",
         answer: [
             "Разрешено только направо.",
             "Запрещено.",
@@ -8629,7 +8629,7 @@ var questions = [
     },
     {
         text: "Какой знак должен быть закреплен на задней части буксируемого механического транспортного средства при отсутствии или неисправности аварийной сигнализации?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/40-07.jpg",
+        img: "img/tickets/40-07.jpg",
         answer: [
             "А.",
             "Б.",
@@ -8640,7 +8640,7 @@ var questions = [
     },
     {
         text: "Вы намерены повернуть на перекрестке направо. Как вам следует поступить?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/40-08.jpg",
+        img: "img/tickets/40-08.jpg",
         answer: [
             "Перестроиться на правую полосу, затем осуществить поворот.",
             "Продолжить движение по второй полосе до перекрестка, затем повернуть.",
@@ -8651,7 +8651,7 @@ var questions = [
     },
     {
         text: "Разрешен ли вам разворот в указанном месте?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/40-09.jpg",
+        img: "img/tickets/40-09.jpg",
         answer: [
             "Разрешен только при видимости дороги более 100 м.",
             "Не разрешен."
@@ -8661,7 +8661,7 @@ var questions = [
     },
     {
         text: "Кто из мотоциклистов занял правильное положение на полосе движения?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/40-10.jpg",
+        img: "img/tickets/40-10.jpg",
         answer: [
             "Только мотоциклист, занимающий левое положение на полосе движения.",
             "Только мотоциклист, занимающий правое положение на полосе движения.",
@@ -8672,7 +8672,7 @@ var questions = [
     },
     {
         text: "Должны ли вы уступить дорогу встречному грузовому автомобилю?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/40-11.jpg",
+        img: "img/tickets/40-11.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -8682,7 +8682,7 @@ var questions = [
     },
     {
         text: "Разрешена ли вам остановка в указанном месте на перекрестке?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/40-12.jpg",
+        img: "img/tickets/40-12.jpg",
         answer: [
             "Разрешена.",
             "Разрешена, если расстояние от вашего транспортного средства до линии разметки не менее 3 м.",
@@ -8693,7 +8693,7 @@ var questions = [
     },
     {
         text: "Вы намерены повернуть направо. Ваши действия?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/40-13.jpg",
+        img: "img/tickets/40-13.jpg",
         answer: [
             "Проедете перекресток первым.",
             "Уступите дорогу обоим трамваям.",
@@ -8705,7 +8705,7 @@ var questions = [
     },
     {
         text: "При движении прямо вы:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/40-14.jpg",
+        img: "img/tickets/40-14.jpg",
         answer: [
             "Имеете преимущество.",
             "Должны уступить дорогу только мотоциклу.",
@@ -8717,7 +8717,7 @@ var questions = [
     },
     {
         text: "Вы намерены повернуть налево. Кому следует уступить дорогу?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/40-15.jpg",
+        img: "img/tickets/40-15.jpg",
         answer: [
             "Только автобусу.",
             "Только грузовому автомобилю.",
@@ -8728,7 +8728,7 @@ var questions = [
     },
     {
         text: "Разрешен ли вам въезд на железнодорожный переезд?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/40-16.jpg",
+        img: "img/tickets/40-16.jpg",
         answer: [
             "Да.",
             "Да, если отсутствует приближающийся поезд.",
@@ -8795,7 +8795,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам развернуться в этом месте при наличии прерывистой линии разметки?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/41-02.jpg",
+        img: "img/tickets/41-02.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -8805,7 +8805,7 @@ var questions = [
     },
     {
         text: "Как называется данный дорожный знак?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/41-03.jpg",
+        img: "img/tickets/41-03.jpg",
         answer: [
             "Уклон дороги 10 %.",
             "Крутой подъем.",
@@ -8816,7 +8816,7 @@ var questions = [
     },
     {
         text: "Каким транспортным средствам запрещена стоянка в обозначенной знаком зоне в выходные и праздничные дни?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/41-04.jpg",
+        img: "img/tickets/41-04.jpg",
         answer: [
             "Только грузовым автомобилям с разрешенной максимальной массой более 3,5 т.",
             "Всем грузовым автоомбилям.",
@@ -8827,7 +8827,7 @@ var questions = [
     },
     {
         text: "Эта разметка, нанесенная на полосе движения:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/41-05.jpg",
+        img: "img/tickets/41-05.jpg",
         answer: [
             "Дублирует требования знака \"Опасный поворот\".",
             "Предупреждает вас о приближении к крутому повороту направо.",
@@ -8849,7 +8849,7 @@ var questions = [
     },
     {
         text: "Разрешен ли вам в таком месте обгон?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/41-07.jpg",
+        img: "img/tickets/41-07.jpg",
         answer: [
             "Да.",
             "Да, но только при отсутствии встречных транспортных средств.",
@@ -8860,7 +8860,7 @@ var questions = [
     },
     {
         text: "Кто должен уступить дорогу при одновременном перестроении?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/41-08.jpg",
+        img: "img/tickets/41-08.jpg",
         answer: [
             "Водитель легкового автомобиля.",
             "Водитель мотоцикла."
@@ -8870,7 +8870,7 @@ var questions = [
     },
     {
         text: "По какой траектории вы имеете право выполнить разворот, управляя автопоездом, имеющим большую длину?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/41-09.jpg",
+        img: "img/tickets/41-09.jpg",
         answer: [
             "Только по А.",
             "Только по Б.",
@@ -8881,7 +8881,7 @@ var questions = [
     },
     {
         text: "С какой скоростью вы можете продолжить движение вне населенного пункта по левой полосе на грузовом автомобиле с разрешенной максимальной массой более 3,5 т?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/41-10.jpg",
+        img: "img/tickets/41-10.jpg",
         answer: [
             "Не более 50 км/ч.",
             "Не менее 50 км/ч и не более 110 км/ч.",
@@ -8892,7 +8892,7 @@ var questions = [
     },
     {
         text: "Может ли водитель легкового автомобиля в населенном пункте выполнить опережение грузовых автомобилей по такой траектории?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/41-11.jpg",
+        img: "img/tickets/41-11.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -8902,7 +8902,7 @@ var questions = [
     },
     {
         text: "Разрешено ли водителю поставить автомобиль на стоянку в указанном месте?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/41-12.jpg",
+        img: "img/tickets/41-12.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -8912,7 +8912,7 @@ var questions = [
     },
     {
         text: "Вы намерены повернуть направо. Следует ли уступить дорогу автобусу?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/41-13.jpg",
+        img: "img/tickets/41-13.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -8922,7 +8922,7 @@ var questions = [
     },
     {
         text: "Вы намерены проехать перекресток в прямом направлении. Кто должен уступить дорогу?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/41-14.jpg",
+        img: "img/tickets/41-14.jpg",
         answer: [
             "Вы уступите дорогу легковому автомобилю.",
             "Проедете перекресток первым."
@@ -8932,7 +8932,7 @@ var questions = [
     },
     {
         text: "Вы намерены повернуть налево. Кому следует уступить дорогу?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/41-15.jpg",
+        img: "img/tickets/41-15.jpg",
         answer: [
             "Только автобусу.",
             "Только легковому автомобилю.",
@@ -8943,7 +8943,7 @@ var questions = [
     },
     {
         text: "С какой максимальной скоростью вы можете продолжить движение за знаком?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/41-16.jpg",
+        img: "img/tickets/41-16.jpg",
         answer: [
             "60 км/ч.",
             "50 км/ч.",
@@ -9011,7 +9011,7 @@ var questions = [
     },
     {
         text: "Кто должен уступить дорогу?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/42-02.jpg",
+        img: "img/tickets/42-02.jpg",
         answer: [
             "Водитель грузовика.",
             "Вы."
@@ -9021,7 +9021,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам продолжить движение в прямом направлении на грузовом автомобиле с разрешенной массой более 3,5 т?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/42-03.jpg",
+        img: "img/tickets/42-03.jpg",
         answer: [
             "Разрешено.",
             "Запрещено.",
@@ -9032,7 +9032,7 @@ var questions = [
     },
     {
         text: "Что запрещено в зоне действия этого знака?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/42-04.jpg",
+        img: "img/tickets/42-04.jpg",
         answer: [
             "Движение со скоростью более 20 км/ч.",
             "Движение тракторов.",
@@ -9044,7 +9044,7 @@ var questions = [
     },
     {
         text: "Разрешен ли вамм обгон, если реверсивные светофоры отключены?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/42-05.jpg",
+        img: "img/tickets/42-05.jpg",
         answer: [
             "Разрешен.",
             "Разрешен, если скорость автобуса менее 30 км/ч.",
@@ -9055,7 +9055,7 @@ var questions = [
     },
     {
         text: "В каких направлениях вам разрешено продолжить движение?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/42-06.jpg",
+        img: "img/tickets/42-06.jpg",
         answer: [
             "Только налево.",
             "Прямо и налево.",
@@ -9066,7 +9066,7 @@ var questions = [
     },
     {
         text: "Поднятая вверх рука водителя легкового автомобиля является сигналом, информирующим вас:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/42-07.jpg",
+        img: "img/tickets/42-07.jpg",
         answer: [
             "О его намерении повернуть направо.",
             "О его намерении продолжить движение прямо.",
@@ -9077,7 +9077,7 @@ var questions = [
     },
     {
         text: "Двигаясь по левой полосе, вы намерены перестроиться на правую. На каком из рисунков показана ситуация, в которой вы обязаны уступить дорогу?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/42-08.jpg",
+        img: "img/tickets/42-08.jpg",
         answer: [
             "На левом.",
             "На правом.",
@@ -9088,7 +9088,7 @@ var questions = [
     },
     {
         text: "Разрешен ли вам разворот в указанном месте?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/42-09.jpg",
+        img: "img/tickets/42-09.jpg",
         answer: [
             "Разрешен только при отсутствии приближающегося поезда.",
             "Разрешен.",
@@ -9111,7 +9111,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам обогнать мотоциклиста?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/42-11.jpg",
+        img: "img/tickets/42-11.jpg",
         answer: [
             "Разрешено.",
             "Запрещено."
@@ -9121,7 +9121,7 @@ var questions = [
     },
     {
         text: "Кто из водителей неправильно поставил свое транспортное средство на стоянку?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/42-12.jpg",
+        img: "img/tickets/42-12.jpg",
         answer: [
             "Оба водителя.",
             "Только водитель грузового автомобиля.",
@@ -9132,7 +9132,7 @@ var questions = [
     },
     {
         text: "Вы намерены повернуть налево. Кому следует уступить дорогу?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/42-13.jpg",
+        img: "img/tickets/42-13.jpg",
         answer: [
             "Только пешеходам.",
             "Только автобусу.",
@@ -9144,7 +9144,7 @@ var questions = [
     },
     {
         text: "Вы намерены повернуть налево. Ваши действия?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/42-14.jpg",
+        img: "img/tickets/42-14.jpg",
         answer: [
             "Проедете перекресток первым.",
             "Уступите дорогу автомобилю."
@@ -9154,7 +9154,7 @@ var questions = [
     },
     {
         text: "Обязан ли мотоциклист уступить вам дорогу в данной ситуации?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/42-15.jpg",
+        img: "img/tickets/42-15.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -9164,7 +9164,7 @@ var questions = [
     },
     {
         text: "В данной ситуации вы:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/42-16.jpg",
+        img: "img/tickets/42-16.jpg",
         answer: [
             "Имеете преимущество, т.к. водитель автобуса начинает движение с выездом на вторую полосу.",
             "Должны уступить дорогу автобусу, начинающему движение от обозначенного места остановки."
@@ -9220,7 +9220,7 @@ var questions = [
     //B43
     {
         text: "Выезжая с грунтовой дороги, вы попадаете:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/43-01.jpg",
+        img: "img/tickets/43-01.jpg",
         answer: [
             "На главную дорогу.",
             "На равнозначный перекресток."
@@ -9230,7 +9230,7 @@ var questions = [
     },
     {
         text: "В каком месте вы должны остановиться?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/43-02.jpg",
+        img: "img/tickets/43-02.jpg",
         answer: [
             "Перед знаком (место А).",
             "Перед перекрестком (место Б).",
@@ -9241,7 +9241,7 @@ var questions = [
     },
     {
         text: "В каком случае вам необходимо двигаться со скоростью до 40 км/ч?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/43-03.jpg",
+        img: "img/tickets/43-03.jpg",
         answer: [
             "Во всех случаях.",
             "Только в том случае, когда покрытие на дороге влажное."
@@ -9251,7 +9251,7 @@ var questions = [
     },
     {
         text: "Какие из знаков устанавливают в начале дороги с односторонним движением?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/43-04.jpg",
+        img: "img/tickets/43-04.jpg",
         answer: [
             "Только А.",
             "Только Б.",
@@ -9263,7 +9263,7 @@ var questions = [
     },
     {
         text: "Можете ли вы остановиться в этом месте для посадки или высадки пассажиров?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/43-05.jpg",
+        img: "img/tickets/43-05.jpg",
         answer: [
             "Да.",
             "Да, если вы не создаете помех движению маршрутных транспортных средств.",
@@ -9274,7 +9274,7 @@ var questions = [
     },
     {
         text: "Поворачивая направо, вы должны:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/43-06.jpg",
+        img: "img/tickets/43-06.jpg",
         answer: [
             "Проехать перекресток первым.",
             "Уступить дорогу только пешеходам.",
@@ -9296,7 +9296,7 @@ var questions = [
     },
     {
         text: "По какой траектории вы можете выполнить правый поворот?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/43-08.jpg",
+        img: "img/tickets/43-08.jpg",
         answer: [
             "Только по А.",
             "Только по Б.",
@@ -9307,7 +9307,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам таким образом выполнить разворот на перекрестке?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/43-09.jpg",
+        img: "img/tickets/43-09.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -9317,7 +9317,7 @@ var questions = [
     },
     {
         text: "По какой полосе вам разрешено движение в данной ситуации?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/43-10.jpg",
+        img: "img/tickets/43-10.jpg",
         answer: [
             "По любой.",
             "Только по правой."
@@ -9338,7 +9338,7 @@ var questions = [
     },
     {
         text: "Разрешена ли вам остановка для посадки пассажира в этом месте?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/43-12.jpg",
+        img: "img/tickets/43-12.jpg",
         answer: [
             "Разрешена.",
             "Разрешена, если при этом не будет создано помех для движения маршрутных транспортных средств.",
@@ -9349,7 +9349,7 @@ var questions = [
     },
     {
         text: "При движении прямо вы:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/43-13.jpg",
+        img: "img/tickets/43-13.jpg",
         answer: [
             "Должны остановиться перед стоп-линией.",
             "Можете продолжить движение через перекресток без остановки.",
@@ -9360,7 +9360,7 @@ var questions = [
     },
     {
         text: "Кто проедет перекресток вторым?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/43-14.jpg",
+        img: "img/tickets/43-14.jpg",
         answer: [
             "Вы.",
             "Мотоциклист.",
@@ -9371,7 +9371,7 @@ var questions = [
     },
     {
         text: "Кто проедет перекресток первым?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/43-15.jpg",
+        img: "img/tickets/43-15.jpg",
         answer: [
             "Трамвай А и легковой автомобиль.",
             "Трамвай А.",
@@ -9382,7 +9382,7 @@ var questions = [
     },
     {
         text: "Кто из водителей нарушил правила остановки?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/43-16.jpg",
+        img: "img/tickets/43-16.jpg",
         answer: [
             "Только водитель легкового автомобиля.",
             "Только водитель грузового автомобиля.",
@@ -9440,7 +9440,7 @@ var questions = [
     //B44
     {
         text: "Какие действия выполнены мотоциклистом, движущимся слева?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/44-01.jpg",
+        img: "img/tickets/44-01.jpg",
         answer: [
             "Обгон.",
             "Опережение.",
@@ -9451,7 +9451,7 @@ var questions = [
     },
     {
         text: "Эти знаки (установленные вне населенного пункта) предупреждают вас:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/44-02.jpg",
+        img: "img/tickets/44-02.jpg",
         answer: [
             "О наличии через 500 м опасных поворотов.",
             "О том, что на протяжении 150-300 м за дорожным знаком начнется участок дороги протяженностью 500 м с несколькими поворотами.",
@@ -9462,7 +9462,7 @@ var questions = [
     },
     {
         text: "Разрешен ли вам обгон, если вы управляете автобусом?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/44-03.jpg",
+        img: "img/tickets/44-03.jpg",
         answer: [
             "Разрешен, если скорость обгоняемого грузового автомобиля менее 30 км/ч.",
             "Разрешен.",
@@ -9473,7 +9473,7 @@ var questions = [
     },
     {
         text: "Этот дорожный знак с желтым фоном информирует вас о том, что:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/44-04.jpg",
+        img: "img/tickets/44-04.jpg",
         answer: [
             "Дальнейшее движение возможно только по второй полосе.",
             "Дальнейшее движение возможно только по проезжей части встречного направления.",
@@ -9495,7 +9495,7 @@ var questions = [
     },
     {
         text: "Каким транспортным средствам разрешено движение прямо?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/44-06.jpg",
+        img: "img/tickets/44-06.jpg",
         answer: [
             "Только легковому и грузовому автомобилям.",
             "Только грузовому автомобилю.",
@@ -9507,7 +9507,7 @@ var questions = [
     },
     {
         text: "Вы намерены продолжить движение по главной дороге. Обязаны ли вы при этом включить правые указатели поворота?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/44-07.jpg",
+        img: "img/tickets/44-07.jpg",
         answer: [
             "Да.",
             "Да, только при наличии движущегося сзади транспортного средства.",
@@ -9518,7 +9518,7 @@ var questions = [
     },
     {
         text: "Обязан ли водитель грузового автомобиля уступить дорогу?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/44-08.jpg",
+        img: "img/tickets/44-08.jpg",
         answer: [
             "Да, у него помеха справа.",
             "Нет."
@@ -9528,7 +9528,7 @@ var questions = [
     },
     {
         text: "По какой траектории вы можете выполнить разворот?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/44-09.jpg",
+        img: "img/tickets/44-09.jpg",
         answer: [
             "Только по А.",
             "Только по Б.",
@@ -9550,7 +9550,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам обогнать мотоциклиста?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/44-11.jpg",
+        img: "img/tickets/44-11.jpg",
         answer: [
             "Разрешено.",
             "Разрешено, ведь он без бокового прицепа.",
@@ -9561,7 +9561,7 @@ var questions = [
     },
     {
         text: "Кто из водителей нарушил правила стоянки?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/44-12.jpg",
+        img: "img/tickets/44-12.jpg",
         answer: [
             "Только водитель мотоцикла.",
             "Только водитель маломестного автобуса.",
@@ -9573,7 +9573,7 @@ var questions = [
     },
     {
         text: "Кто проедет перекресток вторым?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/44-13.jpg",
+        img: "img/tickets/44-13.jpg",
         answer: [
             "Грузовой автомобиль.",
             "Автомобиль с включенными проблесковым маячком и специальным звуковым сигналом.",
@@ -9585,7 +9585,7 @@ var questions = [
     },
     {
         text: "Ваша улица в два раза шире, какая будет очередность проезда перекрестка?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/44-14.jpg",
+        img: "img/tickets/44-14.jpg",
         answer: [
             "Вы, белый автомобиль, мотоцикл.",
             "Вы, мотоцикл, белый автомобиль."
@@ -9595,7 +9595,7 @@ var questions = [
     },
     {
         text: "Вы намерены развернуться. Вы проедете перекресток:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/44-15.jpg",
+        img: "img/tickets/44-15.jpg",
         answer: [
             "Вторым.",
             "Первым.",
@@ -9664,7 +9664,7 @@ var questions = [
     //B45
     {
         text: "Сколько полос для движения имеет данная дорога?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/45-01.jpg",
+        img: "img/tickets/45-01.jpg",
         answer: [
             "Четыре.",
             "Две.",
@@ -9675,7 +9675,7 @@ var questions = [
     },
     {
         text: "Какие знаки распространяют свое действие только на период времени, когда покрытие проезжей части влажное?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/45-02.jpg",
+        img: "img/tickets/45-02.jpg",
         answer: [
             "Только А.",
             "Только А и Б.",
@@ -9686,7 +9686,7 @@ var questions = [
     },
     {
         text: "Разрешена ли вам стоянка в указанном месте?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/45-03.jpg",
+        img: "img/tickets/45-03.jpg",
         answer: [
             "Разрешена.",
             "Разрешена, но только в светлое время суток.",
@@ -9697,7 +9697,7 @@ var questions = [
     },
     {
         text: "Нарушил ли водитель грузового автомобиля правила стаоянки?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/45-04.jpg",
+        img: "img/tickets/45-04.jpg",
         answer: [
             "Нарушил.",
             "Нарушил, если разрешенная максимальная масса автомобиля более 3,5 т.",
@@ -9708,7 +9708,7 @@ var questions = [
     },
     {
         text: "Такая вертикальная разметка на ограждении дороги предупреждает вас:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/45-05.jpg",
+        img: "img/tickets/45-05.jpg",
         answer: [
             "О приближении к железнодорожному переезду.",
             "О том, что обгон в этом месте запрещен.",
@@ -9730,7 +9730,7 @@ var questions = [
     },
     {
         text: "Такой сигнал рукой, подаваемый мотоциклистом, информирует вас:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/45-07.jpg",
+        img: "img/tickets/45-07.jpg",
         answer: [
             "О его намерении продолжить движение прямо.",
             "О его намерении повернуть направо.",
@@ -9741,7 +9741,7 @@ var questions = [
     },
     {
         text: "В каких направлениях вы можете продолжить движение по второй полосе на автобусе?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/45-08.jpg",
+        img: "img/tickets/45-08.jpg",
         answer: [
             "Только прямо.",
             "Только прямо и налево.",
@@ -9754,7 +9754,7 @@ var questions = [
     },
     {
         text: "Вам необходимо повернуть на примыкающую справа дорогу. Ваши действия?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/45-09.jpg",
+        img: "img/tickets/45-09.jpg",
         answer: [
             "Не меняя полосы, снизить скорость, затем перестроиться на полосу торможения.",
             "Не меняя скорости, перестроиться на полосу торможения, снизить скорость, затем приступить к повороту.",
@@ -9765,7 +9765,7 @@ var questions = [
     },
     {
         text: "С какой максимальной скоростью вы можете продолжить движение на автобусе?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/45-10.jpg",
+        img: "img/tickets/45-10.jpg",
         answer: [
             "60 км/ч.",
             "70 км/ч.",
@@ -9777,7 +9777,7 @@ var questions = [
     },
     {
         text: "Можете ли вы после опережения грузового автомобиля продолжить движение по левой полосе?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/45-11.jpg",
+        img: "img/tickets/45-11.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -9787,7 +9787,7 @@ var questions = [
     },
     {
         text: "Кто из водителей грузовых автмообилей нарушил правила стоянки?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/45-12.jpg",
+        img: "img/tickets/45-12.jpg",
         answer: [
             "Только А.",
             "Только Б.",
@@ -9798,7 +9798,7 @@ var questions = [
     },
     {
         text: "Кто проедет перекресток первым?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/45-13.jpg",
+        img: "img/tickets/45-13.jpg",
         answer: [
             "Вы.",
             "Можно двигаться одновременно.",
@@ -9809,7 +9809,7 @@ var questions = [
     },
     {
         text: "Каков порядок проезда перекрестка?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/45-14.jpg",
+        img: "img/tickets/45-14.jpg",
         answer: [
             "Трамвай, вы, красный автомобиль.",
             "Трамвай, красный автомобиль, вы.",
@@ -9820,7 +9820,7 @@ var questions = [
     },
     {
         text: "Вы намерены развернуться. Ваши действия?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/45-15.jpg",
+        img: "img/tickets/45-15.jpg",
         answer: [
             "Проедете перекресток первым.",
             "Уступите дорогу только грузовому автомобилю с включенным проблесковым маячком.",
@@ -9831,7 +9831,7 @@ var questions = [
     },
     {
         text: "Что означает такое положение дежурного по железнодорожному переезду, без красного флажка в руках?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/45-16.jpg",
+        img: "img/tickets/45-16.jpg",
         answer: [
             "Дежурный по переезду запрещает движение только встречному автомобилю.",
             "Дежурный по переезду предупреждает что светофоры и шлагбаум не работают, проезжать нужно с особой осторожностью.",
@@ -9876,7 +9876,7 @@ var questions = [
     },
     {
         text: "При движении в условиях тумана расстояние до предметов представляется:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/45-20.jpg",
+        img: "img/tickets/45-20.jpg",
         answer: [
             "Большим, чем в действительности.",
             "Меньшим, чем в действительности.",
@@ -9899,7 +9899,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам развернуться в этом месте, при наличии разрыва в дорожной разметке?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/46-02.jpg",
+        img: "img/tickets/46-02.jpg",
         answer: [
             "Только во дворе, после поворота налево.",
             "Да.",
@@ -9910,7 +9910,7 @@ var questions = [
     },
     {
         text: "Какие знаки разрешают проезд на автомобиле, доставляющему холодильник к месту вашего проживания?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/46-03.jpg",
+        img: "img/tickets/46-03.jpg",
         answer: [
             "Только А.",
             "Только В.",
@@ -9922,7 +9922,7 @@ var questions = [
     },
     {
         text: "Что обозначают эти дорожные знаки?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/46-04.jpg",
+        img: "img/tickets/46-04.jpg",
         answer: [
             "Пешеходный мостик.",
             "Надземный пешеходный переход.",
@@ -9933,7 +9933,7 @@ var questions = [
     },
     {
         text: "Что обозначает разметка в виде треугольника на полосе движения?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/46-05.jpg",
+        img: "img/tickets/46-05.jpg",
         answer: [
             "Необходимо притормозить, впереди опасность.",
             "Предупреждает о приближении к месту, где нужно уступить дорогу.",
@@ -9955,7 +9955,7 @@ var questions = [
     },
     {
         text: "Вы намерены продолжить движение по главной дороге. Обязаны ли вы включить левые указатели поворота?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/46-07.jpg",
+        img: "img/tickets/46-07.jpg",
         answer: [
             "Да.",
             "Обязаны, если с других направлений приближаются транспортные средства.",
@@ -9966,7 +9966,7 @@ var questions = [
     },
     {
         text: "Должны ли вы уступить дорогу пешеходам при повороте во двор?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/46-08.jpg",
+        img: "img/tickets/46-08.jpg",
         answer: [
             "Нет, уступить дорогу нужно только встречному автомобилю.",
             "Да.",
@@ -9977,7 +9977,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам выполнить поворот налево на данном перекрестке?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/46-09.jpg",
+        img: "img/tickets/46-09.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -9987,7 +9987,7 @@ var questions = [
     },
     {
         text: "С какой максимальной скоростью вы можете продолжить движение на международном или маломестном автобусе?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/46-10.jpg",
+        img: "img/tickets/46-10.jpg",
         answer: [
             "70 км/ч.",
             "90 км/ч.",
@@ -9998,7 +9998,7 @@ var questions = [
     },
     {
         text: "За сколько метров до автомобиля необходимо выставить знак аварийной остановки в этой ситуации?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/46-11.jpg",
+        img: "img/tickets/46-11.jpg",
         answer: [
             "40 м.",
             "30 м.",
@@ -10009,7 +10009,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам остановиться в указанном месте для высадки пассажира?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/46-12.jpg",
+        img: "img/tickets/46-12.jpg",
         answer: [
             "Разрешено.",
             "Разрешено, если при этом не будут созданы помехи для движения маршрутных транспортных средств и пешеходов.",
@@ -10020,7 +10020,7 @@ var questions = [
     },
     {
         text: "Кто проедет перекресток вторым?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/46-13.jpg",
+        img: "img/tickets/46-13.jpg",
         answer: [
             "Вы.",
             "Трамвай."
@@ -10030,7 +10030,7 @@ var questions = [
     },
     {
         text: "Следует ли вам уступить дорогу пешеходам при отсутствии \"зебры\" и дорожных знаков?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/46-14.jpg",
+        img: "img/tickets/46-14.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -10040,7 +10040,7 @@ var questions = [
     },
     {
         text: "Вы подъезжаете к стоящему автомобилю с включенным проблесковым маячко синего цвета и специальным звуковым сигналом. Ваши действия?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/46-15.jpg",
+        img: "img/tickets/46-15.jpg",
         answer: [
             "Остановитесь.",
             "Проедете мимо со скоростью 40 км/ч.",
@@ -10085,7 +10085,7 @@ var questions = [
     },
     {
         text: "Для обеспечения безопасности при остановке на подъеме (спуске) водителю следует повернуть передние колеса. Водители каких транспортных средств правильно выполнили это требование при отсутствии тротуара?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/46-19.jpg",
+        img: "img/tickets/46-19.jpg",
         answer: [
             "А и Г.",
             "Б и В.",
@@ -10109,7 +10109,7 @@ var questions = [
     //B47
     {
         text: "Как называется данный дорожный знак?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/47-01.jpg",
+        img: "img/tickets/47-01.jpg",
         answer: [
             "\"Движение транспортных средств, перевозящих взрывчатку, запрещено\".",
             "\"Движение транспортных средств, перевозящих вещества загрязняющие воду, запрещено\".",
@@ -10120,7 +10120,7 @@ var questions = [
     },
     {
         text: "О чем информируют вас эти дорожные знаки?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/47-02.jpg",
+        img: "img/tickets/47-02.jpg",
         answer: [
             "О приближении к перекрестку, где установлен знак \"Уступить дорогу\".",
             "О приближении к перекрестку, где установлен знак \"Движение без остановки запрещено\".",
@@ -10131,7 +10131,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам произвести остановку в указанном месте?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/47-03.jpg",
+        img: "img/tickets/47-03.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -10141,7 +10141,7 @@ var questions = [
     },
     {
         text: "Действие каких знаков распространяется только на ту сторону улицы, на которой они установлены?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/47-04.jpg",
+        img: "img/tickets/47-04.jpg",
         answer: [
             "А и В.",
             "Б и Г.",
@@ -10153,7 +10153,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам повернуть налево с правой полосы в этой ситуации?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/47-05.jpg",
+        img: "img/tickets/47-05.jpg",
         answer: [
             "Нет.",
             "Да."
@@ -10163,7 +10163,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам движение в прямом направлении?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/47-06.jpg",
+        img: "img/tickets/47-06.jpg",
         answer: [
             "Да.",
             "Нет.",
@@ -10186,7 +10186,7 @@ var questions = [
     },
     {
         text: "Кто должен уступить дорогу?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/47-08.jpg",
+        img: "img/tickets/47-08.jpg",
         answer: [
             "Водитель легкового автомобиля.",
             "Водитель легкового автомобиля, что бы автокран поскорее освободил полосу.",
@@ -10197,7 +10197,7 @@ var questions = [
     },
     {
         text: "Разрешена ли вам остановка в жаркое время года на левой стороне дороги, в тени деревьев?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/47-09.jpg",
+        img: "img/tickets/47-09.jpg",
         answer: [
             "Разрешена.",
             "Разрешена только при видимости дороги более 100 м.",
@@ -10208,7 +10208,7 @@ var questions = [
     },
     {
         text: "Какие знаки разрешают разворот?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/47-10.jpg",
+        img: "img/tickets/47-10.jpg",
         answer: [
             "Только А.",
             "Только Б.",
@@ -10220,7 +10220,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам в конце подъема опережение грузового автомобиля?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/47-11.jpg",
+        img: "img/tickets/47-11.jpg",
         answer: [
             "Запрещено.",
             "Разрешено."
@@ -10230,7 +10230,7 @@ var questions = [
     },
     {
         text: "В каком из указанных мест вы можете поставить на стоянку грузовой автомобиль с разрешенной максимальной массой более 3,5 т?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/47-12.jpg",
+        img: "img/tickets/47-12.jpg",
         answer: [
             "Только А.",
             "Только В.",
@@ -10242,7 +10242,7 @@ var questions = [
     },
     {
         text: "Кто проедет перекресток вторым?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/47-13.jpg",
+        img: "img/tickets/47-13.jpg",
         answer: [
             "Вы.",
             "Водитель встречного автомобиля."
@@ -10252,7 +10252,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам продолжить движение, если за перекрестком образовался затор:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/47-14.jpg",
+        img: "img/tickets/47-14.jpg",
         answer: [
             "Да, если вам нужно проехать перекресток в прямом направлении.",
             "Только если вы намерены совершить поворот или разворот.",
@@ -10264,7 +10264,7 @@ var questions = [
     },
     {
         text: "Кто проедет перекресток третьим?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/47-15.jpg",
+        img: "img/tickets/47-15.jpg",
         answer: [
             "Легковой автомобиль.",
             "Мотоцикл.",
@@ -10287,7 +10287,7 @@ var questions = [
     },
     {
         text: "На каком рисунке изображен автомобиль, водитель которого нарушил правила перевозки грузов?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/47-17.jpg",
+        img: "img/tickets/47-17.jpg",
         answer: [
             "Только на А.",
             "Только на Б.",
@@ -10343,7 +10343,7 @@ var questions = [
     },
     {
         text: "Какой скоростной режим действует в этом месте улицы?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/48-02.jpg",
+        img: "img/tickets/48-02.jpg",
         answer: [
             "Минимальная допустимая скорость движения на этой улице - 50 км/ч.",
             "Рекомендуемая скорость движения на этой улице - 50 км/ч.",
@@ -10354,7 +10354,7 @@ var questions = [
     },
     {
         text: "Какие знаки разрешают разворот?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/48-03.jpg",
+        img: "img/tickets/48-03.jpg",
         answer: [
             "Только А.",
             "Только А и Б.",
@@ -10366,7 +10366,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам повернуть направо на этом перекрестке?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/48-04.jpg",
+        img: "img/tickets/48-04.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -10376,7 +10376,7 @@ var questions = [
     },
     {
         text: "Разрешен ли вам выезд во вторую полосу?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/48-05.jpg",
+        img: "img/tickets/48-05.jpg",
         answer: [
             "Разрешен.",
             "Разрешен, если скорость грузового автомобиля менее 30 км/ч.",
@@ -10387,7 +10387,7 @@ var questions = [
     },
     {
         text: "В каком направлении вам разрешено движение?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/48-06.jpg",
+        img: "img/tickets/48-06.jpg",
         answer: [
             "Разрешено только направо.",
             "Движение запрещено.",
@@ -10398,7 +10398,7 @@ var questions = [
     },
     {
         text: "Водитель легкового автомобиля должен включить правые указатели поворота:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/48-07.jpg",
+        img: "img/tickets/48-07.jpg",
         answer: [
             "Сразу же перед перестроением на правую полосу.",
             "Должен только выключить указатели левого поворота.",
@@ -10409,7 +10409,7 @@ var questions = [
     },
     {
         text: "По какой траектории Правила разрешают вам произвести поворот налево?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/48-08.jpg",
+        img: "img/tickets/48-08.jpg",
         answer: [
             "Только по А.",
             "Только по Б.",
@@ -10432,7 +10432,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам двигаться по средней полосе на этой дороге?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/48-10.jpg",
+        img: "img/tickets/48-10.jpg",
         answer: [
             "Да.",
             "Да, по любой, кроме левой.",
@@ -10443,7 +10443,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам после опережения первого автомобиля продолжить движение по левой полосе с целью опережения второго?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/48-11.jpg",
+        img: "img/tickets/48-11.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -10453,7 +10453,7 @@ var questions = [
     },
     {
         text: "Можете ли вы стать на стоянку в указанном месте?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/48-12.jpg",
+        img: "img/tickets/48-12.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -10463,7 +10463,7 @@ var questions = [
     },
     {
         text: "Разрешено ли водителям совершить повороты в указанном месте?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/48-13.jpg",
+        img: "img/tickets/48-13.jpg",
         answer: [
             "Только водителю легкового автомобиля.",
             "Только мотоциклисту.",
@@ -10475,7 +10475,7 @@ var questions = [
     },
     {
         text: "Вы намерены повернуть направо. Ваши действия?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/48-14.jpg",
+        img: "img/tickets/48-14.jpg",
         answer: [
             "Уступите дорогу только пешеходу, переходящему проезжую часть по нерегулируемому пешеходному переходу.",
             "Уступите дорогу только пешеходам, переходящим проезжую часть, на которую вы поворачиваете.",
@@ -10486,7 +10486,7 @@ var questions = [
     },
     {
         text: "Кто проедет перекресток последним?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/48-15.jpg",
+        img: "img/tickets/48-15.jpg",
         answer: [
             "Трамвай Б.",
             "Трамвай А.",
@@ -10498,7 +10498,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам на грузовом автомобиле произвести опережение в данной ситуации?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/48-16.jpg",
+        img: "img/tickets/48-16.jpg",
         answer: [
             "Да, если разрешенная максимальная масса вашего автмообиля менее 3,5 т.",
             "Да, независимо от величины разрешенной максимальной массы вашего автомобиля.",
@@ -10565,7 +10565,7 @@ var questions = [
     },
     {
         text: "Знаки предупреждают вас о том, что:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/49-02.jpg",
+        img: "img/tickets/49-02.jpg",
         answer: [
             "Через 150 м на вашем пути будет регулируемый пешеходный переход.",
             "Через 150 м на вашем пути будет нерегулируемый пешеходный переход.",
@@ -10576,7 +10576,7 @@ var questions = [
     },
     {
         text: "В каких направлениях вам разрешено продолжить движение?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/49-03.jpg",
+        img: "img/tickets/49-03.jpg",
         answer: [
             "Только Б.",
             "Только А или Б.",
@@ -10587,7 +10587,7 @@ var questions = [
     },
     {
         text: "Управляя каким автомбилем вы обязаны выполнить требование данного знака?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/49-04.jpg",
+        img: "img/tickets/49-04.jpg",
         answer: [
             "Любым грузовым автомобилем-цистерной.",
             "Грузовым автомобилем, перевозящим живую рыбу, или питьевую воду.",
@@ -10598,7 +10598,7 @@ var questions = [
     },
     {
         text: "Разрешен ли вам обгон в данной ситуации?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/49-05.jpg",
+        img: "img/tickets/49-05.jpg",
         answer: [
             "Да.",
             "Да, но только если скорость трактора менее 30 км/ч.",
@@ -10609,7 +10609,7 @@ var questions = [
     },
     {
         text: "В каких направлениях вам разрешено движение?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/49-06.jpg",
+        img: "img/tickets/49-06.jpg",
         answer: [
             "Только прямо.",
             "Только прямо и направо.",
@@ -10631,7 +10631,7 @@ var questions = [
     },
     {
         text: "У кого в данной ситуации имеется преимущество в движении?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/49-08.jpg",
+        img: "img/tickets/49-08.jpg",
         answer: [
             "У водителя, намеревающегося остановиться у тротуара.",
             "У водителя, намеревающегося начать движение от тротуара."
@@ -10641,7 +10641,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам высадить пассажиров на автобусной остановке?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/49-09.jpg",
+        img: "img/tickets/49-09.jpg",
         answer: [
             "Нет.",
             "Да, если не будет создано помех движению маршрутных транспортных средств.",
@@ -10652,7 +10652,7 @@ var questions = [
     },
     {
         text: "По какой траектории вы можете продолжить движение?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/49-10.jpg",
+        img: "img/tickets/49-10.jpg",
         answer: [
             "Только по А.",
             "Только по Б.",
@@ -10663,7 +10663,7 @@ var questions = [
     },
     {
         text: "Разрешен ли вам обгон?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/49-11.jpg",
+        img: "img/tickets/49-11.jpg",
         answer: [
             "Разрешен.",
             "Разрешен, только если обгон будет завершен до перекрестка.",
@@ -10674,7 +10674,7 @@ var questions = [
     },
     {
         text: "Кто нарушил правила остановки?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/49-12.jpg",
+        img: "img/tickets/49-12.jpg",
         answer: [
             "Оба водителя.",
             "Только водитель грузового автмообиля.",
@@ -10686,7 +10686,7 @@ var questions = [
     },
     {
         text: "В каком случае вы имеете право выехать на перекресток, если за ним образовался затор?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/49-13.jpg",
+        img: "img/tickets/49-13.jpg",
         answer: [
             "Только если вы намерены совершить поворот или разворот.",
             "В любом случае."
@@ -10696,7 +10696,7 @@ var questions = [
     },
     {
         text: "Вы намерены продолжить движение в прямом направлении. Следует ли вам уступить дорогу грузовому автомобилю?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/49-14.jpg",
+        img: "img/tickets/49-14.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -10706,7 +10706,7 @@ var questions = [
     },
     {
         text: "Кто проедет перекресток первым?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/49-15.jpg",
+        img: "img/tickets/49-15.jpg",
         answer: [
             "Автобус.",
             "Легковой автомобиль.",
@@ -10750,7 +10750,7 @@ var questions = [
     },
     {
         text: "На каком рисунке показан безопасный способ разворота вне перекрестка с использованием прилегающей территории слева?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/49-19.jpg",
+        img: "img/tickets/49-19.jpg",
         answer: [
             "На левом.",
             "На правом."
@@ -10783,7 +10783,7 @@ var questions = [
     },
     {
         text: "Какие знаки означают, что вам должны уступить дорогу, если встречный разъезд затруднен?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/50-02.jpg",
+        img: "img/tickets/50-02.jpg",
         answer: [
             "Только Г.",
             "Только Б и Г.",
@@ -10795,7 +10795,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам остановиться в указанном месте?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/50-03.jpg",
+        img: "img/tickets/50-03.jpg",
         answer: [
             "Запрещено.",
             "Разрешено, если вы проживаете в этом доме.",
@@ -10806,7 +10806,7 @@ var questions = [
     },
     {
         text: "Вы управляете грузовым автомобилем с разрешенной максимальной массой более 3,5 т. В каких направлениях вам разрешено дальнейшее движение?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/50-04.jpg",
+        img: "img/tickets/50-04.jpg",
         answer: [
             "Только напарво.",
             "Только направо, налево и в обратном направлении.",
@@ -10817,7 +10817,7 @@ var questions = [
     },
     {
         text: "Разрешен ли в этом месте обгон?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/50-05.jpg",
+        img: "img/tickets/50-05.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -10827,7 +10827,7 @@ var questions = [
     },
     {
         text: "Кому разрешено движение?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/50-06.jpg",
+        img: "img/tickets/50-06.jpg",
         answer: [
             "Только водителю автобуса.",
             "Только водителю легкового автомобиля.",
@@ -10839,7 +10839,7 @@ var questions = [
     },
     {
         text: "Вы намерены произвести разворот на перекрестке. Какие указатели поворота необходимо включить при выезде с перекрестка?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/50-07.jpg",
+        img: "img/tickets/50-07.jpg",
         answer: [
             "Левые.",
             "Правые.",
@@ -10850,7 +10850,7 @@ var questions = [
     },
     {
         text: "По какой траектории разрешают вам произвести поворот налево?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/50-08.jpg",
+        img: "img/tickets/50-08.jpg",
         answer: [
             "Только по А.",
             "Только по Б.",
@@ -10861,7 +10861,7 @@ var questions = [
     },
     {
         text: "Водитель легкового автомобиля в данной ситуации:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/50-09.jpg",
+        img: "img/tickets/50-09.jpg",
         answer: [
             "Должен уступить дорогу грузовому автомобилю, т.к. выезжает с полосы разгона.",
             "Имеет преимущественное право на движение, т.к. находится справа от грузового автомобиля."
@@ -10882,7 +10882,7 @@ var questions = [
     },
     {
         text: "Можете ли вы обогнать трактор?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/50-11.jpg",
+        img: "img/tickets/50-11.jpg",
         answer: [
             "Да.",
             "Да, если обгон будет завершен за 100 м до переезда.",
@@ -10905,7 +10905,7 @@ var questions = [
     },
     {
         text: "Какой должен включиться следующий сигнал светофора?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/50-13.jpg",
+        img: "img/tickets/50-13.jpg",
         answer: [
             "Зеленый.",
             "Красный.",
@@ -10916,7 +10916,7 @@ var questions = [
     },
     {
         text: "Каким будет порядок проезда перекрестка?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/50-14.jpg",
+        img: "img/tickets/50-14.jpg",
         answer: [
             "Вы, трамвай, грузовой автомобиль.",
             "Грузовой автомобиль, трамвай, вы.",
@@ -10927,7 +10927,7 @@ var questions = [
     },
     {
         text: "Кто проедет перекресток первым?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/50-15.jpg",
+        img: "img/tickets/50-15.jpg",
         answer: [
             "Автобус.",
             "Легковой автомобиль.",
@@ -10938,7 +10938,7 @@ var questions = [
     },
     {
         text: "Нарушил ли водитель автомобиля правила проезда железнодорожного переезда, в данной ситуации?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/50-16.jpg",
+        img: "img/tickets/50-16.jpg",
         answer: [
             "Нет.",
             "Нет, шлагбаум открыт.",
@@ -11005,7 +11005,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам повернуть направо?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/51-02.jpg",
+        img: "img/tickets/51-02.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -11015,7 +11015,7 @@ var questions = [
     },
     {
         text: "Можете ли вы остановиться для посадки пассажира за знаком?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/51-03.jpg",
+        img: "img/tickets/51-03.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -11025,7 +11025,7 @@ var questions = [
     },
     {
         text: "Какой из знаков не запрещает движение пешеходов?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/51-04.jpg",
+        img: "img/tickets/51-04.jpg",
         answer: [
             "Только Б и В.",
             "Только Б.",
@@ -11036,7 +11036,7 @@ var questions = [
     },
     {
         text: "Вы намерены повернуть налево. Где вы должны остановиться, чтобы уступить дорогу?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/51-05.jpg",
+        img: "img/tickets/51-05.jpg",
         answer: [
             "Перед знаком.",
             "Перед перекрестком у линии разметки.",
@@ -11059,7 +11059,7 @@ var questions = [
     },
     {
         text: "Обязаны ли вы в данной ситуации включить сигнал правого поворота?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/51-07.jpg",
+        img: "img/tickets/51-07.jpg",
         answer: [
             "Да.",
             "Нет.",
@@ -11070,7 +11070,7 @@ var questions = [
     },
     {
         text: "По какой траектории вы можете выполнить поворот, управляя автопоездом, имеющим большую длину?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/51-08.jpg",
+        img: "img/tickets/51-08.jpg",
         answer: [
             "Только по А.",
             "Только по Б.",
@@ -11081,7 +11081,7 @@ var questions = [
     },
     {
         text: "По какой траектории вы не можете выполнить разворот?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/51-09.jpg",
+        img: "img/tickets/51-09.jpg",
         answer: [
             "Только по А.",
             "Только по Б.",
@@ -11114,7 +11114,7 @@ var questions = [
     },
     {
         text: "Кто из водителей нарушил правила остановки?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/51-12.jpg",
+        img: "img/tickets/51-12.jpg",
         answer: [
             "Только водитель автомобиля А.",
             "Только водитель автомобиля Б.",
@@ -11126,7 +11126,7 @@ var questions = [
     },
     {
         text: "Кто проедет перекресток последним?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/51-13.jpg",
+        img: "img/tickets/51-13.jpg",
         answer: [
             "Вы.",
             "Легковой автомобиль."
@@ -11136,7 +11136,7 @@ var questions = [
     },
     {
         text: "Кто проедет перекресток первым?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/51-14.jpg",
+        img: "img/tickets/51-14.jpg",
         answer: [
             "Легковой автомобиль.",
             "Вы."
@@ -11146,7 +11146,7 @@ var questions = [
     },
     {
         text: "Вы намерены продолжить движение прямо. При желтом мигающем сигнале светофора вы должны:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/51-15.jpg",
+        img: "img/tickets/51-15.jpg",
         answer: [
             "Проехать перекресток первым.",
             "Уступить дорогу только грузовому автомобилю.",
@@ -11158,7 +11158,7 @@ var questions = [
     },
     {
         text: "Можете ли вы, управляя грузовым автомобилем с разрешенной максимальной массой более 3,5 т, проехать перекресток в прямом направлении?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/51-16.jpg",
+        img: "img/tickets/51-16.jpg",
         answer: [
             "Да.",
             "Да, если место назначения вашей поездки находится в этой жилой зоне.",
@@ -11191,7 +11191,7 @@ var questions = [
     },
     {
         text: "Для предупреждения скатывания автомобиля при остановке на подъеме (спуске) водителю следует повернуть передние колеса. Водители каких транспортных средств правильно выполнили это требование при наличии тротуара?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/51-19.jpg",
+        img: "img/tickets/51-19.jpg",
         answer: [
             "А и Г.",
             "Б и В.",
@@ -11227,7 +11227,7 @@ var questions = [
     },
     {
         text: "Вы проедете мост:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/52-02.jpg",
+        img: "img/tickets/52-02.jpg",
         answer: [
             "Первым.",
             "Знак запрещает вам проезд через мост.",
@@ -11238,7 +11238,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам продолжить движение на перекрестке налево?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/52-03.jpg",
+        img: "img/tickets/52-03.jpg",
         answer: [
             "Нет.",
             "Да.",
@@ -11249,7 +11249,7 @@ var questions = [
     },
     {
         text: "О чем информирует водителя табличка, установленная под знаком?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/52-04.jpg",
+        img: "img/tickets/52-04.jpg",
         answer: [
             "Парковка оборудована пунктом технической помощи.",
             "На парковке имеется место для осмотра автомобилей (эстакада или смотровая канава)."
@@ -11259,7 +11259,7 @@ var questions = [
     },
     {
         text: "Водитель какого автомобиля не нарушает Правила?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/52-05.jpg",
+        img: "img/tickets/52-05.jpg",
         answer: [
             "Только А.",
             "Только Б.",
@@ -11282,7 +11282,7 @@ var questions = [
     },
     {
         text: "Первым проедет перекресток:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/52-07.jpg",
+        img: "img/tickets/52-07.jpg",
         answer: [
             "Мотоциклист.",
             "Вы."
@@ -11292,7 +11292,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам повернуть на перекрестке направо?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/52-08.jpg",
+        img: "img/tickets/52-08.jpg",
         answer: [
             "Нужно перестроиться на правую полосу, затем осуществить поворот.",
             "Можно продолжить движение по второй полосе до перекреска, затем повернуть.",
@@ -11303,7 +11303,7 @@ var questions = [
     },
     {
         text: "Разрешен ли вам такой маневр на мосту?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/52-09.jpg",
+        img: "img/tickets/52-09.jpg",
         answer: [
             "Разрешен только при видимости дороги более 100 м.",
             "Не разрешен."
@@ -11313,7 +11313,7 @@ var questions = [
     },
     {
         text: "С какой максимальной скоростью разрешается движение водителю этого грузового автомобиля?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/52-10.jpg",
+        img: "img/tickets/52-10.jpg",
         answer: [
             "60 км/ч.",
             "70 км/ч.",
@@ -11324,7 +11324,7 @@ var questions = [
     },
     {
         text: "Разрешен ли вам обгон в данной ситуации?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/52-11.jpg",
+        img: "img/tickets/52-11.jpg",
         answer: [
             "Да.",
             "Да, если обгон будет завершен до перекрестка.",
@@ -11335,7 +11335,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам поставить грузовой автомобиль с разрешенной максимальной массой более 3,5 т на стоянку в данном месте?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/52-12.jpg",
+        img: "img/tickets/52-12.jpg",
         answer: [
             "Запрещено.",
             "Разрешено."
@@ -11345,7 +11345,7 @@ var questions = [
     },
     {
         text: "Нужно ли вам ждать разрешающий сигнал регулировщика?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/52-13.jpg",
+        img: "img/tickets/52-13.jpg",
         answer: [
             "Нет.",
             "Да."
@@ -11355,7 +11355,7 @@ var questions = [
     },
     {
         text: "Кто проедет перекресток первым?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/52-14.jpg",
+        img: "img/tickets/52-14.jpg",
         answer: [
             "Грузовой автомобиль.",
             "Вы."
@@ -11365,7 +11365,7 @@ var questions = [
     },
     {
         text: "Вы проедете перекресток:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/52-15.jpg",
+        img: "img/tickets/52-15.jpg",
         answer: [
             "Первым.",
             "Вторым.",
@@ -11409,7 +11409,7 @@ var questions = [
     },
     {
         text: "На каком рисунке показан безопасный способ разворота вне перекрестка с использованием прилегающей территории справа?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/52-19.jpg",
+        img: "img/tickets/52-19.jpg",
         answer: [
             "На левом.",
             "На правом."
@@ -11431,7 +11431,7 @@ var questions = [
     //B53
     {
         text: "Какой из этих знаков называется \"Направление движения по полосе\"?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/53-01.jpg",
+        img: "img/tickets/53-01.jpg",
         answer: [
             "А.",
             "Б.",
@@ -11443,7 +11443,7 @@ var questions = [
     },
     {
         text: "Какова зона действия знака?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/53-02.jpg",
+        img: "img/tickets/53-02.jpg",
         answer: [
             "До конца улицы.",
             "Только на этом перекрестке.",
@@ -11454,7 +11454,7 @@ var questions = [
     },
     {
         text: "Разрешена ли вам остановка в указанном месте?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/53-03.jpg",
+        img: "img/tickets/53-03.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -11464,7 +11464,7 @@ var questions = [
     },
     {
         text: "Эта табличка распространяет действие установленного с ней знака:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/53-04.jpg",
+        img: "img/tickets/53-04.jpg",
         answer: [
             "Только на грузовые автомобили с разрешенной максимальной массой более 3,5 т.",
             "На все грузовые автомобили.",
@@ -11475,7 +11475,7 @@ var questions = [
     },
     {
         text: "В каком из указанных мест вы можете пересечь сплошную линию разметки?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/53-05.jpg",
+        img: "img/tickets/53-05.jpg",
         answer: [
             "Только Б.",
             "В любом.",
@@ -11486,7 +11486,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам дальнейшее движение в данной ситуации?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/53-06.jpg",
+        img: "img/tickets/53-06.jpg",
         answer: [
             "Да.",
             "Нет.",
@@ -11507,7 +11507,7 @@ var questions = [
     },
     {
         text: "С какой полосы вы можете въехать на данный перекресток?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/53-08.jpg",
+        img: "img/tickets/53-08.jpg",
         answer: [
             "Только с правой.",
             "С правой или левой."
@@ -11517,7 +11517,7 @@ var questions = [
     },
     {
         text: "Разрешена ли вам стоянка на указанном участке дороги?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/53-09.jpg",
+        img: "img/tickets/53-09.jpg",
         answer: [
             "Разрешена только при видимости дороги более 100 м.",
             "Разрешена.",
@@ -11528,7 +11528,7 @@ var questions = [
     },
     {
         text: "С какой максимальной скоростью вы можете продолжить движение на грузовом автомобиле с разрешенной максимальной массой более 3,5 т?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/53-10.jpg",
+        img: "img/tickets/53-10.jpg",
         answer: [
             "60 км/ч.",
             "70 км/ч.",
@@ -11539,7 +11539,7 @@ var questions = [
     },
     {
         text: "Разрешен ли вам обгон сразу трех тарнспортных средств после проезда пешеходного перехода?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/53-11.jpg",
+        img: "img/tickets/53-11.jpg",
         answer: [
             "Запрещен.",
             "Разрешен."
@@ -11549,7 +11549,7 @@ var questions = [
     },
     {
         text: "Можете ли вы остановиться на мосту для посадки пассажира?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/53-12.jpg",
+        img: "img/tickets/53-12.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -11559,7 +11559,7 @@ var questions = [
     },
     {
         text: "Вы проедете перекресток в прямом направлении:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/53-13.jpg",
+        img: "img/tickets/53-13.jpg",
         answer: [
             "Первым.",
             "Вторым."
@@ -11569,7 +11569,7 @@ var questions = [
     },
     {
         text: "Кто из водителей должен уступить дорогу пешеходам?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/53-14.jpg",
+        img: "img/tickets/53-14.jpg",
         answer: [
             "Только водитель легкового автомобиля.",
             "Только водитель грузового автомобиля.",
@@ -11580,7 +11580,7 @@ var questions = [
     },
     {
         text: "Вы намерены повернуть налево. Можете ли вы приступить к повороту?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/53-15.jpg",
+        img: "img/tickets/53-15.jpg",
         answer: [
             "Да.",
             "Да, уступив дорогу грузовому автомобилю.",
@@ -11591,7 +11591,7 @@ var questions = [
     },
     {
         text: "Можете ли вы, управляя экскурсионным автобусом, использовать для движения правую полосу?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/53-16.jpg",
+        img: "img/tickets/53-16.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -11656,7 +11656,7 @@ var questions = [
     },
     {
         text: "Можно ли остановиться на обочине, в зоне действия этих знаков?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/54-02.jpg",
+        img: "img/tickets/54-02.jpg",
         answer: [
             "Остановка транспортных средств на обочине запрещена.",
             "Съезд на обочину опасен в связи с проведением на ней ремонтных работ.",
@@ -11667,7 +11667,7 @@ var questions = [
     },
     {
         text: "Какие знаки разрешают движение грузовым автомобилям с разрешенной максимальной массой более 3,5 т?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/54-03.jpg",
+        img: "img/tickets/54-03.jpg",
         answer: [
             "Только А.",
             "Только А и Б.",
@@ -11678,7 +11678,7 @@ var questions = [
     },
     {
         text: "Разрешен ли вам разворт на этом перекрестке?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/54-04.jpg",
+        img: "img/tickets/54-04.jpg",
         answer: [
             "Нет.",
             "Движение разрешено только прямо или налево.",
@@ -11689,7 +11689,7 @@ var questions = [
     },
     {
         text: "Как называются данные таблички?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/54-05.jpg",
+        img: "img/tickets/54-05.jpg",
         answer: [
             "Направление действия.",
             "Расстояние до объекта.",
@@ -11700,7 +11700,7 @@ var questions = [
     },
     {
         text: "Что означает этот сигнал регулировщика?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/54-06.jpg",
+        img: "img/tickets/54-06.jpg",
         answer: [
             "Остановиться.",
             "Заехать на тротуар.",
@@ -11711,7 +11711,7 @@ var questions = [
     },
     {
         text: "Вы проедете перекресток:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/54-07.jpg",
+        img: "img/tickets/54-07.jpg",
         answer: [
             "Вторым.",
             "Первым.",
@@ -11722,7 +11722,7 @@ var questions = [
     },
     {
         text: "Кто должен уступить дорогу?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/54-08.jpg",
+        img: "img/tickets/54-08.jpg",
         answer: [
             "Водитель правого автомобиля.",
             "Водитель левого автомобиля."
@@ -11732,7 +11732,7 @@ var questions = [
     },
     {
         text: "Можете ли вы развернуться на этом месте?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/54-09.jpg",
+        img: "img/tickets/54-09.jpg",
         answer: [
             "Да, при видимости дороги не менее 100 м.",
             "Да, но только в светлое время суток.",
@@ -11754,7 +11754,7 @@ var questions = [
     },
     {
         text: "Кто проедет первым?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/54-11.jpg",
+        img: "img/tickets/54-11.jpg",
         answer: [
             "Встречный автомобиль.",
             "Вы."
@@ -11764,7 +11764,7 @@ var questions = [
     },
     {
         text: "Можете ли вы осуществить стоянку на мосту в указанном месте?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/54-12.jpg",
+        img: "img/tickets/54-12.jpg",
         answer: [
             "Да.",
             "Да, только для высадки пассажиров.",
@@ -11775,7 +11775,7 @@ var questions = [
     },
     {
         text: "При включении зеленого сигнала светофора вы проедете перекресток:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/54-13.jpg",
+        img: "img/tickets/54-13.jpg",
         answer: [
             "Вторым, уступив дорогу грузовому автомобилю, завершающему разворот на перекрестке.",
             "Первым, не уступая дорогу грузовому автомобилю."
@@ -11785,7 +11785,7 @@ var questions = [
     },
     {
         text: "Вторым перекресток проедет:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/54-14.jpg",
+        img: "img/tickets/54-14.jpg",
         answer: [
             "Легковой автомобиль.",
             "Вы."
@@ -11795,7 +11795,7 @@ var questions = [
     },
     {
         text: "При повороте налево во второй проезд вы проедете перекресток:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/54-15.jpg",
+        img: "img/tickets/54-15.jpg",
         answer: [
             "Первым.",
             "Третьим.",
@@ -11806,7 +11806,7 @@ var questions = [
     },
     {
         text: "Кто из водителей не нарушает правила разворота на автомагистрали?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/54-16.jpg",
+        img: "img/tickets/54-16.jpg",
         answer: [
             "Только водитель грузовог оавтомобиля, выполняющего ремонтные или уборочные работы.",
             "Только водитель легкового автомобиля.",
@@ -11876,7 +11876,7 @@ var questions = [
     },
     {
         text: "В каких направлениях вам разрешено продолжить движение на перекрестке?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/55-02.jpg",
+        img: "img/tickets/55-02.jpg",
         answer: [
             "Только Б.",
             "Б или В.",
@@ -11887,7 +11887,7 @@ var questions = [
     },
     {
         text: "Каким транспортным средствам запрещена стоянка в зоне действия этих знаков?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/55-03.jpg",
+        img: "img/tickets/55-03.jpg",
         answer: [
             "Только грузовым автомобилям с разрешенной максимальной массой более 3,5 т.",
             "Всем грузовым автомобилям.",
@@ -11898,7 +11898,7 @@ var questions = [
     },
     {
         text: "Как называется данный дорожный знак?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/55-04.jpg",
+        img: "img/tickets/55-04.jpg",
         answer: [
             "Место (пункт) остановки автобуса.",
             "Начало места (пункта) остановки автобуса.",
@@ -11909,7 +11909,7 @@ var questions = [
     },
     {
         text: "Разрешен ли вам такой маневр при выключенных реверсивных светофорах?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/55-05.jpg",
+        img: "img/tickets/55-05.jpg",
         answer: [
             "Разрешен, если нет встречных транспортных средств.",
             "Разрешен только для обгона.",
@@ -11920,7 +11920,7 @@ var questions = [
     },
     {
         text: "При таком жесте регулировщика и сигналах светофора вы должны:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/55-06.jpg",
+        img: "img/tickets/55-06.jpg",
         answer: [
             "Продолжить движение прямо.",
             "Продолжить движение прямо или направо.",
@@ -11931,7 +11931,7 @@ var questions = [
     },
     {
         text: "Должен ли в этой ситуации водитель, остановившийся из-за неисправности, выставить знак аварийной остановки?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/55-07.jpg",
+        img: "img/tickets/55-07.jpg",
         answer: [
             "Должен, если неисправна аварийная сигнализация.",
             "Должен во всех случаях.",
@@ -11942,7 +11942,7 @@ var questions = [
     },
     {
         text: "По какой траектории вам разрешено повернуть налево?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/55-08.jpg",
+        img: "img/tickets/55-08.jpg",
         answer: [
             "Только по А.",
             "Только по Б.",
@@ -11953,7 +11953,7 @@ var questions = [
     },
     {
         text: "Вы выезжаете с места стоянки одновременно с другим автомобилем. Вы проедете:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/55-09.jpg",
+        img: "img/tickets/55-09.jpg",
         answer: [
             "Вторым.",
             "Первым."
@@ -11985,7 +11985,7 @@ var questions = [
     },
     {
         text: "Кто из водителей нарушил правила остановки?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/55-12.jpg",
+        img: "img/tickets/55-12.jpg",
         answer: [
             "Только водитель легкового автомобиля.",
             "Только водитель автобуса.",
@@ -11997,7 +11997,7 @@ var questions = [
     },
     {
         text: "Вы проедете перекресток в прямом направлении:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/55-13.jpg",
+        img: "img/tickets/55-13.jpg",
         answer: [
             "Первым.",
             "Вторым."
@@ -12007,7 +12007,7 @@ var questions = [
     },
     {
         text: "Последним перекресток проедет:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/55-14.jpg",
+        img: "img/tickets/55-14.jpg",
         answer: [
             "Трамвай.",
             "Встречный автомобиль.",
@@ -12018,7 +12018,7 @@ var questions = [
     },
     {
         text: "Следует ли вам уступить дорогу?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/55-15.jpg",
+        img: "img/tickets/55-15.jpg",
         answer: [
             "Только автобусу.",
             "Только легковому автомобилю.",
@@ -12029,7 +12029,7 @@ var questions = [
     },
     {
         text: "По какой траектории можно продолжить движение напарво на легковом автомобиле?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/55-16.jpg",
+        img: "img/tickets/55-16.jpg",
         answer: [
             "Только по А.",
             "Только по Б.",
@@ -12098,7 +12098,7 @@ var questions = [
     },
     {
         text: "Разрешается ли вам повернуть во двор налево?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/56-02.jpg",
+        img: "img/tickets/56-02.jpg",
         answer: [
             "Да.",
             "Нет.",
@@ -12110,7 +12110,7 @@ var questions = [
     },
     {
         text: "Какой знак запрещает дальнейшее движение всех транспортных средств, только кроме маршрутных?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/56-03.jpg",
+        img: "img/tickets/56-03.jpg",
         answer: [
             "А.",
             "А и В.",
@@ -12121,7 +12121,7 @@ var questions = [
     },
     {
         text: "Действуют ли эти знаки после окончания дождя?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/56-04.jpg",
+        img: "img/tickets/56-04.jpg",
         answer: [
             "Да, при влажном покрытии рекомендуемая скорость 40 км/ч.",
             "Нет."
@@ -12131,7 +12131,7 @@ var questions = [
     },
     {
         text: "Разрешена ли вам стоянка в указанном месте?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/56-05.jpg",
+        img: "img/tickets/56-05.jpg",
         answer: [
             "Разрешена.",
             "Разрешена без заезда на тротуар.",
@@ -12142,7 +12142,7 @@ var questions = [
     },
     {
         text: "Можно ли вам будет повернуть налево, при зеленом сигнале светофора?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/56-06.jpg",
+        img: "img/tickets/56-06.jpg",
         answer: [
             "На этом перекрестке движение разрешено во всех направлениях.",
             "Да.",
@@ -12164,7 +12164,7 @@ var questions = [
     },
     {
         text: "По какой траектории Правила разрешают вам произвести поворот налево?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/56-08.jpg",
+        img: "img/tickets/56-08.jpg",
         answer: [
             "Только по А.",
             "Только по Б.",
@@ -12175,7 +12175,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам на перекрестке произвести разворот указанным способом?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/56-09.jpg",
+        img: "img/tickets/56-09.jpg",
         answer: [
             "Да.",
             "Да, если не будут созданы помехи другим участникам движения.",
@@ -12186,7 +12186,7 @@ var questions = [
     },
     {
         text: "С какой максимальной скоростью вы можете продолжить движение на грузовом автомобиле с разрешенной максимальной массой более 3,5 т?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/56-10.jpg",
+        img: "img/tickets/56-10.jpg",
         answer: [
             "60 км/ч.",
             "70 км/ч.",
@@ -12197,7 +12197,7 @@ var questions = [
     },
     {
         text: "Разрешен ли вам обгон в данной ситуации?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/56-11.jpg",
+        img: "img/tickets/56-11.jpg",
         answer: [
             "Разрешен.",
             "Разрешен, только если скорость грузового автомобиля менее 30 км/ч.",
@@ -12208,7 +12208,7 @@ var questions = [
     },
     {
         text: "В каком из указанных мест вы можете поставить автомобиль на стоянку?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/56-12.jpg",
+        img: "img/tickets/56-12.jpg",
         answer: [
             "Только В.",
             "Б или В.",
@@ -12219,7 +12219,7 @@ var questions = [
     },
     {
         text: "Вы проедете перекресток:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/56-13.jpg",
+        img: "img/tickets/56-13.jpg",
         answer: [
             "Первым.",
             "Вторым.",
@@ -12230,7 +12230,7 @@ var questions = [
     },
     {
         text: "Перекресток вы проедете:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/56-14.jpg",
+        img: "img/tickets/56-14.jpg",
         answer: [
             "Третьим.",
             "Вторым.",
@@ -12241,7 +12241,7 @@ var questions = [
     },
     {
         text: "Третьим перекресток проедет:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/56-15.jpg",
+        img: "img/tickets/56-15.jpg",
         answer: [
             "Автобус.",
             "Легковой автомобиль.",
@@ -12252,7 +12252,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам остановиться в этом месте?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/56-16.jpg",
+        img: "img/tickets/56-16.jpg",
         answer: [
             "Да.",
             "Да, но только в светлое время суток.",
@@ -12285,7 +12285,7 @@ var questions = [
     },
     {
         text: "На каком рисунке водитель выполняет правый поворот по траектории, обеспечивающей наибольшую безопасность движения?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/56-19.jpg",
+        img: "img/tickets/56-19.jpg",
         answer: [
             "На правом.",
             "На левом."
@@ -12318,7 +12318,7 @@ var questions = [
     },
     {
         text: "Каково расстояние от данного знака до неровного участка дороги вне населенного пункта?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/57-02.jpg",
+        img: "img/tickets/57-02.jpg",
         answer: [
             "150-300 м.",
             "50-100 м.",
@@ -12329,7 +12329,7 @@ var questions = [
     },
     {
         text: "Каким транспортным средствам знак запрещает движение?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/57-03.jpg",
+        img: "img/tickets/57-03.jpg",
         answer: [
             "Всем транспортным средствам, фактическая масса которых более 6 т.",
             "Транспортным средствам, у которых фактическая масса, приходящаяся на какую либо ось, более 6 т.",
@@ -12340,7 +12340,7 @@ var questions = [
     },
     {
         text: "По какой траектории вам разрешено продолжить движение?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/57-04.jpg",
+        img: "img/tickets/57-04.jpg",
         answer: [
             "Только по А.",
             "Только по В.",
@@ -12352,7 +12352,7 @@ var questions = [
     },
     {
         text: "Разрешен ли вам обгон в данном месте?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/57-05.jpg",
+        img: "img/tickets/57-05.jpg",
         answer: [
             "Да.",
             "Да, если скорость трактора менее 30 км/ч.",
@@ -12363,7 +12363,7 @@ var questions = [
     },
     {
         text: "В каком месте вам следует остановиться?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/57-06.jpg",
+        img: "img/tickets/57-06.jpg",
         answer: [
             "Перед светофором.",
             "Перед пересекаемой проезжей частью.",
@@ -12374,7 +12374,7 @@ var questions = [
     },
     {
         text: "На каком расстоянии от транспортного средства должен быть выставлен знак аварийной остановки вне населенного пункта?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/57-07.jpg",
+        img: "img/tickets/57-07.jpg",
         answer: [
             "Не менее 15 м.",
             "Не менее 20 м.",
@@ -12386,7 +12386,7 @@ var questions = [
     },
     {
         text: "Разрешен ли вам поворот направо в данной ситуации?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/57-08.jpg",
+        img: "img/tickets/57-08.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -12396,7 +12396,7 @@ var questions = [
     },
     {
         text: "По какой траектории вам разрешено выполнить разворот?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/57-09.jpg",
+        img: "img/tickets/57-09.jpg",
         answer: [
             "Только на перекрестке - по траектории А.",
             "Только перед перекрестком - по траектории Б.",
@@ -12419,7 +12419,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам выполнить обгон в населенном пункте?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/57-11.jpg",
+        img: "img/tickets/57-11.jpg",
         answer: [
             "Да.",
             "Да, если обгон будет завершен до переезда.",
@@ -12430,7 +12430,7 @@ var questions = [
     },
     {
         text: "В каком месте на данном участке дороги вы можете поставить автомобиль на длительную стоянку?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/57-12.jpg",
+        img: "img/tickets/57-12.jpg",
         answer: [
             "В любом месте на обочине.",
             "Только через 500 м на специальной площадке.",
@@ -12441,7 +12441,7 @@ var questions = [
     },
     {
         text: "При повороте направо вы должны уступить дорогу:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/57-13.jpg",
+        img: "img/tickets/57-13.jpg",
         answer: [
             "Только велосипедисту.",
             "Только пешеходам.",
@@ -12453,7 +12453,7 @@ var questions = [
     },
     {
         text: "Вы проедете перекресток:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/57-14.jpg",
+        img: "img/tickets/57-14.jpg",
         answer: [
             "Третьим.",
             "Вторым.",
@@ -12464,7 +12464,7 @@ var questions = [
     },
     {
         text: "Эти знаки, установленные перед перекрестком, означают, что:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/57-15.jpg",
+        img: "img/tickets/57-15.jpg",
         answer: [
             "Находясь на таком перекрестке, вы должны будете уступать всем ТС, въезжающим на него.",
             "Находясь на таком перекрестке, вы будете иметь преимущество перед всеми ТС, въезжающими на него."
@@ -12474,7 +12474,7 @@ var questions = [
     },
     {
         text: "Трамвай проедет пересечение:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/57-16.jpg",
+        img: "img/tickets/57-16.jpg",
         answer: [
             "Первым.",
             "Вторым.",
@@ -12542,7 +12542,7 @@ var questions = [
     },
     {
         text: "Эти дорожные знаки предупреждают вас:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/58-02.jpg",
+        img: "img/tickets/58-02.jpg",
         answer: [
             "О направлении объезда препятствия на дороге.",
             "О направлении движения на Т-образных перекрестках, разветвлениях дорог или объезде ремонтируемого участка дороги.",
@@ -12553,7 +12553,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам поставить автомобиль на стоянку в указанном месте по четным числам месяца?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/58-03.jpg",
+        img: "img/tickets/58-03.jpg",
         answer: [
             "Разрешено.",
             "Разрешено только после 19 часов.",
@@ -12564,7 +12564,7 @@ var questions = [
     },
     {
         text: "Какие знаки информируют вас, что на данной дороге не действуют требования Правил, устанавливающие порядок скоростного режима в населенном пункте?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/58-04.jpg",
+        img: "img/tickets/58-04.jpg",
         answer: [
             "Только Б и В.",
             "Только В.",
@@ -12575,7 +12575,7 @@ var questions = [
     },
     {
         text: "В данной ситуации, при отсутствии других тарнспортных средств вы должны останавливаться?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/58-05.jpg",
+        img: "img/tickets/58-05.jpg",
         answer: [
             "Да, остановлюсь обязательно.",
             "Да, остановлюсь у стоп линии.",
@@ -12586,7 +12586,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам движение прямо?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/58-06.jpg",
+        img: "img/tickets/58-06.jpg",
         answer: [
             "Нет.",
             "Да."
@@ -12596,7 +12596,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам остановиться слева у тротуара?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/58-07.jpg",
+        img: "img/tickets/58-07.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -12606,7 +12606,7 @@ var questions = [
     },
     {
         text: "По какой траектории вы можете продолжить движение?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/58-08.jpg",
+        img: "img/tickets/58-08.jpg",
         answer: [
             "По любой.",
             "Только по А.",
@@ -12640,7 +12640,7 @@ var questions = [
     },
     {
         text: "Имеет ли право водитель легкового автомобиля начать обгон?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/58-11.jpg",
+        img: "img/tickets/58-11.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -12650,7 +12650,7 @@ var questions = [
     },
     {
         text: "Разрешена ли водителю грузового автомобиля остановка в указанном месте?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/58-12.jpg",
+        img: "img/tickets/58-12.jpg",
         answer: [
             "Разрешена.",
             "Запрещена, если расстояние между автомобилем и линией разметки менее 3 м."
@@ -12660,7 +12660,7 @@ var questions = [
     },
     {
         text: "Вы проедете перекресток:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/58-13.jpg",
+        img: "img/tickets/58-13.jpg",
         answer: [
             "Последним.",
             "Первым."
@@ -12670,7 +12670,7 @@ var questions = [
     },
     {
         text: "Первым проедет перекресток:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/58-14.jpg",
+        img: "img/tickets/58-14.jpg",
         answer: [
             "Вы.",
             "Автомобиль слева."
@@ -12680,7 +12680,7 @@ var questions = [
     },
     {
         text: "Кто имеет право на первоочередной проезд?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/58-15.jpg",
+        img: "img/tickets/58-15.jpg",
         answer: [
             "Водитель грузового автомобиля.",
             "Вы."
@@ -12690,7 +12690,7 @@ var questions = [
     },
     {
         text: "Как следует поступить водителю автобуса, отъезжающего от обозначенного места остановки?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/58-16.jpg",
+        img: "img/tickets/58-16.jpg",
         answer: [
             "Уступить дорогу автомобилю.",
             "Подать звуковой сигнал и начать движение.",
@@ -12746,7 +12746,7 @@ var questions = [
     //B59
     {
         text: "Сколько полос для движения имеет данная дорога?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/59-01.jpg",
+        img: "img/tickets/59-01.jpg",
         answer: [
             "Одну.",
             "Четыре.",
@@ -12757,7 +12757,7 @@ var questions = [
     },
     {
         text: "В каких направлениях вам разрешено продолжить движение на грузовом автомобиле с разрешенной максимальной массой более 3,5 т?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/59-02.jpg",
+        img: "img/tickets/59-02.jpg",
         answer: [
             "Только прямо.",
             "Прямо и направо.",
@@ -12768,7 +12768,7 @@ var questions = [
     },
     {
         text: "Разрешается ли вам осуществлять остановку в зоне действия этого знака?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/59-03.jpg",
+        img: "img/tickets/59-03.jpg",
         answer: [
             "Нет.",
             "Да."
@@ -12778,7 +12778,7 @@ var questions = [
     },
     {
         text: "Какие знаки разрешают выполнить разворот?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/59-04.jpg",
+        img: "img/tickets/59-04.jpg",
         answer: [
             "Только Б.",
             "Только Б и В.",
@@ -12800,7 +12800,7 @@ var questions = [
     },
     {
         text: "Как вы должны поступить в данной ситуации?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/59-06.jpg",
+        img: "img/tickets/59-06.jpg",
         answer: [
             "Снизить скорость до 40 км/ч и в случае подачи регулировщиком соответствующего сигнала остановиться.",
             "Продолжить движение, не изменяя скорости и полосы.",
@@ -12822,7 +12822,7 @@ var questions = [
     },
     {
         text: "Нарушите ли вы Правила, совершив поворот налево по траектории А?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/59-08.jpg",
+        img: "img/tickets/59-08.jpg",
         answer: [
             "Нет.",
             "Да."
@@ -12832,7 +12832,7 @@ var questions = [
     },
     {
         text: "Вы случайно проехали нужный въезд во двор. Разрешено ли вам в этой ситуации использоваться задний ход, чтобы затем повернуть направо?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/59-09.jpg",
+        img: "img/tickets/59-09.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -12842,7 +12842,7 @@ var questions = [
     },
     {
         text: "С какой скоростью вы можете продолжить движение в населенном пункте по левой полосе?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/59-10.jpg",
+        img: "img/tickets/59-10.jpg",
         answer: [
             "Не более 50 км/ч.",
             "Не более 60 км/ч.",
@@ -12853,7 +12853,7 @@ var questions = [
     },
     {
         text: "В данной ситуации вам разрешается:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/59-11.jpg",
+        img: "img/tickets/59-11.jpg",
         answer: [
             "Объехать грузовой автомобиль справа по обочине.",
             "Продолжить движение только после того, как грузовой автомобиль освободит полосу движения.",
@@ -12864,7 +12864,7 @@ var questions = [
     },
     {
         text: "Кто из водителей грузовых автомобилей нарушил правила стоянки?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/59-12.jpg",
+        img: "img/tickets/59-12.jpg",
         answer: [
             "Только А.",
             "Только Б.",
@@ -12876,7 +12876,7 @@ var questions = [
     },
     {
         text: "Каков порядок проезда данного перекрестка?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/59-13.jpg",
+        img: "img/tickets/59-13.jpg",
         answer: [
             "Остановитесь перед стоп-линией в ожидании зеленого сигнала светофора.",
             "Проедете после синего автомобиля.",
@@ -12887,7 +12887,7 @@ var questions = [
     },
     {
         text: "Кто проедет перекресток первым?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/59-14.jpg",
+        img: "img/tickets/59-14.jpg",
         answer: [
             "Вы.",
             "Легковой автомобиль.",
@@ -12898,7 +12898,7 @@ var questions = [
     },
     {
         text: "Должны ли вас пропустить при въезде на данный перекресток?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/59-15.jpg",
+        img: "img/tickets/59-15.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -12908,7 +12908,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам объехать стоящий перед переездом автомобиль?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/59-16.jpg",
+        img: "img/tickets/59-16.jpg",
         answer: [
             "Да, если нет встречных тарнспортных средств.",
             "Да, если между шругбаумом и остановившимся грузовым автомобилем расстояние 10 м.",
@@ -12978,7 +12978,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам за перекрестком въехать во двор?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/60-02.jpg",
+        img: "img/tickets/60-02.jpg",
         answer: [
             "Да.",
             "Нет.",
@@ -12989,7 +12989,7 @@ var questions = [
     },
     {
         text: "Разрешена ли вам остановка за знаком?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/60-03.jpg",
+        img: "img/tickets/60-03.jpg",
         answer: [
             "Разрешена.",
             "Разрешена только для посадки или высадки пассажиров.",
@@ -13000,7 +13000,7 @@ var questions = [
     },
     {
         text: "Что означает такой опознавательный знак, закрепленный на автомобиле?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/60-04.jpg",
+        img: "img/tickets/60-04.jpg",
         answer: [
             "Транспортным средством управляет инвалид по зрению.",
             "Транспортным средством управляет глухой или глухонемой водитель."
@@ -13022,7 +13022,7 @@ var questions = [
     },
     {
         text: "В каких направлениях вам разрешено движение?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/60-06.jpg",
+        img: "img/tickets/60-06.jpg",
         answer: [
             "Только А.",
             "А или Б.",
@@ -13033,7 +13033,7 @@ var questions = [
     },
     {
         text: "Какой знак используется для обозначения автомобиля, перевозящего негабаритный груз?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/60-07.jpg",
+        img: "img/tickets/60-07.jpg",
         answer: [
             "Б.",
             "А.",
@@ -13044,7 +13044,7 @@ var questions = [
     },
     {
         text: "Разрешены ли вам маневры по указанным траекториям?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/60-08.jpg",
+        img: "img/tickets/60-08.jpg",
         answer: [
             "Только по А.",
             "Нет.",
@@ -13055,7 +13055,7 @@ var questions = [
     },
     {
         text: "Разрешается ли вам на узкой проезжей части произвести разворот с заездом во двор?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/60-09.jpg",
+        img: "img/tickets/60-09.jpg",
         answer: [
             "Да.",
             "Да, если не будут созданы помехи другим участникам движения.",
@@ -13066,7 +13066,7 @@ var questions = [
     },
     {
         text: "Укажите расстояние, под которыми в Правилах подразумевается интервал:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/60-10.jpg",
+        img: "img/tickets/60-10.jpg",
         answer: [
             "Только А.",
             "А и В.",
@@ -13078,7 +13078,7 @@ var questions = [
     },
     {
         text: "Можете ли вы начать обгон грузового автомобиля в данной ситуации?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/60-11.jpg",
+        img: "img/tickets/60-11.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -13100,7 +13100,7 @@ var questions = [
     },
     {
         text: "Вы намерены повернуть налево. Ваши действия?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/60-13.jpg",
+        img: "img/tickets/60-13.jpg",
         answer: [
             "Выполните маневр без остановки на перекрестке.",
             "Повернете налево, остановитесь в разрыве разделительной полосы и, после включения разрешающего сигнала светофора на выходе с перекрестка, завершите маневр."
@@ -13110,7 +13110,7 @@ var questions = [
     },
     {
         text: "Первым проедет перекресток:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/60-14.jpg",
+        img: "img/tickets/60-14.jpg",
         answer: [
             "Легковой автомобиль.",
             "Вы."
@@ -13120,7 +13120,7 @@ var questions = [
     },
     {
         text: "Вы проедете перекресток:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/60-15.jpg",
+        img: "img/tickets/60-15.jpg",
         answer: [
             "Вторым.",
             "Третьим.",
@@ -13131,7 +13131,7 @@ var questions = [
     },
     {
         text: "В каком месте вы должны остановиться в данной ситуации?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/60-16.jpg",
+        img: "img/tickets/60-16.jpg",
         answer: [
             "У знака \"Движение без остановки запрещено\".",
             "У знака \"Однопутная железная дорога\".",
@@ -13154,7 +13154,7 @@ var questions = [
     },
     {
         text: "Следует ли вам пропустить обоих пешеходов, переходящих проезжую часть?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/60-18.jpg",
+        img: "img/tickets/60-18.jpg",
         answer: [
             "Нет.",
             "Только того, который находится на моей полосе движения.",
@@ -13199,7 +13199,7 @@ var questions = [
     },
     {
         text: "Этот знак предупреждает о приближении к перекрестку, на котором вы:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/61-02.jpg",
+        img: "img/tickets/61-02.jpg",
         answer: [
             "Имеете право преимущественного проезда.",
             "Должны уступить дорогу всем транспортным средствам, движущимся по пересекаемой дороге.",
@@ -13210,7 +13210,7 @@ var questions = [
     },
     {
         text: "Каким транспортным средствам знак запрещает движение?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/61-03.jpg",
+        img: "img/tickets/61-03.jpg",
         answer: [
             "Мотоциклам.",
             "Велосипедам.",
@@ -13221,7 +13221,7 @@ var questions = [
     },
     {
         text: "Какой знак информирует о начале дороги с реверсивным движением?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/61-04.jpg",
+        img: "img/tickets/61-04.jpg",
         answer: [
             "А.",
             "Б.",
@@ -13232,7 +13232,7 @@ var questions = [
     },
     {
         text: "Данная вертикальная разметка:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/61-05.jpg",
+        img: "img/tickets/61-05.jpg",
         answer: [
             "Запрещает стоянку транспортных средств.",
             "Запрещает остановку транспортных средств.",
@@ -13243,7 +13243,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам за перекрестком въехать на полосу с реверсивным движением?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/61-06.jpg",
+        img: "img/tickets/61-06.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -13253,7 +13253,7 @@ var questions = [
     },
     {
         text: "Такой сигнал рукой, подаваемый водителем легкового автомобиля, информирует вас:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/61-07.jpg",
+        img: "img/tickets/61-07.jpg",
         answer: [
             "О его намерении повернуть налево или выполнить разворот.",
             "О его намерении остановиться и уступить дорогу грузовому автомобилю.",
@@ -13264,7 +13264,7 @@ var questions = [
     },
     {
         text: "Может ли водитель легкового автомобиля в данной ситуации начать движение?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/61-08.jpg",
+        img: "img/tickets/61-08.jpg",
         answer: [
             "Да.",
             "Да, если он не создаст помех грузовому автомобилю.",
@@ -13287,7 +13287,7 @@ var questions = [
     },
     {
         text: "В каких направлениях вы можете продолжить движение по крайней левой полосе на грузовом автомобиле с разрешенной максимальной массой более 3,5 т?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/61-10.jpg",
+        img: "img/tickets/61-10.jpg",
         answer: [
             "Только налево.",
             "Налево или в обратном направлении.",
@@ -13298,7 +13298,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам выполнить обгон за переездом?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/61-11.jpg",
+        img: "img/tickets/61-11.jpg",
         answer: [
             "Нет.",
             "Да.",
@@ -13309,7 +13309,7 @@ var questions = [
     },
     {
         text: "Можете ли вы поставить автомобиль на стоянку в указанном месте?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/61-12.jpg",
+        img: "img/tickets/61-12.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -13319,7 +13319,7 @@ var questions = [
     },
     {
         text: "Вы проедете перекресток:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/61-13.jpg",
+        img: "img/tickets/61-13.jpg",
         answer: [
             "Первым.",
             "Вторым.",
@@ -13330,7 +13330,7 @@ var questions = [
     },
     {
         text: "Вы проедете перекресток:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/61-14.jpg",
+        img: "img/tickets/61-14.jpg",
         answer: [
             "Вторым.",
             "Последним."
@@ -13340,7 +13340,7 @@ var questions = [
     },
     {
         text: "Вы проедете перекресток:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/61-15.jpg",
+        img: "img/tickets/61-15.jpg",
         answer: [
             "Последним.",
             "Вторым.",
@@ -13362,7 +13362,7 @@ var questions = [
     },
     {
         text: "В зоне действия каких знаков Правила разрешают подачу звуковых сигналов только для предотвращения дорожно-транспортных происшествий?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/61-17.jpg",
+        img: "img/tickets/61-17.jpg",
         answer: [
             "Только А.",
             "Только Б.",
@@ -13385,7 +13385,7 @@ var questions = [
     },
     {
         text: "При выезде из лесистого участка на открытое место установлен знак \"Боковой ветер\". Ваши действия?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/61-19.jpg",
+        img: "img/tickets/61-19.jpg",
         answer: [
             "Уменьшить скорость и быть готовым к возможному отклонению автомобиля от заданного курса.",
             "Не изменяя скорости, сместиться ближе к центру дороги.",
@@ -13408,7 +13408,7 @@ var questions = [
     //B62
     {
         text: "Сколько перекрестков изображено на рисунке?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/62-01.jpg",
+        img: "img/tickets/62-01.jpg",
         answer: [
             "Один.",
             "Два.",
@@ -13419,7 +13419,7 @@ var questions = [
     },
     {
         text: "В каких направлениях вам разрешено продолжить движение на перекрестке?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/62-02.jpg",
+        img: "img/tickets/62-02.jpg",
         answer: [
             "Только прямо.",
             "Прямо или налево.",
@@ -13430,7 +13430,7 @@ var questions = [
     },
     {
         text: "В каком случае при перевозке крупногабаритного груза вам запрещено продолжить движение в прямом направлении?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/62-03.jpg",
+        img: "img/tickets/62-03.jpg",
         answer: [
             "Если высота груза более 4 м.",
             "Если габаритная высота автомобиля вместе с грузом более 4 м."
@@ -13451,7 +13451,7 @@ var questions = [
     },
     {
         text: "Кому из водителей разрешено пересечь сплошную линию разметки с целью остановки в указанных местах?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/62-05.jpg",
+        img: "img/tickets/62-05.jpg",
         answer: [
             "Обоим разрешено.",
             "Разрешено только водителю встречного автомобиля.",
@@ -13462,7 +13462,7 @@ var questions = [
     },
     {
         text: "Как в данной ситуации должен поступить водитель легкового автомобиля при приближении автомобиля оперативной службы, сопровождающего колонну?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/62-06.jpg",
+        img: "img/tickets/62-06.jpg",
         answer: [
             "Перестроиться на правую полосу и продолжить движение.",
             "Остановиться у тротуара и продолжить движение сразу же после проезда автомобиля оперативной службы.",
@@ -13473,7 +13473,7 @@ var questions = [
     },
     {
         text: "Обязаны ли вы в данной ситуации включить левые указатели поворота?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/62-07.jpg",
+        img: "img/tickets/62-07.jpg",
         answer: [
             "Да.",
             "Да, если будет выполняться разворот.",
@@ -13484,7 +13484,7 @@ var questions = [
     },
     {
         text: "По какой траектории Правила разрешают вам произвести поворот налево?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/62-08.jpg",
+        img: "img/tickets/62-08.jpg",
         answer: [
             "Только по А.",
             "Только по Б.",
@@ -13495,7 +13495,7 @@ var questions = [
     },
     {
         text: "Разрешено ли водителю подъехать задним ходом к пассажиру, стоящему на мосту?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/62-09.jpg",
+        img: "img/tickets/62-09.jpg",
         answer: [
             "Да.",
             "Да, если не будут созданы помехи другим участникам движения.",
@@ -13528,7 +13528,7 @@ var questions = [
     },
     {
         text: "Какой автомобиль установлен на стоянку с нарушением?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/62-12.jpg",
+        img: "img/tickets/62-12.jpg",
         answer: [
             "Только Б.",
             "Только А.",
@@ -13540,7 +13540,7 @@ var questions = [
     },
     {
         text: "Вы намерены повернуть налево. Кому следует уступить дорогу?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/62-13.jpg",
+        img: "img/tickets/62-13.jpg",
         answer: [
             "Только встречному автомобилю.",
             "Только пешеходам.",
@@ -13551,7 +13551,7 @@ var questions = [
     },
     {
         text: "Кто проедет перекресток первым?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/62-14.jpg",
+        img: "img/tickets/62-14.jpg",
         answer: [
             "Трамвай.",
             "Вы."
@@ -13561,7 +13561,7 @@ var questions = [
     },
     {
         text: "Вы намерены повернуть направо. Можете ли вы приступить к повороту?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/62-15.jpg",
+        img: "img/tickets/62-15.jpg",
         answer: [
             "Да.",
             "Да, уступив дорогу грузовому автомобилю.",
@@ -13572,7 +13572,7 @@ var questions = [
     },
     {
         text: "Разрешена ли вам стоянка в указанном месте?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/62-16.jpg",
+        img: "img/tickets/62-16.jpg",
         answer: [
             "Запрещена.",
             "Разрешена только для посадки или высадки пассажиров.",
@@ -13628,7 +13628,7 @@ var questions = [
     //B63
     {
         text: "Сколько пересечений проезжих частей имеет этот перекресток?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/63-01.jpg",
+        img: "img/tickets/63-01.jpg",
         answer: [
             "Одно.",
             "Два."
@@ -13638,7 +13638,7 @@ var questions = [
     },
     {
         text: "Этот дорожный знак:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/63-02.jpg",
+        img: "img/tickets/63-02.jpg",
         answer: [
             "Предупрежадет о приближении к месту пересечения с трамвайной линией.",
             "Предупреждает о приближении к трамвайной остановке.",
@@ -13649,7 +13649,7 @@ var questions = [
     },
     {
         text: "Эти знаки обязывают вас соблюдать дистанцию:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/63-03.jpg",
+        img: "img/tickets/63-03.jpg",
         answer: [
             "Менее 70 м на протяжении 100 м.",
             "Более 70 м на протяжении 100 м.",
@@ -13660,7 +13660,7 @@ var questions = [
     },
     {
         text: "Двигаясь по средней полосе на легковом автомобиле, вы можете продолжить движение:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/63-04.jpg",
+        img: "img/tickets/63-04.jpg",
         answer: [
             "Только прямо.",
             "Только прямо или налево.",
@@ -13671,7 +13671,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам остановиться в указанном месте?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/63-05.jpg",
+        img: "img/tickets/63-05.jpg",
         answer: [
             "Нет.",
             "Да, только без заезда на тротуар.",
@@ -13682,7 +13682,7 @@ var questions = [
     },
     {
         text: "В каких направлениях вы можете продолжить движение?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/63-06.jpg",
+        img: "img/tickets/63-06.jpg",
         answer: [
             "Только направо в первый проезд.",
             "Направо в первый и второй проезды.",
@@ -13704,7 +13704,7 @@ var questions = [
     },
     {
         text: "По какой траектории вы можете продолжить движение в обратном направлении?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/63-08.jpg",
+        img: "img/tickets/63-08.jpg",
         answer: [
             "Только по Б.",
             "Только по Б или В.",
@@ -13716,7 +13716,7 @@ var questions = [
     },
     {
         text: "Разрешен ли вам разворот на этом участке дороги?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/63-09.jpg",
+        img: "img/tickets/63-09.jpg",
         answer: [
             "Разрешен.",
             "Не разрешен."
@@ -13726,7 +13726,7 @@ var questions = [
     },
     {
         text: "С какой максимальной скоростью вы можете продолжить движение, если ваш стаж водителя менее 2 лет?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/63-10.jpg",
+        img: "img/tickets/63-10.jpg",
         answer: [
             "90 км/ч.",
             "70 км/ч.",
@@ -13737,7 +13737,7 @@ var questions = [
     },
     {
         text: "Имеете ли вы преимущество в данной ситуации?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/63-11.jpg",
+        img: "img/tickets/63-11.jpg",
         answer: [
             "Нет.",
             "Да."
@@ -13747,7 +13747,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам поставить автомобиль на стоянку в указанном месте?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/63-12.jpg",
+        img: "img/tickets/63-12.jpg",
         answer: [
             "Запрещено.",
             "Разрешено, если движение маршрутных транспортных средств не интенсивное.",
@@ -13758,7 +13758,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам повернуть направо?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/63-13.jpg",
+        img: "img/tickets/63-13.jpg",
         answer: [
             "Нет.",
             "Да."
@@ -13768,7 +13768,7 @@ var questions = [
     },
     {
         text: "Вы проедете перекресток в прямом направлении:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/63-14.jpg",
+        img: "img/tickets/63-14.jpg",
         answer: [
             "Первым.",
             "Вторым.",
@@ -13779,7 +13779,7 @@ var questions = [
     },
     {
         text: "Кто проедет перекресток первым?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/63-15.jpg",
+        img: "img/tickets/63-15.jpg",
         answer: [
             "Автобус.",
             "Вы.",
@@ -13790,7 +13790,7 @@ var questions = [
     },
     {
         text: "Разрешается ли водителю произвести остановку в этом месте в целях разгрузки тарнспортного средства?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/63-16.jpg",
+        img: "img/tickets/63-16.jpg",
         answer: [
             "Разрешается, если остановка займет не более 5 мин.",
             "Разрешается при условии, что это не создаст помех движению маршрутных транспортных средств.",
@@ -13855,7 +13855,7 @@ var questions = [
     },
     {
         text: "Эти знаки предупреждают вас:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/64-02.jpg",
+        img: "img/tickets/64-02.jpg",
         answer: [
             "О приближении к железнодорожному переезду с тремя пятуми.",
             "О наличии через 150-300 м железнодорожного переезда без шлагбаума.",
@@ -13866,7 +13866,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам остановиться в указанном месте?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/64-03.jpg",
+        img: "img/tickets/64-03.jpg",
         answer: [
             "Разрешено.",
             "Разрешено, если вы проживаете в этом доме.",
@@ -13877,7 +13877,7 @@ var questions = [
     },
     {
         text: "Какие знаки обязывают водителя грузового автомобиля с разрешенной максимальной массой более 3,5 т повернуть направо?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/64-04.jpg",
+        img: "img/tickets/64-04.jpg",
         answer: [
             "Только А.",
             "Только Б.",
@@ -13889,7 +13889,7 @@ var questions = [
     },
     {
         text: "Эта разметка обозначает:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/64-05.jpg",
+        img: "img/tickets/64-05.jpg",
         answer: [
             "Дорожку, выделенную для движения инвалидов в колясках на регулируемом пешеходном переходе.",
             "Дорожку, выделенную для движения велосипедистов на регулируемом пешеходном переходе.",
@@ -13911,7 +13911,7 @@ var questions = [
     },
     {
         text: "Какую ошибку совершает водитель, въезжающий во двор?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/64-07.jpg",
+        img: "img/tickets/64-07.jpg",
         answer: [
             "Поворачивает в зоне действия знака \"Движение прямо\".",
             "Поворачивает, не включив указатели поворота.",
@@ -13922,7 +13922,7 @@ var questions = [
     },
     {
         text: "Кто имеет преимущество в движении?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/64-08.jpg",
+        img: "img/tickets/64-08.jpg",
         answer: [
             "Правила не регламентируют очередность проезда.",
             "Грузовой автомобиль.",
@@ -13933,7 +13933,7 @@ var questions = [
     },
     {
         text: "Разрешено ли выполнить разворот по траектории Б?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/64-09.jpg",
+        img: "img/tickets/64-09.jpg",
         answer: [
             "Нет.",
             "Да.",
@@ -13944,7 +13944,7 @@ var questions = [
     },
     {
         text: "Разрешается ли вам обогнать легковой автомобиль по трамвайным путям в данной ситуации?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/64-10.jpg",
+        img: "img/tickets/64-10.jpg",
         answer: [
             "Не разрешается.",
             "Разрешается."
@@ -13954,7 +13954,7 @@ var questions = [
     },
     {
         text: "Разрешен ли вам обгон?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/64-11.jpg",
+        img: "img/tickets/64-11.jpg",
         answer: [
             "Запрещен.",
             "Разрешен, если скорость грузового автомобиля менее 30 км/ч.",
@@ -13965,7 +13965,7 @@ var questions = [
     },
     {
         text: "Кто из водителей грузовых автомобилей нарушил правила стоянки?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/64-12.jpg",
+        img: "img/tickets/64-12.jpg",
         answer: [
             "Только А.",
             "Только Б.",
@@ -13977,7 +13977,7 @@ var questions = [
     },
     {
         text: "Вы проедете перекресток:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/64-13.jpg",
+        img: "img/tickets/64-13.jpg",
         answer: [
             "Последним.",
             "Первым.",
@@ -13988,7 +13988,7 @@ var questions = [
     },
     {
         text: "Кто первым проедет перекресток, если все намерены двигаться прямо?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/64-14.jpg",
+        img: "img/tickets/64-14.jpg",
         answer: [
             "Вы одновременно с троллейбусом.",
             "Грузовой автомобиль.",
@@ -13999,7 +13999,7 @@ var questions = [
     },
     {
         text: "Вы обязаны уступить дорогу пешеходам:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/64-15.jpg",
+        img: "img/tickets/64-15.jpg",
         answer: [
             "Только при повороте налево по направлению главной дороги.",
             "Только при повороте направо.",
@@ -14010,7 +14010,7 @@ var questions = [
     },
     {
         text: "Где вы должны остановиться?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/64-16.jpg",
+        img: "img/tickets/64-16.jpg",
         answer: [
             "Не ближе 10 м до ближайшего рельса.",
             "Остановиться перед шлагбаумом или светофором так, чтобы видеть сигналы.",
@@ -14066,7 +14066,7 @@ var questions = [
     //B65
     {
         text: "Как называется данная табличка, установленная на транспортном средстве?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/65-01.jpg",
+        img: "img/tickets/65-01.jpg",
         answer: [
             "Знак опасности.",
             "Информационная таблица опасного груза.",
@@ -14077,7 +14077,7 @@ var questions = [
     },
     {
         text: "В каких направлениях вам разрешено продолжить движение на грузовом автомобиле с разрешенной максимальной массой 5,3 т?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/65-02.jpg",
+        img: "img/tickets/65-02.jpg",
         answer: [
             "В любых.",
             "Только налево или направо.",
@@ -14088,7 +14088,7 @@ var questions = [
     },
     {
         text: "Какие из знаков отменяют ограничения, введенные для обгона транспортных средств?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/65-03.jpg",
+        img: "img/tickets/65-03.jpg",
         answer: [
             "Только А и Б.",
             "Только В и Г.",
@@ -14100,7 +14100,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам проехать перекресток в прямом направлении?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/65-04.jpg",
+        img: "img/tickets/65-04.jpg",
         answer: [
             "Вы должны повернуть только направо или налево.",
             "Да.",
@@ -14111,7 +14111,7 @@ var questions = [
     },
     {
         text: "Какой маневр запрещает вам данная линия разметки?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/65-05.jpg",
+        img: "img/tickets/65-05.jpg",
         answer: [
             "Только обгон.",
             "только объезд.",
@@ -14123,7 +14123,7 @@ var questions = [
     },
     {
         text: "На какие транспортные средства распространяются сигналы такого светофора?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/65-06.jpg",
+        img: "img/tickets/65-06.jpg",
         answer: [
             "Только на трамваи.",
             "На трамваи, а также другие маршрутные транспортные средства, движущиеся по выделенной для них полосе.",
@@ -14134,7 +14134,7 @@ var questions = [
     },
     {
         text: "Обязаны ли вы включить указатели поворота в данной ситуации?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/65-07.jpg",
+        img: "img/tickets/65-07.jpg",
         answer: [
             "Да.",
             "Нет.",
@@ -14145,7 +14145,7 @@ var questions = [
     },
     {
         text: "Кто должен уступить дорогу?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/65-08.jpg",
+        img: "img/tickets/65-08.jpg",
         answer: [
             "Водитель легкового автомобиля.",
             "Водитель грузового автомобиля."
@@ -14155,7 +14155,7 @@ var questions = [
     },
     {
         text: "Вы случайно проехали поворот на перекрестке. Разрешено ли вам в этой ситуации использовать задний ход, чтобы затем продолжить движение налево?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/65-09.jpg",
+        img: "img/tickets/65-09.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -14177,7 +14177,7 @@ var questions = [
     },
     {
         text: "Разрешен ли вам обгон?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/65-11.jpg",
+        img: "img/tickets/65-11.jpg",
         answer: [
             "Да, если скорость грузового автомобиля менее 30 км/ч.",
             "Да.",
@@ -14188,7 +14188,7 @@ var questions = [
     },
     {
         text: "Разрешена ли вам остановка в указанном месте?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/65-12.jpg",
+        img: "img/tickets/65-12.jpg",
         answer: [
             "Разрешена.",
             "Разрешена, но только при отсутствии пешеходов на переходе.",
@@ -14211,7 +14211,7 @@ var questions = [
     },
     {
         text: "При повороте направо вы должны уступить дорогу:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/65-14.jpg",
+        img: "img/tickets/65-14.jpg",
         answer: [
             "Только велосипедистам.",
             "Только пешеходам.",
@@ -14223,7 +14223,7 @@ var questions = [
     },
     {
         text: "Вы проедете перекресток:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/65-15.jpg",
+        img: "img/tickets/65-15.jpg",
         answer: [
             "Вторым.",
             "Первым.",
@@ -14234,7 +14234,7 @@ var questions = [
     },
     {
         text: "Как вы должны действовать, увидев движущийся состав?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/65-16.jpg",
+        img: "img/tickets/65-16.jpg",
         answer: [
             "Остановиться за 10 м до первого рельса и продолжить движение сразу же после проезда поезда.",
             "Остановиться перед знаком и продолжить движение сразу же после проезда поезда.",
@@ -14290,7 +14290,7 @@ var questions = [
     //B66
     {
         text: "Выезжая со двора вам разрешено движение:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/66-01.jpg",
+        img: "img/tickets/66-01.jpg",
         answer: [
             "Только налево.",
             "Только направо.",
@@ -14301,7 +14301,7 @@ var questions = [
     },
     {
         text: "Какие знаки не требуют обязательной остановки?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/66-02.jpg",
+        img: "img/tickets/66-02.jpg",
         answer: [
             "Только А и Б.",
             "Только А, В и Г.",
@@ -14313,7 +14313,7 @@ var questions = [
     },
     {
         text: "В каких случаях вам разрешается использовать звуковой сигнал в зоне действия этого знака?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/66-03.jpg",
+        img: "img/tickets/66-03.jpg",
         answer: [
             "Только для предупреждения об обгоне.",
             "Только для предотвращения дорожно-транспортного происшествия.",
@@ -14324,7 +14324,7 @@ var questions = [
     },
     {
         text: "Можно ли водителю грузового автомобиля остановиться в этом месте?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/66-04.jpg",
+        img: "img/tickets/66-04.jpg",
         answer: [
             "Да.",
             "Да, если разрешенная максимальная масса автомобиля не более 3,5 т.",
@@ -14335,7 +14335,7 @@ var questions = [
     },
     {
         text: "Такой вертикальной разметкой обозначают:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/66-05.jpg",
+        img: "img/tickets/66-05.jpg",
         answer: [
             "Боковые поверхности ограждений только на опасных участках дорог.",
             "Боковые поверхности ограждений на других участках дорог.",
@@ -14357,7 +14357,7 @@ var questions = [
     },
     {
         text: "Разрешено ли использовать звуковой сигнал в данной ситуации?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/66-07.jpg",
+        img: "img/tickets/66-07.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -14367,7 +14367,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам развернуться на указанном перекрестке?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/66-08.jpg",
+        img: "img/tickets/66-08.jpg",
         answer: [
             "Нет.",
             "Да."
@@ -14377,7 +14377,7 @@ var questions = [
     },
     {
         text: "Вы случайно проехали нужный въезд во двор. Разрешено ли вам в этой ситуации использовать задний ход, чтобы затем повернуть направо?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/66-09.jpg",
+        img: "img/tickets/66-09.jpg",
         answer: [
             "Да, если не будет создано помех движению маршрутных тарнспортных средств.",
             "Нет."
@@ -14387,7 +14387,7 @@ var questions = [
     },
     {
         text: "По какой траектории вы можете продолжить движение?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/66-10.jpg",
+        img: "img/tickets/66-10.jpg",
         answer: [
             "Только по А.",
             "Только по Б.",
@@ -14408,7 +14408,7 @@ var questions = [
     },
     {
         text: "Водитель какого автомобиля нарушил правила остановки?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/66-12.jpg",
+        img: "img/tickets/66-12.jpg",
         answer: [
             "Только Б.",
             "Только Б и В.",
@@ -14419,7 +14419,7 @@ var questions = [
     },
     {
         text: "Кто проедет перекресток первым?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/66-13.jpg",
+        img: "img/tickets/66-13.jpg",
         answer: [
             "Водитель трамвая.",
             "Водитель автомобиля, приближающийся слева."
@@ -14429,7 +14429,7 @@ var questions = [
     },
     {
         text: "Вы проедете перекресток:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/66-14.jpg",
+        img: "img/tickets/66-14.jpg",
         answer: [
             "Последним.",
             "Вторым.",
@@ -14440,7 +14440,7 @@ var questions = [
     },
     {
         text: "Последним проедет перекресток:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/66-15.jpg",
+        img: "img/tickets/66-15.jpg",
         answer: [
             "Легковой автомобиль.",
             "Мотоцикл.",
@@ -14463,7 +14463,7 @@ var questions = [
     },
     {
         text: "На каком рисунке изображен автомобиль, водитель которого нарушает правила перевозки грузов?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/66-17.jpg",
+        img: "img/tickets/66-17.jpg",
         answer: [
             "Только на Б.",
             "Только на А.",
@@ -14518,7 +14518,7 @@ var questions = [
     },
     {
         text: "О чем информирует водителей данный знак?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/67-02.jpg",
+        img: "img/tickets/67-02.jpg",
         answer: [
             "О расположении полосы, ведущей в тупик, или к обрыву.",
             "О расположении полосы, специально подготовленной для аварийной остановки транспортных средств в случае отказа тормозной ситемы.",
@@ -14530,7 +14530,7 @@ var questions = [
     },
     {
         text: "Этот знак запрещает движение транспортным средствам:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/67-03.jpg",
+        img: "img/tickets/67-03.jpg",
         answer: [
             "Разрешенная максимальная масса которых более 7 т.",
             "Фактическая масса которых более 7 т."
@@ -14540,7 +14540,7 @@ var questions = [
     },
     {
         text: "Управляя каким автомобилем, вы можете опередить легковой автомобиль?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/67-04.jpg",
+        img: "img/tickets/67-04.jpg",
         answer: [
             "Только легковым.",
             "Только легковым или грузовым с разрешенной максимальной массой менее 3,5 т.",
@@ -14551,7 +14551,7 @@ var questions = [
     },
     {
         text: "Эта разметка обозначает:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/67-05.jpg",
+        img: "img/tickets/67-05.jpg",
         answer: [
             "Номер дороги или маршрута.",
             "Рекомендуемую скорость движения на данном участке дороги.",
@@ -14573,7 +14573,7 @@ var questions = [
     },
     {
         text: "Кто из мотоциклистов нарушает Правила?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/67-07.jpg",
+        img: "img/tickets/67-07.jpg",
         answer: [
             "Правый мотоциклист.",
             "Никто не нарушает.",
@@ -14584,7 +14584,7 @@ var questions = [
     },
     {
         text: "При перестроении на правую полосу вы:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/67-08.jpg",
+        img: "img/tickets/67-08.jpg",
         answer: [
             "Должны уступить дорогу всем транспортным средствам, движущимся по соседней полосе.",
             "Имеете преимущество."
@@ -14594,7 +14594,7 @@ var questions = [
     },
     {
         text: "По какой траектории вы можете выполнить разворот?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/67-09.jpg",
+        img: "img/tickets/67-09.jpg",
         answer: [
             "Только по А.",
             "Только по Б.",
@@ -14605,7 +14605,7 @@ var questions = [
     },
     {
         text: "По какой полосе вы можете продолжить движение, опередив грузовой автомобиль в данной ситуации?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/67-10.jpg",
+        img: "img/tickets/67-10.jpg",
         answer: [
             "Только по правой.",
             "По любой."
@@ -14625,7 +14625,7 @@ var questions = [
     },
     {
         text: "Нарушил ли водитель грузового автомобиля стоянки?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/67-12.jpg",
+        img: "img/tickets/67-12.jpg",
         answer: [
             "Да.",
             "Нарушил, если разрешенная максимальная масса грузового автомобиля более 3,5 т.",
@@ -14636,7 +14636,7 @@ var questions = [
     },
     {
         text: "Вы проедете перекресток:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/67-13.jpg",
+        img: "img/tickets/67-13.jpg",
         answer: [
             "Вторым.",
             "Первым."
@@ -14646,7 +14646,7 @@ var questions = [
     },
     {
         text: "Вы намерены развернуться. Ваши действия?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/67-14.jpg",
+        img: "img/tickets/67-14.jpg",
         answer: [
             "Развернетесь первым.",
             "Выедете на перекресток и, уступив дорогу автомобилю, завершите разворот."
@@ -14656,7 +14656,7 @@ var questions = [
     },
     {
         text: "Вы намерены продолжить движение прямо. Каковы ваши действия при желтом мигающем сигнале светофора?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/67-15.jpg",
+        img: "img/tickets/67-15.jpg",
         answer: [
             "Уступите дорогу только трамваю.",
             "Уступите дорогу только автомобилю.",
@@ -14667,7 +14667,7 @@ var questions = [
     },
     {
         text: "В каком месте вы должны остановиться?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/67-16.jpg",
+        img: "img/tickets/67-16.jpg",
         answer: [
             "Не ближе чем за 5 м до первого рельса.",
             "Не ближе чем за 10 м до первого рельса.",
@@ -14679,7 +14679,7 @@ var questions = [
     },
     {
         text: "Данный знак должен устанавливаться:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/67-17.jpg",
+        img: "img/tickets/67-17.jpg",
         answer: [
             "На первом и последнем транспортном средстве, движущемся в составе колонны.",
             "На каждом транспорном средстве, движущемся в составе колонны.",
@@ -14733,7 +14733,7 @@ var questions = [
     },
     {
         text: "По какой траектории вы можете продолжить движение?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/68-02.jpg",
+        img: "img/tickets/68-02.jpg",
         answer: [
             "Только по А.",
             "Только по Б.",
@@ -14744,7 +14744,7 @@ var questions = [
     },
     {
         text: "Разрешено ли проехать по мосту этому автопоезду, если фактическая масса автомобиля 8 т, а прицепа 5 т?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/68-03.jpg",
+        img: "img/tickets/68-03.jpg",
         answer: [
             "Да.",
             "Да, но только с разрешения ГАИ.",
@@ -14755,7 +14755,7 @@ var questions = [
     },
     {
         text: "Какие знаки используются для обозначения километража дорог?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/68-04.jpg",
+        img: "img/tickets/68-04.jpg",
         answer: [
             "Только А.",
             "Только Б и В.",
@@ -14779,7 +14779,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам движение налево?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/68-06.jpg",
+        img: "img/tickets/68-06.jpg",
         answer: [
             "Да.",
             "Только направо.",
@@ -14801,7 +14801,7 @@ var questions = [
     },
     {
         text: "По какой траектории вам разрешено выполнить поворот налево?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/68-08.jpg",
+        img: "img/tickets/68-08.jpg",
         answer: [
             "Только по А.",
             "Только по В.",
@@ -14812,7 +14812,7 @@ var questions = [
     },
     {
         text: "Разрешено ли водителю подъехать задним ходом к пассажиру на этом участке?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/68-09.jpg",
+        img: "img/tickets/68-09.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -14822,7 +14822,7 @@ var questions = [
     },
     {
         text: "Разрешается ли вам, управляя грузовым автомобилем с разрешенной максимальной массой более 3,5 т, выехать на третью полосу в данной ситуации?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/68-10.jpg",
+        img: "img/tickets/68-10.jpg",
         answer: [
             "Разрешается.",
             "Разрешается только для поворота налево или разворота.",
@@ -14834,7 +14834,7 @@ var questions = [
     },
     {
         text: "Можете ли вы обогнать трактор, управляя грузовым автомобилем с разрешенной максимальной массой более 3,5 т?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/68-11.jpg",
+        img: "img/tickets/68-11.jpg",
         answer: [
             "Да.",
             "Нет.",
@@ -14845,7 +14845,7 @@ var questions = [
     },
     {
         text: "Кто из водителей нарушил правила остановки?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/68-12.jpg",
+        img: "img/tickets/68-12.jpg",
         answer: [
             "Только А и В.",
             "Только Б и В.",
@@ -14856,7 +14856,7 @@ var questions = [
     },
     {
         text: "Вы проедете перекресток:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/68-13.jpg",
+        img: "img/tickets/68-13.jpg",
         answer: [
             "Первым.",
             "Вторым.",
@@ -14867,7 +14867,7 @@ var questions = [
     },
     {
         text: "Кто имеет преимущество в движении?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/68-14.jpg",
+        img: "img/tickets/68-14.jpg",
         answer: [
             "Вы.",
             "Грузовой автомобиль."
@@ -14877,7 +14877,7 @@ var questions = [
     },
     {
         text: "Вы намерены развернуться. Кому вы должны уступить дорогу?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/68-15.jpg",
+        img: "img/tickets/68-15.jpg",
         answer: [
             "Только грузовому автомобилю.",
             "Только легковому автомобилю.",
@@ -14888,7 +14888,7 @@ var questions = [
     },
     {
         text: "Двигаясь по автомагистрали, вы можете произвести остановку:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/68-16.jpg",
+        img: "img/tickets/68-16.jpg",
         answer: [
             "Только через 500 м.",
             "В любом месте правее линии, обозначающей край проезжей части.",
@@ -14956,7 +14956,7 @@ var questions = [
     },
     {
         text: "Какие знаки предупреждают вас о том, что вы движитесь по главной дороге?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/69-02.jpg",
+        img: "img/tickets/69-02.jpg",
         answer: [
             "Только А.",
             "А и В.",
@@ -14967,7 +14967,7 @@ var questions = [
     },
     {
         text: "Разрешен ли вам обгон, если вы управляете грузовым автомобилем с разрешенной максимальной массой более 3,5 т?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/69-03.jpg",
+        img: "img/tickets/69-03.jpg",
         answer: [
             "Запрещен.",
             "Разрешен, если скорость обгоняемого автомобиля менее 30 км/ч.",
@@ -14978,7 +14978,7 @@ var questions = [
     },
     {
         text: "Разрешено ли водителю поставить грузовой автомобиль на стоянку в этом месте указанным способом?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/69-04.jpg",
+        img: "img/tickets/69-04.jpg",
         answer: [
             "Да.",
             "Да, если разрешенная максимальная масса автомобиля менее 3,5 т.",
@@ -14989,7 +14989,7 @@ var questions = [
     },
     {
         text: "Такой вертикальной разметкой обозначают:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/69-05.jpg",
+        img: "img/tickets/69-05.jpg",
         answer: [
             "Бордюры в местах, где запрещена стоянка тарнспортных средств.",
             "Торцевые поверхности опасных элементов дорог.",
@@ -15000,7 +15000,7 @@ var questions = [
     },
     {
         text: "В каком месте вам следует остановиться?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/69-06.jpg",
+        img: "img/tickets/69-06.jpg",
         answer: [
             "Перед светофором.",
             "Перед стоп-линией.",
@@ -15022,7 +15022,7 @@ var questions = [
     },
     {
         text: "В каких направлениях вы можете продолжить движение по второй полосе на грузовом автомобиле с разрешенной максимальной массой более 3,5 т?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/69-08.jpg",
+        img: "img/tickets/69-08.jpg",
         answer: [
             "Только прямо.",
             "Прямо и направо.",
@@ -15033,7 +15033,7 @@ var questions = [
     },
     {
         text: "Разрешено ли водителю движение задним ходом при отсутствии других участников движения?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/69-09.jpg",
+        img: "img/tickets/69-09.jpg",
         answer: [
             "Разрешено, но только до пешеходного перехода.",
             "Запрещено.",
@@ -15056,7 +15056,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам совершить такой маневр?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/69-11.jpg",
+        img: "img/tickets/69-11.jpg",
         answer: [
             "Разрешено.",
             "Запрещено."
@@ -15066,7 +15066,7 @@ var questions = [
     },
     {
         text: "Кто из водителей нарушил правила остановки?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/69-12.jpg",
+        img: "img/tickets/69-12.jpg",
         answer: [
             "Только водитель автомобиля А.",
             "Только водитель автомобиля Б.",
@@ -15078,7 +15078,7 @@ var questions = [
     },
     {
         text: "Вы намерены повернуть налево. Ваши действия?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/69-13.jpg",
+        img: "img/tickets/69-13.jpg",
         answer: [
             "Выполните маневр без остановки на перекрестке.",
             "Выехав на перекресток, остановитесь у стоп-линии и, дождавшись зеленого сигнала светофора на разделительной полосе, завершите маневр."
@@ -15088,7 +15088,7 @@ var questions = [
     },
     {
         text: "Вы проедете перекресток:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/69-14.jpg",
+        img: "img/tickets/69-14.jpg",
         answer: [
             "Вторым.",
             "Первым."
@@ -15098,7 +15098,7 @@ var questions = [
     },
     {
         text: "Вы намерены проехать перекресток в прямом направлении. Следует ли уступить дорогу грузовому автомобилю, выезжающему с грунтовой дороги?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/69-15.jpg",
+        img: "img/tickets/69-15.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -15108,7 +15108,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам, управляя грузовым автомобилем, совершить опережение в данной ситуации?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/69-16.jpg",
+        img: "img/tickets/69-16.jpg",
         answer: [
             "Да, если разрешенная максимальная масса вашего автомобиля менее 3,5 т.",
             "Да, независимо от величины разрешенной максимальной массы вашего автомобиля.",
@@ -15176,7 +15176,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам выполнить разворот по указанным траекториям?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/70-02.jpg",
+        img: "img/tickets/70-02.jpg",
         answer: [
             "Только по А.",
             "Только по Б.",
@@ -15187,7 +15187,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам поставить автомобиль на стоянку в указанном месте по четным числам месяца?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/70-03.jpg",
+        img: "img/tickets/70-03.jpg",
         answer: [
             "Разрешено только после 19 часов.",
             "Разрешено.",
@@ -15198,7 +15198,7 @@ var questions = [
     },
     {
         text: "Какие знаки предупреждают водителя о приближении к пешеходному переходу, где будет необходимо предоставить им преимущество в движении?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/70-04.jpg",
+        img: "img/tickets/70-04.jpg",
         answer: [
             "Только А и Б.",
             "Только А.",
@@ -15209,7 +15209,7 @@ var questions = [
     },
     {
         text: "Что означает данная дорожная разметка на проезжей части дороги?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/70-05.jpg",
+        img: "img/tickets/70-05.jpg",
         answer: [
             "Маршрут для велосипедистов.",
             "Место, где могут появиться велосипедисты.",
@@ -15220,7 +15220,7 @@ var questions = [
     },
     {
         text: "Вам разрешено продолжить движение:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/70-06.jpg",
+        img: "img/tickets/70-06.jpg",
         answer: [
             "Прямо и направо.",
             "Только прямо.",
@@ -15241,7 +15241,7 @@ var questions = [
     },
     {
         text: "Вы собираетесь начать движение от тротуара. Должны ли вы уступить дорогу автомобилю, выполняющему разворот?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/70-08.jpg",
+        img: "img/tickets/70-08.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -15251,7 +15251,7 @@ var questions = [
     },
     {
         text: "Разрешено ли водителю легкового автомобиля подъехать задним ходом к пассажиру, стоящему на тротуаре в тоннеле?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/70-09.jpg",
+        img: "img/tickets/70-09.jpg",
         answer: [
             "Да.",
             "Да, если не будут созданы помехи другим участникам движения.",
@@ -15262,7 +15262,7 @@ var questions = [
     },
     {
         text: "Разрешается ли вам в данной ситуации движение на грузовом автомобиле с разрешенной максимальной массой свыше 3,5 т по третьей полосе?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/70-10.jpg",
+        img: "img/tickets/70-10.jpg",
         answer: [
             "Разрешается, если разрешенная максимальная масса менее 5,3 т",
             "Разрешается независимо от разрешенной максимальной массы.",
@@ -15283,7 +15283,7 @@ var questions = [
     },
     {
         text: "Нарушил ли водитель правила остановки?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/70-12.jpg",
+        img: "img/tickets/70-12.jpg",
         answer: [
             "Нарушил, т.к. закрыл видимость знака.",
             "Не нарушил, т.к. остановился перед знаком."
@@ -15293,7 +15293,7 @@ var questions = [
     },
     {
         text: "Вы проедете перекресток:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/70-13.jpg",
+        img: "img/tickets/70-13.jpg",
         answer: [
             "Вторым.",
             "Первым."
@@ -15303,7 +15303,7 @@ var questions = [
     },
     {
         text: "При желтом мигающем сигнале светофора, двигаясь прямо, вы должны:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/70-14.jpg",
+        img: "img/tickets/70-14.jpg",
         answer: [
             "Остановиться и продолжить движение только после включения зеленого сигнала светофора.",
             "Уступите дорогу гужевой повозке.",
@@ -15314,7 +15314,7 @@ var questions = [
     },
     {
         text: "Кто проедет перекресток третьим?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/70-15.jpg",
+        img: "img/tickets/70-15.jpg",
         answer: [
             "Вы.",
             "Легковой автомобиль.",
@@ -15359,7 +15359,7 @@ var questions = [
     },
     {
         text: "На каком рисунке показано правильное положение рук на рулевом колесе?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/70-19.jpg",
+        img: "img/tickets/70-19.jpg",
         answer: [
             "На левом.",
             "На среднем.",
@@ -15382,7 +15382,7 @@ var questions = [
     //B71
     {
         text: "Сколько проезжих частей имеет данная дорога?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/71-01.jpg",
+        img: "img/tickets/71-01.jpg",
         answer: [
             "Две.",
             "Одну."
@@ -15392,7 +15392,7 @@ var questions = [
     },
     {
         text: "Какие знаки информируют вас о приближении к началу дороги с реверсивным движением?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/71-02.jpg",
+        img: "img/tickets/71-02.jpg",
         answer: [
             "Только Б.",
             "Только А и Б.",
@@ -15403,7 +15403,7 @@ var questions = [
     },
     {
         text: "В каких направлениях вам разрешено продолжить движение на грузовом автомобиле с разрешенной максимальной массой 24 т при фактической массе 18 т?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/71-03.jpg",
+        img: "img/tickets/71-03.jpg",
         answer: [
             "Только В.",
             "Б и Г.",
@@ -15415,7 +15415,7 @@ var questions = [
     },
     {
         text: "Вы буксируете неисправный автомобиль. По какой полосе вы можете продолжить движение?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/71-04.jpg",
+        img: "img/tickets/71-04.jpg",
         answer: [
             "Только по правой.",
             "По любой."
@@ -15437,7 +15437,7 @@ var questions = [
     },
     {
         text: "Разрешен ли на этом перекрестке правый поворот?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/71-06.jpg",
+        img: "img/tickets/71-06.jpg",
         answer: [
             "Нет, на этом перекрестке поворот направо всегда запрещен.",
             "Да, при включении зеленого сигнала в дополнительной секции."
@@ -15447,7 +15447,7 @@ var questions = [
     },
     {
         text: "Вытянутая рука водителя стоящего легкового автомобиля является предупреждающим сигналом, информирующим вас:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/71-07.jpg",
+        img: "img/tickets/71-07.jpg",
         answer: [
             "О его намерении начать движение.",
             "О его просьбе оказать помощь.",
@@ -15458,7 +15458,7 @@ var questions = [
     },
     {
         text: "Водитель какого транспортного средства не нарушает Правила?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/71-08.jpg",
+        img: "img/tickets/71-08.jpg",
         answer: [
             "Только грузового автомобиля.",
             "Только легкового автомобиля.",
@@ -15469,7 +15469,7 @@ var questions = [
     },
     {
         text: "Разрешается ли вам выполнить разворот на перекрестке?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/71-09.jpg",
+        img: "img/tickets/71-09.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -15479,7 +15479,7 @@ var questions = [
     },
     {
         text: "С какой максимальной скоростью вы можете продолжить движение на грузовом автомобиле с разрешенной максимальной массой более 3,5 т?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/71-10.jpg",
+        img: "img/tickets/71-10.jpg",
         answer: [
             "60 км/ч.",
             "70 км/ч.",
@@ -15490,7 +15490,7 @@ var questions = [
     },
     {
         text: "Кто должен уступить дорогу на данном участке, если встречный разъезд ТС затруднен?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/71-11.jpg",
+        img: "img/tickets/71-11.jpg",
         answer: [
             "Водитель грузового автомобиля.",
             "Водитель легкового автомобиля."
@@ -15500,7 +15500,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам поставить автомобиль на стоянку в указанном месте?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/71-12.jpg",
+        img: "img/tickets/71-12.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -15510,7 +15510,7 @@ var questions = [
     },
     {
         text: "Разрешен ли вам поворот налево?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/71-13.jpg",
+        img: "img/tickets/71-13.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -15520,7 +15520,7 @@ var questions = [
     },
     {
         text: "Вы проедете перекресток:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/71-14.jpg",
+        img: "img/tickets/71-14.jpg",
         answer: [
             "Последним.",
             "Первым.",
@@ -15531,7 +15531,7 @@ var questions = [
     },
     {
         text: "Вы проедете перекресток:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/71-15.jpg",
+        img: "img/tickets/71-15.jpg",
         answer: [
             "Первым.",
             "Вторым.",
@@ -15543,7 +15543,7 @@ var questions = [
     },
     {
         text: "Можно ли обучать вождению на этой дороге?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/71-16.jpg",
+        img: "img/tickets/71-16.jpg",
         answer: [
             "Можно, используя для движения только правую полосу проезжей части.",
             "Можно только при наличии данного опознавательного знака.",
@@ -15612,7 +15612,7 @@ var questions = [
     },
     {
         text: "Какие знаки информируют вас, что на перекрестке вы будете иметь преимущество в движении?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/72-02.jpg",
+        img: "img/tickets/72-02.jpg",
         answer: [
             "Только В.",
             "Только А.",
@@ -15624,7 +15624,7 @@ var questions = [
     },
     {
         text: "Данный знак запрещает движение:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/72-03.jpg",
+        img: "img/tickets/72-03.jpg",
         answer: [
             "Гужевых повозок (саней, телег, фургонов, экипажей), животных под седлом или вьюком, выпас животных, а также прогон скота.",
             "Гужевых повозок (саней), животных под седлом или вьюком, а также прогон скота.",
@@ -15635,7 +15635,7 @@ var questions = [
     },
     {
         text: "В каком направлении вам разрешено движение?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/72-04.jpg",
+        img: "img/tickets/72-04.jpg",
         answer: [
             "Только Б.",
             "Только А и Б.",
@@ -15647,7 +15647,7 @@ var questions = [
     },
     {
         text: "Разметкой в виде буквы \"А\" обозначают:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/72-05.jpg",
+        img: "img/tickets/72-05.jpg",
         answer: [
             "Специальную полосу для любых автобусов.",
             "Специальную полосу для маршрутных транспортных средств.",
@@ -15658,7 +15658,7 @@ var questions = [
     },
     {
         text: "Можете ли вы двигаться по второй полосе?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/72-06.jpg",
+        img: "img/tickets/72-06.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -15668,7 +15668,7 @@ var questions = [
     },
     {
         text: "Нарушили ли вы Правила, не заняв заблаговременно правую полосу движения перед въездом на перекресток?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/72-07.jpg",
+        img: "img/tickets/72-07.jpg",
         answer: [
             "Нет.",
             "Да."
@@ -15689,7 +15689,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам развернуться в указанном месте?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/72-09.jpg",
+        img: "img/tickets/72-09.jpg",
         answer: [
             "Разрешено только в населенных пунктах.",
             "Разрешено только при видимости дороги более 100 м.",
@@ -15722,7 +15722,7 @@ var questions = [
     },
     {
         text: "В каком из указанных мест вы остановитесь с нарушением Правил?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/72-12.jpg",
+        img: "img/tickets/72-12.jpg",
         answer: [
             "Только А и Б.",
             "Только А и В.",
@@ -15734,7 +15734,7 @@ var questions = [
     },
     {
         text: "Вы проедете перекресток:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/72-13.jpg",
+        img: "img/tickets/72-13.jpg",
         answer: [
             "Первым.",
             "Вторым, после грузового автомобиля с включенным проблесковым маячком.",
@@ -15745,7 +15745,7 @@ var questions = [
     },
     {
         text: "Подъезжая к неподвижному автомобилю с включенным проблесковым маячком синего цвета и специальным звуковым сигналом, вы должны:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/72-14.jpg",
+        img: "img/tickets/72-14.jpg",
         answer: [
             "Проехать перекресток с предельной внимательностью, возможно понадобиться ваша помощь.",
             "Снизить скорость до 40 км/ч и в случае подачи регулировщиком соответствующего сигнала остановиться.",
@@ -15756,7 +15756,7 @@ var questions = [
     },
     {
         text: "Вы проедете перекресток:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/72-15.jpg",
+        img: "img/tickets/72-15.jpg",
         answer: [
             "Первым.",
             "Вторым.",
@@ -15801,7 +15801,7 @@ var questions = [
     },
     {
         text: "На каком рисунке водитель выполняет левый поворот по траектории, обеспечиващей наибольшую безопасность движения?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/72-19.jpg",
+        img: "img/tickets/72-19.jpg",
         answer: [
             "На правом.",
             "На левом."
@@ -15823,7 +15823,7 @@ var questions = [
     //B73
     {
         text: "Какой маневр намеревается выполнить водитель легкового автомобиля?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/73-01.jpg",
+        img: "img/tickets/73-01.jpg",
         answer: [
             "Обгон.",
             "Перестроение с дальнейшим опережением.",
@@ -15834,7 +15834,7 @@ var questions = [
     },
     {
         text: "Этот знак применяется для обозначения:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/73-02.jpg",
+        img: "img/tickets/73-02.jpg",
         answer: [
             "Крытых стоянок.",
             "Мест и площадок для стоянки транспортных средств.",
@@ -15845,7 +15845,7 @@ var questions = [
     },
     {
         text: "На какие транспортные средства распространяется действие этих знаков?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/73-03.jpg",
+        img: "img/tickets/73-03.jpg",
         answer: [
             "Только на грузовые автомобили с разрешенной максимальной массой более 3,5 т.",
             "На все грузовые автомобили.",
@@ -15856,7 +15856,7 @@ var questions = [
     },
     {
         text: "Какие знаки указывают протяженность зоны для разворота?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/73-04.jpg",
+        img: "img/tickets/73-04.jpg",
         answer: [
             "Только А.",
             "Только Б.",
@@ -15867,7 +15867,7 @@ var questions = [
     },
     {
         text: "Этой линией обозначают:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/73-05.jpg",
+        img: "img/tickets/73-05.jpg",
         answer: [
             "Участок дороги, где запрещено движение вблизи тротуара.",
             "Места, где запрещена любая остановка.",
@@ -15878,7 +15878,7 @@ var questions = [
     },
     {
         text: "Обязаны ли вы уступить дорогу автомобилю \"Скорой медицинской помощи\" с выключенным проблесковым маячком?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/73-06.jpg",
+        img: "img/tickets/73-06.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -15899,7 +15899,7 @@ var questions = [
     },
     {
         text: "Разрешен ли вам поворот направо по указанной траектории в данной ситуации?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/73-08.jpg",
+        img: "img/tickets/73-08.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -15909,7 +15909,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам выполнить разворот по указанным траекториям?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/73-09.jpg",
+        img: "img/tickets/73-09.jpg",
         answer: [
             "Разрешено только по А.",
             "Разрешено только по Б.",
@@ -15920,7 +15920,7 @@ var questions = [
     },
     {
         text: "По какой полосе вы можете продолжить движение, завершив опережение вне населенного пункта?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/73-10.jpg",
+        img: "img/tickets/73-10.jpg",
         answer: [
             "Только по правой.",
             "По любой."
@@ -15930,7 +15930,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам обогнать грузовой автомобиль в конце подъема?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/73-11.jpg",
+        img: "img/tickets/73-11.jpg",
         answer: [
             "Разрешено, если скорость грузового автомобиля не более 30 км/ч.",
             "Разрешено.",
@@ -15941,7 +15941,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам поставить автомобиль на стоянку в указанном месте при наличии узкой обочины?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/73-12.jpg",
+        img: "img/tickets/73-12.jpg",
         answer: [
             "Разрешено.",
             "Разрешено, но только в светлое время суток.",
@@ -15952,7 +15952,7 @@ var questions = [
     },
     {
         text: "Вы проедете перекресток:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/73-13.jpg",
+        img: "img/tickets/73-13.jpg",
         answer: [
             "Первым.",
             "Вторым.",
@@ -15964,7 +15964,7 @@ var questions = [
     },
     {
         text: "Вы намерены повернуть налево. Ваши действия?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/73-14.jpg",
+        img: "img/tickets/73-14.jpg",
         answer: [
             "Проедете перекресток первым.",
             "Выедете на перекресток и, уступив дорогу мотоциклисту, завершите поворот.",
@@ -15975,7 +15975,7 @@ var questions = [
     },
     {
         text: "Вы проедете перекресток:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/73-15.jpg",
+        img: "img/tickets/73-15.jpg",
         answer: [
             "Первым.",
             "Вторым.",
@@ -15986,7 +15986,7 @@ var questions = [
     },
     {
         text: "Кто из водителей не нарушает Правила?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/73-16.jpg",
+        img: "img/tickets/73-16.jpg",
         answer: [
             "Никто из водителей.",
             "Только водитель трактора.",
@@ -16043,7 +16043,7 @@ var questions = [
     //B74
     {
         text: "На каких рисунках показана дорога с односторонним движением?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/74-01.jpg",
+        img: "img/tickets/74-01.jpg",
         answer: [
             "Только на левом верхнем и нижнем.",
             "Только на правом верхнем.",
@@ -16055,7 +16055,7 @@ var questions = [
     },
     {
         text: "На каком расстоянии до скользкого участка дороги устанавливается этот знак в населенном пункте?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/74-02.jpg",
+        img: "img/tickets/74-02.jpg",
         answer: [
             "150-300 м.",
             "50-100 м.",
@@ -16066,7 +16066,7 @@ var questions = [
     },
     {
         text: "Этот дорожный знак запрещает движение:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/74-03.jpg",
+        img: "img/tickets/74-03.jpg",
         answer: [
             "Тракторов, тягачей, военной тяжелой технике.",
             "Тракторов, бульдозеров, экскаваторов и другой строительной техники.",
@@ -16077,7 +16077,7 @@ var questions = [
     },
     {
         text: "Какой из знаков используется для обозначения гостиницы или мотеля?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/74-04.jpg",
+        img: "img/tickets/74-04.jpg",
         answer: [
             "Только Б.",
             "Только А.",
@@ -16089,7 +16089,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам двигаться по данной полосе?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/74-05.jpg",
+        img: "img/tickets/74-05.jpg",
         answer: [
             "Нет.",
             "Да, но только до ближайшего перекрестка.",
@@ -16100,7 +16100,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам развернуться на этом перекрестке?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/74-06.jpg",
+        img: "img/tickets/74-06.jpg",
         answer: [
             "Нет, разрешен только поворот налево.",
             "Нет.",
@@ -16122,7 +16122,7 @@ var questions = [
     },
     {
         text: "Ваши действия при выполнении данного маневра:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/74-08.jpg",
+        img: "img/tickets/74-08.jpg",
         answer: [
             "Уступлю дорогу велосипедисту.",
             "Уступлю дорогу пешеходам.",
@@ -16134,7 +16134,7 @@ var questions = [
     },
     {
         text: "Разрешен ли вам разворот в этом месте?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/74-09.jpg",
+        img: "img/tickets/74-09.jpg",
         answer: [
             "Разрешен.",
             "Разрешен, если не будет создано помех движению маршрутных транспортных средств.",
@@ -16156,7 +16156,7 @@ var questions = [
     },
     {
         text: "В данной ситуации для того, чтобы продолжить движение в прямом направлении, вам разрешается:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/74-11.jpg",
+        img: "img/tickets/74-11.jpg",
         answer: [
             "Объехать грузовой автомобиль справа, соблюдая безопасный интервал и требования разметки 1.1.",
             "Продолжить движение только после того, как грузовой автомобиль выполнит поворот налево.",
@@ -16167,7 +16167,7 @@ var questions = [
     },
     {
         text: "Разрешена ли вам остановка на грузовом автомобиле с разрешенной максимальной массой более 3,5 т в указанном месте?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/74-12.jpg",
+        img: "img/tickets/74-12.jpg",
         answer: [
             "Разрешена.",
             "Разрешена только для загрузки или разгрузки.",
@@ -16178,7 +16178,7 @@ var questions = [
     },
     {
         text: "Вы проедете перекресток:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/74-13.jpg",
+        img: "img/tickets/74-13.jpg",
         answer: [
             "Первым.",
             "Уступите дорогу трамваю."
@@ -16188,7 +16188,7 @@ var questions = [
     },
     {
         text: "Каков порядок проезда перекрестка?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/74-14.jpg",
+        img: "img/tickets/74-14.jpg",
         answer: [
             "Легковой автомобиль, мотоцикл, вы.",
             "Легковой автомобиль, вы, мотоцикл.",
@@ -16199,7 +16199,7 @@ var questions = [
     },
     {
         text: "Кто проедет перекресток последним?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/74-15.jpg",
+        img: "img/tickets/74-15.jpg",
         answer: [
             "Вы.",
             "Легковой автомобиль.",
@@ -16243,7 +16243,7 @@ var questions = [
     },
     {
         text: "После длительного движения по двухполосной дороге за грузовым автомобилем на безопасной дистанции у вас появилась возможность совершить обгон. Ваши действия?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/74-19.jpg",
+        img: "img/tickets/74-19.jpg",
         answer: [
             "Максимально приблизитесь к обгоняемому автомобилю, затем преестроитесь на полосу встречного движения и совершите маневр.",
             "Перестроитесь на полосу встречного движения, после чего произведете сближение с обгоняемым транспортным средством.",
@@ -16277,7 +16277,7 @@ var questions = [
     },
     {
         text: "В каких из указанных направлений вы можете продолжить движение на следующем перекрестке?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/75-02.jpg",
+        img: "img/tickets/75-02.jpg",
         answer: [
             "Только Б.",
             "А или Б.",
@@ -16288,7 +16288,7 @@ var questions = [
     },
     {
         text: "Какие знаки разрешают движение со скоростью менее 50 км/ч?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/75-03.jpg",
+        img: "img/tickets/75-03.jpg",
         answer: [
             "Только А.",
             "А и В.",
@@ -16299,7 +16299,7 @@ var questions = [
     },
     {
         text: "Кто из водителей не нарушил правила стоянки?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/75-04.jpg",
+        img: "img/tickets/75-04.jpg",
         answer: [
             "Водители мотоцикла и легкового автомобиля.",
             "Только водитель грузового автомобиля.",
@@ -16311,7 +16311,7 @@ var questions = [
     },
     {
         text: "По какой траектории вы можете объехать препятствие?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/75-05.jpg",
+        img: "img/tickets/75-05.jpg",
         answer: [
             "Только по А.",
             "Только по Б.",
@@ -16333,7 +16333,7 @@ var questions = [
     },
     {
         text: "На каком расстоянии от ТС должен быть выставлен знак аварийной остановки в данной ситуации?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/75-07.jpg",
+        img: "img/tickets/75-07.jpg",
         answer: [
             "Не менее 10 м.",
             "Не менее 15 м.",
@@ -16345,7 +16345,7 @@ var questions = [
     },
     {
         text: "Двигаясь по правой полосе, вы намерены перестроиться на левую. На каком из рисунков показана ситуация, в которой вы обязаны уступить дорогу?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/75-08.jpg",
+        img: "img/tickets/75-08.jpg",
         answer: [
             "На левом.",
             "На правом.",
@@ -16356,7 +16356,7 @@ var questions = [
     },
     {
         text: "Нарушает ли водитель Правила, выполнив такой маневр?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/75-09.jpg",
+        img: "img/tickets/75-09.jpg",
         answer: [
             "Нет.",
             "Да."
@@ -16366,7 +16366,7 @@ var questions = [
     },
     {
         text: "С какой максимальной скоростью вы можете продолжить движение на грузовом автомобиле с разрешенной максимальной массой более 8,5 т после въезда на примыкающую слева дорогу?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/75-10.jpg",
+        img: "img/tickets/75-10.jpg",
         answer: [
             "60 км/ч.",
             "70 км/ч.",
@@ -16377,7 +16377,7 @@ var questions = [
     },
     {
         text: "В данной ситуации вы:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/75-11.jpg",
+        img: "img/tickets/75-11.jpg",
         answer: [
             "Должны уступить дорогу.",
             "Имеете право проехать первым."
@@ -16387,7 +16387,7 @@ var questions = [
     },
     {
         text: "В каком из указанных мест вы можете поставить на стоянку грузовой автомобиль с разрешенной максимальной массой более 3,5 т?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/75-12.jpg",
+        img: "img/tickets/75-12.jpg",
         answer: [
             "Только Б.",
             "Только В.",
@@ -16399,7 +16399,7 @@ var questions = [
     },
     {
         text: "В каком случае вам не придется уступать дорогу другим участникам движения?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/75-13.jpg",
+        img: "img/tickets/75-13.jpg",
         answer: [
             "Только если вы намерены продолжить движение прямо.",
             "Только если вы намерены продолжить движение прямо или направо.",
@@ -16410,7 +16410,7 @@ var questions = [
     },
     {
         text: "Вы проедете перекресток:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/75-14.jpg",
+        img: "img/tickets/75-14.jpg",
         answer: [
             "Первым.",
             "Вторым."
@@ -16420,7 +16420,7 @@ var questions = [
     },
     {
         text: "Вы проедете перекресток:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/75-15.jpg",
+        img: "img/tickets/75-15.jpg",
         answer: [
             "Первым.",
             "Вторым.",
@@ -16497,7 +16497,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам въехать на мост одновременно с мотоциклистом, если вы не затрудните ему движение?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/76-02.jpg",
+        img: "img/tickets/76-02.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -16507,7 +16507,7 @@ var questions = [
     },
     {
         text: "В каких направлениях вам разрешено продолжить движение на перекрестке?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/76-03.jpg",
+        img: "img/tickets/76-03.jpg",
         answer: [
             "Только В.",
             "А или В.",
@@ -16518,7 +16518,7 @@ var questions = [
     },
     {
         text: "Какие таблички распространяют действие установленных с ними знаков на грузовые автомобили с разрешенной максимальной массой более 3,5 т?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/76-04.jpg",
+        img: "img/tickets/76-04.jpg",
         answer: [
             "Только А.",
             "Только В.",
@@ -16530,7 +16530,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам перестроиться на правую полосу для заезда во двор?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/76-05.jpg",
+        img: "img/tickets/76-05.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -16540,7 +16540,7 @@ var questions = [
     },
     {
         text: "Скорость вашего автомобиля и автомобиля оперативной службы, одинаковы. Ваши дальнейшие действия?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/76-06.jpg",
+        img: "img/tickets/76-06.jpg",
         answer: [
             "Перестроиться на правую полосу и продолжить движение.",
             "Остановиться справа у тротуара."
@@ -16550,7 +16550,7 @@ var questions = [
     },
     {
         text: "Согнутая в локте рука водителя автомобиля является сигналом, информирующим вас:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/76-07.jpg",
+        img: "img/tickets/76-07.jpg",
         answer: [
             "О его намерении повернуть направо.",
             "О его намерении продолжить движение прямо.",
@@ -16561,7 +16561,7 @@ var questions = [
     },
     {
         text: "При отсутствии полосы разгона у АЗС, кто имеет преимущество в движении?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/76-08.jpg",
+        img: "img/tickets/76-08.jpg",
         answer: [
             "Водитель легкового автомобиля.",
             "Водитель грузового автомобиля."
@@ -16571,7 +16571,7 @@ var questions = [
     },
     {
         text: "По какой траектории вам разрешено выполнить разворот?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/76-09.jpg",
+        img: "img/tickets/76-09.jpg",
         answer: [
             "Только по А.",
             "Только по Б.",
@@ -16604,7 +16604,7 @@ var questions = [
     },
     {
         text: "Разрешена ли вам остановка на грузовом автомобиле с разрешенной максимальной массой более 3,5 т на левой стороне дороги?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/76-12.jpg",
+        img: "img/tickets/76-12.jpg",
         answer: [
             "Разрешена.",
             "Разрешена только для загрузки или разгрузки.",
@@ -16615,7 +16615,7 @@ var questions = [
     },
     {
         text: "Вы намерены повернуть направо. Ваши действия?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/76-13.jpg",
+        img: "img/tickets/76-13.jpg",
         answer: [
             "Остановитесь перед стоп-линией и, пропустив пешеходов, повернете направо.",
             "Выехав на перекресток, остановитесь перед пешеходным переходом, чтобы пропустить пешеходов.",
@@ -16626,7 +16626,7 @@ var questions = [
     },
     {
         text: "Кто проедет перекресток первым?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/76-14.jpg",
+        img: "img/tickets/76-14.jpg",
         answer: [
             "Трамвай.",
             "Вы."
@@ -16636,7 +16636,7 @@ var questions = [
     },
     {
         text: "Вы проедете перекресток:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/76-15.jpg",
+        img: "img/tickets/76-15.jpg",
         answer: [
             "Вторым.",
             "Последним.",
@@ -16647,7 +16647,7 @@ var questions = [
     },
     {
         text: "Кто проедет первым?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/76-16.jpg",
+        img: "img/tickets/76-16.jpg",
         answer: [
             "Грузовой автомобиль.",
             "Вы."
@@ -16712,7 +16712,7 @@ var questions = [
     },
     {
         text: "Какие знаки устанавливают на самом большом расстоянии при подъезде к железнодорожному переезду?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/77-02.jpg",
+        img: "img/tickets/77-02.jpg",
         answer: [
             "Только А.",
             "Только В.",
@@ -16724,7 +16724,7 @@ var questions = [
     },
     {
         text: "Разрешен ли вам разворот в указанном месте?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/77-03.jpg",
+        img: "img/tickets/77-03.jpg",
         answer: [
             "Разрешен.",
             "Не разрешен."
@@ -16734,7 +16734,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам остановиться за путепроводом?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/77-04.jpg",
+        img: "img/tickets/77-04.jpg",
         answer: [
             "Нет.",
             "Да."
@@ -16744,7 +16744,7 @@ var questions = [
     },
     {
         text: "Разрешается ли вам совершить опережение в данной ситуации?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/77-05.jpg",
+        img: "img/tickets/77-05.jpg",
         answer: [
             "Разрешается.",
             "Разрешается только в населенном пункте.",
@@ -16755,7 +16755,7 @@ var questions = [
     },
     {
         text: "Вы были намерены проехать перекресток в прямом направлении. Как следует поступить, если вы не успели заранее перестроиться на левую полосу?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/77-06.jpg",
+        img: "img/tickets/77-06.jpg",
         answer: [
             "Выехать за стоп-линию, перестроиться на левую полосу и остановиться перед пересекаемой проезжей частью.",
             "Остановиться перед стоп-линией и, дождавшись зеленого сигнала светофора, продолжить движение прямо.",
@@ -16766,7 +16766,7 @@ var questions = [
     },
     {
         text: "Какие указатели поворота вы обязаны включить при выполнении разворота по такой траектории?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/77-07.jpg",
+        img: "img/tickets/77-07.jpg",
         answer: [
             "Только правые.",
             "Только левые.",
@@ -16777,7 +16777,7 @@ var questions = [
     },
     {
         text: "Кто должен уступить дорогу при взаимном перестроении?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/77-08.jpg",
+        img: "img/tickets/77-08.jpg",
         answer: [
             "Водитель легкового автомобиля.",
             "Водитель грузового автомобиля."
@@ -16787,7 +16787,7 @@ var questions = [
     },
     {
         text: "Разрешено ли водителю легкового автомобиля подъехать задним ходом и подобрать пассажира, стоящего на автобусной остановке?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/77-09.jpg",
+        img: "img/tickets/77-09.jpg",
         answer: [
             "Разрешено.",
             "Запрещено."
@@ -16819,7 +16819,7 @@ var questions = [
     },
     {
         text: "Можете ли вы остановиться в указанном месте для посадки пассажира?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/77-12.jpg",
+        img: "img/tickets/77-12.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -16829,7 +16829,7 @@ var questions = [
     },
     {
         text: "Вы проедете перекресток:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/77-13.jpg",
+        img: "img/tickets/77-13.jpg",
         answer: [
             "Вторым.",
             "Первым.",
@@ -16840,7 +16840,7 @@ var questions = [
     },
     {
         text: "Вы проедете перекресток:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/77-14.jpg",
+        img: "img/tickets/77-14.jpg",
         answer: [
             "Вторым.",
             "Первым."
@@ -16850,7 +16850,7 @@ var questions = [
     },
     {
         text: "Кто проедет перекресток первым?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/77-15.jpg",
+        img: "img/tickets/77-15.jpg",
         answer: [
             "Вы.",
             "Трамвай."
@@ -16860,7 +16860,7 @@ var questions = [
     },
     {
         text: "Можете ли вы, управляя грузовым автомобилем с разрешенной максимальной массой более 3,5 т, опередить автомобиль, движущийся со скоростью 70 км/ч?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/77-16.jpg",
+        img: "img/tickets/77-16.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -16916,7 +16916,7 @@ var questions = [
     //B78
     {
         text: "Сколько пересечений проезжих частей имеет этот перекресток?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/78-01.jpg",
+        img: "img/tickets/78-01.jpg",
         answer: [
             "Одно.",
             "Два.",
@@ -16927,7 +16927,7 @@ var questions = [
     },
     {
         text: "Сколько метров вам осталось проехать до железнодорожного переезда?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/78-02.jpg",
+        img: "img/tickets/78-02.jpg",
         answer: [
             "От 100 до 200 м.",
             "От 150 до 300 м.",
@@ -16938,7 +16938,7 @@ var questions = [
     },
     {
         text: "Какие знаки запрещают разворот?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/78-03.jpg",
+        img: "img/tickets/78-03.jpg",
         answer: [
             "А и Б.",
             "Все разрешают.",
@@ -16949,7 +16949,7 @@ var questions = [
     },
     {
         text: "Двигаясь по крайней левой полосе, вам разрешен разворот?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/78-04.jpg",
+        img: "img/tickets/78-04.jpg",
         answer: [
             "Нет, только поворот налево.",
             "Нет.",
@@ -16960,7 +16960,7 @@ var questions = [
     },
     {
         text: "Разрешена ли вам стоянка в указанно месте?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/78-05.jpg",
+        img: "img/tickets/78-05.jpg",
         answer: [
             "Не разрешена.",
             "Разрешена только с заездом на тротуар.",
@@ -16984,7 +16984,7 @@ var questions = [
     },
     {
         text: "Вы приняли решение остановиться сразу же после перекрестка. Когда необходимо включить правые указатели поворота?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/78-07.jpg",
+        img: "img/tickets/78-07.jpg",
         answer: [
             "До въезда на перекресток, чтобы заблаговременно предупредить других водителей об остановке.",
             "Только после въезда на перекресток.",
@@ -16995,7 +16995,7 @@ var questions = [
     },
     {
         text: "Съезжая с дороги на прилегающую справа территорию, вы:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/78-08.jpg",
+        img: "img/tickets/78-08.jpg",
         answer: [
             "Пользуетесь преимуществом перед другими участниками движения.",
             "Должны уступить дорогу только пешеходам.",
@@ -17007,7 +17007,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам движение задним ходом на данном участке дороги с подъемом?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/78-09.jpg",
+        img: "img/tickets/78-09.jpg",
         answer: [
             "Не разрешено.",
             "Разрешено."
@@ -17017,7 +17017,7 @@ var questions = [
     },
     {
         text: "С какой максимальной скоростью вы можете продолжить движение после знака, если вы управляете мопедом?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/78-10.jpg",
+        img: "img/tickets/78-10.jpg",
         answer: [
             "60 км/ч.",
             "70 км/ч.",
@@ -17028,7 +17028,7 @@ var questions = [
     },
     {
         text: "Можете ли вы начать обгон?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/78-11.jpg",
+        img: "img/tickets/78-11.jpg",
         answer: [
             "Да, если обгон будет завершен до перекрестка.",
             "Да.",
@@ -17039,7 +17039,7 @@ var questions = [
     },
     {
         text: "Разрешена ли вам остановка на грузовом автомобиле с разрешенной максимальной массой более 3,5 т в указанном месте?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/78-12.jpg",
+        img: "img/tickets/78-12.jpg",
         answer: [
             "Разрешена.",
             "Разрешена только для загрузки или разгрузки.",
@@ -17050,7 +17050,7 @@ var questions = [
     },
     {
         text: "Вы проедете перекресток:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/78-13.jpg",
+        img: "img/tickets/78-13.jpg",
         answer: [
             "Первым.",
             "Вторым.",
@@ -17061,7 +17061,7 @@ var questions = [
     },
     {
         text: "Кто проедет перекресток первым?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/78-14.jpg",
+        img: "img/tickets/78-14.jpg",
         answer: [
             "Трамвай.",
             "Вы."
@@ -17071,7 +17071,7 @@ var questions = [
     },
     {
         text: "Вы проедете перекресток:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/78-15.jpg",
+        img: "img/tickets/78-15.jpg",
         answer: [
             "Первым.",
             "Вторым."
@@ -17148,7 +17148,7 @@ var questions = [
     },
     {
         text: "Этот знак предупреждает вас о приближении к:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/79-02.jpg",
+        img: "img/tickets/79-02.jpg",
         answer: [
             "Участку дороги, движение на котором регулируется светофором в пределах населенного пункта.",
             "Перекрестку, пешеходному переходу или участку дороги, движение на котором регулируется светофором.",
@@ -17159,7 +17159,7 @@ var questions = [
     },
     {
         text: "В каком из указанных мест вы не нарушите правил остановки?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/79-03.jpg",
+        img: "img/tickets/79-03.jpg",
         answer: [
             "Только А.",
             "Только Б.",
@@ -17170,7 +17170,7 @@ var questions = [
     },
     {
         text: "Какие знаки разрешают вам выполнить разворот?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/79-04.jpg",
+        img: "img/tickets/79-04.jpg",
         answer: [
             "Только Б.",
             "А и В.",
@@ -17181,7 +17181,7 @@ var questions = [
     },
     {
         text: "Увеличение длины штриха прерывистой линии разметки информирует вас:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/79-05.jpg",
+        img: "img/tickets/79-05.jpg",
         answer: [
             "О начале зоны, где запрещены любые маневры.",
             "О начале опасного участка дороги.",
@@ -17192,7 +17192,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам движение прямо и направо?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/79-06.jpg",
+        img: "img/tickets/79-06.jpg",
         answer: [
             "Только налево и в обратном направлении.",
             "Запрещено.",
@@ -17214,7 +17214,7 @@ var questions = [
     },
     {
         text: "Водитель автомобиля, выполняющий перестроение на правую полосу, в данной ситуации:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/79-08.jpg",
+        img: "img/tickets/79-08.jpg",
         answer: [
             "Обязан уступить дорогу.",
             "Имеет преимущество, т.к. завершает обгон."
@@ -17224,7 +17224,7 @@ var questions = [
     },
     {
         text: "Кто должен уступить дорогу при одновременном развороте?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/79-09.jpg",
+        img: "img/tickets/79-09.jpg",
         answer: [
             "Водитель автобуса.",
             "Водитель легкового автомобиля."
@@ -17234,7 +17234,7 @@ var questions = [
     },
     {
         text: "С какой максимальной скоростью вы можете продолжить движение на грузовом автомобиле с разрешенной максимальной массой более 3,5 т?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/79-10.jpg",
+        img: "img/tickets/79-10.jpg",
         answer: [
             "60 км/ч при буксировке.",
             "80 км/ч при перевозке людей в кузове.",
@@ -17246,7 +17246,7 @@ var questions = [
     },
     {
         text: "По какой траектории водитель легкового автомобиля может выполнить обгон?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/79-11.jpg",
+        img: "img/tickets/79-11.jpg",
         answer: [
             "По любой.",
             "Только по А.",
@@ -17257,7 +17257,7 @@ var questions = [
     },
     {
         text: "Разрешено ли водителю грузового автомобиля произвести остановку в непосредственной близости от трамвайных путей?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/79-12.jpg",
+        img: "img/tickets/79-12.jpg",
         answer: [
             "Разрешено.",
             "Разрешено, если это не создаст помех движению трамвая.",
@@ -17268,7 +17268,7 @@ var questions = [
     },
     {
         text: "Должен ли водитель легкового автомобиля при развороте уступить дорогу автобусу?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/79-13.jpg",
+        img: "img/tickets/79-13.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -17278,7 +17278,7 @@ var questions = [
     },
     {
         text: "Какова очередность проезда перекрестка?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/79-14.jpg",
+        img: "img/tickets/79-14.jpg",
         answer: [
             "Трамвай А, вы, трамвай Б.",
             "Трамвай Б, вы, трамвай А.",
@@ -17289,7 +17289,7 @@ var questions = [
     },
     {
         text: "Грузовой автомобиль проедет перекресток:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/79-15.jpg",
+        img: "img/tickets/79-15.jpg",
         answer: [
             "Последним.",
             "Первым.",
@@ -17301,7 +17301,7 @@ var questions = [
     },
     {
         text: "Нарушил ли водитель Правила при вынужденной остановке на автомагистрали?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/79-16.jpg",
+        img: "img/tickets/79-16.jpg",
         answer: [
             "Да.",
             "Да, если не выставил знак аварийной остановки.",
@@ -17381,7 +17381,7 @@ var questions = [
     },
     {
         text: "Действие каких знаков не распространяется на такси с включенным таксометром?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/80-03.jpg",
+        img: "img/tickets/80-03.jpg",
         answer: [
             "Только А и Б.",
             "Только Г.",
@@ -17393,7 +17393,7 @@ var questions = [
     },
     {
         text: "О чем информирует данный дорожный знак?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/80-04.jpg",
+        img: "img/tickets/80-04.jpg",
         answer: [
             "О направлении движения к указанным на нем пунктам и достопримечательностям.",
             "О направлении движения к указанным на нем достопримечательностям.",
@@ -17404,7 +17404,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам развернуться в указанном месте?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/80-05.jpg",
+        img: "img/tickets/80-05.jpg",
         answer: [
             "Нет.",
             "Только повернув налево, в ближайший двор.",
@@ -17415,7 +17415,7 @@ var questions = [
     },
     {
         text: "Разрешено ли вам движение в прямом направлении?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/80-06.jpg",
+        img: "img/tickets/80-06.jpg",
         answer: [
             "Разрешено только направо.",
             "Запрещено.",
@@ -17426,7 +17426,7 @@ var questions = [
     },
     {
         text: "Являются ли предупреждающими сигналами распознавательные знаки автопоезда?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/80-07.jpg",
+        img: "img/tickets/80-07.jpg",
         answer: [
             "Да.",
             "Нет.",
@@ -17437,7 +17437,7 @@ var questions = [
     },
     {
         text: "Разрешен ли вам поворот направо на данном перекрестке с левого ряда?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/80-08.jpg",
+        img: "img/tickets/80-08.jpg",
         answer: [
             "Нет.",
             "Да, но только нужно перестроиться в правый ряд, а затем повернуть.",
@@ -17448,7 +17448,7 @@ var questions = [
     },
     {
         text: "Разрешен ли вам разворот в указанном месте?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/80-09.jpg",
+        img: "img/tickets/80-09.jpg",
         answer: [
             "Разрешен только при видимости дороги более 100 м.",
             "Не разрешен."
@@ -17469,7 +17469,7 @@ var questions = [
     },
     {
         text: "Должны ли вы уступить дорогу встречному грузовому автомобилю?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/80-11.jpg",
+        img: "img/tickets/80-11.jpg",
         answer: [
             "Да.",
             "Нет."
@@ -17479,7 +17479,7 @@ var questions = [
     },
     {
         text: "Разрешена ли вам стоянка в указанном месте на перекрестке?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/80-12.jpg",
+        img: "img/tickets/80-12.jpg",
         answer: [
             "Разрешена.",
             "Разрешена, если расстояние от вашего ТС до линии разметки не менее 3 м.",
@@ -17490,7 +17490,7 @@ var questions = [
     },
     {
         text: "Вы проедете перекресток:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/80-13.jpg",
+        img: "img/tickets/80-13.jpg",
         answer: [
             "Первым.",
             "Последним.",
@@ -17501,7 +17501,7 @@ var questions = [
     },
     {
         text: "Вторым перекресток проедет:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/80-14.jpg",
+        img: "img/tickets/80-14.jpg",
         answer: [
             "Мотоцикл.",
             "Вы.",
@@ -17512,7 +17512,7 @@ var questions = [
     },
     {
         text: "Последним перекресток проедет:",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/80-15.jpg",
+        img: "img/tickets/80-15.jpg",
         answer: [
             "Автобус.",
             "Грузовой автомобиль.",
@@ -17523,7 +17523,7 @@ var questions = [
     },
     {
         text: "Где вы должны остановиться в такой ситуации?",
-        img: "http://avtoclub.dn.ua/test/test/ab_images/80-16.jpg",
+        img: "img/tickets/80-16.jpg",
         answer: [
             "Не ближе 5 м до ближайшего рельса.",
             "У знака.",
@@ -17635,7 +17635,7 @@ var topicNames = [
     'Светофоры'
 ];
 
-var noimage = 'http://avtoclub.dn.ua/test/test/ab_images/noimage.png';
+var noimage = 'img/noimage.png';
 
 // using:	getTicket(num)[q]
 // num:		number of ticket from 1 to 80
