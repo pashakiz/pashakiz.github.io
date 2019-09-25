@@ -21,6 +21,7 @@ $(document).ready(function(){
     //ticket by number
     $('.btn_ticket').on('click', function(){
         $('.exam__cardstable').hide();
+        $('.exam-question').show();
         var ticket = $(this).data('ticket');
         console.log( questions[getTicket(ticket)[0]].text );
         //load all questions
@@ -28,8 +29,21 @@ $(document).ready(function(){
         //show result -> return to all tickets
     });
 
+    //promt
     $('.exam-prompt-btn').on('click', function(){
         $('.exam-prompt__info').slideToggle();
+    });
+
+    //result
+    $('#exam-random-start').on('click', function(){
+        $('.exam__random').hide();
+        $('.exam-result').show();
+    });
+
+    //back
+    $('#exam-back').on('click', function(){
+        $('.exam-result').hide();
+        $('.exam__random').show();
     });
 
     //button to up
