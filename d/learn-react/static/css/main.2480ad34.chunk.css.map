@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.css","style.css"],"names":[],"mappings":"AAAA,KACE,uEAEF,CCHA,kBACI,eAAgB,CAChB,kBACJ","file":"main.2480ad34.chunk.css","sourcesContent":["code {\r\n  font-family: source-code-pro, Menlo, Monaco, Consolas, \"Courier New\",\r\n    monospace;\r\n}\r\n",".article-list__li {\r\n    list-style: none;\r\n    margin-bottom: 20px;\r\n}"]}
