@@ -1,0 +1,93 @@
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query since this is the default in Bootstrap */
+
+@media only screen and (min-width : 320px) {}
+@media only screen and (min-width : 360px) {}
+@media only screen and (min-width : 380px) {}
+
+@media only screen and (min-width : 375px) {
+
+}
+@media only screen and (min-width : 411px) {
+
+}
+@media only screen and (min-width : 414px) {
+
+}
+@media only screen and (min-width : 480px) {
+    .exam__content-box {
+        padding: 20px;
+    }
+    .exam-question {
+        padding: 0;
+    }
+}
+@media only screen and (min-width : 490px) {
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .d-sm-flex {display: -ms-flexbox!important;display: flex!important;}
+    .exam-prompt-btn {
+        margin-top: 0;
+    }
+    .sticky__body {
+        margin-bottom: 102px;
+    }
+    .sticky__footer {
+        height: 72px;
+    }
+    .btn_ticket {
+        width: 110px;
+        max-width: none;
+    }
+    .btn__pagination {
+        width: 30px;
+        height: 30px;
+        font-size: 16px;
+        padding: 3px;
+    }
+}
+
+@media (min-width: 660px) {
+    .cardstable__td {
+        padding: 5px 10px;
+    }
+    .btn_ticket {
+        width: 122px;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .absolute-logo {
+        display: inline-block;
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 810px) {
+    .exam-question__title {
+        display: block !important;
+        text-align: center;
+    }
+    .exam__timer-mob {
+        display: none;
+    }
+    .exam__timer {
+        display: block;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
