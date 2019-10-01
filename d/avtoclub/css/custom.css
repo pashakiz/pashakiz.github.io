@@ -122,6 +122,12 @@ p {
     background: #f37e00;
     color: #f7f6f6;
 }
+.btn:disabled {
+    cursor: not-allowed;
+    color: #8f8f8f !important;
+    border-color: #cacaca !important;
+    background-color: #e5e5e5 !important;
+}
 .btn_tab {
     border-radius: 0
 }
@@ -443,6 +449,9 @@ input[type=radio].custom-control-input:checked::before {
 .custom-control.correct .custom-control-input:checked~.custom-control-label::before{
     border-color: #23ab23;
     background-color: #23ab23;
+}
+.custom-control-input:disabled~.custom-control-label {
+    cursor: not-allowed;
 }
 /*
 .custom-control-input:disabled~.custom-control-label {
