@@ -560,6 +560,9 @@ input[type=radio].custom-control-input:checked::before {
     line-height: 1.2;
     margin-bottom: 10px;
 }
+.exam-result__label1_overrun {
+    color: crimson;
+}
 .exam-result__label2 {
     font-size: 16px;
     text-transform: uppercase;
