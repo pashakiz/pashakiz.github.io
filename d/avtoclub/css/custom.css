@@ -496,10 +496,17 @@ input[type=radio].custom-control-input:checked::before {
     text-decoration: none;
 }
 .exam-prompt__info {
-    display: none;
     color: #203f54;
     padding: 10px;
     border-radius: 5px;
+    border: 1px solid #f37e00;
+    background-color: #e5e5e5;
+}
+.exam-prompt.wrong .exam-prompt__info {
+    background: #fad9d9;
+    border: 1px solid #f54d4d;
+}
+.exam-prompt.correct .exam-prompt__info {
     background: #CDE8DA;
     border: 1px solid #23ab23;
 }
