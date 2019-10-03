@@ -254,12 +254,14 @@ p {
     display: inline-block;
     width: 25px;
     height: 25px;
+    min-width: 25px;
+    min-height: 25px;
     font-size: 14px;
     text-align: center;
     border-radius: 3px;
     border: 1px dotted #f37e00;
     background: transparent;
-    margin: 0 5px 5px 0;
+    margin: 0 4px 5px 0;
     padding: 0;
     transition: none;
     line-height: 1;
@@ -285,6 +287,9 @@ p {
 .btn__pagination:hover {
     color: #203f54;
     background: #f0e0ca;
+}
+.btn__pagination.wide {
+    width: auto !important;
 }
 .exam__timer {
     display: none;
