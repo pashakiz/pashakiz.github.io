@@ -186,6 +186,13 @@ p {
     background: #f37e00;
     color: #fff;
 }
+.btn_start {
+    padding: 10px 30px;
+}
+.btn_clear {
+    padding: 5px 10px;
+    font-size: 14px;
+}
 .exam__tab {
     padding: 10px 10px;
     font-size: 16px;
@@ -568,4 +575,8 @@ input[type=radio].custom-control-input:checked::before {
     text-transform: uppercase;
     line-height: 1.2;
     margin-bottom: 20px;
+}
+.exam__footer {
+    margin-top: 10px;
+    margin-bottom: 5px;
 }

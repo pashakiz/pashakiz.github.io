@@ -48,6 +48,9 @@
         font-size: 16px;
         padding: 3px;
     }
+    .exam__footer {
+        margin-top: 25px;
+    }
 }
 
 @media (min-width: 660px) {
@@ -58,6 +61,9 @@
         width: 122px;
         font-size: 16px;
         line-height: 1.5;
+    }
+    .btn_clear {
+        font-size: 16px;
     }
 }
 
