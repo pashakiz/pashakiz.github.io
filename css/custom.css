@@ -148,10 +148,9 @@ h3 {
 .links>a+a {
     margin-left: 10px;
 }
-.contact-form {
-    margin-bottom: 20px;
+.contactlnk {
+    width: 200px;
 }
-.contactlnk {}
 a.contactlnk__item {
     display: block;
     color: #5f6770;
