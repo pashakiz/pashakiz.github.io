@@ -53,6 +53,46 @@
 .w-100 {width: 100%!important;}
 /* Flexbox utilities from bootstrap 4.3.0 (end) */
 
+body header.header.test {
+    position: relative;
+    min-height: 44px;
+}
+body header.header.test ul li {
+    display: block;
+}
+header.header.test .navigation li a {
+    display: block;
+}
+header.header.test .navigation {
+    display: none;
+}
+header.header.test .navigation.expand {
+    display: block;
+}
+.navtoggle {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    padding: 7px 8px !important;
+    margin-right: 5px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    border: 1px solid #f37e00 !important;
+    border-radius: 4px;
+    text-decoration: none;
+    background: transparent;
+    font-weight: normal;
+}
+.navtoggle__iconbar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: #563d7c;
+}
+.navtoggle__iconbar + .navtoggle__iconbar {
+    margin-top: 4px;
+}
 .sticky {
     position: relative;
     min-height: 100%;

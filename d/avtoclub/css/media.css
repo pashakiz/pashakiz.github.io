@@ -28,6 +28,18 @@
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
+    body header.header.test ul li {
+        display: inline;
+    }
+    header.header.test .navigation li a {
+        display: inline-block;
+    }
+    header.header.test .navigation {
+        display: block !important;
+    }
+    .navtoggle {
+        display: none;
+    }
     .d-sm-flex {display: -ms-flexbox!important;display: flex!important;}
     .exam-prompt-btn {
         margin-top: 0;
