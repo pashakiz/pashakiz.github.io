@@ -409,7 +409,7 @@ input[type=radio].custom-control-input:checked::before {
     cursor: pointer;
 }
 .custom-checkbox .custom-control-label,
-.custom-radio .custom-control-label{
+.custom-radio .custom-control-label {
     display: block;
     width: 100%;
     border: 1px solid #f37e00;
@@ -417,6 +417,9 @@ input[type=radio].custom-control-input:checked::before {
     cursor: pointer;
     padding: 5px 15px 5px 35px;
     box-sizing: border-box;
+}
+.custom-checkbox .custom-control-label.pre-line {
+    white-space: pre-line;
 }
 .custom-checkbox .custom-control-label::before {
     border-radius: .25rem;
