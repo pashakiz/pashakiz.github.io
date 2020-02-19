@@ -1,0 +1,141 @@
+﻿/* Paragraph styling */
+
+@font-face {
+	font-family: 'Roboto Light';
+	src: url(fonts/Roboto-Light.eot); /* For IE5-8 */
+	src: local('Roboto Light'), local('RobotoLight'),
+	url(fonts/Roboto-Light.eot?#iefix) format('embedded-opentype'),
+	url(fonts/Roboto-Light.svg) format('svg'),
+	url(fonts/Roboto-Light.ttf) format('truetype'),
+	url(font/Roboto-Light.woff) format('woff');	
+}
+
+@font-face {
+	font-family: 'Roboto Regular';
+	src: url(fonts/Roboto-Regular.eot); /* For IE5-8 */
+	src: local('Roboto Regular'), local('RobotoRegular'),
+	url(fonts/Roboto-Regular.eot?#iefix) format('embedded-opentype'),
+	url(fonts/Roboto-Regular.svg) format('svg'),
+	url(fonts/Roboto-Regular.ttf) format('truetype'),
+	url(font/Roboto-Regular.woff) format('woff');	
+}
+
+@font-face {
+    font-family: 'Segoe Script';
+	src: url(fonts/segoesc.eot); /* For IE5-8 */
+	src: local('Segoe Script'), local('SegoeScript'),
+	url(fonts/segoesc.eot?#iefix) format('embedded-opentype'),
+	url(fonts/segoesc.svg) format('svg'),
+	url(fonts/segoesc.ttf) format('truetype'),
+	url(font/segoesc.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Izhitsa';
+	src: url(fonts/Izhitsa.eot); /* For IE5-8 */
+	src: local('Izhitsa'),
+	url(fonts/Izhitsa.eot?#iefix) format('embedded-opentype'),
+	url(fonts/Izhitsa.svg) format('svg'),
+	url(fonts/Izhitsa.ttf) format('truetype'),
+	url(font/Izhitsa.woff) format('woff');
+}
+
+
+/*================================================================================================*/
+h1 {
+	color: #ffffff;
+	font-family: Roboto Light, Arial, sans-serif;
+	font-size: 30px;
+	font-weight: normal;
+	margin: 0 0 5px 0;
+}
+
+#slogan {font-size: 16px; line-height: 1;}
+
+h2 {
+	color: #ffffff;
+	font-family: Roboto Light, Arial, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	margin: 0;
+	line-height: 1.8;
+}
+
+h3 {
+	color: #333333;
+	font-family: Roboto Regular, Arial, sans-serif;
+	font-size: 26px;
+	font-weight: normal;
+	margin: 24px 0 24px 0;
+	text-align: center;
+}
+
+h4 {
+	color: #333333;
+	font-family: Roboto Regular, Arial, sans-serif;
+	font-size: 24px;
+	font-weight: normal;
+	margin: 24px 0 24px 0;
+	text-align: center;
+	line-height: 1.7;
+}
+
+.first {margin-top: 0;}
+
+h5 {
+	color: #ffffff;
+	font-family: Roboto Light, Arial, sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	margin: 0 0 15px 0;
+}
+
+h1 a {
+	text-decoration: none;
+}
+
+p {
+	font-family: Roboto Regular, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+p.sub {
+	color: #999;
+	font-size: 14px;
+ }
+
+blockquote {
+	background-color: #f1f1f1;
+	line-height: 1.5;
+	font: 16px Roboto Light, Arial, sans-serif;
+	padding: 10px 30px;
+	margin: 20px 0 20px 0;
+	/*box-shadow: inset 3px 0px 0px #c4c4c4;*/
+	border-left: 3px solid #c4c4c4;
+}
+
+ul {
+	margin: 10px 0 10px 50px;
+	font: 16px Roboto Regular, Arial, sans-serif;
+	line-height: 1.5;
+	list-style: disc;
+}
+
+ul li, ol li {
+	margin-bottom: 10px;
+}
+
+/*
+ol {
+	list-style-type: decimal;
+	font: 16px PT Sans, Helvetica, Arial, Verdana, sans-serif;
+	line-height: 1.5;
+	font-weight: bold;
+}
+
+li span { font-weight: normal; }*/
+
+
+a:link, a:visited { color: #ccccff; text-decoration: underline; }
+a:hover, a:active { color: #ff0000; text-decoration: none; }
