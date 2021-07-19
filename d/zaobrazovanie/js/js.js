@@ -8,9 +8,9 @@ $(document).ready(function(){
                 $(this).next('.answer').slideToggle(300);
                 $(this).toggleClass('expanded');
                 if ( $(this).hasClass('expanded') ){
-                        $(this).find('.arrow').css({'background-image' : 'url(http://lubus.ru/dev4/img/icon-up.png)'}); /*.html("&#9660;");*/
+                        $(this).find('.arrow').css({'background-image' : 'url(/d/dev4/img/icon-up.png)'}); /*.html("&#9660;");*/
                 } else {
-                        $(this).find('.arrow').css({'background-image' : 'url(http://lubus.ru/dev4/img/icon-down.png)'}); /*.html("&#9650;");*/
+                        $(this).find('.arrow').css({'background-image' : 'url(/d/dev4/img/icon-down.png)'}); /*.html("&#9650;");*/
                 }
         });
 
@@ -70,22 +70,22 @@ function GetCount(){
                 amount=amount%60;
 
                 secs=Math.floor(amount);//seconds
-				
+
                 if(days < 10){out_days += "0";} //записываем первый (передний) нуль дней
         		if(days != 0){out_days += days;}
         		   else {out_days += "0";} //записываем второй нуль дней если дни равны нулю
-        		   
+
         		if(hours < 10) {out_hours += "0";} //записываем первый (передний) нуль часов
         		if(days != 0 || hours != 0){out_hours += hours;}
         		   else {out_hours += "0";} //записываем второй нуль часов если часы равны нулю
-        		
+
         		if(mins < 10) {out_mins += "0";} //записываем первый (передний) нуль минут
         		if(days != 0 || hours != 0 || mins != 0){out_mins += mins;}
         		   else {out_mins += "0";} //записываем второй нуль минут если минуты равны нулю
-        		   
+
         		if(secs < 10){out_secs += "0";}
         		out_secs += secs;
-				
+
                 /*document.getElementById('count-days').innerHTML=out_days;
                 document.getElementById('count-hours').innerHTML=out_hours;
                 document.getElementById('count-mins').innerHTML=out_mins;

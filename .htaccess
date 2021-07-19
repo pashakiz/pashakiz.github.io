@@ -1,1 +1,17 @@
-RewriteBase /Options -IndexesOptions +FollowSymLinksRewriteEngine OnRewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]RewriteRule ^(.*)$ http://%1/$1 [R=301,L]Redirect /dev http://lubus.ru/d/devRedirect /dev2 http://lubus.ru/d/dev2Redirect /dev3 http://lubus.ru/d/dev3Redirect /dev4 http://lubus.ru/d/dev4Redirect /dev5 http://lubus.ru/d/dev5ErrorDocument 403 /403.htmlErrorDocument 404 /404.htmlErrorDocument 500 /500.html
+RewriteBase /
+
+Options -Indexes
+Options +FollowSymLinks
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+
+Redirect /dev /d/dev
+Redirect /dev2 /d/dev2
+Redirect /dev3 /d/dev3
+Redirect /dev4 /d/dev4
+Redirect /dev5 /d/dev5
+
+ErrorDocument 403 /403.html
+ErrorDocument 404 /404.html
+ErrorDocument 500 /500.html
