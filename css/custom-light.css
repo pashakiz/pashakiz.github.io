@@ -15,3 +15,7 @@
 .block_shadow {
     background-color: #e9ecef;
 }
+ul.skills li ul li {
+  background-color: orange;
+  color: #272B30;
+}

@@ -46,3 +46,9 @@
 .icon-email:before {
   content: "\e906";
 }
+.icon-codewars:before {
+  content: "\e907";
+}
+.icon-codewars2:before {
+  content: "\e908";
+}
